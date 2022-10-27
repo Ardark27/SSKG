@@ -1,0 +1,539 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "doi_dedup___::cbfc76a931d035ab354bd88fb7279d17",
+        "dri:dateOfCollection": "2022-08-11T01:03:04+0000",
+        "dri:dateOfTransformation": "2022-08-11T01:03:04+0000"
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Datacite",
+                        "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                    },
+                    {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    {
+                        "@name": "arXiv.org e-Print Archive",
+                        "@id": "opendoar____::6f4922f45568161a8cdf4ad2299f6d23"
+                    }
+                ],
+                "originalId": [
+                    "10.48550/arxiv.2202.09814",
+                    "S0022112022005729",
+                    "10.1017/jfm.2022.572",
+                    "50|doiboost____::cbfc76a931d035ab354bd88fb7279d17",
+                    "50|od________18::56246981185e805fa06fd477def80d75",
+                    "oai:arXiv.org:2202.09814"
+                ],
+                "pid": [
+                    {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.9",
+                        "#text": "10.48550/arxiv.2202.09814"
+                    },
+                    {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1017/jfm.2022.572"
+                    },
+                    {
+                        "@classid": "arXiv",
+                        "@classname": "arXiv",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "2202.09814"
+                    }
+                ],
+                "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "#text": "The streaks of wall-bounded turbulence need not be long"
+                },
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": {
+                    "@rank": "1",
+                    "@name": "Javier",
+                    "@surname": "Jim\u00e9nez",
+                    "@orcid_pending": "0000-0003-0755-843x",
+                    "#text": "Javier Jim\u00e9nez"
+                },
+                "dateofacceptance": "2022-07-22",
+                "description": "<jats:p>The effect of damping the longest streaks in wall-bounded turbulence is explored using numerical experiments. It is found that long streaks are not required for the self-sustenance of the bursting process, which is relatively little affected by their absence. In particular, there are turbulence states in which the fluctuations of the streamwise velocity have approximately the same length as the bursts, and are thus presumably associated with the bursts themselves, while the burst structure is essentially indistinguishable from flows in which longer velocity fluctuations are present. This suggests that the long streaks found in unmodified flows may be by-products, rather than active parts of the process.</jats:p>",
+                "embargoenddate": "2022-01-01",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Fluid Dynamics (physics.flu-dyn)"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "FOS: Physical sciences"
+                    },
+                    {
+                        "@classid": "arxiv",
+                        "@classname": "arXiv",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "iis::document_classes",
+                        "@provenanceaction": "iis",
+                        "@trust": "0.891",
+                        "#text": "Physics::Fluid Dynamics"
+                    },
+                    {
+                        "@classid": "arxiv",
+                        "@classname": "arXiv",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "iis::document_classes",
+                        "@provenanceaction": "iis",
+                        "@trust": "0.72",
+                        "#text": "Astrophysics::High Energy Astrophysical Phenomena"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Mechanical Engineering"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Mechanics of Materials"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Condensed Matter Physics"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Applied Mathematics"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Physics - Fluid Dynamics"
+                    }
+                ],
+                "language": {
+                    "@classid": "und",
+                    "@classname": "Undetermined",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                    {
+                        "@classid": "submitted",
+                        "@classname": "submitted",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-02-20"
+                    },
+                    {
+                        "@classid": "updated",
+                        "@classname": "updated",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-02-22"
+                    },
+                    {
+                        "@classid": "submitted",
+                        "@classname": "submitted",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-07-01"
+                    },
+                    {
+                        "@classid": "updated",
+                        "@classname": "updated",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-08-10"
+                    },
+                    {
+                        "@classid": "available",
+                        "@classname": "available",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-01-01"
+                    },
+                    {
+                        "@classid": "issued",
+                        "@classname": "issued",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-01-01"
+                    },
+                    {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-07-22"
+                    },
+                    {
+                        "@classid": "published-online",
+                        "@classname": "published-online",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-07-22"
+                    },
+                    {
+                        "@classid": "published-print",
+                        "@classname": "published-print",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-08-25"
+                    }
+                ],
+                "publisher": "arXiv",
+                "source": "Crossref",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "UNKNOWN",
+                    "@schemeid": "dnet:dataCite_resource",
+                    "@schemename": "dnet:dataCite_resource"
+                },
+                "context": {
+                    "@id": "EC",
+                    "@label": "European Commission",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "EC::H2020",
+                        "@label": "Horizon 2020 Framework Programme",
+                        "concept": [
+                            {
+                                "@id": "EC::H2020::ERC",
+                                "@label": "European Research Council"
+                            },
+                            {
+                                "@id": "EC::H2020::ERC::ERC-ADG",
+                                "@label": "Advanced Grant"
+                            }
+                        ]
+                    }
+                },
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": {
+                        "@inferred": "false",
+                        "@trust": "0.9",
+                        "@inferenceprovenance": "",
+                        "@provenanceaction": "sysimport:actionset",
+                        "to": {
+                            "@class": "isProducedBy",
+                            "@scheme": "dnet:result_project_relations",
+                            "@type": "project",
+                            "#text": "corda__h2020::0b71dc9b557e13e59604485b281b1298"
+                        },
+                        "title": "Monte-Carlo Determination of Causation in Turbulence",
+                        "funding": {
+                            "funder": {
+                                "@id": "ec__________::EC",
+                                "@shortname": "EC",
+                                "@name": "European Commission",
+                                "@jurisdiction": "EU"
+                            },
+                            "funding_level_0": {
+                                "@name": "H2020",
+                                "#text": "ec__________::EC::H2020"
+                            },
+                            "funding_level_1": {
+                                "@name": "ERC",
+                                "#text": "ec__________::EC::H2020::ERC"
+                            },
+                            "funding_level_2": {
+                                "@name": "ERC-ADG",
+                                "#text": "ec__________::EC::H2020::ERC::ERC-ADG"
+                            }
+                        },
+                        "acronym": "CausT",
+                        "code": "101018287"
+                    }
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "doi_________::0c2281be9759de63534e82bc9e15da12",
+                            "publisher": "arXiv",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "The streaks of wall-bounded turbulence need not be long"
+                            },
+                            "dateofacceptance": "2022-01-01",
+                            "collectedfrom": {
+                                "@name": "Datacite",
+                                "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:actionset",
+                                "@trust": "0.9",
+                                "#text": "10.48550/arxiv.2202.09814"
+                            }
+                        },
+                        {
+                            "@objidentifier": "arXiv_______::45d3d071ddceca65f2486af737221904",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "The streaks of wall-bounded turbulence need not be long"
+                            },
+                            "collectedfrom": {
+                                "@name": "arXiv.org e-Print Archive",
+                                "@id": "opendoar____::6f4922f45568161a8cdf4ad2299f6d23"
+                            },
+                            "pid": {
+                                "@classid": "arXiv",
+                                "@classname": "arXiv",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "2202.09814"
+                            },
+                            "dateofacceptance": "2022-02-20"
+                        },
+                        {
+                            "@objidentifier": "doi_________::cbfc76a931d035ab354bd88fb7279d17",
+                            "publisher": "Cambridge University Press (CUP)",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "The streaks of wall-bounded turbulence need not be long"
+                            },
+                            "collectedfrom": {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            },
+                            "dateofacceptance": "2022-07-22",
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1017/jfm.2022.572"
+                            }
+                        }
+                    ],
+                    "instance": [
+                        {
+                            "accessright": {
+                                "@classid": "UNKNOWN",
+                                "@classname": "not available",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Datacite",
+                                "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                            },
+                            "hostedby": {
+                                "@name": "Unknown Repository",
+                                "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                            },
+                            "dateofacceptance": "2022-01-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:actionset",
+                                "@trust": "0.9",
+                                "#text": "10.48550/arxiv.2202.09814"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                            "webresource": {
+                                "url": "https://doi.org/10.48550/arxiv.2202.09814"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            },
+                            "hostedby": {
+                                "@name": "Journal of Fluid Mechanics",
+                                "@id": "issn___print::9b01e9d253a19e0ec0c7274b0fc9d15b"
+                            },
+                            "dateofacceptance": "2022-07-22",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1017/jfm.2022.572"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "http://creativecommons.org/licenses/by/4.0",
+                            "webresource": {
+                                "url": "https://doi.org/10.1017/jfm.2022.572"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "arXiv.org e-Print Archive",
+                                "@id": "opendoar____::6f4922f45568161a8cdf4ad2299f6d23"
+                            },
+                            "hostedby": {
+                                "@name": "arXiv.org e-Print Archive",
+                                "@id": "opendoar____::6f4922f45568161a8cdf4ad2299f6d23"
+                            },
+                            "dateofacceptance": "2022-02-20",
+                            "instancetype": {
+                                "@classid": "0016",
+                                "@classname": "Preprint",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "arXiv",
+                                "@classname": "arXiv",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "2202.09814"
+                            },
+                            "alternateidentifier": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10.1017/jfm.2022.572"
+                            },
+                            "refereed": {
+                                "@classid": "0002",
+                                "@classname": "nonPeerReviewed",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "http://arxiv.org/abs/2202.09814"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

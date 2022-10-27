@@ -1,0 +1,1087 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::d95e5717981377340710cef43fa740e7",
+            "dri:dateOfCollection": "2022-04-29T08:19:39.204Z",
+            "dri:dateOfTransformation": "2022-04-29T08:26:01.081Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::d95e5717981377340710cef43fa740e7",
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b63f2a97"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Project charter"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "- Creating a project charter with clear roles, responsibilities and reporting requirements from each consortium member - Establishing detailed project calendar with internal and external meeting schedules",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-30"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b63f2a97&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::d0a673b1cc27c3117bfb8511286fc5bc",
+            "dri:dateOfCollection": "2022-04-29T08:19:39.509Z",
+            "dri:dateOfTransformation": "2022-04-29T08:25:55.492Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::d0a673b1cc27c3117bfb8511286fc5bc",
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b63f4100"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Field test evaluation in Turkey trials: Results and best practice"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "- Motorcycle couriers: DynaHUBs will integrate with the scheduled and unscheduled delivery orders of motorcycle couriers in order feed into its core scheduling system. Later, integrating those with delivery orders from other sources, DynaHUBs will live update the courier delivery schedules. We will also mitigate the possible lack of systems to integrate at couriers. We anticipate some couriers not having scheduling systems, rather running at the operator level. - Groceries: We will seek to integrate (at least at the test level) the time-scheduled delivery orders in Groceries. - E-commerce vendors: Similar to Groceries, we will also integrate with e-commerce vendors. We may start with e-commerce vendors given their flexibility in delivery time-windows.",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-30"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b63f4100&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::0592bfb9dfc282942d88a376634db61d",
+            "dri:dateOfCollection": "2022-04-29T08:18:11.98Z",
+            "dri:dateOfTransformation": "2022-04-29T08:23:36.471Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::0592bfb9dfc282942d88a376634db61d",
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b69c520e"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Field test evaluation in Netherlands trials: Results and best practice"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "- Motorcycle couriers: DynaHUBs will integrate with the scheduled and unscheduled delivery orders of motorcycle couriers in order feed into its core scheduling system. Later, integrating those with delivery orders from other sources, DynaHUBs will live update the courier delivery schedules. We will also mitigate the possible lack of systems to integrate at couriers. We anticipate some couriers not having scheduling systems, rather running at the operator level. - Groceries: We will seek to integrate (at least at the test level) the time-scheduled delivery orders in Groceries. - E-commerce vendors: Similar to Groceries, we will also integrate with e-commerce vendors. We may start with e-commerce vendors given their flexibility in delivery time-windows.",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-31"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b69c520e&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::344cce955337f79547b5c42bc8ef9263",
+            "dri:dateOfCollection": "2022-04-29T08:18:19.264Z",
+            "dri:dateOfTransformation": "2022-04-29T08:24:06.163Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5be85f019",
+                        "50|r3c4b2081b22::344cce955337f79547b5c42bc8ef9263"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "DynaHUBs website"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "DynaHUBs website, liaison with stakeholders, investors and the related innovation innovations in Europe,",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-31"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5be85f019&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::a02ed3ae6540f4d01e4a5ec729d003d4",
+            "dri:dateOfCollection": "2022-04-29T08:18:27.204Z",
+            "dri:dateOfTransformation": "2022-04-29T08:25:23.756Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::a02ed3ae6540f4d01e4a5ec729d003d4",
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5be85e329"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Marketing tools: Leaflets, video clip and newsletter"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "Marketing tools: Leaflets, video clip and newsletter, social media channels,PR activities, community communications and local communication offices.",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-31"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5be85e329&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::af4ea13ebc5123ddf0b1fe1de302bdb4",
+            "dri:dateOfCollection": "2022-04-29T08:18:24.462Z",
+            "dri:dateOfTransformation": "2022-04-29T08:25:33.42Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::af4ea13ebc5123ddf0b1fe1de302bdb4",
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5bddc44f9"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Field test evaluation in Sweden trials: Results and best practice"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "- Motorcycle couriers: DynaHUBs will integrate with the scheduled and unscheduled delivery orders of motorcycle couriers in order feed into its core scheduling system. Later, integrating those with delivery orders from other sources, DynaHUBs will live update the courier delivery schedules. We will also mitigate the possible lack of systems to integrate at couriers. We anticipate some couriers not having scheduling systems, rather running at the operator level. - Groceries: We will seek to integrate (at least at the test level) the time-scheduled delivery orders in Groceries. - E-commerce vendors: Similar to Groceries, we will also integrate with e-commerce vendors. We may start with e-commerce vendors given their flexibility in delivery time-windows.",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-31"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5bddc44f9&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::e56f936c379a2d4c2ca74124e0857801",
+            "dri:dateOfCollection": "2022-04-29T08:17:59.317Z",
+            "dri:dateOfTransformation": "2022-04-29T08:26:10.731Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::e56f936c379a2d4c2ca74124e0857801",
+                        "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5bdbb90de"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Closing Report"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "Closing Report of the Project",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::IA",
+                                "@label": "Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-05-31"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::57326f1f3b3424523ff6af201448283e"
+                            },
+                            "code": "720657",
+                            "title": "DynaHUBs is a new application designed to kick start the development of the Physical Internet using a crowd-sourced approach",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "IA",
+                                    "#text": "ec__________::EC::H2020::IA"
+                                }
+                            },
+                            "acronym": "DynaHUBS"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5bdbb90de&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,1133 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "dedup_wf_001::a6ba7dcbae1879e742f7644a1b382e39",
+            "dri:dateOfCollection": "2022-06-05",
+            "dri:dateOfTransformation": "2022-08-08T07:15:55+00:00"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Sapientia Reposit\u00f3rio da Universidade do Algarve",
+                            "@id": "opendoar____::0c9ebb2ded806d7ffda75cd0b95eb70c"
+                        },
+                        {
+                            "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                            "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                        }
+                    ],
+                    "originalId": [
+                        "69348751",
+                        "21696078",
+                        "50|od______1505::c7eb274806540fd147dd9ce1dcaa025d",
+                        "oai:sapientia.ualg.pt:10400.1/6415",
+                        "17595453",
+                        "50|od______3056::c7eb274806540fd147dd9ce1dcaa025d"
+                    ],
+                    "pid": {
+                        "@classid": "handle",
+                        "@classname": "Handle",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "10400.1/6415"
+                    },
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Approaches for the cryopreservation of plantago algarbiensis, a rare endemic species of the algarve"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "@name": "Natacha",
+                            "@surname": "Coelho",
+                            "#text": "Coelho, Natacha"
+                        },
+                        {
+                            "@rank": "2",
+                            "@name": "M. ELENA",
+                            "@surname": "GONZALEZ BENITO",
+                            "@orcid": "0000-0002-6330-332x",
+                            "#text": "M. ELENA GONZALEZ BENITO"
+                        },
+                        {
+                            "@rank": "3",
+                            "@name": "Anabela",
+                            "@surname": "Romano",
+                            "@orcid": "0000-0002-7204-7428",
+                            "#text": "Romano, Anabela"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "PT",
+                        "@classname": "Portugal",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2014-01-01",
+                    "description": "Plantago algarbiensis is an endangered endemic species from the Algarve, Portugal. The main goal of this study was to investigate the viability of cryopreservation procedures in the conservation of seeds and nodal explants from this species. Seeds were directly immersed in liquid nitrogen (LN) for 30 days. Two methods were tested for the cryopreservation of nodal explants, namely droplet-vitrification and encapsulation-dehydration. For both methods, nodal segments were precultured on Murashige and Skoog (MS) medium and recovered on MS supplemented with 0.2 mg l(-1) 6-benzyladenine (BA), after freezing. After 30 days in LN, the germination capacity of seeds was not affected. The regrowth percentages of cryopreserved nodal segments were approximately 60%. With the droplet-vitrification method, a regrowth percentage of 60.0+/-15.2% was obtained after 120 min exposure to PVS2 (plant vitrification solution 2) and with encapsulation-dehydration method the highest percentage, 63.3+/-9.6%, was achieved after 3 h desiccation. Seed cryopreservation and cryopreservation of nodal segments by droplet-vitrification and encapsulation-dehydration are therefore effective approaches for the conservation of P. algarbiensis.",
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "source": [
+                        "ResearcherID",
+                        "CI\u00caNCIAVITAE",
+                        "instname:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal (RCAAP)",
+                        "instacron:RCAAP",
+                        "Scopus - Elsevier",
+                        "reponame:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal"
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": [
+                        {
+                            "@id": "neanias-atmospheric",
+                            "@label": "NEANIAS Atmospheric Research Community",
+                            "@type": "community"
+                        },
+                        {
+                            "@id": "FCT",
+                            "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "FCT::FARH",
+                                "@label": "FARH"
+                            }
+                        },
+                        {
+                            "@id": "mes",
+                            "@label": "European Marine Science",
+                            "@type": "community"
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a2c33037b739da14acde56a896da19d9"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "NMd, N\u00facleo Multidisciplinar, UALG",
+                                "legalname": "NMd, N\u00facleo Multidisciplinar, UALG"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::397db08ebb19da131ae91d912ba94e62"
+                                },
+                                "legalname": "Research Centre in Tourism, Sustainability and Well-being - CinTurs",
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "Research Centre in Tourism, Sustainability and Well-being - CinTurs"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::f2eff2dd607609ad19876e68e6452fd6"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "University of the Algarve - ESGHT - CIEO",
+                                "legalshortname": "University of the Algarve - ESGHT - CIEO"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "fct_________::a3caeb853e11cd27fd48b159cca84260"
+                                },
+                                "acronym": "SFRH/BD/63501/2009",
+                                "code": "SFRH/BD/63501/2009",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "fct_________::FCT",
+                                        "@shortname": "FCT",
+                                        "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                        "@jurisdiction": "PT"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FARH",
+                                        "#text": "fct_________::FCT::FARH"
+                                    }
+                                },
+                                "title": "CRYOPRESERVATION AS A TOOL FOR PRESERVING GENETIC VARIABILITY OF ENDANGERED SPECIES ENDEMIC FROM ALGARVE REGION"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::6d0736d581ce680f41d642d66af056cf"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "UAlg",
+                                "legalname": "University of Algarve"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::18d55b56d37eb5a2eafe2d6d0ba2403a"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "CINTAL - CENTRO INVESTIGACAO TECNOLOGICA DO ALGARVE",
+                                "legalshortname": "CINTAL"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::3053c65910d1c064799cb9a93e57e5cd"
+                                },
+                                "legalshortname": "CCMAR",
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "CENTRO DE CIENCIAS DO MAR DO ALGARVE"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______1505::c7eb274806540fd147dd9ce1dcaa025d",
+                                "collectedfrom": {
+                                    "@name": "Sapientia Reposit\u00f3rio da Universidade do Algarve",
+                                    "@id": "opendoar____::0c9ebb2ded806d7ffda75cd0b95eb70c"
+                                },
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10400.1/6415"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Approaches for the cryopreservation of Plantago algarbiensis, a rare endemic species of the Algarve"
+                                },
+                                "publisher": "Cryo Letters",
+                                "dateofacceptance": "2014-01-01"
+                            },
+                            {
+                                "@objidentifier": "od______3056::c7eb274806540fd147dd9ce1dcaa025d",
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10400.1/6415"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Approaches for the cryopreservation of Plantago algarbiensis, a rare endemic species of the Algarve"
+                                },
+                                "publisher": "Cryo Letters",
+                                "collectedfrom": {
+                                    "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                                    "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                                },
+                                "dateofacceptance": "2014-01-01"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ORCID",
+                                    "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                },
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=ORCID&SrcApp=OrcidOrg&DestLinkType=FullRecord&DestApp=WOS_CPL&KeyUT=WOS:000348251200009&KeyUID=WOS:000348251200009"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ORCID",
+                                    "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                },
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84925360159&partnerID=MN8TOARS"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::2ff3c6247e015505b729d44d8fd875ae",
+            "dri:dateOfCollection": "2022-06-05",
+            "dri:dateOfTransformation": "2022-08-08T07:15:43+00:00"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                            "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "Sapientia Reposit\u00f3rio da Universidade do Algarve",
+                            "@id": "opendoar____::0c9ebb2ded806d7ffda75cd0b95eb70c"
+                        }
+                    ],
+                    "originalId": [
+                        "10821268",
+                        "50|od______3056::f340b6e8bc380213acee83fd3a092c4f",
+                        "oai:sapientia.ualg.pt:10400.1/6447",
+                        "10880633",
+                        "10880256",
+                        "10.17660/actahortic.2013.988.5",
+                        "50|doiboost____::2ff3c6247e015505b729d44d8fd875ae",
+                        "2590831551",
+                        "50|od______1505::f340b6e8bc380213acee83fd3a092c4f"
+                    ],
+                    "pid": [
+                        {
+                            "@classid": "handle",
+                            "@classname": "Handle",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "10400.1/6447"
+                        },
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "#text": "10.17660/actahortic.2013.988.5"
+                        }
+                    ],
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.14175842232e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.046656",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "2.10486368005e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "1.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "0.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "HOW TO MONITOR THE ACCLIMATIZATION OF MICROPROPAGATED PLANTS - FROM IN VITRO TO THE FIELD?"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "How to monitor the acclimatization of micropropagated plants - From in vitro to the field?"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/2026777632",
+                            "@orcid": "0000-0002-3038-4434",
+                            "#text": "Sandra Gon\u00e7alves"
+                        },
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2305804941",
+                            "#text": "Maria Leonor Os\u00f3rio"
+                        },
+                        {
+                            "@rank": "5",
+                            "@URL": "https://academic.microsoft.com/#/detail/2102284715",
+                            "#text": "Jos\u00e9 Carlos da Silveira Os\u00f3rio"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/2159075201",
+                            "#text": "Natacha Coelho"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2102680293",
+                            "#text": "Anabela Romano"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "PT",
+                        "@classname": "Portugal",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2013-04-01",
+                    "description": "The high mortality experienced by plants during ex vitro transplantation stage is the major bottleneck in large scale application of micropropagation. The abnormal physiological and anatomical characteristics of micropropagated plantlets require that they should be gradually acclimatized to the environment of the greenhouse or field. Environmental factors, especially relative humidity and irradiance, play a critical role in both physiological and biochemical functions, namely water relations, gas exchange, photosynthetic efficiency and water oxidation, during transition from in vitro to ex vitro conditions. Throughout this period of transition and acclimatization substantial changes in those characteristics are necessary to achieve a successful micropropagation. This adaptation should be accurately monitored using relevant physiological parameters including pigment content, chlorophyll a fluorescence imaging, net photosynthetic rate, transpiration rate, and stomatal conductance. Growth traits and oxidative stress markers, such as electrolyte leakage, lipid peroxidation and hydrogen peroxide content, should be also analyzed. These parameters must be assessed during the course of ex vitro acclimatization in several periods and compared with those of plants growing in their natural habitat. The performance plants of Tuberaria major, an endangered species endemic from the Algarve region (Portugal), during their acclimatization through indoor-to-outdoor conditions was monitored using several physiological and biochemical traits as indicators. In view of the results, we concluded that the transplantation protocol described can be used for restoration purposes, contributing to the preservation of the species. \u00a9 ISHS 2013.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Chlorophyll a fluorescence"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Electrolyte leakage"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Gas exchange"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Lipid peroxidation"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Tuberaria major"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Horticulture"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Acclimatization"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Horticulture"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Biology"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Field (physics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Botany"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2015-07-27"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2013-04-01"
+                        }
+                    ],
+                    "source": [
+                        "Crossref",
+                        null,
+                        "instname:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal (RCAAP)",
+                        "instacron:RCAAP",
+                        "Scopus - Elsevier",
+                        "reponame:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal"
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": [
+                        {
+                            "@id": "neanias-atmospheric",
+                            "@label": "NEANIAS Atmospheric Research Community",
+                            "@type": "community"
+                        },
+                        {
+                            "@id": "FCT",
+                            "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                            "@type": "funding",
+                            "category": [
+                                {
+                                    "@id": "FCT::FARH",
+                                    "@label": "FARH"
+                                },
+                                {
+                                    "@id": "FCT::PIDDAC",
+                                    "@label": "PIDDAC"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "mes",
+                            "@label": "European Marine Science",
+                            "@type": "community"
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::6d0736d581ce680f41d642d66af056cf"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "UAlg",
+                                "legalname": "University of Algarve"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "fct_________::960da1ad08c6dfb36e97c39fda1357be"
+                                },
+                                "title": "APPLICATION OF IMAGING FLUORESCENCE AND REFLECTANCE SPECTROSCOPY FOR EARLY AND NON-INTRUSIVE DIAGNOSIS AND IDENTIFICATION OF DEFENCE MECHANISMS AGAINST STRESS IN MEDITERRANEAN TREE CERATONIA SILIQUA",
+                                "acronym": "SFRH/BPD/35410/2007",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "fct_________::FCT",
+                                        "@shortname": "FCT",
+                                        "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                        "@jurisdiction": "PT"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "PIDDAC",
+                                        "#text": "fct_________::FCT::PIDDAC"
+                                    }
+                                },
+                                "code": "SFRH/BPD/35410/2007"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a2c33037b739da14acde56a896da19d9"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "NMd, N\u00facleo Multidisciplinar, UALG",
+                                "legalname": "NMd, N\u00facleo Multidisciplinar, UALG"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::397db08ebb19da131ae91d912ba94e62"
+                                },
+                                "legalname": "Research Centre in Tourism, Sustainability and Well-being - CinTurs",
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "Research Centre in Tourism, Sustainability and Well-being - CinTurs"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "fct_________::a3caeb853e11cd27fd48b159cca84260"
+                                },
+                                "acronym": "SFRH/BD/63501/2009",
+                                "code": "SFRH/BD/63501/2009",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "fct_________::FCT",
+                                        "@shortname": "FCT",
+                                        "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                        "@jurisdiction": "PT"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FARH",
+                                        "#text": "fct_________::FCT::FARH"
+                                    }
+                                },
+                                "title": "CRYOPRESERVATION AS A TOOL FOR PRESERVING GENETIC VARIABILITY OF ENDANGERED SPECIES ENDEMIC FROM ALGARVE REGION"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::18d55b56d37eb5a2eafe2d6d0ba2403a"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "CINTAL - CENTRO INVESTIGACAO TECNOLOGICA DO ALGARVE",
+                                "legalshortname": "CINTAL"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::3053c65910d1c064799cb9a93e57e5cd"
+                                },
+                                "legalshortname": "CCMAR",
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "CENTRO DE CIENCIAS DO MAR DO ALGARVE"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "fct_________::5db9f3980fa9007c716b3a76ce5318f6"
+                                },
+                                "title": "PHYTOCHEMICAL PROFILES AND BIOLOGICAL ACTIVITY OF ENDEMIC PLANTS FROM THE MEDITERRANEAN REGION",
+                                "code": "SFRH/BPD/31534/2006",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "fct_________::FCT",
+                                        "@shortname": "FCT",
+                                        "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                        "@jurisdiction": "PT"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "PIDDAC",
+                                        "#text": "fct_________::FCT::PIDDAC"
+                                    }
+                                },
+                                "acronym": "SFRH/BPD/31534/2006"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::f2eff2dd607609ad19876e68e6452fd6"
+                                },
+                                "country": {
+                                    "@classid": "PT",
+                                    "@classname": "Portugal",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "University of the Algarve - ESGHT - CIEO",
+                                "legalshortname": "University of the Algarve - ESGHT - CIEO"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______1505::f340b6e8bc380213acee83fd3a092c4f",
+                                "dateofacceptance": "2013-01-01",
+                                "collectedfrom": {
+                                    "@name": "Sapientia Reposit\u00f3rio da Universidade do Algarve",
+                                    "@id": "opendoar____::0c9ebb2ded806d7ffda75cd0b95eb70c"
+                                },
+                                "publisher": "International Society for Horticultural Science",
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10400.1/6447"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "How to monitor the acclimatization of micropropagated plants - From in vitro to the field?"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od______3056::f340b6e8bc380213acee83fd3a092c4f",
+                                "dateofacceptance": "2013-01-01",
+                                "publisher": "International Society for Horticultural Science",
+                                "collectedfrom": {
+                                    "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                                    "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                                },
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10400.1/6447"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "How to monitor the acclimatization of micropropagated plants - From in vitro to the field?"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::2ff3c6247e015505b729d44d8fd875ae",
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "HOW TO MONITOR THE ACCLIMATIZATION OF MICROPROPAGATED PLANTS - FROM IN VITRO TO THE FIELD?"
+                                },
+                                "dateofacceptance": "2013-04-01",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.17660/actahortic.2013.988.5"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "publisher": "International Society for Horticultural Science (ISHS)"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ORCID",
+                                    "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                },
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84880298911&partnerID=MN8TOARS"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                "hostedby": {
+                                    "@name": "Acta Horticulturae",
+                                    "@id": "issn___print::f7a67b0eaed1b826a98414d0140b86a1"
+                                },
+                                "dateofacceptance": "2013-04-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.17660/actahortic.2013.988.5"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://doi.org/10.17660/actahortic.2013.988.5"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]

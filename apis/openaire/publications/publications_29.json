@@ -1,0 +1,3156 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "dedup_wf_001::14364157b7ccd7910c4fd22768856273",
+            "dri:dateOfCollection": "2022-07-13T07:54:03+0000",
+            "dri:dateOfTransformation": "2022-07-13T08:38:41.428Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "CNR ExploRA",
+                            "@id": "openaire____::082404e0f6ecb6577f1760523598894c"
+                        },
+                        {
+                            "@name": "ISTI Open Portal",
+                            "@id": "opendoar____::81930c54e08b6d26d9638dd2e4656dc1"
+                        }
+                    ],
+                    "originalId": [
+                        "oai:it.cnr:prodotti:207265",
+                        "50|cnr_________::14364157b7ccd7910c4fd22768856273",
+                        "oai:dnet:people______::14364157b7ccd7910c4fd22768856273",
+                        "50|od______9984::0c02178975ff4b3cd2f2f2b70d284835"
+                    ],
+                    "measure": [
+                        {
+                            "@id": "downloads",
+                            "@count": "1"
+                        },
+                        {
+                            "@id": "views",
+                            "@count": "0"
+                        }
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "DAGON - Un unico telecomando per tutti i dispositivi domotici"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "#text": "Miori V."
+                        },
+                        {
+                            "@rank": "2",
+                            "#text": "Meloni G. F."
+                        }
+                    ],
+                    "country": {
+                        "@classid": "IT",
+                        "@classname": "Italy",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2011-01-01",
+                    "description": "The work involved the design and development of software to install on a new generation of programmable remote control (with touch screen and wi-fi), in order to drive and monitor a home environment by interfacing with a pre-existing home automation middleware that permit the communication and the interoperability of all the home automation devices. The results of this work are integral parts of the DAGON (Domotics, Automation and Orchestration Government Network) research project aimed at developing an integrated platform for advanced services for domotic and nautical navigation control systems. The project is funded by the European Regional Development Fund (ERDF) Competitiveness and Employment CREO POR 2007-2013, one of the most important European programmes through which the Region of Tuscany supports project investments of enterprises and public bodies.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Interfacce utente"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Domotica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Telecomando"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Inteoperabilit\u00e0"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Ambient intelligent"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Interfacce utente"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Domotica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Telecomando"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Inteoperabilit\u00e0"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Ambient intelligent"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "ita",
+                        "@classname": "Italian",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "source": "Project report, DAGON, 2011",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::d41cf6bd4ab1b1362a44397e0b95c975"
+                                },
+                                "country": {
+                                    "@classid": "IT",
+                                    "@classname": "Italy",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "CNR",
+                                "legalname": "National Research Council"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_affiliations",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::5d95e9ba5888e52d81d9f1423495e08d"
+                                },
+                                "country": {
+                                    "@classid": "IT",
+                                    "@classname": "Italy",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Institute of Information Science and Technologies \"A. Faedo\"",
+                                "legalshortname": "ISTI"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::7059ad3eaa8666ef1d1201627295a74f"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "acronym": "DAGON",
+                                "code": "627191",
+                                "title": "Developement of an AMR 3D Maxwell-Bloch code and application to coherent femto-nano-imaging"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "cnr_________::14364157b7ccd7910c4fd22768856273",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "DAGON - Un unico telecomando per tutti i dispositivi domotici"
+                                },
+                                "collectedfrom": {
+                                    "@name": "CNR ExploRA",
+                                    "@id": "openaire____::082404e0f6ecb6577f1760523598894c"
+                                },
+                                "dateofacceptance": "2011-01-01"
+                            },
+                            {
+                                "@objidentifier": "od______9984::0c02178975ff4b3cd2f2f2b70d284835",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "DAGON - Un unico telecomando per tutti i dispositivi domotici"
+                                },
+                                "dateofacceptance": "2011-01-01",
+                                "collectedfrom": {
+                                    "@name": "ISTI Open Portal",
+                                    "@id": "opendoar____::81930c54e08b6d26d9638dd2e4656dc1"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ISTI Open Portal",
+                                    "@id": "opendoar____::81930c54e08b6d26d9638dd2e4656dc1"
+                                },
+                                "hostedby": {
+                                    "@name": "ISTI Open Portal",
+                                    "@id": "opendoar____::81930c54e08b6d26d9638dd2e4656dc1"
+                                },
+                                "dateofacceptance": "2011-01-01",
+                                "instancetype": {
+                                    "@classid": "0017",
+                                    "@classname": "Report",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://openportal.isti.cnr.it/doc?id=people______::14364157b7ccd7910c4fd22768856273"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "CNR ExploRA",
+                                    "@id": "openaire____::082404e0f6ecb6577f1760523598894c"
+                                },
+                                "hostedby": {
+                                    "@name": "CNR ExploRA",
+                                    "@id": "openaire____::082404e0f6ecb6577f1760523598894c"
+                                },
+                                "dateofacceptance": "2011-01-01",
+                                "instancetype": {
+                                    "@classid": "0017",
+                                    "@classname": "Report",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "http://www.cnr.it/prodotto/i/207265"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::d25b832c25e9fd5ebfe50dd3ead779e7",
+            "dri:dateOfCollection": "2021-08-13T16:15:33.568Z",
+            "dri:dateOfTransformation": "2022-04-29T14:44:26.219Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "European Union Open Data Portal",
+                            "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                        },
+                        {
+                            "@name": "Hal-Diderot",
+                            "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                        },
+                        {
+                            "@name": "Hyper Article en Ligne",
+                            "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                        },
+                        {
+                            "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                            "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                        },
+                        {
+                            "@name": "Sygma",
+                            "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        }
+                    ],
+                    "originalId": [
+                        "50|r3c4b2081b22::d25b832c25e9fd5ebfe50dd3ead779e7",
+                        "10.1103/physreva.96.033810",
+                        "50|od______2592::88edc0ee12e02e588f46e10f8ed5aa78",
+                        "oai:HAL:hal-01597577v1",
+                        "50|od_______166::88edc0ee12e02e588f46e10f8ed5aa78",
+                        "50|od_______212::88edc0ee12e02e588f46e10f8ed5aa78",
+                        "50|sygma_______::d25b832c25e9fd5ebfe50dd3ead779e7",
+                        "50|doiboost____::d25b832c25e9fd5ebfe50dd3ead779e7",
+                        "2751889253"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1103/physreva.96.033810"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.57962035975e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "1.55616",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "9.76775094423e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "7.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "5.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "CLOSED",
+                        "@classname": "Closed Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "3",
+                            "@orcid": "0000-0002-2072-6680",
+                            "@URL": "https://academic.microsoft.com/#/detail/2138846457",
+                            "#text": "Aur\u00e9lien Houard"
+                        },
+                        {
+                            "@rank": "7",
+                            "@URL": "https://academic.microsoft.com/#/detail/2251145456",
+                            "#text": "Yi Liu"
+                        },
+                        {
+                            "@rank": "7",
+                            "@URL": "https://academic.microsoft.com/#/detail/2251145456",
+                            "#text": "Yi Liu"
+                        },
+                        {
+                            "@rank": "8",
+                            "@orcid": "0000-0003-2284-0927",
+                            "@URL": "https://academic.microsoft.com/#/detail/2946158280",
+                            "#text": "Eduardo Oliva"
+                        },
+                        {
+                            "@rank": "6",
+                            "@URL": "https://academic.microsoft.com/#/detail/2751762986",
+                            "#text": "Sergio Vic\u00e9ns"
+                        },
+                        {
+                            "@rank": "5",
+                            "@URL": "https://academic.microsoft.com/#/detail/2751103729",
+                            "#text": "Javier E. D\u00edaz Vera"
+                        },
+                        {
+                            "@rank": "1",
+                            "@orcid": "0000-0003-2559-4696",
+                            "@URL": "https://academic.microsoft.com/#/detail/2124168116",
+                            "#text": "Pengji Ding"
+                        },
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2124168116",
+                            "#text": "Pengji Ding"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2753843145",
+                            "#text": "Alberto Sanchis"
+                        },
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/2752827958",
+                            "#text": "Juan Carlos Escudero"
+                        }
+                    ],
+                    "contributor": [
+                        "Laboratoire d'optique appliqu\u00e9e (LOA) ; \u00c9cole Nationale Sup\u00e9rieure de Techniques Avanc\u00e9es (ENSTA Paris)-\u00c9cole polytechnique (X)-Centre National de la Recherche Scientifique (CNRS)",
+                        "Division of Combustion Physics ; Lund Institute of Technology ; Lund University [Lund]-Lund University [Lund]",
+                        "Departamento de Ingenieria Energetica, ; ETSI Industriales ; Universidad Polit\u00e9cnica de Madrid (UPM)-Universidad Polit\u00e9cnica de Madrid (UPM)",
+                        "Interaction Laser-Mati\u00e8re (ILM) ; Laboratoire d'optique appliqu\u00e9e (LOA) ; \u00c9cole Nationale Sup\u00e9rieure de Techniques Avanc\u00e9es (ENSTA Paris)-\u00c9cole polytechnique (X)-Centre National de la Recherche Scientifique (CNRS)-\u00c9cole Nationale Sup\u00e9rieure de Techniques Avanc\u00e9es (ENSTA Paris)-\u00c9cole polytechnique (X)-Centre National de la Recherche Scientifique (CNRS)",
+                        "Shanghai Key Lab of Modern Optical System ; University of Shanghai for Science and Technology",
+                        "Instituto de Fusi\u00f3n Nuclear ; Universidad Polit\u00e9cnica de Madrid (UPM)"
+                    ],
+                    "country": {
+                        "@classid": "FR",
+                        "@classname": "France",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2017-09-01",
+                    "description": "We report on a theoretical study of cavity-free lasing of neutral nitrogen molecules in femtosecond laser filaments with a nonadiabatic Maxwell-Bloch model, compared with recent pump-seed experiments. The nonadiabaticity of the lasing process is revealed and it is found that electron-neutral collisions dominate the dipole dephasing rate. Moreover, we show that the asymmetry between forward and backward lasing not only depends on the different amplification lengths but also on the temporal dynamics of electron-neutral collisions. The comparison of the nonadiabatic model with simulations based on the adiabatic approximation (such as radiative transfer equations) explicitly sets a bound on the validity of the latter model for cavity-free nitrogen lasing phenomenon, which holds a unique potential in optical remote sensing applications.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "[PHYS.PHYS.PHYS-OPTICS]Physics [physics]/Physics [physics]/Optics [physics.optics]"
+                        },
+                        {
+                            "@classid": "ACM",
+                            "@classname": "ACM Computing Classification System",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.891",
+                            "#text": "ComputingMilieux_MISCELLANEOUS"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Radiative transfer"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Femtosecond"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Asymmetry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.46051967",
+                            "#text": "media_common.quotation_subject"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.46051967",
+                            "#text": "media_common"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Physics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Dephasing"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Adiabatic theorem"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Atomic physics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Laser"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.46044585",
+                            "#text": "law.invention"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.46044585",
+                            "#text": "law"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Lasing threshold"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Dipole"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010306 general physics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010309 optics"
+                        },
+                        {
+                            "@classid": "arxiv",
+                            "@classname": "arXiv",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.8739",
+                            "#text": "Physics::Optics"
+                        },
+                        {
+                            "@classid": "arxiv",
+                            "@classname": "arXiv",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.7542",
+                            "#text": "Physics::Chemical Physics"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2017-09-07"
+                        },
+                        {
+                            "@classid": "published-online",
+                            "@classname": "published-online",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2017-09-07"
+                        }
+                    ],
+                    "source": [
+                        "EISSN: 1094-1622",
+                        "Crossref",
+                        null,
+                        "ISSN: 1050-2947",
+                        "Physical Review A, American Physical Society, 2017, 96 (3), &#x27E8;10.1103/PhysRevA.96.033810&#x27E9;",
+                        "https://hal-ensta-paris.archives-ouvertes.fr//hal-01597577",
+                        "Physical Review A"
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "0001",
+                        "@classname": "Article",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                    },
+                    "journal": {
+                        "@issn": "2469-9926",
+                        "#text": "Physical Review A"
+                    },
+                    "context": [
+                        {
+                            "@id": "EC",
+                            "@label": "European Commission",
+                            "@type": "funding",
+                            "category": [
+                                {
+                                    "@id": "EC::FP7",
+                                    "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                    "concept": [
+                                        {
+                                            "@id": "EC::FP7::SP3",
+                                            "@label": "SP3-People"
+                                        },
+                                        {
+                                            "@id": "EC::FP7::SP3::PEOPLE",
+                                            "@label": "Marie-Curie Actions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@id": "EC::H2020",
+                                    "@label": "Horizon 2020 Framework Programme",
+                                    "concept": {
+                                        "@id": "EC::H2020::RIA",
+                                        "@label": "Research and Innovation action"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "fet-h2020",
+                            "@label": "FET H2020",
+                            "@type": "community",
+                            "category": {
+                                "@id": "fet-h2020::open",
+                                "@label": "FET OPEN"
+                            }
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::c80a8243a5e5c620d7931c88d93bf17a"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Universit\u00e9 Paris Diderot",
+                                "legalshortname": "Universit\u00e9 Paris Diderot"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::7059ad3eaa8666ef1d1201627295a74f"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "acronym": "DAGON",
+                                "code": "627191",
+                                "title": "Developement of an AMR 3D Maxwell-Bloch code and application to coherent femto-nano-imaging"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "validated": {
+                                    "@date": "2020-10-16"
+                                },
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda__h2020::ce9298646740c32bfaccb2e84c91b61c"
+                                },
+                                "acronym": "VOXEL",
+                                "code": "665207",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "H2020",
+                                        "#text": "ec__________::EC::H2020"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "RIA",
+                                        "#text": "ec__________::EC::H2020::RIA"
+                                    }
+                                },
+                                "title": "volumetric medical x-ray imaging at extremely low dose"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::66aa9fc2fceb271423dfabcc38752dc0"
+                                },
+                                "legalname": "Lund University",
+                                "country": {
+                                    "@classid": "SE",
+                                    "@classname": "Sweden",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "Lund University"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::73cf8de68002e3784cb71b0517d9bfbe"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "University of Paris-Saclay",
+                                "legalname": "University of Paris-Saclay"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::83d4555b0a19063ccbdf14348f7ba39f"
+                                },
+                                "legalname": "University of Shanghai for Science and Technology",
+                                "legalshortname": "USST",
+                                "country": {
+                                    "@classid": "CN",
+                                    "@classname": "China (People's Republic of)",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::e908ca52a367b335850ad31feb6e398c"
+                                },
+                                "legalshortname": "C2N",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Nanoscience and Nanotechnology"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::caa183d1eb243e3fa5cab3376435cfdb"
+                                },
+                                "legalshortname": "R\u00e9trovirus Endog\u00e8nes et El\u00e9ments R\u00e9troides des Eucaryotes Sup\u00e9rieurs",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "R\u00e9trovirus Endog\u00e8nes et El\u00e9ments R\u00e9troides des Eucaryotes Sup\u00e9rieurs"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "doi_________::d25b832c25e9fd5ebfe50dd3ead779e7",
+                                "dateofacceptance": "2017-09-07",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1103/physreva.96.033810"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "publisher": "American Physical Society (APS)",
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                                }
+                            },
+                            {
+                                "@objidentifier": "sygma_______::d25b832c25e9fd5ebfe50dd3ead779e7",
+                                "collectedfrom": {
+                                    "@name": "Sygma",
+                                    "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                                }
+                            },
+                            {
+                                "@objidentifier": "r3c4b2081b22::d25b832c25e9fd5ebfe50dd3ead779e7",
+                                "collectedfrom": {
+                                    "@name": "European Union Open Data Portal",
+                                    "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                                },
+                                "dateofacceptance": "2017-01-01"
+                            },
+                            {
+                                "@objidentifier": "od______2592::88edc0ee12e02e588f46e10f8ed5aa78",
+                                "dateofacceptance": "2017-09-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                                },
+                                "publisher": "HAL CCSD",
+                                "collectedfrom": {
+                                    "@name": "Hal-Diderot",
+                                    "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od_______166::88edc0ee12e02e588f46e10f8ed5aa78",
+                                "dateofacceptance": "2017-09-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                                },
+                                "publisher": "HAL CCSD",
+                                "collectedfrom": {
+                                    "@name": "Hyper Article en Ligne",
+                                    "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od_______212::88edc0ee12e02e588f46e10f8ed5aa78",
+                                "dateofacceptance": "2017-09-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Nonadiabaticity of cavity-free neutral nitrogen lasing"
+                                },
+                                "publisher": "HAL CCSD",
+                                "collectedfrom": {
+                                    "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                                    "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "CLOSED",
+                                    "@classname": "Closed Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "European Union Open Data Portal",
+                                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "dateofacceptance": [
+                                    "2017-09-07",
+                                    "2017-01-01"
+                                ],
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1103/physreva.96.033810"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.1103/physreva.96.033810"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://link.aps.org/licenses/aps-default-license",
+                                "webresource": {
+                                    "url": "https://doi.org/10.1103/physreva.96.033810"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Hyper Article en Ligne",
+                                        "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                                    },
+                                    {
+                                        "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                                        "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                                    },
+                                    {
+                                        "@name": "Hal-Diderot",
+                                        "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Hyper Article en Ligne",
+                                        "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                                    },
+                                    {
+                                        "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                                        "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                                    },
+                                    {
+                                        "@name": "Hal-Diderot",
+                                        "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                                    }
+                                ],
+                                "dateofacceptance": "2017-09-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": [
+                                    {
+                                        "@classid": "hal",
+                                        "@classname": "HAL /  Hyper Article en Ligne identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@trust": "0.9",
+                                        "#text": "hal-01597577"
+                                    },
+                                    {
+                                        "@classid": "doi",
+                                        "@classname": "Digital Object Identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@trust": "0.9",
+                                        "#text": "10.1103/physreva.96.033810"
+                                    }
+                                ],
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://hal-ensta-paris.archives-ouvertes.fr//hal-01597577"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::871c565ecb8fb33e4711c478a4f5226d",
+            "dri:dateOfCollection": "2021-12-09T06:29:41.318Z",
+            "dri:dateOfTransformation": "2021-12-09T15:31:58.646Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Hal-Diderot",
+                            "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                        },
+                        {
+                            "@name": "Sygma",
+                            "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                        },
+                        {
+                            "@name": "Hyper Article en Ligne",
+                            "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                        },
+                        {
+                            "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                            "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "European Union Open Data Portal",
+                            "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                        }
+                    ],
+                    "originalId": [
+                        "50|od______2592::39500e24e93347d8cdabfc487ff9916f",
+                        "oai:HAL:hal-01774109v1",
+                        "10.1103/physreve.97.023203",
+                        "50|sygma_______::871c565ecb8fb33e4711c478a4f5226d",
+                        "50|od_______166::39500e24e93347d8cdabfc487ff9916f",
+                        "50|od_______212::39500e24e93347d8cdabfc487ff9916f",
+                        "50|doiboost____::871c565ecb8fb33e4711c478a4f5226d",
+                        "2792761360",
+                        "50|r3c4b2081b22::871c565ecb8fb33e4711c478a4f5226d"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1103/physreve.97.023203"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.72418276248e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "1.48896",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "1.02891253476e-08",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "7.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "7.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers."
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "CLOSED",
+                        "@classname": "Closed Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/2068746632",
+                            "#text": "A. Depresseux"
+                        },
+                        {
+                            "@rank": "1",
+                            "@orcid": "0000-0003-2284-0927",
+                            "@URL": "https://academic.microsoft.com/#/detail/2946158280",
+                            "#text": "Eduardo Oliva"
+                        },
+                        {
+                            "@rank": "7",
+                            "@URL": "https://academic.microsoft.com/#/detail/2101531448",
+                            "#text": "Gilles Maynard"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/2653883114",
+                            "#text": "Manuel Cotelo"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2131336308",
+                            "#text": "Agustin Lifschitz"
+                        },
+                        {
+                            "@rank": "5",
+                            "@URL": "https://academic.microsoft.com/#/detail/1976262911",
+                            "#text": "Fabien Tissandier"
+                        },
+                        {
+                            "@rank": "6",
+                            "@orcid": "0000-0002-7330-0309",
+                            "@URL": "https://academic.microsoft.com/#/detail/2862605692",
+                            "#text": "Julien Gautier"
+                        },
+                        {
+                            "@rank": "8",
+                            "@URL": "https://academic.microsoft.com/#/detail/2105605905",
+                            "#text": "Pedro Velarde"
+                        },
+                        {
+                            "@rank": "9",
+                            "@URL": "https://academic.microsoft.com/#/detail/1949577795",
+                            "#text": "St\u00e9phane Sebban"
+                        }
+                    ],
+                    "contributor": [
+                        "Polytecnic University of Madrid",
+                        "Instituto de Fusi\u00f3n Nuclear ; Universidad Polit\u00e9cnica de Madrid (UPM)",
+                        "Laboratoire d'optique appliqu\u00e9e (LOA) ; \u00c9cole Nationale Sup\u00e9rieure de Techniques Avanc\u00e9es (ENSTA Paris)-\u00c9cole polytechnique (X)-Centre National de la Recherche Scientifique (CNRS)",
+                        "Laboratoire de physique des gaz et des plasmas (LPGP) ; Universit\u00e9 Paris-Sud - Paris 11 (UP11)-Centre National de la Recherche Scientifique (CNRS)"
+                    ],
+                    "country": {
+                        "@classid": "FR",
+                        "@classname": "France",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2018-02-01",
+                    "description": "High-density, collisionally pumped plasma-based soft-x-ray lasers have recently delivered hundreds of femtosecond pulses, breaking the longstanding barrier of one picosecond. To pump these amplifiers an intense infrared pulse must propagate focused throughout all the length of the amplifier, which spans several Rayleigh lengths. However, strong nonlinear effects hinder the propagation of the laser beam. The use of a plasma waveguide allows us to overcome these drawbacks provided the hydrodynamic processes that dominate the creation and posterior evolution of the waveguide are controlled and optimized. In this paper we present experimental measurements of the radial density profile and transmittance of such waveguide, and we compare them with numerical calculations using hydrodynamic and particle-in-cell codes. Controlling the properties (electron density value and radial gradient) of the waveguide with the help of numerical codes promises the delivery of ultrashort (tens of femtoseconds), coherent soft-x-ray pulses.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "[PHYS.PHYS.PHYS-OPTICS]Physics [physics]/Physics [physics]/Optics [physics.optics]"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "[PHYS.PHYS.PHYS-PLASM-PH]Physics [physics]/Physics [physics]/Plasma Physics [physics.plasm-ph]"
+                        },
+                        {
+                            "@classid": "ACM",
+                            "@classname": "ACM Computing Classification System",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.891",
+                            "#text": "ComputingMilieux_MISCELLANEOUS"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Picosecond"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Optics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.46406636",
+                            "#text": "business.industry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.46406636",
+                            "#text": "business"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Femtosecond"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Materials science"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Waveguide"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.5410175",
+                            "#text": "law.invention"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.5410175",
+                            "#text": "law"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Rayleigh scattering"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.49304748",
+                            "#text": "symbols.namesake"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.49304748",
+                            "#text": "symbols"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Laser"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Electron density"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Amplifier"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Plasma"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010306 general physics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        },
+                        {
+                            "@classid": "arxiv",
+                            "@classname": "arXiv",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.8307",
+                            "#text": "Physics::Optics"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2018-02-13"
+                        },
+                        {
+                            "@classid": "published-online",
+                            "@classname": "published-online",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2018-02-13"
+                        }
+                    ],
+                    "publisher": "HAL CCSD",
+                    "source": [
+                        "Physical Review E",
+                        "Crossref",
+                        "Physical Review E , American Physical Society (APS), 2018, 97 (2), &#x27E8;10.1103/PhysRevE.97.023203&#x27E9;",
+                        "https://hal-ensta-paris.archives-ouvertes.fr//hal-01774109",
+                        null,
+                        "ISSN: 2470-0045",
+                        "EISSN: 2470-0053"
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": [
+                        {
+                            "@id": "EC",
+                            "@label": "European Commission",
+                            "@type": "funding",
+                            "category": [
+                                {
+                                    "@id": "EC::FP7",
+                                    "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                    "concept": [
+                                        {
+                                            "@id": "EC::FP7::SP3",
+                                            "@label": "SP3-People"
+                                        },
+                                        {
+                                            "@id": "EC::FP7::SP3::PEOPLE",
+                                            "@label": "Marie-Curie Actions"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@id": "EC::H2020",
+                                    "@label": "Horizon 2020 Framework Programme",
+                                    "concept": {
+                                        "@id": "EC::H2020::RIA",
+                                        "@label": "Research and Innovation action"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "ANR",
+                            "@label": "French National Research Agency (ANR)",
+                            "@type": "funding"
+                        },
+                        {
+                            "@id": "fet-h2020",
+                            "@label": "FET H2020",
+                            "@type": "community",
+                            "category": {
+                                "@id": "fet-h2020::open",
+                                "@label": "FET OPEN"
+                            }
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::8111971d78e9b48fac5c238cd155e420"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "FAST",
+                                "legalname": "Fluides, Automatique et Syst\u00e8mes Thermiques"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::e1869f6b515baa45061a822eb7b20ab6"
+                                },
+                                "legalshortname": "SMPSD",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Syst\u00e8mes Membranaires, Photobiologie, Stress et D\u00e9toxication"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::917eb0360f8e9f7388a87d4460bc84dd"
+                                },
+                                "legalshortname": "IAS",
+                                "legalname": "Institut d'Astrophysique Spatiale",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cb5eb99298b1d9e62b016e8d81ca7dfe"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "Neuroimaging and Psychiatry",
+                                "legalname": "Neuroimaging and Psychiatry"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::6bbfac494269ccff4b578c6e24fc7cad"
+                                },
+                                "legalshortname": "GEOPS",
+                                "legalname": "Geosciences Paris Sud",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::6eb0469711cffb74785d555c6897796c"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laboratory for Optics & Biosciences",
+                                "legalshortname": "LOB"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::234b1f6b14c3d0f410298a2b6c66f21c"
+                                },
+                                "legalname": "Institut des Sciences des Plantes de Paris Saclay",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "IPS2"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::7059ad3eaa8666ef1d1201627295a74f"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "acronym": "DAGON",
+                                "code": "627191",
+                                "title": "Developement of an AMR 3D Maxwell-Bloch code and application to coherent femto-nano-imaging"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::2d3572512bc34927887f6d6c437f71da"
+                                },
+                                "legalshortname": "CIAMS",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laboratoire Complexit\u00e9, Innovation et Activit\u00e9s Motrices et Sportives"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::0330bf2fcbdc1b36f76789175a74026e"
+                                },
+                                "legalname": "Laboratory of Theoretical Physics and Statistical Models",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "LPTMS"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::55910aa84c50b4c98d136272b844301d"
+                                },
+                                "legalshortname": "LLR",
+                                "legalname": "Leprince-Ringuet Laboratory",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fd795dbf230108472e3e1c2c15f304b1"
+                                },
+                                "legalshortname": "LULI",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laboratoire pour l'Utilisation des Lasers Intenses"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fbb1170e4449b4a5b90710ab7758e126"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "University of Paris-Sud",
+                                "legalname": "University of Paris-Sud"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::527def07418518110ec81dd07e217698"
+                                },
+                                "legalname": "Ecologie, Syst\u00e9matique et Evolution",
+                                "legalshortname": "ESE",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::ce371813230afc91f4fbdf4a94c3a94a"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Irradiated Solids Laboratory",
+                                "legalshortname": "LSI"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::77edf6f3417b5afd8d583328d48aa9c6"
+                                },
+                                "legalname": "Laboratoire de Physique des Gaz et des Plasmas",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "LPGP"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::ba44c23b25f912b35b68d7438d844f1b"
+                                },
+                                "legalname": "Imagerie par R\u00e9sonance Magn\u00e9tique M\u00e9dicale et Multi-Modalit\u00e9s",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "IR4M"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::00fbabc9cf4172ac2ddce51b52f1dfb5"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laboratoire Aim\u00e9 Cotton",
+                                "legalshortname": "LAC"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::abeaa5ca2ce5c6444235878c30a65fd4"
+                                },
+                                "legalshortname": "IGPS",
+                                "legalname": "Institut Galien Paris Sud",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::f40f3d5dc0428ff2e29a7404a86a5edc"
+                                },
+                                "legalname": "Institut des Sciences Mol\u00e9culaires d'Orsay",
+                                "legalshortname": "ISMO",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::c80a8243a5e5c620d7931c88d93bf17a"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Universit\u00e9 Paris Diderot",
+                                "legalshortname": "Universit\u00e9 Paris Diderot"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::f11b0d2069c632d3e64a59986c1df0f3"
+                                },
+                                "legalname": "Laboratory of Solid State Physics",
+                                "legalshortname": "LPS",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::6e7c2a1a6f088bd4ec8b0abf8abb23ed"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laboratory of Physics of Interfaces and Thin Films",
+                                "legalshortname": "LPICM"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::7e36f7796a3c2e21946e4b9338588f27"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "LPT",
+                                "legalname": "Laboratory of Theoretical Physics"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "anr_________::837275cdb9f46882116e2f7f2d35212b"
+                                },
+                                "title": "Reawakening Of recombination LasErs in the soft X-ray range",
+                                "code": "ANR-11-BS04-0023",
+                                "acronym": "ROLEX",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "anr_________::ANR",
+                                        "@shortname": "ANR",
+                                        "@name": "French National Research Agency (ANR)",
+                                        "@jurisdiction": "FR"
+                                    }
+                                }
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "validated": {
+                                    "@date": "2020-10-16"
+                                },
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda__h2020::ce9298646740c32bfaccb2e84c91b61c"
+                                },
+                                "acronym": "VOXEL",
+                                "code": "665207",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "H2020",
+                                        "#text": "ec__________::EC::H2020"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "RIA",
+                                        "#text": "ec__________::EC::H2020::RIA"
+                                    }
+                                },
+                                "title": "volumetric medical x-ray imaging at extremely low dose"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::4b78a2abb152ca85ce804f65d3be2125"
+                                },
+                                "legalname": "Interactions Cellulaires et Physiopathologie H\u00e9pathique",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "Interactions Cellulaires et Physiopathologie H\u00e9pathique"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::20c3717709c58b6aed8017b236dbf274"
+                                },
+                                "legalshortname": "Biochemistry Laboratory",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Biochemistry Laboratory"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dfbb7fc259ad97f6809f747bd6a013ce"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laurent Schwartz Center for Mathematics",
+                                "legalshortname": "CMLS"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::5946e94e6f620c7730f73f21b0176c18"
+                                },
+                                "legalname": "Centre de Math\u00e9matiques Appliqu\u00e9es",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "CMAP"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dee80c0d25ac2d15cc247f1069cba950"
+                                },
+                                "legalshortname": "ICMMO",
+                                "legalname": "Institut de Chimie Mol\u00e9culaire et des Mat\u00e9riaux d'Orsay",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::17e7eef1f5248b522e43d40fb9209518"
+                                },
+                                "legalshortname": "SCP",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Laboratory Signaling and Cardiovascular Pathophysiology"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::8eb74e8375329e6bd7abc2ae9f18c5e7"
+                                },
+                                "legalshortname": "PAH",
+                                "legalname": "Pathophysiology and Novel Therapies",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::1ba70d5d6f5b3f84fd04aa460b45b489"
+                                },
+                                "legalname": "Laboratoire de Chimie Physique",
+                                "legalshortname": "LCP",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::0fb570b52f45fdb5db0c9236a5e4c9c1"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "\u00c9cole Polytechnique",
+                                "legalname": "\u00c9cole Polytechnique"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::9154c6f7d5c270709c432b70dce03ebe"
+                                },
+                                "legalshortname": "LMO",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "D\u00e9partement de Math\u00e9matiques"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::23214ccb39c302bc8af5c017576c87d1"
+                                },
+                                "legalname": "Solids Mechanic Laboratory",
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "LMS"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::046eb8e5672af3a9181ad230dadfb520"
+                                },
+                                "country": {
+                                    "@classid": "FR",
+                                    "@classname": "France",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Biology of Extremophiles Laboratory",
+                                "legalshortname": "BMGE"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od_______212::39500e24e93347d8cdabfc487ff9916f",
+                                "publisher": "HAL CCSD",
+                                "collectedfrom": {
+                                    "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                                    "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers"
+                                },
+                                "dateofacceptance": "2018-02-01"
+                            },
+                            {
+                                "@objidentifier": "od______2592::39500e24e93347d8cdabfc487ff9916f",
+                                "publisher": "HAL CCSD",
+                                "collectedfrom": {
+                                    "@name": "Hal-Diderot",
+                                    "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers"
+                                },
+                                "dateofacceptance": "2018-02-01"
+                            },
+                            {
+                                "@objidentifier": "sygma_______::871c565ecb8fb33e4711c478a4f5226d",
+                                "collectedfrom": {
+                                    "@name": "Sygma",
+                                    "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::871c565ecb8fb33e4711c478a4f5226d",
+                                "dateofacceptance": "2018-02-13",
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers."
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "publisher": "American Physical Society (APS)",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1103/physreve.97.023203"
+                                }
+                            },
+                            {
+                                "@objidentifier": "r3c4b2081b22::871c565ecb8fb33e4711c478a4f5226d",
+                                "collectedfrom": {
+                                    "@name": "European Union Open Data Portal",
+                                    "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers"
+                                },
+                                "dateofacceptance": "2018-01-01"
+                            },
+                            {
+                                "@objidentifier": "od_______166::39500e24e93347d8cdabfc487ff9916f",
+                                "publisher": "HAL CCSD",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Hydrodynamic evolution of plasma waveguides for soft-x-ray amplifiers"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Hyper Article en Ligne",
+                                    "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                                },
+                                "dateofacceptance": "2018-02-01"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Hyper Article en Ligne",
+                                        "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                                    },
+                                    {
+                                        "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                                        "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                                    },
+                                    {
+                                        "@name": "Hal-Diderot",
+                                        "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Hyper Article en Ligne",
+                                        "@id": "opendoar____::7e7757b1e12abcb736ab9a754ffb617a"
+                                    },
+                                    {
+                                        "@name": "M\u00e9moires en Sciences de l'Information et de la Communication",
+                                        "@id": "opendoar____::1534b76d325a8f591b52d302e7181331"
+                                    },
+                                    {
+                                        "@name": "Hal-Diderot",
+                                        "@id": "opendoar____::18bb68e2b38e4a8ce7cf4f6b2625768c"
+                                    }
+                                ],
+                                "dateofacceptance": "2018-02-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": [
+                                    {
+                                        "@classid": "doi",
+                                        "@classname": "Digital Object Identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@trust": "0.9",
+                                        "#text": "10.1103/physreve.97.023203"
+                                    },
+                                    {
+                                        "@classid": "hal",
+                                        "@classname": "HAL /  Hyper Article en Ligne identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@trust": "0.9",
+                                        "#text": "hal-01774109"
+                                    }
+                                ],
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://hal-ensta-paris.archives-ouvertes.fr//hal-01774109"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "CLOSED",
+                                    "@classname": "Closed Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "dateofacceptance": "2018-02-13",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1103/physreve.97.023203"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.1103/physreve.97.023203"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://link.aps.org/licenses/aps-default-license",
+                                "webresource": {
+                                    "url": "https://doi.org/10.1103/physreve.97.023203"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]

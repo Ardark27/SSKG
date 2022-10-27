@@ -1,0 +1,1148 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_________::7567a2ae72a7386296fda83bfe532a1e",
+            "dri:dateOfCollection": "2022-07-13T22:50:20Z",
+            "dri:dateOfTransformation": null
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        }
+                    ],
+                    "originalId": [
+                        "10.1063/1.3205470",
+                        "50|doiboost____::7567a2ae72a7386296fda83bfe532a1e",
+                        "2025133377"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1063/1.3205470"
+                    },
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Plasmonic light enhancement in the near-field of metallic nanospheroids for application in intermediate band solar cells"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Plasmonic light enhancement in the near-field of metallic nanospheroids for application in intermediate band solar cells"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "2",
+                            "@orcid": "0000-0002-8357-6413",
+                            "@URL": "https://academic.microsoft.com/#/detail/2610877566",
+                            "#text": "Antonio Luque"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/1997411599",
+                            "#text": "Ignacio Tob\u00edas"
+                        },
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2128784743",
+                            "#text": "Manuel J. Mendes"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2133201712",
+                            "@orcid": "0000-0002-8841-7091",
+                            "#text": "Antonio Mart\u00ed"
+                        }
+                    ],
+                    "dateofacceptance": "2009-08-17",
+                    "description": "In order to enhance infrared light absorption in sub-bandgap transitions in an intermediate band solar cell, the scattered near-field potential from uncoated and coated metallic nanoparticles with a spheroidal shape is calculated with the electrostatic model. The absorption enhancement produced at the surface plasmon frequency of the nanoparticles can be of several orders of magnitude in some cases.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Physics and Astronomy (miscellaneous)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Plasmon"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Absorption (electromagnetic radiation)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Infrared"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Materials science"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Optoelectronics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.44703346",
+                            "#text": "business.industry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.44703346",
+                            "#text": "business"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Band gap"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Orders of magnitude (temperature)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Plasmonic solar cell"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Solar cell"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.51430696",
+                            "#text": "law.invention"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.51430696",
+                            "#text": "law"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Surface plasmon"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "02 engineering and technology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0210 nano-technology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "021001 nanoscience & nanotechnology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010302 applied physics"
+                        },
+                        {
+                            "@classid": "arxiv",
+                            "@classname": "arXiv",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.8055",
+                            "#text": "Physics::Optics"
+                        },
+                        {
+                            "@classid": "mesh",
+                            "@classname": "Medical Subject Headings",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.72",
+                            "#text": "food and beverages"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2009-08-18"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2009-08-17"
+                        }
+                    ],
+                    "publisher": "AIP Publishing",
+                    "source": [
+                        "Crossref",
+                        null
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "0001",
+                        "@classname": "Article",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                    },
+                    "journal": {
+                        "@issn": "0003-6951",
+                        "@eissn": "1077-3118",
+                        "@sp": "071105",
+                        "@vol": "95",
+                        "#text": "Applied Physics Letters"
+                    },
+                    "context": [
+                        {
+                            "@id": "enermaps",
+                            "@label": "Energy Research",
+                            "@type": "community",
+                            "category": {
+                                "@id": "enermaps::projects",
+                                "@label": "Energy Research Projects",
+                                "concept": {
+                                    "@id": "enermaps::projects::1402",
+                                    "@label": "IBPOWER"
+                                }
+                            }
+                        },
+                        {
+                            "@id": "FCT",
+                            "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "FCT::PIDDAC",
+                                "@label": "PIDDAC"
+                            }
+                        },
+                        {
+                            "@id": "EC",
+                            "@label": "European Commission",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "EC::FP7",
+                                "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                "concept": [
+                                    {
+                                        "@id": "EC::FP7::SP1",
+                                        "@label": "SP1-Cooperation"
+                                    },
+                                    {
+                                        "@id": "EC::FP7::SP1::ENERGY",
+                                        "@label": "Energy"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": "null",
+                        "provenanceaction": {
+                            "@classid": "sysimport:actionset",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.72",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "fct_________::37402d9213d134dbfa7afa02ec260609"
+                                },
+                                "acronym": "SFRH/BD/21669/2005",
+                                "title": "APPLIED PHYSICS PHD PROGRAM",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "fct_________::FCT",
+                                        "@shortname": "FCT",
+                                        "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                        "@jurisdiction": "PT"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "PIDDAC",
+                                        "#text": "fct_________::FCT::PIDDAC"
+                                    }
+                                },
+                                "code": "SFRH/BD/21669/2005"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.897",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::76fecbe822e067cd1d7c35ef998553fb"
+                                },
+                                "acronym": "IBPOWER",
+                                "title": "Intermediate Band Materials and Solar Cells for Photovoltaics with High Efficiency and Reduced Cost",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP1",
+                                        "#text": "ec__________::EC::FP7::SP1"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "ENERGY",
+                                        "#text": "ec__________::EC::FP7::SP1::ENERGY"
+                                    }
+                                },
+                                "code": "211640",
+                                "contracttype": {
+                                    "@classid": "CP",
+                                    "@classname": "Collaborative project",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                }
+                            }
+                        ]
+                    },
+                    "children": {
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Applied Physics Letters",
+                                    "@id": "issn___print::ce667f5f304b9163761b3e7c84e35903"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1063/1.3205470"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/10413/1/INVE_MEM_2009_93454.pdf"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                "hostedby": {
+                                    "@name": "Applied Physics Letters",
+                                    "@id": "issn___print::ce667f5f304b9163761b3e7c84e35903"
+                                },
+                                "dateofacceptance": "2009-08-17",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1063/1.3205470"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://doi.org/10.1063/1.3205470"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "dedup_wf_001::d128fae51dcf3f95d1c144a5b5a22f5b",
+            "dri:dateOfCollection": "2022-03-15T08:55:25.186Z",
+            "dri:dateOfTransformation": "2022-0"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Tesis Doctorals en Xarxa",
+                            "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                        },
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        }
+                    ],
+                    "originalId": [
+                        "50|RECOLECTA___::43f580bc082ba5e9259569d7f4a18ad4",
+                        "oai:oa.upm.es:11117",
+                        "50|od_______296::d128fae51dcf3f95d1c144a5b5a22f5b",
+                        "oai:www.tdx.cat:10803/452260",
+                        "50|od______1033::43f580bc082ba5e9259569d7f4a18ad4"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Desarrollo de estructuras nanofotonicas de campo cercano para intensificacion localizada de luz en celulas solares de banda intermedia - Near-field nanophotonic structures for localized light enhancement in intermediate band solar cells"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": {
+                        "@rank": "1",
+                        "@name": "Manuel Joao",
+                        "@surname": "Moura Dias Mendes",
+                        "#text": "Moura Dias Mendes, Manuel Joao de"
+                    },
+                    "contributor": [
+                        "Tob\u00edas Galicia, Ignacio",
+                        "Luque L\u00f3pez, Antonio"
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2012-01-01",
+                    "description": "This doctoral thesis explores some of the possibilities that near-field optics can bring to photovoltaics, and in particular to quantum-dot intermediate band solar cells (QD-IBSCs). Our main focus is the analytical optimization of the electric field distribution produced in the vicinity of single scattering particles, in order to produce the highest possible absorption enhancement in the photovoltaic medium in their surroundings. Near-field scattering structures have also been fabricated in laboratory, allowing the application of the previously studied theoretical concepts to real devices. We start by looking into the electrostatic scattering regime, which is only applicable to sub-wavelength sized particles. In this regime it was found that metallic nano-spheroids can produce absorption enhancements of about two orders of magnitude on the material in their vicinity, due to their strong plasmonic resonance. The frequency of such resonance can be tuned with the shape of the particles, allowing us to match it with the optimal transition energies of the intermediate band material. Since these metallic nanoparticles (MNPs) are to be inserted inside the cell photovoltaic medium, they should be coated by a thin insulating layer to prevent electron-hole recombination at their surface. This analysis is then generalized, using an analytical separation-of-variables method implemented in Mathematica7.0, to compute scattering by spheroids of any size and material. This code allowed the study of the scattering properties of wavelengthsized particles (mesoscopic regime), and it was verified that in this regime dielectric spheroids perform better than metallic. The light intensity scattered from such dielectric spheroids can have more than two orders of magnitude than the incident intensity, and the focal region in front of the particle can be shaped in several ways by changing the particle geometry and/or material. Experimental work was also performed in this PhD to implement in practice the concepts studied in the analysis of sub-wavelength MNPs. A wet-coating method was developed to self-assemble regular arrays of colloidal MNPs on the surface of several materials, such as silicon wafers, amorphous silicon films, gallium arsenide and glass. A series of thermal and chemical tests have been performed showing what treatments the nanoparticles can withstand for their embedment in a photovoltaic medium. MNPs arrays are then inserted in an amorphous silicon medium to study the effect of their plasmonic near-field enhancement on the absorption spectrum of the material. The self-assembled arrays of MNPs constructed in these experiments inspired a new strategy for fabricating IBSCs using colloidal quantum dots (CQDs). Such CQDs can be deposited in self-assembled monolayers, using procedures similar to those developed for the patterning of colloidal MNPs. The use of CQDs to form the intermediate band presents several important practical and physical advantages relative to the conventional dots epitaxially grown by the Stranski-Krastanov method. Besides, this provides a fast and inexpensive method for patterning binary arrays of QDs and MNPs, envisioned in the theoretical part of this thesis, in which the MNPs act as antennas focusing the light in the QDs and therefore boosting their absorption",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Telecomunicaciones"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Electr\u00f3nica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "F\u00edsica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Telecomunicaciones"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Electr\u00f3nica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "F\u00edsica"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)",
+                    "source": [
+                        "instname:Universidad Polit\u00e9cnica de Madrid",
+                        "reponame:Archivo Digital UPM"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": [
+                        {
+                            "@id": "enermaps",
+                            "@label": "Energy Research",
+                            "@type": "community",
+                            "category": {
+                                "@id": "enermaps::projects",
+                                "@label": "Energy Research Projects",
+                                "concept": {
+                                    "@id": "enermaps::projects::1402",
+                                    "@label": "IBPOWER"
+                                }
+                            }
+                        },
+                        {
+                            "@id": "FCT",
+                            "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "FCT::PIDDAC",
+                                "@label": "PIDDAC"
+                            }
+                        },
+                        {
+                            "@id": "EC",
+                            "@label": "European Commission",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "EC::FP7",
+                                "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                "concept": [
+                                    {
+                                        "@id": "EC::FP7::SP1",
+                                        "@label": "SP1-Cooperation"
+                                    },
+                                    {
+                                        "@id": "EC::FP7::SP1::ENERGY",
+                                        "@label": "Energy"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_similarities_standard",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "IsAmongTopNSimilarDocuments",
+                                    "@scheme": "dnet:result_result_relations",
+                                    "@type": "publication",
+                                    "#text": "od______1437::cbdda76b33eff790571e0533865e9e6e"
+                                },
+                                "dateofacceptance": "2012-01-01",
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10362/48651"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Near-field nanophotonic structures for localized light enhancement in intermediate band solar cells"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Reposit\u00f3rio da Universidade Nova de Lisboa",
+                                    "@id": "opendoar____::a8f8f60264024dca151f164729b76c0b"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.897",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::76fecbe822e067cd1d7c35ef998553fb"
+                                },
+                                "acronym": "IBPOWER",
+                                "title": "Intermediate Band Materials and Solar Cells for Photovoltaics with High Efficiency and Reduced Cost",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP1",
+                                        "#text": "ec__________::EC::FP7::SP1"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "ENERGY",
+                                        "#text": "ec__________::EC::FP7::SP1::ENERGY"
+                                    }
+                                },
+                                "code": "211640",
+                                "contracttype": {
+                                    "@classid": "CP",
+                                    "@classname": "Collaborative project",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.72",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "fct_________::37402d9213d134dbfa7afa02ec260609"
+                                },
+                                "acronym": "SFRH/BD/21669/2005",
+                                "title": "APPLIED PHYSICS PHD PROGRAM",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "fct_________::FCT",
+                                        "@shortname": "FCT",
+                                        "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                        "@jurisdiction": "PT"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "PIDDAC",
+                                        "#text": "fct_________::FCT::PIDDAC"
+                                    }
+                                },
+                                "code": "SFRH/BD/21669/2005"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od_______296::d128fae51dcf3f95d1c144a5b5a22f5b",
+                                "collectedfrom": {
+                                    "@name": "Tesis Doctorals en Xarxa",
+                                    "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Desarrollo de estructuras nanofotonicas de campo cercano para intensificacion localizada de luz en celulas solares de banda intermedia - Near-field nanophotonic structures for localized light enhancement in intermediate band solar cells"
+                                },
+                                "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)"
+                            },
+                            {
+                                "@objidentifier": "RECOLECTA___::43f580bc082ba5e9259569d7f4a18ad4",
+                                "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "dateofacceptance": "2012-01-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "Desarrollo de estructuras nanofotonicas de campo cercano para intensificacion localizada de luz en celulas solares de banda intermedia - Near-field nanophotonic structures for localized light enhancement in intermediate band solar cells"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od______1033::43f580bc082ba5e9259569d7f4a18ad4",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Desarrollo de estructuras nanofotonicas de campo cercano para intensificacion localizada de luz en celulas solares de banda intermedia - Near-field nanophotonic structures for localized light enhancement in intermediate band solar cells"
+                                },
+                                "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)",
+                                "dateofacceptance": "2012-01-01",
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Tesis Doctorals en Xarxa",
+                                    "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                                },
+                                "hostedby": {
+                                    "@name": "Tesis Doctorals en Xarxa",
+                                    "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                                },
+                                "instancetype": {
+                                    "@classid": "0006",
+                                    "@classname": "Doctoral thesis",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://hdl.handle.net/10803/452260"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "dateofacceptance": "2012-01-01",
+                                "instancetype": {
+                                    "@classid": "0006",
+                                    "@classname": "Doctoral thesis",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/11117/"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "extraInfo": {
+                    "@name": "result reference list",
+                    "@typology": "reference list",
+                    "@provenance": "iis::document_referencedDocuments",
+                    "@trust": "0.9",
+                    "references": {
+                        "reference": {
+                            "@position": "1",
+                            "rawText": "BACKGROUND ................................................................................................................... 1 100. Sheu, J.T., et al., Selective deposition of gold nanoparticles on SiO2/Si nanowire. Microelectronic Engineering, 2005. 78-79: p. 294-299."
+                        }
+                    }
+                }
+            }
+        }
+    }
+]

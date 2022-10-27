@@ -1,0 +1,1702 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "doi_dedup___::439eba19d17fb5932a42800e03cffbad",
+        "dri:dateOfCollection": "2022-08-02T02:12:25Z",
+        "dri:dateOfTransformation": null
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    {
+                        "@name": "UnpayWall",
+                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                    },
+                    {
+                        "@name": "ORCID",
+                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                    },
+                    {
+                        "@name": "Microsoft Academic Graph",
+                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                    },
+                    {
+                        "@name": "Reposit\u00f3rio Institucional da Universidade Cat\u00f3lica Portuguesa",
+                        "@id": "opendoar____::7b7a53e239400a13bd6be6c91c4f6c4e"
+                    },
+                    {
+                        "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                        "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                    },
+                    {
+                        "@name": "PubMed Central",
+                        "@id": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357"
+                    }
+                ],
+                "originalId": [
+                    "S0963996907001251",
+                    "10.1016/j.foodres.2007.07.005",
+                    "50|doiboost____::439eba19d17fb5932a42800e03cffbad",
+                    "2081202706",
+                    "50|od______2020::ac01e183b029a5ef5b95b984a2d6b3c9",
+                    "oai:repositorio.ucp.pt:10400.14/2824",
+                    "50|od______3056::ac01e183b029a5ef5b95b984a2d6b3c9",
+                    "50|od_______267::8bd4b6c766c5a21c17d580fc1faf8679",
+                    "oai:pubmedcentral.nih.gov:7126817"
+                ],
+                "pid": [
+                    {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1016/j.foodres.2007.07.005"
+                    },
+                    {
+                        "@classid": "handle",
+                        "@classname": "Handle",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "10400.14/2824"
+                    },
+                    {
+                        "@classid": "pmc",
+                        "@classname": "PubMed Central ID",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "PMC7126817"
+                    }
+                ],
+                "measure": [
+                    {
+                        "@id": "influence",
+                        "@score": "2.99547191403e-08",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity_alt",
+                        "@score": "39.3981194347",
+                        "@class": "B"
+                    },
+                    {
+                        "@id": "popularity",
+                        "@score": "1.8931493385e-07",
+                        "@class": "B"
+                    },
+                    {
+                        "@id": "influence_alt",
+                        "@score": "332.0",
+                        "@class": "B"
+                    },
+                    {
+                        "@id": "impulse",
+                        "@score": "27.0",
+                        "@class": "C"
+                    }
+                ],
+                "title": [
+                    {
+                        "@classid": "alternative title",
+                        "@classname": "alternative title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Bovine whey proteins \u2013 Overview on their main biological properties"
+                    },
+                    {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Bovine whey proteins \u2013 Overview on their main biological properties"
+                    }
+                ],
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": [
+                    {
+                        "@rank": "3",
+                        "@URL": "https://academic.microsoft.com/#/detail/3207626451",
+                        "#text": "Ana M. P. Gomes"
+                    },
+                    {
+                        "@rank": "2",
+                        "@URL": "https://academic.microsoft.com/#/detail/2157843397",
+                        "#text": "Cl\u00e1udia I. Pereira"
+                    },
+                    {
+                        "@rank": "5",
+                        "@URL": "https://academic.microsoft.com/#/detail/401772526",
+                        "#text": "F. Xavier Malcata"
+                    },
+                    {
+                        "@rank": "1",
+                        "@orcid_pending": "0000-0001-6596-1927",
+                        "@URL": "https://academic.microsoft.com/#/detail/2126032131",
+                        "#text": "Ana Raquel Madureira"
+                    },
+                    {
+                        "@rank": "4",
+                        "@orcid_pending": "0000-0002-0760-3184",
+                        "@URL": "https://academic.microsoft.com/#/detail/2137076333",
+                        "#text": "Maria Manuela Pintado"
+                    }
+                ],
+                "contributor": "Veritati - Reposit\u00f3rio Institucional da Universidade Cat\u00f3lica Portuguesa",
+                "country": {
+                    "@classid": "PT",
+                    "@classname": "Portugal",
+                    "@schemeid": "dnet:countries",
+                    "@schemename": "dnet:countries"
+                },
+                "dateofacceptance": "2007-01-01",
+                "description": "Whey, a liquid by-product, is widely accepted to contain many valuable constituents. These include especially proteins that possess important nutritional and biological properties \u2013 particularly with regard to promotion of health, as well as prevention of diseases and health conditions. Antimicrobial and antiviral actions, immune system stimulation, anticarcinogenic activity and other metabolic features have indeed been associated with such whey proteins, as \u03b1-lactalbumin, \u03b2-lactoglobulin, lactoferrin, lactoperoxidase, and bovine serum albumin. The most important advances reported to date pertaining to biological properties of whey proteins are reviewed in this communication.",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Food Science"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Biological property"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Functional food"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Antimicrobial"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Immune system"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Bovine serum albumin"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.45192254",
+                        "#text": "biology.protein"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.45192254",
+                        "#text": "biology"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Lactoferrin"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Biochemistry"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Whey protein"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Lactoperoxidase"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "03 medical and health sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "04 agricultural and veterinary sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0404 agricultural biotechnology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0303 health sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "030304 developmental biology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "040401 food science"
+                    },
+                    {
+                        "@classid": "mesh",
+                        "@classname": "Medical Subject Headings",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "iis::document_classes",
+                        "@provenanceaction": "iis",
+                        "@trust": "0.8829",
+                        "#text": "food and beverages"
+                    },
+                    {
+                        "@classid": "mesh",
+                        "@classname": "Medical Subject Headings",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "iis::document_classes",
+                        "@provenanceaction": "iis",
+                        "@trust": "0.7542",
+                        "#text": "animal structures"
+                    },
+                    {
+                        "@classid": "mesh",
+                        "@classname": "Medical Subject Headings",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "iis::document_classes",
+                        "@provenanceaction": "iis",
+                        "@trust": "0.7542",
+                        "#text": "fluids and secretions"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Bioactive protein"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Functional food"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Health benefits"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Bioactive protein"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Functional food"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Health benefits"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Article"
+                    }
+                ],
+                "language": {
+                    "@classid": "und",
+                    "@classname": "Undetermined",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                    {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2007-08-04"
+                    },
+                    {
+                        "@classid": "published-print",
+                        "@classname": "published-print",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2007-12-01"
+                    },
+                    {
+                        "@classid": "available",
+                        "@classname": "available",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "2010-10-11"
+                    },
+                    {
+                        "@classid": "Accepted",
+                        "@classname": "Accepted",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "2007-01-01"
+                    },
+                    {
+                        "@classid": "issued",
+                        "@classname": "issued",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "2007-01-01"
+                    }
+                ],
+                "publisher": "Elsevier BV",
+                "source": [
+                    "Crossref",
+                    null,
+                    "instname:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal (RCAAP)",
+                    "instacron:RCAAP",
+                    "reponame:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal",
+                    "Food Research International (Ottawa, Ont.)"
+                ],
+                "format": "application/pdf",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "UNKNOWN",
+                    "@schemeid": "dnet:dataCite_resource",
+                    "@schemename": "dnet:dataCite_resource"
+                },
+                "journal": {
+                    "@issn": "0963-9969",
+                    "@ep": "1211",
+                    "@sp": "1197",
+                    "@vol": "40",
+                    "#text": "Food Research International"
+                },
+                "context": {
+                    "@id": "FCT",
+                    "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "FCT::POCI-2010",
+                        "@label": "POCI-2010"
+                    }
+                },
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": [
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.7731",
+                            "@inferenceprovenance": "iis::document_affiliations",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "pending_org_::76b52d179a0a4ded217f5eaa70fcbf86"
+                            },
+                            "legalname": "Concentra",
+                            "country": {
+                                "@classid": "UNKNOWN",
+                                "@classname": "Unknown",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalshortname": "Concentra"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.7731",
+                            "@inferenceprovenance": "iis::document_affiliations",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::239bb304dbe5f64b2491bfc30ed1600b"
+                            },
+                            "legalname": "Concentris (Germany)",
+                            "legalshortname": "Concentris (Germany)",
+                            "country": {
+                                "@classid": "DE",
+                                "@classname": "Germany",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.72",
+                            "@inferenceprovenance": "iis::document_referencedProjects",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "fct_________::aa01f2994094098f450b951fd2091ecc"
+                            },
+                            "title": "MAT\u00c9RIA DO PROJECTO. IDEAIS PURISTAS E RAZ\u00c3O T\u00c9CNICA NA ARQUITECTURA CONTEMPOR\u00c2NEA - TEOR\u00cdA Y PR\u00c1CTICA DEL PROYECTO",
+                            "acronym": "SFRH/BD/18000/2004",
+                            "code": "SFRH/BD/18000/2004",
+                            "funding": {
+                                "funder": {
+                                    "@id": "fct_________::FCT",
+                                    "@shortname": "FCT",
+                                    "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                    "@jurisdiction": "PT"
+                                },
+                                "funding_level_0": {
+                                    "@name": "POCI-2010",
+                                    "#text": "fct_________::FCT::POCI-2010"
+                                }
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:instrepo",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::ab4ac74c35fa5dada770cf08e5110fab"
+                            },
+                            "legalname": "Universidade Cat\u00f3lica Portuguesa",
+                            "country": {
+                                "@classid": "PT",
+                                "@classname": "Portugal",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalshortname": "Universidade Cat\u00f3lica Portuguesa"
+                        }
+                    ]
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "pmc_________::45590af67eaac2aa49d45a8bebff67be",
+                            "dateofacceptance": "2007-08-01",
+                            "collectedfrom": {
+                                "@name": "PubMed Central",
+                                "@id": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357"
+                            },
+                            "pid": {
+                                "@classid": "pmc",
+                                "@classname": "PubMed Central ID",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "PMC7126817"
+                            },
+                            "publisher": "Elsevier Ltd.",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Bovine whey proteins \u2013 Overview on their main biological properties"
+                            }
+                        },
+                        {
+                            "@objidentifier": "od______2020::ac01e183b029a5ef5b95b984a2d6b3c9",
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10400.14/2824"
+                            },
+                            "dateofacceptance": "2007-01-01",
+                            "publisher": "Elsevier",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Bovine whey proteins - overview on their main biological properties"
+                            },
+                            "collectedfrom": {
+                                "@name": "Reposit\u00f3rio Institucional da Universidade Cat\u00f3lica Portuguesa",
+                                "@id": "opendoar____::7b7a53e239400a13bd6be6c91c4f6c4e"
+                            }
+                        },
+                        {
+                            "@objidentifier": "doi_________::439eba19d17fb5932a42800e03cffbad",
+                            "dateofacceptance": "2007-12-01",
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1016/j.foodres.2007.07.005"
+                            },
+                            "title": {
+                                "@classid": "alternative title",
+                                "@classname": "alternative title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "Bovine whey proteins \u2013 Overview on their main biological properties"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                {
+                                    "@name": "ORCID",
+                                    "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                },
+                                {
+                                    "@name": "Microsoft Academic Graph",
+                                    "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                }
+                            ],
+                            "publisher": "Elsevier BV"
+                        },
+                        {
+                            "@objidentifier": "od______3056::ac01e183b029a5ef5b95b984a2d6b3c9",
+                            "collectedfrom": {
+                                "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                                "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                            },
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10400.14/2824"
+                            },
+                            "dateofacceptance": "2007-01-01",
+                            "publisher": "Elsevier",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Bovine whey proteins - overview on their main biological properties"
+                            }
+                        }
+                    ],
+                    "instance": [
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Reposit\u00f3rio Institucional da Universidade Cat\u00f3lica Portuguesa",
+                                "@id": "opendoar____::7b7a53e239400a13bd6be6c91c4f6c4e"
+                            },
+                            "hostedby": {
+                                "@name": "Reposit\u00f3rio Institucional da Universidade Cat\u00f3lica Portuguesa",
+                                "@id": "opendoar____::7b7a53e239400a13bd6be6c91c4f6c4e"
+                            },
+                            "dateofacceptance": "2007-01-01",
+                            "instancetype": {
+                                "@classid": "0038",
+                                "@classname": "Other literature type",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10400.14/2824"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://hdl.handle.net/10400.14/2824"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                }
+                            ],
+                            "hostedby": {
+                                "@name": "Food Research International",
+                                "@id": "issn___print::3ea5d805fab4227950b46c63e17da71f"
+                            },
+                            "dateofacceptance": "2007-12-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1016/j.foodres.2007.07.005"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "https://www.elsevier.com/tdm/userlicense/1.0/",
+                            "webresource": {
+                                "url": "https://doi.org/10.1016/j.foodres.2007.07.005"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "PubMed Central",
+                                "@id": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357"
+                            },
+                            "hostedby": {
+                                "@name": "Food Research International",
+                                "@id": "issn___print::3ea5d805fab4227950b46c63e17da71f"
+                            },
+                            "dateofacceptance": "2007-08-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "pmc",
+                                "@classname": "PubMed Central ID",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "PMC7126817"
+                            },
+                            "alternateidentifier": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10.1016/j.foodres.2007.07.005"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "http://europepmc.org/articles/PMC7126817"
+                            }
+                        }
+                    ]
+                }
+            },
+            "extraInfo": {
+                "@name": "result reference list",
+                "@typology": "reference list",
+                "@provenance": "iis::document_referencedDocuments",
+                "@trust": "0.9",
+                "references": {
+                    "reference": [
+                        {
+                            "@position": "1",
+                            "rawText": "Agin, D., Gallagher, D., Wang, J., Heymsfield, S. B., Pierson, R. N., & Kottler, D. P. (2001). Effect of whey protein and resistant exercise of body cell mass, muscle strength and quality of life in women with HIV. AIDS, 15, 2431-2440."
+                        },
+                        {
+                            "@position": "2",
+                            "rawText": "Agner, K. (1941). Verdoperoxidase, a ferment isolated from leucocytes. Acta Physiologica Scandinavica, 2, 5-62."
+                        },
+                        {
+                            "@position": "3",
+                            "rawText": "al-Nabulsi, A. A., & Holley, R. A. (2005). Effect of bovine lactoferrin against Carnobacterium viridans. Food Microbiology, 22, 179-187."
+                        },
+                        {
+                            "@position": "4",
+                            "rawText": "Ambruso, D. R., & Johnson, R. B. (1981). Lactoferrin enhances hydroxyl radical production by human neutrophils, neutrophil particulate fractions, and an enzymatic generating system. Journal of Clinical Investigation, 67, 352-360.",
+                            "id": {
+                                "@value": "pmid________::ec45b330a0a794e949fb2a1248a22b66",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6592195"
+                            }
+                        },
+                        {
+                            "@position": "5",
+                            "rawText": "Appelmelk, B. J., An, Y.-Q., Geerst, M., Thijs, B. G., de Boer, H. A., McClaren, D. M., et al. (1994). Lactoferrin is a lipid A-binding protein. Infection and Immunity, 62, 2628-2632."
+                        },
+                        {
+                            "@position": "6",
+                            "rawText": "Badger, T. M., Ronis, M. J. J., & Hakkak, R. (2001). Developmental effects and health aspects of soy protein isolate, casein and whey in male and female rats. International Journal of Toxicology, 20, 165-174."
+                        },
+                        {
+                            "@position": "7",
+                            "rawText": "Barta, O., Barta, V. D., Crisman, M. V., & Akers, R. M. (1991). Inhibition of lymphocyte blastogenesis by whey. American Journal of Veterinary Research, 52, 247-253."
+                        },
+                        {
+                            "@position": "8",
+                            "rawText": "Beena, A., & Prasad, V. (1997). Effect of yoghurt and bifidus yoghurt fortified with skim milk powder, condensed whey and lactosehydrolysed condensed whey on serum cholesterol and triacylglycerol levels in rats. Journal of Dairy Research, 64, 453-457."
+                        },
+                        {
+                            "@position": "9",
+                            "rawText": "Berkhout, B., van Wamel, J. L., Beljaars, L., Meijer, D. K., Visser, S., & Floris, R. (2002). Characterization of the anti-HIV effects of native lactoferrin and other milk proteins and protein-derived peptides. Antiviral Research, 55, 341-355."
+                        },
+                        {
+                            "@position": "10",
+                            "rawText": "Bjorck, L. (1979). Antibacterial effect of the lactoperoxidase system on psychotrophic bacteria in milk. Journal of Dairy Research, 45, 109-118."
+                        },
+                        {
+                            "@position": "11",
+                            "rawText": "Bjorck, L., Rosen, C. G., Marshall, V., & Reiter, B. (1975). Antibacterial activity of the lactoperoxidase system in milk against pseudomonads and other gram-negative bacteria. Applied Microbiology, 30, 199-204.",
+                            "id": {
+                                "@value": "pmid________::5a66ace8dc7c32b7ed9f7559a588c7c0",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6874592"
+                            }
+                        },
+                        {
+                            "@position": "12",
+                            "rawText": "Bosselaers, I. M., Caessens, P. R., Van Boekel, M. S., & Alink, G. M. (1994). Differential effects of milk proteins, BSA and soy protein on 4NQO- or MNNG-induced SCEs in V79 cells. Food Chemistry and Toxicology, 32, 905-911."
+                        },
+                        {
+                            "@position": "13",
+                            "rawText": "Bounous, G. (2000). Whey protein concentrate (WPC) and glutathione modulation in cancer treatment. Anticancer Research, 20, 4785-4792."
+                        },
+                        {
+                            "@position": "14",
+                            "rawText": "Brew, K., Castellino, F. J., Vanaman, T. C., & Hill, R. L. (1970). The complete amino acid sequence of bovine a-lactalbumin. Journal of Biological Chemistry, 10, 4570-4582."
+                        },
+                        {
+                            "@position": "15",
+                            "rawText": "Brown, E. M. (1984). Interaction of b-lactoglobulin and a-lactalbumin with lipids: A review. Journal of Dairy Science, 67, 713-722."
+                        },
+                        {
+                            "@position": "16",
+                            "rawText": "Brown, J. R., & Shockley, P. (1982). Serum albumin: Structure and characterization of its ligand binding sites. In P. Jost & O. H. Griffith (Eds.), Lipid protein interactions. New York: Wiley."
+                        },
+                        {
+                            "@position": "17",
+                            "rawText": "Butler, J. E. (1971). Physicochemical and immunochemical studies on bovine IgA and glycoprotein-a. Biochimica et Biophysica Acta, 251, 435-449."
+                        },
+                        {
+                            "@position": "18",
+                            "rawText": "Butler, J. E. (1994). Passive immunity and immunoglobulin diversity. In Indigenous Antimicrobial Agents of Milk - Recent Developments. IDF Special Issue, 94044, 14-50."
+                        },
+                        {
+                            "@position": "19",
+                            "rawText": "Cho, Y., Batt, C. A., & Sawyer, L. (1994). Probing the retinol-binding site of bovine b-lactoglobulin. Journal of Biological Chemistry, 269, 11102-11107."
+                        },
+                        {
+                            "@position": "20",
+                            "rawText": "Choi, J. K., Ho, J., Curry, S., Qin, D., Bittman, R., & Hamilton, J. A. (2002). Interactions of very long-chain saturated fatty acids with serum albumin. Journal of Lipid Research, 43, 1000-1010."
+                        },
+                        {
+                            "@position": "21",
+                            "rawText": "Clare, D. A., Catignani, G. L., & Swaisgood, H. E. (2003). Biodefense properties of milk, the role of antimicrobial proteins and peptides. Current Pharmaceutical Design, 9, 1239-1255."
+                        },
+                        {
+                            "@position": "22",
+                            "rawText": "Cross, M. L., & Gill, H. S. (1999). Modulation of immune function by a modified bovine whey protein concentrate. Immunology and Cell Biology, 77, 345-350."
+                        },
+                        {
+                            "@position": "23",
+                            "rawText": "Dabur, R. S., Srivastava, D. N., & Kapoor, C. M. (1996). Effect of season, separation and heating temperatures on the residual thiocyanate levels in lactoperoxidase-preserved buffalo milk. Journal of Dairy Food Home Science, 15, 30-34."
+                        },
+                        {
+                            "@position": "24",
+                            "rawText": "Debbabi, H., Dubarry, M., Rautureau, M., & Tome, A. D. (1998). Bovine lactoferrin induces both mucosal and systemic immune response in mice. Journal of Dairy Research, 65, 283-293."
+                        },
+                        {
+                            "@position": "25",
+                            "rawText": "de Wit, J. N. (1989). Functional properties of whey proteins. In Developments of dairy chemistry. In P. F. Fox (Ed.). Functional milk proteins (Vol. 4). London: Applied Science."
+                        },
+                        {
+                            "@position": "26",
+                            "rawText": "de Wit, J. N. (1998). Nutritional and functional characteristics of whey proteins in food products. Journal of Dairy Science, 81, 597-602."
+                        },
+                        {
+                            "@position": "27",
+                            "rawText": "de Wit, J. N., & van Hooydonk, A. C. M. (1996). Structure, functions and applications of lactoperoxidase in natural antimicrobial systems. Netherlands Milk Dairy Journal, 50, 227-244.",
+                            "id": {
+                                "@value": "narcis______::a3c337575d5b280d2aee97dc4c7ba54f",
+                                "@type": "openaire",
+                                "@trustLevel": "0.638734"
+                            }
+                        },
+                        {
+                            "@position": "28",
+                            "rawText": "Dial, E. J., Hall, L. R., Serna, H., Romero, J. J., Fox, J. G., & Lichtenberg, L. M. (1998). Antibiotic properties of bovine lactoferrin in the host infected with Helycobacter pylori. Digestive Diseases Science, 43, 2750-2756."
+                        },
+                        {
+                            "@position": "29",
+                            "rawText": "Diarra, M. S., Petitclerc, D., Desche\u02c6nes, E\u00b4., Lessard, N., Grondin, G., Talbot, B. G., et al. (2003). Lactoferrin against Staphylococcus aureus mastitis. Lactoferrin alone or in combination with penicillin G on bovine polymorphonuclear function and mammary cells colonisation by Staphylococcus aureus. Veterinary Immunology and Immunopathology, 95, 33-42."
+                        },
+                        {
+                            "@position": "30",
+                            "rawText": "Dionysius, D. A., Grieve, P. A., & Milne, J. M. (1993). Forms of lactoferrin. Their effect on enterotoxigenic Escherichia coli. Journal of Dairy Science, 76, 2597-2606."
+                        },
+                        {
+                            "@position": "31",
+                            "rawText": "Di Ma\u00b4rio, F., Aragona, G., Dal Bo, N., Cavestro, G. M., Cavallaro, L., Iori, V., et al. (2003). Use of bovine lactoferrin for Helicobacter pylori eradication. Digestive and Liver Disease, 35, 706-710."
+                        },
+                        {
+                            "@position": "32",
+                            "rawText": "Dohler, J. R., & Nebermann, L. (2002). Bovine colostrum in oral treatment of enterogenic endotoxaemia in rats. Critical Care, 6, 536-539.",
+                            "id": {
+                                "@value": "pmid________::138fc871219b56badbbb1d2233f0388a",
+                                "@type": "openaire",
+                                "@trustLevel": "0.79475415"
+                            }
+                        },
+                        {
+                            "@position": "33",
+                            "rawText": "Doyle, M. E., & Mazzotta, A. S. (2000). Review of studies on the thermal resistance of salmonellae. Journal of Food Protection, 63, 779-795."
+                        },
+                        {
+                            "@position": "34",
+                            "rawText": "Drobni, P., Na\u00a8slund, J., & Evander, M. (2004). Lactoferrin inhibits human papillomavirus binding and uptake in vitro. Antiviral Research, 64, 63-68."
+                        },
+                        {
+                            "@position": "35",
+                            "rawText": "Early, E. M., Hardy, H., Forde, T., & Kane, M. (2001). Bactericidal effects of a whey protein concentrate with anti-Helyobacter activity. Journal of Applied Microbiology, 90, 741-748.",
+                            "id": {
+                                "@value": "od______1513::e9445d0a44bac39a93e6494f996cf7a1",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6195732"
+                            }
+                        },
+                        {
+                            "@position": "36",
+                            "rawText": "Eigel, W. N., Butler, J. E., Ernstrom, C. A., Farrell, H. M., Harwalkar, V. R., Jenness, R., et al. (1984). Nomenclature of proteins of cow's milk: Fifth revision. Journal of Dairy Science, 67, 1599-1631."
+                        },
+                        {
+                            "@position": "37",
+                            "rawText": "Ellison, R. T., & Giehl, T. J. (1991). Killing of Gram-negative bacteria by lactoferrin and lysozyme. Journal of Clinical Investigation, 88, 1080-1091.",
+                            "id": {
+                                "@value": "pmid________::e091bb027eca24c0274cf5f6ca0c17b1",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6584373"
+                            }
+                        },
+                        {
+                            "@position": "38",
+                            "rawText": "Evans, E. W. (1982). Uses of milk proteins in formulated foods. In B. J. F. Hudson (Ed.), Developments in Food Proteins. London: Applied Science."
+                        },
+                        {
+                            "@position": "39",
+                            "rawText": "Farrell, H. M., Bede, M. J., & Enyeart, J. A. (1987). Binding of pnitrophenyl phosphate and other aromatic compounds by b-LG. Journal of Dairy Science, 70, 252-258."
+                        },
+                        {
+                            "@position": "40",
+                            "rawText": "Fernaud, S., & Evans, R. W. (2003). Lactoferrin - a multifunctional protein with antimicrobial properties. Molecular Immunology, 40, 395-405."
+                        },
+                        {
+                            "@position": "41",
+                            "rawText": "Fox, P. F. (1989). The milk protein system. In Developments in Dairy Chemistry. In P. F. Fox (Ed.). Functional Milk Proteins (Vol. 4). London: Applied Science."
+                        },
+                        {
+                            "@position": "42",
+                            "rawText": "Freedman, D. J., Tacket, C. O., & Delehanty, A. (1998). Milk immunoglobulins with specific activity against purified colonisation factor antigens can protect against oral challenge with enterotoxigenic Escherichia coli. Journal of Infectious Diseases, 177, 662-667."
+                        },
+                        {
+                            "@position": "43",
+                            "rawText": "Futterman, S., & Heller, J. (1972). The enhancement of fluorescence and the decreased susceptibility to enzymatic oxidation of retinol complexed with bovine serum albumin, b-lactoglobulin and the retinolbinding protein of human plasma. Journal of Biological Chemistry, 247, 5168-5172."
+                        },
+                        {
+                            "@position": "44",
+                            "rawText": "Gahr, M., Speer, C. P., Damerau, B., & Sawatzki, G. (1991). Influence of lactoferrin on the function of human polymorphonuclear leukocytes and monocytes. Journal of Leucocyte Biology,49, 427-433."
+                        },
+                        {
+                            "@position": "45",
+                            "rawText": "Ganjam, L. S., Thornton, W. H., Marshall, R. T., & MacDonald, R. S. (1997). Antiproliferative effects of yoghurt fractions obtained by membrane dialysis on cultured mammalian intestinal cells. Journal of Dairy Science, 80, 2325-2339."
+                        },
+                        {
+                            "@position": "46",
+                            "rawText": "German, J. B., Dillard, C. J., & Walzem, R. L. (2000). US Whey products and dairy ingredients for health, a review. In Applications Monograph. Chicago, The American Dairy Products Institute Monograph, US Dairy Export Council."
+                        },
+                        {
+                            "@position": "47",
+                            "rawText": "Gill, H. S., & Cross, M. L. (2000). Anticancer properties of bovine milk. British Journal of Bovine Milk, 84, 161-165."
+                        },
+                        {
+                            "@position": "48",
+                            "rawText": "Gomez, H. F., Ochoa, T. J., Herrera-Insua, I., Carlin, L. G., & Cleary, T. G. (2002). Lactoferrin protects rabbits from Shigella flexneri-induced inflammatory enteritis. Infection and Immunity, 70, 7050-7053."
+                        },
+                        {
+                            "@position": "49",
+                            "rawText": "Grey, V., Mohammed, S. R., Smountas, A. A., Bahlool, R., & Lands, L. C. (2003). Improved glutathione status in young adult patients with cystic fibrosis supplemented with whey protein. Journal of Cystic Fibrosis, 2, 195-198.",
+                            "id": {
+                                "@value": "core_ac_uk__::678c74a3dd1662686d9cded1d72c22c1",
+                                "@type": "openaire",
+                                "@trustLevel": "0.79194355"
+                            }
+                        },
+                        {
+                            "@position": "50",
+                            "rawText": "Hakansson, A., Zhivotovski, B., Orrenius, S., Sabharwal, H., & Svanborg, C. (1995). Apoptosis induced by a human milk protein. Proceedings of the US National Academy of Sciences, 92, 8064-8068.",
+                            "id": {
+                                "@value": "pmid________::9d199f2da9aac7ea958b361d7c8c6adb",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6772911"
+                            }
+                        },
+                        {
+                            "@position": "51",
+                            "rawText": "Hakkak, R., Korourian, S., Shelnutt, S. R., Lensing, S., Ronis, M. J. J., & Badger, T. M. (2000). Diets containing whey proteins or soy protein isolate protect against 2,12-dimethylben(a)anthracene-induced mammary tumours in female rats. Cancer Epidemiology Biomarkers and Prevention, 9, 113-117."
+                        },
+                        {
+                            "@position": "52",
+                            "rawText": "Hall, W. L., Millward, D. J., Long, S. J., & Morgan, L. M. (2003). Casein and whey exert different effects on plasma amino acid profiles, gastrointestinal hormone secretion and appetite. British Journal of Nutrition, 89, 339-348."
+                        },
+                        {
+                            "@position": "53",
+                            "rawText": "Hara, K., Ikeda, M., Saito, S., Matsumoto, S., Numata, K., Kato, N., et al. (2002). Lactoferrin inhibits hepatitis B virus infection in cultured human hepatocytes. Hepatology Research, 24, 228-235."
+                        },
+                        {
+                            "@position": "54",
+                            "rawText": "Ha, E., & Zemel, M. B. (2003). Functional properties of whey, whey components, and essential amino acids: Mechanisms underlying health benefits for active people (review). Journal of Nutritional Biochemistry, 14, 251-258."
+                        },
+                        {
+                            "@position": "55",
+                            "rawText": "Heuvelink, A. E., Bleumink, B., van den Biggelaar, F. L. A. M., Te-Giffel, M. C., Beumer, R. R., & de Boer, E. (1998). Occurrence and survival of verocytotoxin-producing Escherichia coli O157 in raw cow's milk in The Netherlands. Journal of Food Protection,61, 1597-1601.",
+                            "id": {
+                                "@value": "narcis______::835e7c30624ce52c9e7a36aafa4c13c4",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6125611"
+                            }
+                        },
+                        {
+                            "@position": "56",
+                            "rawText": "Hoerr, R. A., & Bostwick, E. F. (2000). Bioactive proteins and probiotic bacteria: Modulators of nutritional health. Nutrition, 16, 711-713."
+                        },
+                        {
+                            "@position": "57",
+                            "rawText": "Huffman, L. M., & Harper, W. J. (1999). Maximizing the value of milk through separation technologies. Journal of Dairy Science, 82, 2238-2244."
+                        },
+                        {
+                            "@position": "58",
+                            "rawText": "Ikeda, M., Nozaki, A., Sugiyama, K., Tanaka, T., Naganuma, A., Tanaka, K., et al. (1998). Lactoferrin markedly inhibits hepatitis C virus infection in cultured human hepatocytes. Biochemical and Biophysical Research Communications, 245, 549-553."
+                        },
+                        {
+                            "@position": "59",
+                            "rawText": "Isawa, M., Kaito, M., & Ikoma, J. (2002). Lactoferrin inhibits heptatitis C virus in chronic hepatitis C patients with high viral loads and HVC genotype 1b. American Journal of Gastroenterology, 97, 766-767."
+                        },
+                        {
+                            "@position": "60",
+                            "rawText": "Ishii, K., Takamura, N., Shinohara, M., Wakui, N., Shin, H., Sumino, Y., et al. (2003). Long-term follow up of chronic hepatitis C patients treated with oral lactoferrin for 12 months. Hepatology Research, 25, 226-233."
+                        },
+                        {
+                            "@position": "61",
+                            "rawText": "Isoda, H., Kawasaki, Y., Tanimoto, M., Dosako, S., & Idota, T. (1999). Use of compounds containing or binding sialic acid to neutralize bacterial toxins. European Patent, 385, 118."
+                        },
+                        {
+                            "@position": "62",
+                            "rawText": "Joslin, R. S., Erickson, P. S., Santoro, H. M., Whitehouse, N. L., Schwab, C. G., & Rejman, J. J. (2002). Lactoferrin supplementation to dairy calves. Journal of Dairy Science, 85, 1237-1242."
+                        },
+                        {
+                            "@position": "63",
+                            "rawText": "Kajikawa, M., Ohta, T., Takase, M., Kawase, K., Shimamura, S., & Matsuda, I. (1994). Lactoferrin inhibits cholesterol accumulation in macrophages mediated by acetylated or oxidized low-density lipoproteins. Biochimica et Biophysica Acta, 1213, 82-90."
+                        },
+                        {
+                            "@position": "64",
+                            "rawText": "Kawasaki, Y., Isoda, K., Shinmoto, H., Tanimoto, M., Dosako, S., Idota, T., et al. (1993). Inhibition by j-casein glycomacropeptide and lactoferrin of influenza virus hemaglutination. Bioscience, Biotechnology and Biochemistry, 57, 1214-1215."
+                        },
+                        {
+                            "@position": "65",
+                            "rawText": "Kawasaki, Y., Isoda, H., Tanimoto, M., Dosako, S., Idota, T., & Ahiko, K. (1992). Inhibition by lactoferrin and j-casein glycomacropeptide of binding of cholera toxin to its receptor. Bioscience, Biotechnology and Biochemistry, 56, 195-198."
+                        },
+                        {
+                            "@position": "66",
+                            "rawText": "Kent, K. D., Harper, W. J., & Bomser, J. A. (2003). Effect of whey protein isolate on intracellular glutathione and oxidant-induced cell death in human prostate epithelial cells. Toxicology in Vitro, 17, 27-33."
+                        },
+                        {
+                            "@position": "67",
+                            "rawText": "Kinsella, J. E., Whitehead, D. M., Brady, J., & Bringe, N. A. (1989). Milk proteins, possible relationships of structure and function. In Developments in Dairy Chemistry. In P. F. Fox (Ed.). Functional Milk Proteins (Vol. 4). London: Applied Science."
+                        },
+                        {
+                            "@position": "68",
+                            "rawText": "Kobayashi, T., Ohmori, T., Yanai, M., Kawanishi, G., Yoshikai, Y., & Nomoto, K. (1991). Protective effect of orally administering immune milk on endogenous infection in X-irradiated mice. Agricultural and Biological Chemistry, 55, 2265-2272."
+                        },
+                        {
+                            "@position": "69",
+                            "rawText": "Korhonen, H. (1995). Whey as raw material for development of new products for human nutrition and health, a review. In Proceedings of NIF/NMR - seminar no. 252, Turku, Finland, 13-15, 1; NJF - report 102, pp. 207-219."
+                        },
+                        {
+                            "@position": "70",
+                            "rawText": "Korhonen, H., Marnila, P., & Gill, H. (2000). Milk immunoglobulins and complement factors: A review. British Journal of Nutrition, 84, S1-S7."
+                        },
+                        {
+                            "@position": "71",
+                            "rawText": "Korhonen, H., Syva\u00a8oja, E.-L., Ahola-Luttila, H., Sivela\u00a8, S., Kopola, S., Husu, J., et al. (1995). Bactericidal effect of bovine normal and immune serum, colostrum and milk against Helicobacter pylori. Journal of Applied Bacteriology, 78, 655-662."
+                        },
+                        {
+                            "@position": "72",
+                            "rawText": "Kosikowski, F. V. (1982). Whey and whey foods. In F. V. Kosikowski (Ed.), Cheese and Fermented Milk Foods (pp. 446-469). New York: Edwards Brothers."
+                        },
+                        {
+                            "@position": "73",
+                            "rawText": "Kruger, M. C., Poulsen, R. C., Schollum, L., Haggarty, N., Ram, S., & Palmano, K. (2006). A comparison between acidic and basic protein fractions from whey or milk for reduction of bone loss in the ovariectomised rat. International Dairy Journal, 16, 1149-1156.",
+                            "id": {
+                                "@value": "od______1064::9b556e483a8fa1a384d4aa2f3cd8a23a",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6783903"
+                            }
+                        },
+                        {
+                            "@position": "74",
+                            "rawText": "Kuhara, T., Iigo, M., Itoh, T., Ushida, Y., Sekine, K., Terada, N., et al. (2000). Orally administrated lactoferrin exerts and antimetastatic effect and enhances production of IL-8 in the intestinal ephitelium. Nutrition Cancer, 38, 192-199."
+                        },
+                        {
+                            "@position": "75",
+                            "rawText": "Laquerre, S., Argani, R., Anderson, D. B., Zucchini, S., Manservigi, R., & Glorioso, J. C. (1998). Heparan sulphate proteoglycan binding by herpes simplex virus type I glycoproteins B and C, which differ in their contributions to virus attachment, penetration, and cell-to-cell spread. Journal of Virology, 72, 6119-6130.",
+                            "id": {
+                                "@value": "pmid________::ea18f37a283a16adfc25f1b840264e10",
+                                "@type": "openaire",
+                                "@trustLevel": "0.65835154"
+                            }
+                        },
+                        {
+                            "@position": "76",
+                            "rawText": "Laursen, I., Briand, P., & Lykkesfeldt, A. E. (1990). Serum albumin as a modulator of the human breast cancer cell line MCF-7. Anticancer Research, 10, 343-352."
+                        },
+                        {
+                            "@position": "77",
+                            "rawText": "Lin, T. Y., Chu, C., & Chiu, C. H. (2005). Lactoferrin inhibits enterovirus 71 infection of human embryonal rhabdomysarcoma cells in vitro. Journal of Infectious Diseases, 186, 1161-1164."
+                        },
+                        {
+                            "@position": "78",
+                            "rawText": "Loimaranta, V., Laine, M., So\u00a8 derling, E., Vasara, E., Rokka, S., Marnila, P., et al. (1999). Effects of bovine immune- and non-immune whey preparations on the composition and pH response of human dental plaque. European Journal of Oral Science, 107, 244-250."
+                        },
+                        {
+                            "@position": "79",
+                            "rawText": "Lonnerdal, B., & Iyer, S. (1995). Lactoferrin, molecular structure and biological functions. Annual Reviews of Nutrition, 15, 93-110."
+                        },
+                        {
+                            "@position": "80",
+                            "rawText": "Lubashevsky, E., Krifucks, O., Paz, R., Brenner, J., Savransky, S., Trainin, Z., et al. (2004). Effect of bovine lactoferrin on a transmissible AIDS-like disease in mice. Comparative Immunology, Microbiology and Infectious Diseases, 27, 181-189."
+                        },
+                        {
+                            "@position": "81",
+                            "rawText": "Marchetti, M., Trybala, E., Superti, F., Johansson, M., & Bergstr o\u00a8m, T. (2004). Inhibition of herpes simplex virus infection by lactoferrin is dependent on interference with the virus binding to glycosaminoglycans. Virology, 318, 405-413.",
+                            "id": {
+                                "@value": "doi_________::3fc74d6b29d80e7e4161e233160af877",
+                                "@type": "openaire",
+                                "@trustLevel": "0.65299386"
+                            }
+                        },
+                        {
+                            "@position": "82",
+                            "rawText": "Markus, C. R., Olivier, B., & de Haan, E. H. (2002). Whey protein rich in a-lactalbumin increases the ratio of plasma tryptophan to the sum of the other large neutral amino acids and improves cognitive performance in stress-vulnerable subjects. American Journal of Clinical Nutrition, 75, 1051-1056."
+                        },
+                        {
+                            "@position": "83",
+                            "rawText": "Masuda, C., Wanibushi, H., Sekine, K., Yano, Y., Otani, S., Kishimoto, T., et al. (2000). Chemopreventive effect of bovine lactoferrin on Nbutyl-N-(4-hydroxybutyl)-nitrosamine-induced bladder carcinogenesis. Japan Journal of Cancer Research, 91, 582-588.",
+                            "id": {
+                                "@value": "pmid________::75e8f7bffb47dba6a2da9c2f7129df4e",
+                                "@type": "openaire",
+                                "@trustLevel": "0.67696923"
+                            }
+                        },
+                        {
+                            "@position": "84",
+                            "rawText": "McCormick, J. A., Markey, G. M., Morris, T. C., Auld, P. W., & Alexander, H. D. (1991). Lactoferrin-inducible monocyte cytotoxicity defective in esterase deficient monocytes. British Journal of Haematology, 77, 287-290."
+                        },
+                        {
+                            "@position": "85",
+                            "rawText": "MacIntosh, G. H., Regester, G. O., le Leu, R. K., Royle, P. J., & Smithers, G. W. (1995). Dairy proteins protect against dimethylhydrazineinduced intestinal cancers in rats. Journal of Nutrition, 125, 809-816."
+                        },
+                        {
+                            "@position": "86",
+                            "rawText": "Mercier, A., Gauthier, S. F., & Fliss, I. (2004). Immunomodulating effects of whey proteins and their enzymatic digests. International Dairy Journal, 14, 175-183."
+                        },
+                        {
+                            "@position": "87",
+                            "rawText": "Micke, P., Beeh, K. M., & Buhl, R. (2002). Effects of long-term supplementation with whey proteins on plasma GSH levels of HIVinfected patients. European Journal of Nutrition, 41, 12-18."
+                        },
+                        {
+                            "@position": "88",
+                            "rawText": "Micke, P., Beeh, K. M., Schlaak, J. F., & Buhl, R. (2001). Oral supplementation with whey proteins increases plasma GSH levels of HIV-infected patients. European Journal of Clinical Investigation, 31, 171-178."
+                        },
+                        {
+                            "@position": "89",
+                            "rawText": "Mitoma, M., Oho, T., Shimazaki, Y., & Koga, T. (2001). Inhibitory effect of bovine milk lactoferrin on the interaction between a streptococcal surface protein antigen and human salivary agglutinin. Journal of Biological Chemistry, 276, 18060-18065."
+                        },
+                        {
+                            "@position": "90",
+                            "rawText": "Mitra, A. K., Mahalanabis, D., Unicomb, L., Eechels, R., & Tzipori, S. (1995). Hyperimmune cow colostra reduces diarrhoea due to rotavirus, a double-blind, controlled clinical trial. Acta Paediatrica, 84, 996- 1001."
+                        },
+                        {
+                            "@position": "91",
+                            "rawText": "Moon, H. W., & Bunn, T. O. (1993). Vaccines for preventing enterotoxigenic Escherichia coli infections in farm animals. Vaccine, 11, 213-220.",
+                            "id": {
+                                "@value": "userclaim___::a3484db4d0370c54e1795a6913c844ab",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6872439"
+                            }
+                        },
+                        {
+                            "@position": "92",
+                            "rawText": "Mulvihill, D. M., & Donovan, M. (1987). Whey proteins and their thermal denaturation - a review. Irish Journal of Food Science and Technology, 11, 43-75."
+                        },
+                        {
+                            "@position": "93",
+                            "rawText": "Na, Y. J., Han, S. B., Kang, J. S., Yoon, Y. D., Park, S.-K., Kim, H. M., et al. (2004). Lactoferrin works as a new LPS-binding protein in inflammatory activation of macrophages. International Immunopharmacology, 4, 1187-1199."
+                        },
+                        {
+                            "@position": "94",
+                            "rawText": "Ng, T. B., Lam, T. L., Au, T. K., Ye, X. Y., & Wan, C. C. (2001). Inhibition of human immunodeficiency virus type 1 reverse transcriptase, protease and integrase by bovine milk proteins. Life Sciences, 69, 2217-2223."
+                        },
+                        {
+                            "@position": "95",
+                            "rawText": "Nishiya, K., & Horwitz, D. A. (1982). Contracting effects of lactoferrin on human lymphocyte and monocyte natural killer activity and antibodydependent cell-mediated cytotoxicity. Journal of Immunology, 129, 2519-2523."
+                        },
+                        {
+                            "@position": "96",
+                            "rawText": "Oevermann, A., Engels, M., Thomas, U., & Pellegrini, A. (2003). The antiviral activity of naturally occurring proteins and their peptide fragments after chemical modification. Antiviral Research, 59, 23-33."
+                        },
+                        {
+                            "@position": "97",
+                            "rawText": "Oho, T., Mitoma, M., & Koga, T. (2002). Functional domain of bovine milk lactoferrin, which inhibits the adherence of Streptococcus mutans cells to a salivary film. Infection and Immunity, 70, 5279-5282.",
+                            "id": {
+                                "@value": "pmid________::72bd594e6d5423c5a5d493c7ccb5ae03",
+                                "@type": "openaire",
+                                "@trustLevel": "0.64655375"
+                            }
+                        },
+                        {
+                            "@position": "98",
+                            "rawText": "Okhuysen, P. C., Chappell, C. L., Crabb, J., Valdez, L. M., Douglass, E., & DuPont, H. L. (1998). Prophylactic effect of bovine anti-Cryptosporidium hyperimmune colostra immunoglobulin in healthy volunteers challenged with Cryptosporidium parvum. Clinical Infectious Diseases, 26, 1324-1329."
+                        },
+                        {
+                            "@position": "99",
+                            "rawText": "O'Neil, T. E., & Kinsella, J. E. (1987). Binding of alkanone flavours to blactoglobulin, effects of conformational and chemical modification. Journal of Agriculture and Food Chemistry, 35, 770-774."
+                        },
+                        {
+                            "@position": "100",
+                            "rawText": "Oona, M., Ra\u00a8go\u00a8 , T., Maaroos, H.-I., Mikelsaar, M., Loivukene, K., Salminen, S., et al. (1997). Helicobacter pylori in children with abdominal complaints: Has immune bovine colostrum some influence on gastritis? Alpe Adria Microbiology Journal, 6, 49-57."
+                        },
+                        {
+                            "@position": "101",
+                            "rawText": "Ormrod, D. J., & Miller, T. E. (1991). The anti-inflammatory activity of a low molecular weight component derived from the milk of hyperimmunized cows. Agents and Actions, 32, 160-166."
+                        },
+                        {
+                            "@position": "102",
+                            "rawText": "Parodi, P. W. (1998). A role for milk proteins in cancer prevention. Australian Journal of Dairy Science, 53, 37-47."
+                        },
+                        {
+                            "@position": "103",
+                            "rawText": "Patocka, J., & Jelen, P. (1991). Calcium association with isolated whey proteins. Canadian Institute of Food Science and Technology Journal, 24, 218-224."
+                        },
+                        {
+                            "@position": "104",
+                            "rawText": "Payne, K. D., Davidson, P. M., Oliver, S. P., & Christen, G. I. (1990). Influence of bovine lactoferrin in the growth of Listeria monocytogenes. Journal of Food Protection, 53, 468-472."
+                        },
+                        {
+                            "@position": "105",
+                            "rawText": "Perez, M. D., & Calvo, M. (1995). Interaction of b-lactoglobulin with retinol and fatty acids and its role as a possible biological function for this protein. A review. Journal of Dairy Science, 78, 978-988."
+                        },
+                        {
+                            "@position": "106",
+                            "rawText": "Perez, M. D., Sanchez, L., Aranda, P., Ena, J. M., Oria, R., & Calvo, M. (1992). Effect of b-lactoglobulin on the activity of pregastric lipase. A possible role for this protein in ruminant milk. Biochemistry and Biophysics Acta, 1123, 151-155."
+                        },
+                        {
+                            "@position": "107",
+                            "rawText": "Perraudin, J. P. (1991). Proteines a` activite\u00b4s biologiques, lactoferrin et lactoperoxydase. Connaissances recemment acquises et technologies d'obtention. Le Lait, 71, 191-211.",
+                            "id": {
+                                "@value": "od_______166::445e97e45d5197257139f843fc5de631",
+                                "@type": "openaire",
+                                "@trustLevel": "0.65371"
+                            }
+                        },
+                        {
+                            "@position": "108",
+                            "rawText": "Petrides, P. E. (1998). Molecular genetics of peroxidase deficiency. Journal of Molecular Medicine, 76, 688-698."
+                        },
+                        {
+                            "@position": "109",
+                            "rawText": "Pintado, M. E., Macedo, A. C., & Malcata, F. X. (2001). Review: Technology, chemistry and microbiology of whey cheese. Food Science and Technology International, 7, 105-116.",
+                            "id": {
+                                "@value": "od______2020::1be5d82c7144c96aafda184badcbd0a0",
+                                "@type": "openaire",
+                                "@trustLevel": "0.7644323"
+                            }
+                        },
+                        {
+                            "@position": "110",
+                            "rawText": "Potjewijd, R. (1999). Lactoferrin, those extra benefits. The World of Ingredients, 58-59, March/April."
+                        },
+                        {
+                            "@position": "111",
+                            "rawText": "Poulsson, M., Hegg, P.-O., & Castberg, H. B. (1986). Heat-induced gelation of individual whey proteins. A dynamic rheological study. Journal of Food Science, 51, 87-90."
+                        },
+                        {
+                            "@position": "112",
+                            "rawText": "Pruitt, K. M., Kamau, D. N., Miller, K., Mansson-Rahemtulla, B., & Rahemtulla, F. (1990). Quantitative, standardised assays for determining the concentrations of bovine lactoperoxidase, human salivary peroxidase, and human myeloperoxidase. Analytical Biochemistry, 191, 278-286."
+                        },
+                        {
+                            "@position": "113",
+                            "rawText": "Pruitt, K. M., & Reiter, B. (1985). Biochemistry of peroxidase system, antimicrobial effect. In K. M. Pruitt & J. O. Tenovuo (Eds.), The Lactoperoxidase System, Chemistry and Biological Significance. Immunology Series (Vol. 27, pp. 143-178). New York: Marcel Dekker."
+                        },
+                        {
+                            "@position": "114",
+                            "rawText": "Pruitt, K. M., & Tenovuo, J. (1982). Kinetics of hypothiocyanide production during peroxidase-catalysed oxidation of thiocyanide. Biochemica et Biophysica Acta, 704, 204-214."
+                        },
+                        {
+                            "@position": "115",
+                            "rawText": "Puyol, P., Pe\u00b4rez, M. D., Ena, J. M., & Calvo, M. (1991). Interaction of blactoglobulin and other bovine and human whey proteins with retinol and fatty acids. Agricultural and Biological Chemystry, 10, 2515-2520."
+                        },
+                        {
+                            "@position": "116",
+                            "rawText": "Reiter, B., & Harnulv, G. (1984). Lactoperoxidase antibacterial system, natural occurrence, biological functions and practical applications. Journal of Food Protection, 47, 724-732.",
+                            "id": {
+                                "@value": "doi_________::b30a2189aebbaf1c6aa263af178e1df2",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6602797"
+                            }
+                        },
+                        {
+                            "@position": "117",
+                            "rawText": "Reiter, B., & Perraudin, J.-P. (1991). Lactoperoxidase, biological functions. In J. Everse, K. E. Everse, & M. B. Grisham (Eds.). Peroxidases in Chemistry and Biology (Vol. 1, pp. 144-180). Boca Raton, FL: CRC Press."
+                        },
+                        {
+                            "@position": "118",
+                            "rawText": "Reiter, B., Pickering, A., Oram, J. D., & Pope, G. S. (1963). Peroxidasethiocyanate inhibition of streptococci in raw milk. Journal of General Microbiology, 33, 12-15."
+                        },
+                        {
+                            "@position": "119",
+                            "rawText": "Roberts, S. B., McMcrory, M. A., & Saltzman, E. (2002). The influence of dietary composition on energy intake and body weight. Journal of the American College of Nutrition, 21, 140S-145S."
+                        },
+                        {
+                            "@position": "120",
+                            "rawText": "Rosaneli, C. F., Bighetti, A. E., Anto\u00b4 nio, M. A., Carvalho, J. E., & Sgarbieri, V. C. (2002). Efficacy of a whey protein concentrate on the inhibition of stomach ulcerative lesions caused by ethanol ingestion. Journal of Medical Food, 5, 221-228."
+                        },
+                        {
+                            "@position": "121",
+                            "rawText": "Rowlands, J. C., He, L., Hakkak, R., Ronis, M. J. J., & Badger, T. M. (2001). Soy and whey proteins down regulate DMBA-induced liver and mammary gland CYP1 expression in female rats. Journal of Nutrition, 131, 3281-3287."
+                        },
+                        {
+                            "@position": "122",
+                            "rawText": "Said, H. M., Ong, D. E., & Shingleton, J. L. (1989). Intestinal uptake of retinol, enhancement by bovine milk b-lactoglobulin. American Journal of Clinical Nutrition,49, 690-694."
+                        },
+                        {
+                            "@position": "123",
+                            "rawText": "Sanchez, M. S., & Watts, J. L. (1999). Enhancement of the activity of novobicin against Escherichia coli by lactoferrin. Journal of Dairy Science, 82, 494-499."
+                        },
+                        {
+                            "@position": "124",
+                            "rawText": "Santos, J. A., Gonzalez, C., Garcia-L o\u00b4pez, M. L., Garcia-Ferna\u00b4ndez, M. C., & Otero, A. (1994). Antibacterial activity of the lactoperoxidase system against Aeromonas drophila in broth, skim milk and ewes' milk. Letters in Applied Microbiology, 19, 161-164."
+                        },
+                        {
+                            "@position": "125",
+                            "rawText": "Sarker, S. A., Casswall, T. H., Mahalanabis, D., Alam, N. H., Albert, M. J., Brussow, H., et al. (1998). Successful treatment of rotavirus diarrhoea in children with immunoglobulin from immunised bovine colostra. Peadiatric Infectious Diseases Journal, 17, 1149-1154."
+                        },
+                        {
+                            "@position": "126",
+                            "rawText": "Schaller, J. P., Saif, L. J., Cordle, C. T., Candler, E., Winship, T. R., & Smith, K. L. (1992). Prevention of human rotavirus-induced diarrhoea in gnotobiotic piglets using bovine antibody. Journal of Infectious Diseases, 165, 623-630.",
+                            "id": {
+                                "@value": "pmid________::8826fa89b969328215e636aa75115d3a",
+                                "@type": "openaire",
+                                "@trustLevel": "0.7751922"
+                            }
+                        },
+                        {
+                            "@position": "127",
+                            "rawText": "Schupbach, P., Neeser, J.-R., Golliard, M., Rouvet, M., & Guggenheim, B. (1996). Incorporation of caseinoglycomacropeptide and caseinophosphopeptide into the salivary pellicle inhibits adherence of Streptococcus mutans. Journal of Dental Research, 75, 1779-1788.",
+                            "id": {
+                                "@value": "od_______885::2fc37d677b036cb921e1b6229bf603ec",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6462805"
+                            }
+                        },
+                        {
+                            "@position": "128",
+                            "rawText": "Sharpe, S. J., Gamble, G. D., & Sharpe, D. N. (1994). Cholesterollowering and blood pressure effects of immune milk. American Journal of Clinical Nutrition, 59, 929-934."
+                        },
+                        {
+                            "@position": "129",
+                            "rawText": "Shin, K., Tomita, M., & Lonnerdal, B. (2000). Identification of lactoperoxidase in mature human milk. Journal of Nutritional Biochemistry, 11, 94-102."
+                        },
+                        {
+                            "@position": "130",
+                            "rawText": "Smith, L. M., Fantozzi, P., & Creveling, R. K. (1983). Study of triglyceride-protein interaction using a microemulsion filtration method. Journal of the American Oil Chemists' Society, 60, 960-965."
+                        },
+                        {
+                            "@position": "131",
+                            "rawText": "Smith, C., Halliwell, B., & Aruoma, O. I. (1992). Protection of albumin against the pro-oxidant actions of phenolic dietary components. Food Chemistry and Toxicology, 30, 483-489."
+                        },
+                        {
+                            "@position": "132",
+                            "rawText": "Sorimachi, K., Akimoto, K., Hattori, Y., Ieiri, T., & Niwa, A. (1997). Activation of macrophages by lactoferrin: Secretion of TNF-alpha, IL-8 and NO. Biochemical and Molecular Biology International, 43, 79-87."
+                        },
+                        {
+                            "@position": "133",
+                            "rawText": "Sternhagen, L. G., & Allen, J. C. (2001). Growth rates of a human colon adenocarcinoma cell line are regulated by the milk protein alphalactalbumin. Advances in Experimental Medicine and Biology, 501, 115-120."
+                        },
+                        {
+                            "@position": "134",
+                            "rawText": "Superti, F., & Donelli, G. (1995). Characterization of SA-11 rotavirus receptorial structures on human colon carcinoma cell line HT-29. Journal of Medical Virology, 47, 421-428."
+                        },
+                        {
+                            "@position": "135",
+                            "rawText": "Takada, Y., Aoe, S., & Kumegawa, M. (1996). Whey protein stimulates cell proliferation and differentitation in osteoblastic MC3T3-E1 cells. Biochemistry and Biophysics Research Communications, 223, 445- 499."
+                        },
+                        {
+                            "@position": "136",
+                            "rawText": "Takada, Y., Matsuyama, H., Kato, K., Kobayashi, N., Yamamura, J.-I., Yahiro, M., et al. (1997). Milk whey proteins enhance the bone breaking force in ovariectomized rats. Nutrition Research, 17, 1709-1720."
+                        },
+                        {
+                            "@position": "137",
+                            "rawText": "Tanaka, T., Kawabata, K., Kohno, H., Honjo, S., Murakami, M., Ota, T., et al. (2000). Chemopreventive effect of bovine lactoferrin on 4- nitroquinoline 1-oxide induced tongue carcinogenesis in male F344 rats. Japanese Journal of Cancer Research, 91, 25-33.",
+                            "id": {
+                                "@value": "pmid________::c21a79ec94f8ddb7a2ed0a75e9d8f2db",
+                                "@type": "openaire",
+                                "@trustLevel": "0.7598476"
+                            }
+                        },
+                        {
+                            "@position": "138",
+                            "rawText": "Thomas, E. L. (1981). Lactoperoxidase-catalysed oxidation of thiocyanate. The equilibrium between oxidised forms of thiocyanate. Biochemistry, 20, 3273-3280."
+                        },
+                        {
+                            "@position": "139",
+                            "rawText": "Thomas, E. L., Bozeman, P. M., & Learn, D. B. (1991). Lactoperoxidase, structure and catalytic properties. In J. Everse, K. E. Everse, & M. B. Grisham (Eds.). Peroxidases in Chemistry and Biology (Vol. 1, pp. 123-142). Boca Raton, FL: CRC Press."
+                        },
+                        {
+                            "@position": "140",
+                            "rawText": "Tomita, M., Todhunter, D. A., Hogan, J. S., & Smith, K. L. (1995). Immunisation of dairy cows with an Escherichia coli J5 lipopolysaccharide vaccine. Journal of Dairy Science, 78, 2178-2185."
+                        },
+                        {
+                            "@position": "141",
+                            "rawText": "Tong, L. M., Sasaki, S., McClements, D. J., & Decker, E. A. (2000). Mechanisms of the antioxidant activity of a high molecular weight fraction of whey. Journal of Agricultural and Food Chemistry, 48, 1473-1478."
+                        },
+                        {
+                            "@position": "142",
+                            "rawText": "Troost, F. J., Steijns, J., Saris, W. H. M., & Brummer, R.-J. (2001). Gastric digestion of bovine lactoferrin in vivo in adults. Journal of Nutrition, 131, 2101-2104.",
+                            "id": {
+                                "@value": "narcis______::e45e5e6e98590f25216a4af4aa292059",
+                                "@type": "openaire",
+                                "@trustLevel": "0.77371335"
+                            }
+                        },
+                        {
+                            "@position": "143",
+                            "rawText": "Tsai, W. Y., Chang, W. H., Chen, C. H., & Lu, F. J. (2000). Enchancing effect of patented whey protein isolate (immunocal) on cytotoxicity of an anticancer drug. Nutrition Cancer, 38, 200-208."
+                        },
+                        {
+                            "@position": "144",
+                            "rawText": "Tseng, Y.-M., Lin, S.-K., Hsiao, J.-K., Chen, I.-J., Lee, J.-H., Wu, S.-H., et al. (2006). Whey protein concentrate promotes the production of glutathione (GSH) by GSH reductase in the PC12 cell line after acute ethanol exposure. Food and Chemical Toxicology, 44, 574-578."
+                        },
+                        {
+                            "@position": "145",
+                            "rawText": "Tsuda, H., Sekine, K., Nakamura, J., Ushida, Y., Kuhara, T., Takasuda, N., et al. (1998). Inhibition of azoxymethane-initiated colon tumour and aberrant crypt foci development by bovine lactoferrin administration in F344 rats. Advances in Experimental Medicine and Biology, 443, 273-284."
+                        },
+                        {
+                            "@position": "146",
+                            "rawText": "Tsuda, H., Sekine, K., Ushida, Y., Kuhara, T., Takasuka, N., Iigo, M., et al. (2000). Milk and dairy products in cancer prevention: Focus on bovine lactoferrin. Mutation Research, 462, 227-233."
+                        },
+                        {
+                            "@position": "147",
+                            "rawText": "van der Strate, B. W., Beljaars, L., Molema, G., Harmsen, M. C., & Meijer, D. K. (2001). Antiviral activities of lactoferrin. Antiviral Research, 52, 225-239."
+                        },
+                        {
+                            "@position": "148",
+                            "rawText": "Wakabayashi, H., Takakura, N., Yamaguchi, K., Teraguchi, S., Teraguchi, S., Uchida, K., et al. (2002). Effect of lactoferrin feeding on the host antifungal response in guinea-pigs infected or immunised with Trichophyton mentagrophytes. Journal of Medical Microbiology, 51, 844-850."
+                        },
+                        {
+                            "@position": "149",
+                            "rawText": "Wakabayashi, H., Uchida, K., Yamaguchi, K., Teraguchi, S., Haysawa, H., & Yamaguchi, H. (2000). Lactoferrin given in food facilitates dermatophytosis cure in guinea pig models. Journal of Antimicrobial Chemotherapy, 46, 595-601."
+                        },
+                        {
+                            "@position": "150",
+                            "rawText": "Walzem, R. L., Dillard, C. J., & German, J. B. (2002). Whey components: Millenia of evolution create functionalities for mammalian nutrition: what we know and what we may be overlooking. Critical Reviews in Food Science and Nutrition, 42, 353-375."
+                        },
+                        {
+                            "@position": "151",
+                            "rawText": "Wang, Q., Allen, J. C., & Swaisgood, H. E. (1997). Binding of vitamin D and cholesterol to b-lactoglobulin. Journal of Dairy Science, 80, 1054-1059."
+                        },
+                        {
+                            "@position": "152",
+                            "rawText": "Wang, H., Ye, X., & Ng, T. B. (2000). First demonstration of an inhibitory activity of milk proteins against immunodefiency virus-1 reverse transcriptase and effect of succinylation. Life Sciences, 67, 2745-2752."
+                        },
+                        {
+                            "@position": "153",
+                            "rawText": "Warme, P. K. F., Momany, A., Rumball, S. V., Tuttle, R. W., & Scheraga, H. A. (1974). Computation of structures of homologous proteins. aLactalbumin from lysozyme. Biochemistry, 13, 768-772."
+                        },
+                        {
+                            "@position": "154",
+                            "rawText": "Watanabe, A., Okada, K., Shimizu, Y., Wakabayashi, H., Higuchi, K., Niiya, K., et al. (2000). Nutritional therapy of chronic hepatitis by whey protein (non-heated). Journal of Medicine, 31, 283-302."
+                        },
+                        {
+                            "@position": "155",
+                            "rawText": "Weinberg, E. D. (1996). The role of iron in cancer. European Journal of Cancer Prevention, 5, 19-36."
+                        },
+                        {
+                            "@position": "156",
+                            "rawText": "Weng, T.-Y., Chen, L.-C., Shyu, H.-W., Chen, S.-H., Wang, J.-R., Yu, C.- K., et al. (2005). Lactoferrin inhibits enterovirus 71 infection by binding to VP1 protein and host cells. Antiviral Research, 67, 31-37."
+                        },
+                        {
+                            "@position": "157",
+                            "rawText": "Wever, R., Kast, W. M., Kasinoedin, J. H., & Boelend, R. (1982). The peroxidation of thiocyanate catalysed by myeloperoxidase and lactoperoxidase. Biochimica et Biophysica Acta, 709, 212-219."
+                        },
+                        {
+                            "@position": "158",
+                            "rawText": "Wolason, L. M., & Sumner, S. A. (1993). Antibacterial activity of the lactoperoxidase system. A review. Journal of Food Protection, 56, 887-892."
+                        },
+                        {
+                            "@position": "159",
+                            "rawText": "Wong, C. W., & Watson, D. L. (1995). Immunomodulatory effects of dietary whey proteins in mice. Journal of Dairy Research, 62, 359-368."
+                        },
+                        {
+                            "@position": "160",
+                            "rawText": "WuDunn, D., & Spear, P. G. (1989). Initial interaction of herpes simplex virus with cell is binding to heparan sulfate. Journal of Virology, 63, 52-58.",
+                            "id": {
+                                "@value": "pmid________::d4c40deae076fade4b31f3fadd14cbf1",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6340816"
+                            }
+                        },
+                        {
+                            "@position": "161",
+                            "rawText": "Wu, S.-Y., Pe\u00b4rez, M. D., Puyol, P., & Sawyer, L. (1999). b-Lactoglobulin binds palmitate within its central cavity. Journal of Biological Chemistry, 274, 170-174."
+                        },
+                        {
+                            "@position": "162",
+                            "rawText": "Yamaguchi, K., Tomita, M., Giehl, T. J., & Ellison, R. T. (1993). Antibacterial activity of lactoferrin and a pepsin-derived lactoferrin peptide fragment. Infection and Immunity, 61, 719-728.",
+                            "id": {
+                                "@value": "pmid________::0f0b6881de42d0572db3608bfad7878c",
+                                "@type": "openaire",
+                                "@trustLevel": "0.66445476"
+                            }
+                        },
+                        {
+                            "@position": "163",
+                            "rawText": "Yi, M., Kaneko, S., Yu, D. Y., & Murakumi, S. (1997). Hepatitis C virus envelope proteins bind lactoferrin. Journal of Virology, 71, 5997-6002."
+                        },
+                        {
+                            "@position": "164",
+                            "rawText": "Zapico, P., Gaya, P., de Paz, M., Nunez, M., & Medina, M. (1991). Influence of breed, animal and days of lactation on lactoperoxidase system components in goat milk. Journal of Dairy Science, 74, 783-787.",
+                            "id": {
+                                "@value": "od_____10013::5135ce98a3cea216e4ee27236a88c548",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6682942"
+                            }
+                        },
+                        {
+                            "@position": "165",
+                            "rawText": "Zapico, P., Gaya, P., Nunez, M., & Medina, M. (1995). Activity of goat's milk lactoperoxidase system on Pseudomonas fluorescens and Escherichia coli at refrigeration temperatures. Journal of Food Protection, 58, 1136-1138.",
+                            "id": {
+                                "@value": "od_____10013::a39fce13d4a48afc15f2f91cc8bfe244",
+                                "@type": "openaire",
+                                "@trustLevel": "0.66623884"
+                            }
+                        },
+                        {
+                            "@position": "166",
+                            "rawText": "Zhang, X., & Beynen, A. C. (1993). Lowering effect of dietary milk-whey protein vs. casein on plasma and liver cholesterol in rats. British Journal of Nutrition, 70, 139-146.",
+                            "id": {
+                                "@value": "narcis______::b8c873229441e79b32990693f7810eae",
+                                "@type": "openaire",
+                                "@trustLevel": "0.78238565"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

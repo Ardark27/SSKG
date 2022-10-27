@@ -1,0 +1,450 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "dedup_wf_001::ecbdb267dafb2f52f73b04d586fa5b82",
+        "dri:dateOfCollection": "2019-03-20T16:57:06.92Z",
+        "dri:dateOfTransformation": "2020-08-07T17:27:05.917Z"
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Reposit\u00f3rio Institucional da Universidade de Aveiro",
+                        "@id": "opendoar____::47810f956e3d8fb8a32fb276448b464d"
+                    },
+                    {
+                        "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                        "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                    }
+                ],
+                "originalId": [
+                    "50|od______2292::ecbdb267dafb2f52f73b04d586fa5b82",
+                    "oai:ria.ua.pt:10773/2427",
+                    "50|od______3056::ecbdb267dafb2f52f73b04d586fa5b82"
+                ],
+                "pid": {
+                    "@classid": "handle",
+                    "@classname": "Handle",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "@inferred": "false",
+                    "@provenanceaction": "sysimport:crosswalk:repository",
+                    "@trust": "0.9",
+                    "#text": "10773/2427"
+                },
+                "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "@inferred": "false",
+                    "@provenanceaction": "sysimport:crosswalk:repository",
+                    "@trust": "0.9",
+                    "#text": "Integridade estrutural de placas de osteoss\u00edntese met\u00e1lica e comp\u00f3sitas para fixa\u00e7\u00e3o \u00f3ssea"
+                },
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": {
+                    "@rank": "1",
+                    "@name": "Pedro Miguel Almeida",
+                    "@surname": "Talaia",
+                    "#text": "Talaia, Pedro Miguel de Almeida"
+                },
+                "contributor": [
+                    "Sim\u00f5es, Jos\u00e9 Ant\u00f3nio de Oliveira",
+                    "Alonso, Rafael Claramunt"
+                ],
+                "country": {
+                    "@classid": "PT",
+                    "@classname": "Portugal",
+                    "@schemeid": "dnet:countries",
+                    "@schemename": "dnet:countries"
+                },
+                "dateofacceptance": "2007-01-01",
+                "description": "Mestrado em Engenharia Mec\u00e2nica Neste trabalho \u00e9 apresentado uma breve revis\u00e3o sobre a hist\u00f3ria do tratamento de fracturas \u00f3sseas, a sua evolu\u00e7\u00e3o, bem como as solu\u00e7\u00f5es actuais. Foram usados diversos f\u00e9mures sint\u00e9ticos para simular o tratamento de fracturas com placas de osteoss\u00edntese fabricadas em diversos materiais (met\u00e1lica e comp\u00f3sitas). Foram instrumentados f\u00e9mures que foram colocados sobre carga e foram adquiridos valores de deforma\u00e7\u00e3o para comparar as v\u00e1rias solu\u00e7\u00f5es estudadas. Foi tamb\u00e9m modelado um modelo de elementos finitos para comparar dois f\u00e9mures com diferentes placas de osteoss\u00edntese. ABSTRACT: In this work a brief review concerning the history of the treatment of bone fractures is presented, as well as its evolution and actual clinical solutions. Several synthetic femurs were used too simulate fixed fractures with bone plates made of several materials (metallic and composites). Instrumented femurs were loaded and stains were measured to compare different fracture fixation solutions. A finite element model was used to compare two plated femurs.",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Engenharia mec\u00e2nica"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Biomec\u00e2nica"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Ossos"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Ortopedia"
+                    }
+                ],
+                "language": {
+                    "@classid": "por",
+                    "@classname": "Portuguese",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "publisher": "Universidade de Aveiro",
+                "source": [
+                    "instname:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal (RCAAP)",
+                    "instacron:RCAAP",
+                    "reponame:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal"
+                ],
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "UNKNOWN",
+                    "@schemeid": "dnet:dataCite_resource",
+                    "@schemename": "dnet:dataCite_resource"
+                },
+                "context": {
+                    "@id": "FCT",
+                    "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "FCT::POCI-2010",
+                        "@label": "POCI-2010"
+                    }
+                },
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": [
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:instrepo",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::4ea931950efe6e8f5549399711942ede"
+                            },
+                            "country": {
+                                "@classid": "PT",
+                                "@classname": "Portugal",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "University of Aveiro",
+                            "legalshortname": "University of Aveiro"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.72",
+                            "@inferenceprovenance": "iis::document_referencedProjects",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "fct_________::b0ac7c9dfe853d9d580afbdea7b6b69c"
+                            },
+                            "title": "INTEGRIDADE ESTRUTURAL DE PLACAS DE OSTEOSS\u00cdNTESE MET\u00c1LICAS E COMP\u00d3SITAS PARA A FIXA\u00c7\u00c3O \u00d3SSEA",
+                            "acronym": "SFRH/BM/22850/2005",
+                            "funding": {
+                                "funder": {
+                                    "@id": "fct_________::FCT",
+                                    "@shortname": "FCT",
+                                    "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                    "@jurisdiction": "PT"
+                                },
+                                "funding_level_0": {
+                                    "@name": "POCI-2010",
+                                    "#text": "fct_________::FCT::POCI-2010"
+                                }
+                            },
+                            "code": "SFRH/BM/22850/2005"
+                        }
+                    ]
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "od______2292::ecbdb267dafb2f52f73b04d586fa5b82",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Integridade estrutural de placas de osteoss\u00edntese met\u00e1lica e comp\u00f3sitas para fixa\u00e7\u00e3o \u00f3ssea"
+                            },
+                            "dateofacceptance": "2007-01-01",
+                            "collectedfrom": {
+                                "@name": "Reposit\u00f3rio Institucional da Universidade de Aveiro",
+                                "@id": "opendoar____::47810f956e3d8fb8a32fb276448b464d"
+                            },
+                            "publisher": "Universidade de Aveiro"
+                        },
+                        {
+                            "@objidentifier": "od______3056::ecbdb267dafb2f52f73b04d586fa5b82",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Integridade estrutural de placas de osteoss\u00edntese met\u00e1lica e comp\u00f3sitas para fixa\u00e7\u00e3o \u00f3ssea"
+                            },
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10773/2427"
+                            },
+                            "collectedfrom": {
+                                "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                                "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                            },
+                            "dateofacceptance": "2007-01-01",
+                            "publisher": "Universidade de Aveiro"
+                        }
+                    ],
+                    "instance": {
+                        "accessright": {
+                            "@classid": "OPEN",
+                            "@classname": "Open Access",
+                            "@schemeid": "dnet:access_modes",
+                            "@schemename": "dnet:access_modes"
+                        },
+                        "collectedfrom": {
+                            "@name": "Reposit\u00f3rio Institucional da Universidade de Aveiro",
+                            "@id": "opendoar____::47810f956e3d8fb8a32fb276448b464d"
+                        },
+                        "hostedby": {
+                            "@name": "Reposit\u00f3rio Institucional da Universidade de Aveiro",
+                            "@id": "opendoar____::47810f956e3d8fb8a32fb276448b464d"
+                        },
+                        "dateofacceptance": "2007-01-01",
+                        "instancetype": {
+                            "@classid": "0007",
+                            "@classname": "Master thesis",
+                            "@schemeid": "dnet:publication_resource",
+                            "@schemename": "dnet:publication_resource"
+                        },
+                        "refereed": {
+                            "@classid": "0000",
+                            "@classname": "UNKNOWN",
+                            "@schemeid": "dnet:review_levels",
+                            "@schemename": "dnet:review_levels"
+                        },
+                        "webresource": {
+                            "url": "http://hdl.handle.net/10773/2427"
+                        }
+                    }
+                }
+            },
+            "extraInfo": {
+                "@name": "result reference list",
+                "@typology": "reference list",
+                "@provenance": "iis::document_referencedDocuments",
+                "@trust": "0.9",
+                "references": {
+                    "reference": [
+                        {
+                            "@position": "1",
+                            "rawText": "[1] - Viceconti, M., Cristofolini, l., Baleani, M. and Toni, A., \u201cPre-clinical validation of a new partiallycemented femoral prosthesis by synergetic use of numerical and experimental methods\u201d, Journal of Biomechanics, 34, 723-731 (2001)."
+                        },
+                        {
+                            "@position": "2",
+                            "rawText": "[2] - Carvalho, L., Silva, J. C. C., Nogueira, R., Pinto, J. L., Kalinowski, H. and Sim\u00f5es, J. A., \u201cApplication of Bragg grating sensors in dental biomechanics\u201d, Journal of Strain Analysis, 41(6), 411-415 (2006).",
+                            "id": {
+                                "@value": "revistasufpa::9c2dcf0726255ff153f476294892ea97",
+                                "@type": "openaire",
+                                "@trustLevel": "0.6419177"
+                            }
+                        },
+                        {
+                            "@position": "3",
+                            "rawText": "[3] - Breque, C., Dupre, J., Bremand, F., \u201cCalibration of a system of projection moire for relief measuring: biomechanical applications\u201d, Optics and Lasers in Engineering, 41: 241- 260, 2004."
+                        },
+                        {
+                            "@position": "4",
+                            "rawText": "[4] - Huo, B., \u201cAn inhomogeneous and anisotropic constitutive model of human dentin\u201d, Journal of Biomechanics, 38: 587-594, 2005."
+                        },
+                        {
+                            "@position": "5",
+                            "rawText": "[5] - Kishena, A., Tana, K. B. C., Asundib, A., \u201cDigital moire\u00b4 interferometric investigations on the deformation gradients of enamel and dentine: An insight into noncarious cervical lesions\u201d, Journal of Dentistry, 34, 12-18, 2006."
+                        },
+                        {
+                            "@position": "6",
+                            "rawText": "[6] - Edvardsen, T., Helle-Valle, T., Smiseth, O. A., \u201cSystolic dysfunction in heart failure with normal ejection fraction: speckle-tracking echocardiograp\u201d, Progress in Cardiovascular Diseases, 49(3): 207-214, 2006."
+                        },
+                        {
+                            "@position": "7",
+                            "rawText": "[7] - Horta, J., Brostow, W., Martinez, G., Castano, V. M., \u201cCharacterization of bones by speckle interferometry\u201d, J Med Eng Technol, 27(2): 49-53, 2003."
+                        },
+                        {
+                            "@position": "8",
+                            "rawText": "[8] - Zhang, J., Jin, G. C., Meng, L. B., Jian, L.H., Wang, A. Y., Lu, S. B., \u201cStrain and mechanical behavior measurements of soft tissues with digital speckle method\u201d, J Biomed Opt., 10(3): 000-000, 2005."
+                        },
+                        {
+                            "@position": "9",
+                            "rawText": "[9] - Kessler, O., Lacatusu, E., Sommers, M. B., Mayr, E., Bottlang, M., \u201cMalrotation in total knee arthroplasty: effect on tibial cortex strain captured by laser-based strain acquisition\u201d, Clin Biomech, 21(6):603-609, 2006."
+                        },
+                        {
+                            "@position": "10",
+                            "rawText": "[10] - Shahar, R., Zaslansky, P., Barak, M., Friesem, A. A., 3, Currey, J. D., Weiner, S., \u201cSpeckle interferometry: a novel method to map three-dimensional surface deformations of small bone samples\u201d, Journal of Biomechanics, 39 (Suppl 1): S18, 2006."
+                        },
+                        {
+                            "@position": "11",
+                            "rawText": "[11] - Mohr, M., Simon, U., Claes, L., Bottlang, M., \u201cFull-field strain acquisition on ovine fracture callus with electronic speckle pattern interferometry\u201d, Journal of Biomechanics, 39 (Suppl 1): S467, 2006"
+                        },
+                        {
+                            "@position": "12",
+                            "rawText": "[12] - Sim\u00f5es, J. A., Monteiro, J., Vaz, M. A., \u201dNumerical-experimental method for the validation of a controlled stiffness femoral prosthesis\u201d, J Biomech Eng Trans ASME, 123: 234-238, 2001."
+                        },
+                        {
+                            "@position": "13",
+                            "rawText": "[13] - Sim\u00f5es, J. A., Monteiro, J., Vaz, M. A., \u201cFemoral displacement patterns induced by different prosthesis fixation methods: A holographic study\u201d, Journal of Biomechanics, 34, (Suppl 1): S27, 2001."
+                        },
+                        {
+                            "@position": "14",
+                            "rawText": "[14] - Vieira, A., Fraz\u00e3o, O., Novo, C., Sim\u00f5es, J. A.,\u201dOn the use of fiber grating sensors for strain measurements in biomechanics\u201d, European Society of Biomechanics, ESB 2004, 4-7 July, Hertogenbosch, The Netherlands, 2004."
+                        },
+                        {
+                            "@position": "15",
+                            "rawText": "[15] - Sim\u00f5es, J. A. and Vaz, M. A., \u201dThe Influence on strain shielding of material stiffness of press-fit femoral components\u201d, Proceedings Institution Mechanical Engineers, Part H, Journal Engineering Medicine, 216, 341-346 (2002)."
+                        },
+                        {
+                            "@position": "16",
+                            "rawText": "[16] - Carvalho, L., Vaz, M. A., and Sim\u00f5es, J. A., \u201cMandible strains induced by conventional and novel dental implants\u201d, Journal of Strain Analysis Engineering Design, 39(3), 291-297 (2004)."
+                        },
+                        {
+                            "@position": "17",
+                            "rawText": "[17] - Silva, J. C., Carvalho, L., Nogueira, R. N., Sim\u00f5es, J. A., Pinto, J. L. and Kalinowski, H. J., \u201dFBG applied in dynamic analysis of an implanted cadaveric mandible\u201d, Second European Workshop on Optical Fiber Sensors, Santander; Saratov Fall Meeting 2003: Laser Physics and Photonics, Spectroscopy, and Molecular Modeling IV. Edited by Derbov, Vladimir L.; Melnikov, Leonid A.; Babkov, Lev M. Proceedings of the SPIE, 5502, 226-229 (2004)."
+                        },
+                        {
+                            "@position": "18",
+                            "rawText": "[18] - Milczeswki, M. S., Silva J. C. C., Sim\u00f5es, J. A., Paterno, A. S. and Kalinowski, H., \u201cMeasurement of orthodontic forces and tooth displacement using fiber Bragg grating sensors\u201d, 5th International Conference on Mechanics Materials and Design, Porto, (2006)."
+                        },
+                        {
+                            "@position": "19",
+                            "rawText": "[19] - Ottevaere, H., Tabak, M., Aznar, D., Fernandez, A., Van Ierschot, S., Berghmans, F. and Thienpont, H., \u201cOptical fiber sensors for monitoring stress build-up in dental cements\u201d 16th International Conference on Optical Fiber Sensor (Nara) 574-577 (2003)."
+                        },
+                        {
+                            "@position": "20",
+                            "rawText": "[20] - Liu, H. B., Liu, H. Y., Peng, G. D., and Chu, P. L., \u201cStrain and temperature sensor using a combination of polymer and silica fiber Bragg gratings\u201d, Optics Communications, 219(1-6), 139-142 (2003)."
+                        },
+                        {
+                            "@position": "21",
+                            "rawText": "[21] - Wehrle, G., Nohama, P., Kalinowski, H. J., Torres, P. I. and Valente, L. C. G., \u201cA fiber optic Bragg grating strain sensor for monitoring ventilatory movements\u201d, Measurement Science Technology, 12, 805-9 (2001)."
+                        },
+                        {
+                            "@position": "22",
+                            "rawText": "[22] - Kashyap, R. Fiber Bragg Grating, San Diego: Academic Press (1999)."
+                        },
+                        {
+                            "@position": "23",
+                            "rawText": "[23] - Higuera, J. M. L. Handbook of Optical Fiber Sensing Technology, New York: John Wiley & Sons, (2002)."
+                        },
+                        {
+                            "@position": "24",
+                            "rawText": "[24] - Othonos, A., \u201cFiber Bragg Gratings\u201d, Review Science Instrumentation, 68(12), 4309-4341 (1997)."
+                        },
+                        {
+                            "@position": "25",
+                            "rawText": "[25] - Heiner, A.D., Brown, T.D., \u201cStructural properties of new design of composite replicate femurs and tibias\u201d, Journal of Biomechanics, 34; 773-781 (2001)."
+                        },
+                        {
+                            "@position": "26",
+                            "rawText": "[26] - Cristofolini, L., Bini, S., Toni, A., \u201cIn vitro testing of a novel limb salvage prosthesis for the distal femur\u201d, Clinical Biomechanics, 13, 608-615 (1998)."
+                        },
+                        {
+                            "@position": "27",
+                            "rawText": "[27] - Cristofolini, L., Viceconti, M., \u201cComparison of uniaxial and triaxial strain gages for strain measurement in the femur\u201d, Experimental Mechanics 37(3), 350-354 (1997)."
+                        },
+                        {
+                            "@position": "28",
+                            "rawText": "[28] - Dias Rodrigues, J.F., Lopes, H., Sim\u00f5es, J.A., \u201cExperimental model analysis of a synthetic composite femur\u201d, Experimental Mechanics, 44(1), 29-32 (2004)."
+                        },
+                        {
+                            "@position": "29",
+                            "rawText": "[33] - Cristofolini, L., Viceconti, M., Cappelo, A., Toni, A., \u201cMechanical validation of whole bone composite femur models\u201d, Journal of Biomechanics, 29(4), 525-535 (1996)."
+                        },
+                        {
+                            "@position": "30",
+                            "rawText": "[34] - Cristofolini, L., \u201cA critical analysis of stress shielding evaluation of hip prostheses\u201d, Critical Reviews in Biomedical Engineering, 25, 409-483 (1997)."
+                        },
+                        {
+                            "@position": "31",
+                            "rawText": "[35] - Ruff, C. B. and Hayes, W. C., \u201c Cross-section geometry of pecos pueblo femora and tibiae - a biomechanical investigation: 1. Methods and general patterns of variation\u201d, American Journal of Physics Anthropology, 60, 359-381 (1983)."
+                        },
+                        {
+                            "@position": "32",
+                            "rawText": "[36] - Finlay, J. B., Bourne, R. B. and McLeant, J., \u201cA technique for in vitro measurement of principal strains in the human femur\u201d, Journal of Biomechanics, 15(10), 723-739 (1982)."
+                        },
+                        {
+                            "@position": "33",
+                            "rawText": "[37] - Nogueira, R., Abe, I., Kalinowski, H. J., Pinto, J. L. and Rocha, J. R. F., \u201cSistema interferom\u00e9trico automatizado para grava\u00e7\u00e3o de redes de Bragg\u201d, 13\u00aa. Confer\u00eancia Nacional de F\u00edsica, \u00c9vora, 592-594 (2002)."
+                        },
+                        {
+                            "@position": "34",
+                            "rawText": "[38] - Duda, G. N., Heller, M., Albinger, J., Schulz, O., Schneider, E., Claes, L., \u201cInfluence of muscle forces on Femoral strain distribution\u201d, Journal of Biomechanics, 31(9): 841-846, 1998."
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2659 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "doi_dedup___::57b29ecaee8e8700ab6a35845dd7a248",
+        "dri:dateOfCollection": "2022-03-15T09:36:18.453Z",
+        "dri:dateOfTransformation": "2022-03-09T19:45:11.741Z"
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                    },
+                    {
+                        "@name": "PubMed Central",
+                        "@id": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357"
+                    },
+                    {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    {
+                        "@name": "OpenAIRE",
+                        "@id": "infrastruct_::f66f1bd369679b5b077dcdf006089556"
+                    },
+                    {
+                        "@name": "UnpayWall",
+                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                    },
+                    {
+                        "@name": "ORCID",
+                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                    },
+                    {
+                        "@name": "Microsoft Academic Graph",
+                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                    }
+                ],
+                "originalId": [
+                    "oai:repositoriosaludmadrid.es:20.500.12530/29574",
+                    "50|RECOLECTA___::bd1ac3a31f976d92d9f12b41cbb61c1b",
+                    "50|od_______267::b45ba9c00c92084e7467ab2512958b63",
+                    "oai:pubmedcentral.nih.gov:5694492",
+                    "userclaim___::57b29ecaee8e8700ab6a35845dd7a248",
+                    "50|userclaim___::57b29ecaee8e8700ab6a35845dd7a248",
+                    "10.3389/fpls.2017.01958",
+                    "50|doiboost____::57b29ecaee8e8700ab6a35845dd7a248",
+                    "2770906407"
+                ],
+                "pid": [
+                    {
+                        "@classid": "pmc",
+                        "@classname": "PubMed Central ID",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "PMC5694492"
+                    },
+                    {
+                        "@classid": "pmid",
+                        "@classname": "PubMed ID",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "29184567"
+                    },
+                    {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "user:claim",
+                        "@trust": "0.9",
+                        "#text": "10.3389/fpls.2017.01958"
+                    }
+                ],
+                "measure": [
+                    {
+                        "@id": "influence",
+                        "@score": "6.73583867032e-09",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity_alt",
+                        "@score": "2.41152",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity",
+                        "@score": "1.06660362354e-08",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "influence_alt",
+                        "@score": "12.0",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "impulse",
+                        "@score": "10.0",
+                        "@class": "C"
+                    }
+                ],
+                "title": [
+                    {
+                        "@classid": "alternative title",
+                        "@classname": "alternative title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Ecological Factors Affecting Infection Risk and Population Genetic Diversity of a Novel Potyvirus in Its Native Wild Ecosystem."
+                    },
+                    {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Ecological Factors Affecting Infection Risk and Population Genetic Diversity of a Novel Potyvirus in Its Native Wild Ecosystem."
+                    }
+                ],
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": [
+                    {
+                        "@rank": "2",
+                        "@URL": "https://academic.microsoft.com/#/detail/2117526720",
+                        "@orcid": "0000-0001-9526-2772",
+                        "#text": "Nuria Montes"
+                    },
+                    {
+                        "@rank": "3",
+                        "@URL": "https://academic.microsoft.com/#/detail/2220723552",
+                        "#text": "Israel Pag\u00e1n"
+                    },
+                    {
+                        "@rank": "1",
+                        "@URL": "https://academic.microsoft.com/#/detail/2768232081",
+                        "#text": "Cristina Rodr\u00edguez-Nevado"
+                    }
+                ],
+                "dateofacceptance": "2017-11-01",
+                "description": "Increasing evidence indicates that there is ample diversity of plant virus species in wild ecosystems. The vast majority of this diversity, however, remains uncharacterized. Moreover, in these ecosystems the factors affecting plant virus infection risk and population genetic diversity, two traits intrinsically linked to virus emergence, are largely unknown. Along 3 years, we have analyzed the prevalence and diversity of plant virus species from the genus Potyvirus in evergreen oak forests of the Iberian Peninsula, the main wild ecosystem in this geographic region and in the entire Mediterranean basin. During this period, we have also measured plant species diversity, host density, plant biomass, temperature, relative humidity, and rainfall. Results indicated that potyviruses were always present in evergreen oak forests, with a novel virus species explaining the largest fraction of potyvirus-infected plants. We determined the genomic sequence of this novel virus and we explored its host range in natural and greenhouse conditions. Natural host range was limited to the perennial plant mountain rue (Ruta montana), commonly found in evergreen oak forests of the Iberian Peninsula. In this host, the virus was highly prevalent and was therefore provisionally named mediterranean ruda virus (MeRV). Focusing in this natural host-virus interaction, we analyzed the ecological factors affecting MeRV infection risk and population genetic diversity in its native wild ecosystem. The main predictor of virus infection risk was the host density. MeRV prevalence was the major factor determining genetic diversity and selection pressures in the virus populations. This observation supports theoretical predictions assigning these two traits a key role in parasite epidemiology and evolution. Thus, our analyses contribute both to characterize viral diversity and to understand the ecological determinants of virus population dynamics in wild ecosystems.",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Potyvirus"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "evergreen oak forests"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "plant\u2013virus interactions"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "population genetic diversity"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "virus ecology"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "virus infection risk"
+                    },
+                    {
+                        "@classid": "mesh",
+                        "@classname": "Medical Subject Headings",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "iis::document_classes",
+                        "@provenanceaction": "iis",
+                        "@trust": "0.7371",
+                        "#text": "human activities"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Plant Science"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Original Research"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "virus infection risk"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Potyvirus"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "population genetic diversity"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "plant\u2013virus interactions"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "evergreen oak forests"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "virus ecology"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Mediterranean Basin"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Host (biology)"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Plant virus"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Genetic diversity"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Ecology"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Potyvirus"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.50793064",
+                        "#text": "biology.organism_classification"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.50793064",
+                        "#text": "biology"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Evergreen"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Novel virus"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Population"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.54026",
+                        "#text": "education.field_of_study"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.54026",
+                        "#text": "education"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "03 medical and health sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0301 basic medicine"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "030104 developmental biology"
+                    }
+                ],
+                "language": {
+                    "@classid": "und",
+                    "@classname": "Undetermined",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                    {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2017-11-14"
+                    },
+                    {
+                        "@classid": "published-online",
+                        "@classname": "published-online",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2017-11-14"
+                    }
+                ],
+                "source": [
+                    "Frontiers in Plant Science",
+                    "Crossref",
+                    null,
+                    "instname:Consejer\u00eda de Sanidad de la Comunidad de Madrid",
+                    "reponame:Repositorio Institucional de la Consejer\u00eda de Sanidad de la Comunidad de Madrid"
+                ],
+                "format": "application/pdf",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "0001",
+                    "@classname": "Article",
+                    "@schemeid": "dnet:publication_resource",
+                    "@schemename": "dnet:publication_resource"
+                },
+                "context": [
+                    {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "@id": "oa-pg",
+                        "@label": "EC Post-Grant Open Access Pilot",
+                        "@type": "community"
+                    }
+                ],
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": [
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.72",
+                            "@inferenceprovenance": "iis::document_software_url",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "IsRelatedTo",
+                                "@scheme": "dnet:result_result_relations",
+                                "@type": "software",
+                                "#text": "dedup_wf_001::212858684aec5def76db0d17386b0e81"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "Software Heritage",
+                                    "@id": "openaire____::dbfd07503aaa1ed31beed7dec942f3f4"
+                                },
+                                {
+                                    "@name": "GitHub",
+                                    "@id": "openaire____::d3b7c913cd04ebfec0e9ec32cb6fd58c"
+                                }
+                            ],
+                            "title": {
+                                "@classid": "alternative title",
+                                "@classname": "alternative title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "seqtk software on GitHub in support of 'Divergent selection and drift shape the genomes of two avian sister species spanning a saline-freshwater ecotone'"
+                            }
+                        },
+                        {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:actionset",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                            },
+                            "legalshortname": "UPM",
+                            "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                            },
+                            "legalshortname": "CAR",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Centre for Automation and Robotics"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                            },
+                            "legalshortname": "CBGP",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                            },
+                            "legalshortname": "CRIDA",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.5091",
+                            "@inferenceprovenance": "iis::document_referencedProjects",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda_______::2065b795995f51c7744079ed339f653e"
+                            },
+                            "acronym": "PLANTVIRSPE",
+                            "contracttype": {
+                                "@classid": "MC",
+                                "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                "@schemeid": "ec:FP7contractTypes",
+                                "@schemename": "ec:FP7contractTypes"
+                            },
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "FP7",
+                                    "#text": "ec__________::EC::FP7"
+                                },
+                                "funding_level_1": {
+                                    "@name": "SP3",
+                                    "#text": "ec__________::EC::FP7::SP3"
+                                },
+                                "funding_level_2": {
+                                    "@name": "PEOPLE",
+                                    "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                }
+                            },
+                            "title": "Analysis of speciation modes in plant RNA viruses",
+                            "code": "322100"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                            },
+                            "legalname": "Centre for Plant Biotechnology and Genomics",
+                            "legalshortname": "CBGP",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:actionset",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::b3e3868b0a6bc0906b7d4c591b955e00"
+                            },
+                            "legalshortname": "CEU San Pablo University",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "CEU San Pablo University"
+                        }
+                    ]
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "userclaim___::57b29ecaee8e8700ab6a35845dd7a248",
+                            "collectedfrom": [
+                                {
+                                    "@name": "OpenAIRE",
+                                    "@id": "infrastruct_::f66f1bd369679b5b077dcdf006089556"
+                                },
+                                {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                }
+                            ],
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "user:claim",
+                                "@trust": "0.9",
+                                "#text": "Ecological Factors Affecting Infection Risk and Population Genetic Diversity of a Novel Potyvirus in Its Native Wild Ecosystem"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "user:claim",
+                                "@trust": "0.9",
+                                "#text": "10.3389/fpls.2017.01958"
+                            },
+                            "publisher": "Frontiers Media SA",
+                            "dateofacceptance": "2017-11-14"
+                        },
+                        {
+                            "@objidentifier": "pmid________::cc0f7469248ad4381cf5dc12e3836817",
+                            "pid": [
+                                {
+                                    "@classid": "pmid",
+                                    "@classname": "PubMed ID",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "29184567"
+                                },
+                                {
+                                    "@classid": "pmc",
+                                    "@classname": "PubMed Central ID",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "PMC5694492"
+                                }
+                            ],
+                            "collectedfrom": {
+                                "@name": "PubMed Central",
+                                "@id": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357"
+                            },
+                            "dateofacceptance": "2017-11-01",
+                            "publisher": "Frontiers Media S.A.",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Ecological Factors Affecting Infection Risk and Population Genetic Diversity of a Novel Potyvirus in Its Native Wild Ecosystem"
+                            }
+                        },
+                        {
+                            "@objidentifier": "doi_________::57b29ecaee8e8700ab6a35845dd7a248",
+                            "collectedfrom": [
+                                {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                {
+                                    "@name": "ORCID",
+                                    "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                },
+                                {
+                                    "@name": "Microsoft Academic Graph",
+                                    "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                }
+                            ],
+                            "publisher": "Frontiers Media SA",
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.3389/fpls.2017.01958"
+                            },
+                            "dateofacceptance": "2017-11-14",
+                            "title": {
+                                "@classid": "alternative title",
+                                "@classname": "alternative title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "Ecological Factors Affecting Infection Risk and Population Genetic Diversity of a Novel Potyvirus in Its Native Wild Ecosystem."
+                            }
+                        },
+                        {
+                            "@objidentifier": "RECOLECTA___::bd1ac3a31f976d92d9f12b41cbb61c1b",
+                            "collectedfrom": {
+                                "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                            },
+                            "dateofacceptance": "2017-01-01",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "@trust": "0.9",
+                                "#text": "Ecological Factors Affecting Infection Risk and Population Genetic Diversity of a Novel Potyvirus in Its Native Wild Ecosystem."
+                            }
+                        }
+                    ],
+                    "instance": [
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "PubMed Central",
+                                "@id": "opendoar____::eda80a3d5b344bc40f3bc04f65b7a357"
+                            },
+                            "hostedby": {
+                                "@name": "Frontiers in Plant Science",
+                                "@id": "doajarticles::913753b1af0ae12aa27005fd9a76d2bb"
+                            },
+                            "dateofacceptance": "2017-11-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": [
+                                {
+                                    "@classid": "pmid",
+                                    "@classname": "PubMed ID",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "29184567"
+                                },
+                                {
+                                    "@classid": "pmc",
+                                    "@classname": "PubMed Central ID",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "PMC5694492"
+                                }
+                            ],
+                            "alternateidentifier": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10.3389/fpls.2017.01958"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "http://europepmc.org/articles/PMC5694492"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                            },
+                            "hostedby": {
+                                "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                            },
+                            "dateofacceptance": "2017-01-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://hdl.handle.net/20.500.12530/29574"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "UnpayWall",
+                                "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                            },
+                            "hostedby": {
+                                "@name": "Frontiers in Plant Science",
+                                "@id": "doajarticles::913753b1af0ae12aa27005fd9a76d2bb"
+                            },
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.3389/fpls.2017.01958"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "cc-by",
+                            "webresource": {
+                                "url": "https://www.frontiersin.org/articles/10.3389/fpls.2017.01958/pdf"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            },
+                            "hostedby": {
+                                "@name": "Frontiers in Plant Science",
+                                "@id": "doajarticles::913753b1af0ae12aa27005fd9a76d2bb"
+                            },
+                            "dateofacceptance": "2017-11-14",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "user:claim",
+                                "@trust": "0.9",
+                                "#text": "10.3389/fpls.2017.01958"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://doi.org/10.3389/fpls.2017.01958"
+                            }
+                        }
+                    ]
+                }
+            },
+            "extraInfo": {
+                "@name": "result reference list",
+                "@typology": "reference list",
+                "@provenance": "iis::document_referencedDocuments",
+                "@trust": "0.9",
+                "references": {
+                    "reference": [
+                        {
+                            "@position": "1",
+                            "rawText": "Adams M. J.Antoniw J. F.Fauquet C. M. (2005). Molecular criteria for genus and species discrimination within the family Potyviridae. Arch. Virol. 150 459\u2013479. 10.1007/s00705-004-0440-6 15592889",
+                            "id": [
+                                {
+                                    "@value": "od______4225::4c8dfb4534ecbccb97537b4f781d91a4",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "15592889",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s00705-004-0440-6",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "2",
+                            "rawText": "Alexander H. M.Mauck K. E.Whitfield A. E.Garrett K. A.Malmstrom C. M. (2014). Plant-virus interactions and the agro-ecological interface. Eur. J. Plant Pathol. 138 529\u2013547. 10.1007/s10658-013-0317-1",
+                            "id": [
+                                {
+                                    "@value": "doi_________::2b69682a1182e66c5ec2676bf8686977",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s10658-013-0317-1",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "3",
+                            "rawText": "Anderson P. K.Cunningham A. A.Patel N. G.Morales F. J.Epstein P. R.Daszak P. (2004). Emerging infectious diseases of plants: pathogen pollution, climate change and agrotechnology drivers. Trends Ecol. Evol. 19 535\u2013544. 10.1016/j.tree.2004.07.021 16701319",
+                            "id": [
+                                {
+                                    "@value": "doi_________::63a556963c78b4849660e11466c9a649",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "16701319",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.tree.2004.07.021",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "4",
+                            "rawText": "Anderson R. M.May R. M. (1982). Coevolution of hosts and parasites. Parasitology 85 411\u2013426. 10.1017/S0031182000055360 6755367",
+                            "id": [
+                                {
+                                    "@value": "6755367",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1017/S0031182000055360",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "5",
+                            "rawText": "Archie E. A.Luikart G.Ezenwa V. O. (2009). Infecting epidemiology with genetics: a new frontier in disease ecology. Trends Ecol. Evol. 24 21\u201330. 10.1016/j.tree.2008.08.008 19027985",
+                            "id": [
+                                {
+                                    "@value": "doi_________::e73efcdbadc8f47866df260dae5229f0",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "19027985",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.tree.2008.08.008",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "6",
+                            "rawText": "Blanco E.Casado M. A.Costa M.Escribano R.Garc\u00eda M.G\u00e9nova M. (2005). Los Bosques Ib\u00e9ricos. Una Interpretaci\u00f3n Geobot\u00e1nica. Madrid: Editorial Planeta."
+                        },
+                        {
+                            "@position": "7",
+                            "rawText": "Borer E. T.Seabloom E. W.Mitchell C. E.Power A. G. (2010). Local context drives infection of grasses by vector-borne generalist viruses. Ecol. Lett. 13 810\u2013818. 10.1111/j.1461-0248.2010.01475.x 20482583",
+                            "id": [
+                                {
+                                    "@value": "doi_________::7a65b7cbbc7fadec6daf74ee27508617",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "20482583",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/j.1461-0248.2010.01475.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "8",
+                            "rawText": "Burdon J. J.Thrall P. H. (2008). Pathogen evolution across the agro-ecological interface: implications for disease management: pathogen evolution in agro-ecosystems. Evol. Appl. 1 57\u201365. 10.1111/j.1752-4571.2007.00005.x 25567491",
+                            "id": [
+                                {
+                                    "@value": "doi_________::7a92f3b3785e4601ae4f8779e1ed2b4b",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "25567491",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/j.1752-4571.2007.00005.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "9",
+                            "rawText": "Burnham K. P.Anderson D. R. (2002). Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach. Berlin: Springer Science & Business Media."
+                        },
+                        {
+                            "@position": "10",
+                            "rawText": "Chang S.Puryear J.Cairney J. (1993). A simple and efficient method for isolating RNA from pine trees. Plant Mol. Biol. Rep. 11 113\u2013116. 10.1007/BF02670468 11725489",
+                            "id": [
+                                {
+                                    "@value": "11725489",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/BF02670468",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "11",
+                            "rawText": "Chung B. Y. W.Miller W. A.Atkins J. F.Firth A. E. (2008). An overlapping essential gene in the Potyviridae. Proc. Natl. Acad. Sci. U.S.A. 105 5897\u20135902. 10.1073/pnas.0800468105 18408156",
+                            "id": [
+                                {
+                                    "@value": "pmid________::4f514afb9f331da534bf16cf9758ece4",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "18408156",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1073/pnas.0800468105",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "12",
+                            "rawText": "Cooper I.Jones R. A. (2006). Wild plants and viruses: under-investigated ecosystems. Adv. Virus Res. 67 1\u201347. 10.1016/S0065-3527(06)67001-2 17027676",
+                            "id": [
+                                {
+                                    "@value": "17027676",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/S0065-3527(06)67001-2",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "13",
+                            "rawText": "Costa A.Madeira M.Lima Santos J.Oliveira\u00c2. (2011). Change and dynamics in Mediterranean evergreen oak woodlands landscapes of Southwestern Iberian Peninsula. Landsc. Urban Plan. 102 164\u2013176. 10.1016/j.landurbplan.2011.04.002",
+                            "id": [
+                                {
+                                    "@value": "doi_________::3e3fcc77db59e4e19022be1388328c4e",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.landurbplan.2011.04.002",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "14",
+                            "rawText": "Darriba D.Taboada G. L.Doallo R.Posada D. (2012). jModelTest 2: more models, new heuristics and parallel computing. Nat. Methods 9 772\u2013772. 10.1038/nmeth.2109 22847109",
+                            "id": [
+                                {
+                                    "@value": "doi_________::d53b68960587cdc46c3765d5113b286f",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "22847109",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1038/nmeth.2109",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "15",
+                            "rawText": "Dolja V. V.Haldeman R.Robertson N. L.Dougherty W. G.Carrington J. C. (1994). Distinct functio ns of capsid protein in assembly and movement of tobacco etch potyvirus in plants. EMBO J. 13:1482. 10.1002/j.1460-2075.1994.tb06403.x 7511101",
+                            "id": [
+                                {
+                                    "@value": "doi_________::363350a93effd41d805988b53dcfeefe",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "7511101",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1002/j.1460-2075.1994.tb06403.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "16",
+                            "rawText": "Dolja V. V.Haldeman-Cahill R.Montgomery A. E.Vandenbosch K. A.Carrington J. C. (1995). Capsid protein determinants involved in cell-to-cell and long distance movement of tobacco etch potyvirus. Virology 206 1007\u20131016. 10.1006/viro.1995.1023 7856075",
+                            "id": [
+                                {
+                                    "@value": "doi_________::1ead1ae2a44b877972ed80dfdbd3a8fd",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "7856075",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1006/viro.1995.1023",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "17",
+                            "rawText": "Edgar R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 32 1792\u20131797. 10.1093/nar/gkh340 15034147",
+                            "id": [
+                                {
+                                    "@value": "doi_________::e9a78712ff738397669c7eddd366b76c",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "15034147",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/nar/gkh340",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "18",
+                            "rawText": "Escriu F. (2017). \u201cDiversity of plant virus populations: a valuable tool for epidemiological studies,\u201d in Genetic Diversity, ed. Bitz L. (Rijeka: InTech), 3\u201318. 10.5772/66820",
+                            "id": [
+                                {
+                                    "@value": "doi_________::77576a9f82724a4d52f9dbfc3f9022c9",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.5772/66820",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "19",
+                            "rawText": "Fraile A.McLeish M. J.Pag\u00e1n I.Gonz\u00e1lez-Jara P.Pi\u00f1ero D.Garc\u00eda-Arenal F. (2017). Environmental heterogeneity and the evolution of plant-virus interactions: viruses in wild pepper populations. Virus Res. 10.1016/j.virusres.2017.05.015 [Epub ahead of print]. 28554561",
+                            "id": [
+                                {
+                                    "@value": "doi_________::dc76f3283021bac44b7293652d4223c2",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "28554561",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.virusres.2017.05.015",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "20",
+                            "rawText": "Futuyma D. J.Moreno G. (1988). The evolution of ecological specialization. Annu. Rev. Ecol. Syst. 19 207\u2013233. 10.1146/annurev.es.19.110188.001231",
+                            "id": [
+                                {
+                                    "@value": "doi_________::ef9eeb9d19ef910728e0342901a41a7f",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1146/annurev.es.19.110188.001231",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "21",
+                            "rawText": "Garc\u00eda-Arenal F.Fraile A. (2013). Trade-offs in host range evolution of plant viruses. Plant Pathol. 62 2\u20139. 10.1111/ppa.12104",
+                            "id": [
+                                {
+                                    "@value": "doi_________::82d4a9b0c7f268e590b1b7b731b21936",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/ppa.12104",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "22",
+                            "rawText": "Gibbs A. J.Ohshima K.Phillips M. J.Gibbs M. J. (2008). The prehistory of potyviruses: their initial radiation was during the dawn of agriculture. PLOS ONE 3:e2523. 10.1371/journal.pone.0002523 18575612",
+                            "id": [
+                                {
+                                    "@value": "doajarticles::dd5efad91ff2476adbecb01a76e1ff48",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "18575612",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1371/journal.pone.0002523",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "23",
+                            "rawText": "Gilbert G. S. (2002). Evolutionary ecology of plant diseases in natural ecosystems. Annu. Rev. Phytopathol. 40 13\u201343. 10.1146/annurev.phyto.40.021202.110417 12147753",
+                            "id": [
+                                {
+                                    "@value": "doi_________::60568fbd893cb6bf2bae3109762bb6e9",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "12147753",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1146/annurev.phyto.40.021202.110417",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "24",
+                            "rawText": "Grenfell B. T.Pybus O. G.Gog J. R.Wood J. L.Daly J. M.Mumford J. A. (2004). Unifying the epidemiological and evolutionary dynamics of pathogens. Science 303 327\u2013332. 10.1126/science.1090727 14726583",
+                            "id": [
+                                {
+                                    "@value": "doi_________::f8c7000cb2d6915ac11c0e85a3d79102",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "14726583",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1126/science.1090727",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "25",
+                            "rawText": "Hagiwara-Komoda Y.Choi S. H.Sato M.Atsumi G.Abe J.Fukuda J. (2016). Truncated yet functional viral protein produced via RNA polymerase slippage implies underestimated coding capacity of RNA viruses. Sci. Rep. 6:21411. 10.1038/srep21411 26898356",
+                            "id": [
+                                {
+                                    "@value": "jairo_______::644b5968c87fef1dc662f1096a9dada7",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "26898356",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1038/srep21411",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "26",
+                            "rawText": "Holmes E. C. (2009). The evolutionary genetics of emerging viruses. Annu. Rev. Ecol. Evol. Syst. 40 353\u2013372. 10.1146/annurev.ecolsys.110308.120248",
+                            "id": [
+                                {
+                                    "@value": "doi_________::c718959956ce05fcec9f0f13a25f53be",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1146/annurev.ecolsys.110308.120248",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "27",
+                            "rawText": "Johnson P. T.Ostfeld R. S.Keesing F. (2015). Frontiers in research on biodiversity and disease. Ecol. Lett. 18 1119\u20131133. 10.1111/ele.12479 26261049",
+                            "id": [
+                                {
+                                    "@value": "pmid________::6a7cc8f5e9fca2525c9c535ee00e7e12",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "26261049",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/ele.12479",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "28",
+                            "rawText": "Jones R. A. C. (2009). Plant virus emergence and evolution: origins, new encounter scenarios, factors driving emergence, effects of changing world conditions, and prospects for control. Virus Res. 141 113\u2013130. 10.1016/j.virusres.2008.07.028 19159652",
+                            "id": [
+                                {
+                                    "@value": "doi_________::9b0f6710284bdde5737bfaef3b65baf9",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "19159652",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.virusres.2008.07.028",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "29",
+                            "rawText": "Keesing F.Holt R. D.Ostfeld R. S. (2006). Effects of species diversity on disease risk. Ecol. Lett. 9 485\u2013498. 10.1111/j.1461-0248.2006.00885.x 16623733",
+                            "id": [
+                                {
+                                    "@value": "doi_________::3115780365c6b634d086cbd8ad80007d",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "16623733",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/j.1461-0248.2006.00885.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "30",
+                            "rawText": "King A. M.Lefkowitz E.Adams M. J.Carstens E. B. (2012). Virus Taxonomy: Ninth Report of the International Committee on Taxonomy of Viruses. Amsterdam: Elsevier."
+                        },
+                        {
+                            "@position": "31",
+                            "rawText": "Lanfear R.Kokko H.Eyre-Walker A. (2014). Population size and the rate of evolution. Trends Ecol. Evol. 29 33\u201341. 10.1016/j.tree.2013.09.009 24148292",
+                            "id": [
+                                {
+                                    "@value": "doi_________::0cabc6cf47408f75b9f017f4e8632a5e",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "24148292",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.tree.2013.09.009",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "32",
+                            "rawText": "Langmead B.Salzberg S. L. (2012). Fast gapped-read alignment with Bowtie 2. Nat. Methods 9 357\u2013359. 10.1038/nmeth.1923 22388286",
+                            "id": [
+                                {
+                                    "@value": "doi_________::5cad31e22f51ccb8d4af1725985975f4",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "22388286",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1038/nmeth.1923",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "33",
+                            "rawText": "Librado P.Rozas J. (2009). DnaSP v5: a software for comprehensive analysis of DNA polymorphism data. Bioinformatics 25 1451\u20131452. 10.1093/bioinformatics/btp187 19346325",
+                            "id": [
+                                {
+                                    "@value": "doi_________::60eda60d6ac0def0d8651020cc376c31",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "19346325",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/bioinformatics/btp187",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "34",
+                            "rawText": "Lima A. T.Sobrinho R. R.Gonzalez-Aguilera J.Rocha C. S.Silva S. J.Xavier C. A. (2013). Synonymous site variation due to recombination explains higher genetic variability in begomovirus populations infecting non-cultivated hosts. J. Gen. Virol. 94 418\u2013431. 10.1099/vir.0.047241-0 23136367",
+                            "id": [
+                                {
+                                    "@value": "doi_________::295322b683ba3bf9a1e5ab27f9cf0733",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "23136367",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1099/vir.0.047241-0",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "35",
+                            "rawText": "Lole K. S.Bollinger R. C.Paranjape R. S.Gadkari D.Kulkarni S. S.Novak N. G. (1999). Full-length human immunodeficiency virus type 1 genomes from subtype C-infected seroconverters in India, with evidence of intersubtype recombination. J. Virol. 73 152\u2013160. 9847317",
+                            "id": [
+                                {
+                                    "@value": "pmid________::75b4df4611e6828a5af01f5a440695e3",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "9847317",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "36",
+                            "rawText": "Lovisolo O.Hull R.R\u00f6sler O. (2003). Coevolution of viruses with hosts and vectors and possible paleontology. Adv. Virus Res. 62 325\u2013379. 10.1016/S0065-3527(03)62006-3 14719368",
+                            "id": [
+                                {
+                                    "@value": "14719368",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/S0065-3527(03)62006-3",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "37",
+                            "rawText": "Lumaret R.Mir C.Michaud H.Raynal V. (2002). Phylogeographical variation of chloroplast DNA in holm oak (Quercus ilex L.). Mol. Ecol. 11 2327\u20132336. 10.1046/j.1365-294X.2002.01611.x 12406243",
+                            "id": [
+                                {
+                                    "@value": "12406243",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1046/j.1365-294X.2002.01611.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "38",
+                            "rawText": "Malmstrom C. M.McCullough A. J.Johnson H. A.Newton L. A.Borer E. T. (2005). Invasive annual grasses indirectly increase virus incidence in California native perennial bunchgrasses. Oecologia 145 153\u2013164. 10.1007/s00442-005-0099-z 15875144",
+                            "id": [
+                                {
+                                    "@value": "doi_________::3e24c2c16bd75fadbefbcb5922a1931c",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "15875144",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s00442-005-0099-z",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "39",
+                            "rawText": "Malpica J. M.Sacrist\u00e1n S.Fraile A.Garc\u00eda-Arenal F. (2006). Asso ciation and host selectivity in multi-host pathogens. PLOS ONE 1:e41. 10.1371/journal.pone.0000041 17183670",
+                            "id": [
+                                {
+                                    "@value": "userclaim___::c83f5de81ca6f1c7635cd73aabb085a9",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "17183670",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1371/journal.pone.0000041",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "40",
+                            "rawText": "Marchler-Bauer A.Anderson J. B.Derbyshire M. K.DeWeese-Scott C.Gonzales N. R.Gwadz M. (2007). CDD: a conserved domain database for interactive domain family analysis. Nucleic Acids Res. 35 D237\u2013D240. 10.1093/nar/gkl951 17135202",
+                            "id": [
+                                {
+                                    "@value": "doi_________::e9e3f3d64f985ae50fd51f266e648e60",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "17135202",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/nar/gkl951",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "41",
+                            "rawText": "Martin D. P.Murrell B.Golden M.Khoosal A.Muhire B. (2015). RDP4: Detection and analysis of recombination patterns in virus genomes. Virus Evol. 1:vev003. 10.1093/ve/vev003 27774277",
+                            "id": [
+                                {
+                                    "@value": "pmid________::bfb3e1211afe1c28fcb019be65350012",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "27774277",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/ve/vev003",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "42",
+                            "rawText": "Mbanzibwa D. R.Tian Y. P.Tugume A. K.Patil B. L.Yadav J. S.Bagewadi B. (2011). Evolution of cassava brown streak disease-associated viruses. J. Gen. Virol. 92 974\u2013987. 10.1099/vir.0.026922-0 21169213",
+                            "id": [
+                                {
+                                    "@value": "doi_________::394168e2a93fef054ee7cf75ddf7d6ea",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "21169213",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1099/vir.0.026922-0",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "43",
+                            "rawText": "McGarigal K.Tagil S.Cushman S. A. (2009). Surface metrics: an alternative to patch metrics for the quantification of landscape structure. Landsc. Ecol. 24 433\u2013450. 10.1007/s10980-009-9327-y",
+                            "id": [
+                                {
+                                    "@value": "doi_________::538bcf19ad9d50780c5aa5cd489a21f3",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s10980-009-9327-y",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "44",
+                            "rawText": "McKenna A.Hanna M.Banks E.Sivachenko A.Cibulskis K.Kernytsky A. (2010). The genome analysis toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. Genome Res. 20 1297\u20131303. 10.1101/gr.107524.110 20644199",
+                            "id": [
+                                {
+                                    "@value": "doi_________::09be679c80778882896c5ffe54b3b567",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "20644199",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1101/gr.107524.110",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "45",
+                            "rawText": "Mguis K.Albouchi A.Brahim N. B. (2011). Effect of temperature and salinity on germination of Ruta graveolens L. Acta Bot. Gallica 158 645\u2013652. 10.1080/12538078.2011.10516301",
+                            "id": [
+                                {
+                                    "@value": "doi_________::7819b671ea76b35148c714a7ee17d008",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1080/12538078.2011.10516301",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "46",
+                            "rawText": "Mondal H. A.Wenninger E. J.Hutchinson P. J. S.Weibe M. A.Eigenbrode S. D.Bosque-P\u00e9rez N. A. (2016). Contribution of noncolonizing aphids to Potato virus Y prevalence in pot ato in Idaho. Environ. Entomol. 10.1093/ee/nvw131 [Epub ahead of print]. 28028092",
+                            "id": [
+                                {
+                                    "@value": "doi_________::cb7932a5ed9eba564c1eadcc2142f1c4",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "28028092",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/ee/nvw131",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "47",
+                            "rawText": "Moreno-P\u00e9rez M. G.Pag\u00e1n I.Arag\u00f3n-Caballero L.C\u00e1ceres F.Fraile A.Garc\u00eda-Arenal F. (2014). Ecological and genetic determinants of Pepino mosaic virus emergence. J. Virol. 88 3359\u20133368. 10.1128/JVI.02980-13 24390328",
+                            "id": [
+                                {
+                                    "@value": "pmid________::244dd5b6c3493d211825c5d0d7a19aa6",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "24390328",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1128/JVI.02980-13",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "48",
+                            "rawText": "Moya A.Elena S. F.Bracho A.Miralles R.Barrio E. (2000). The evolution of RNA viruses: a population genetics view. Proc. Natl. Acad. Sci. U.S.A. 97 6967\u20136973. 10.1073/pnas.97.13.6967 10860958",
+                            "id": [
+                                {
+                                    "@value": "doi_________::27ac19bf6a7ead4f3211f6648f544ff1",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10860958",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1073/pnas.97.13.6967",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "49",
+                            "rawText": "Nebreda M.Moreno A.P\u00e9rez N.Palacios I.Seco-Fern\u00e1ndez V.Fereres A. (2004). Activity of aphids associated with lettuce and broccoli in Spain and their efficiency as vectors of Lettuce mosaic virus. Virus Res. 100 83\u201388. 10.1016/j.virusres.2003.12.016 15036838",
+                            "id": [
+                                {
+                                    "@value": "RECOLECTA___::e2f42670461b607134371be3e09e1a34",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "15036838",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.virusres.2003.12.016",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "50",
+                            "rawText": "Nei M.Tajima F. (1981). Genetic drift and estimation of effective population size. Genetics 98 625\u2013640.17249104",
+                            "id": [
+                                {
+                                    "@value": "pmid________::2e8cf62d9401b2f8a410030a82ca5314",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "17249104",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "51",
+                            "rawText": "Oerke E.-C. (2006). Crop losses to pests. J. Agric. Sci. 144 31\u201343. 10.1017/S0021859605005708",
+                            "id": {
+                                "@value": "10.1017/S0021859605005708",
+                                "@type": "doi",
+                                "@trustLevel": "0.9"
+                            }
+                        },
+                        {
+                            "@position": "52",
+                            "rawText": "Ostfeld R. S.Keesing F. (2012). Effects of host diversity on infectious disease. Annu. Rev. Ecol. Evol. Syst. 43 157\u2013182. 10.1146/annurev-ecolsys-102710-145022",
+                            "id": [
+                                {
+                                    "@value": "doi_________::3cab9557f36475653d8012b649372eff",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1146/annurev-ecolsys-102710-145022",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "53",
+                            "rawText": "Pag\u00e1n I.Betancourt M.de Miguel J.Pi\u00f1ero D.Fraile A.Garc\u00eda-Arenal F. (2010). Genomic and biological characterization of chiltep\u00edn yellow mosaic virus, a new tymovirus infecting Capsicum annuum var. aviculare in Mexico. Arch. Virol. 155 675\u2013684. 10.1007/s00705-010-0639-7 20229325",
+                            "id": [
+                                {
+                                    "@value": "od______1033::587073a5438bcd6ea0eb58cdc3af5a4a",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "20229325",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s00705-010-0639-7",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "54",
+                            "rawText": "Pag\u00e1n I.Fraile A.Garc\u00eda-Arenal F. (2016). \u201cEvolution of the interactions of viruses with their plant hosts,\u201d in Virus Evolution: Current Research and Future Directions, eds Weaver S. C.Denison M.Roossinck M.Vignuzzi M. (Poole: Caister Academic Press), 127\u2013154. 10.21775/9781910190234.05",
+                            "id": [
+                                {
+                                    "@value": "doi_________::a4ad67864ad42d1eb3de12d3d9b91c00",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.21775/9781910190234.05",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "55",
+                            "rawText": "Pag\u00e1n I.Gonz\u00e1lez-Jara P.Moreno-Letelier A.Rodelo-Urrego M.Fraile A.Pi\u00f1ero D. (2012). Effect of biodiversity changes in disease risk: exploring disease emergence in a plant-virus system. PLOS Pathog. 8:e1002796. 10.1371/journal.ppat.1002796 22792068",
+                            "id": [
+                                {
+                                    "@value": "RECOLECTA___::1446687d50f990e9348aeee3d63b5f24",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "22792068",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1371/journal.ppat.1002796",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "56",
+                            "rawText": "Pag\u00e1n I.Holmes E. C. (2010). Long-term evolution of the Luteoviridae: time scale and mode of virus speciation. J. Virol. 84 6177\u20136187. 10.1128/JVI.02160-09 20375155",
+                            "id": [
+                                {
+                                    "@value": "pmid________::f0885e0c1be425db51a739f6057d7309",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "20375155",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1128/JVI.02160-09",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "57",
+                            "rawText": "Pat\u00f3n D.Garc\u00eda-Herrera R.Cuenca J.Galavis M.Roig F. (2009). Influence of climate on radial growth of Holm Oaks (Quercus ilex Subsp. Ballota Desf) from SW Spain. Geochronometria 34 49\u201356. 10.2478/v10003-009-0017-1",
+                            "id": [
+                                {
+                                    "@value": "doi_________::2658cb8ae0ea7a5fce8ea10cd5df0ea0",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.2478/v10003-009-0017-1",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "58",
+                            "rawText": "Posada D. (2002). Evaluation of methods for detecting recombination from DNA sequences: empirical data. Mol. Biol. Evol. 19 708\u2013717. 10.1093/oxfordjournals.molbev.a004129 11961104",
+                            "id": [
+                                {
+                                    "@value": "doi_________::641297e285018f62ffcba27b9032c1ec",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "11961104",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/oxfordjournals.molbev.a004129",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "59",
+                            "rawText": "Prendeville H. R.Ye X.Jack Morris T.Pilson D. (2012). Virus infections in wild plant populations are both frequent and often unapparent. Am. J. Bot. 99 1033\u20131042. 10.3732/ajb.1100509 22645099",
+                            "id": [
+                                {
+                                    "@value": "doi_________::2e84b13fad8243224f10a09963a1925e",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "22645099",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.3732/ajb.1100509",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "60",
+                            "rawText": "Pybus O. G.Rambaut A. (2009). Evolutionary analysis of the dynamics of viral infectious disease. Nat. Rev. Genet. 10 540\u2013550. 10.1038/nrg2583 19564871",
+                            "id": [
+                                {
+                                    "@value": "doi_________::a9b4b5f046d3687cf12aa92ce6ae6a1e",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "19564871",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1038/nrg2583",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "61",
+                            "rawText": "Quenouille J.Vassilakos N.Moury B. (2013). Potato virus Y: a major crop pathogen that has provided major insights into the evolution of viral pathogenicity. Mol. Plant Pathol. 14 439\u2013452. 10.1111/mpp.12024 23480826",
+                            "id": [
+                                {
+                                    "@value": "doi_________::36ff3070b66a5a98c8a870b5943ae9d3",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "23480826",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/mpp.12024",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "62",
+                            "rawText": "Ram\u00edrez J. A.D\u00edaz M. (2008). The role of temporal shrub encroachment for the maintenance of Spanish holm oak Quercus ilex dehesas. For. Ecol. Manag. 255 1976\u20131983. 10.1016/j.foreco.2007.12.019",
+                            "id": [
+                                {
+                                    "@value": "od_____10013::099eb6917af4be24cfb7ac43dee2fb9d",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.foreco.2007.12.019",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "63",
+                            "rawText": "Rodelo-Urrego M.Garc\u00eda-Arenal F.Pag\u00e1n I. (2015). The effect of ecosystem biodiversity on virus genetic diversity depends on virus species: a study of chiltepin-infecting begomoviruses in Mexico. Virus Evol. 1:vev004. 10.1093/ve/vev004 27774278",
+                            "id": [
+                                {
+                                    "@value": "doi_________::42c1c73ac4a4e2dac7e4777a8ab1ec29",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "27774278",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/ve/vev004",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "64",
+                            "rawText": "Rodelo-Urrego M.Pag\u00e1n I.Gonz\u00e1lez-Jara P.Betancourt M.Mo reno-Letelier A.Ayll\u00f3n M. A. (2013). Landscape heterogeneity shapes host-parasite interactions and results in apparent plant-virus codivergence. Mol. Ecol. 22 2325\u20132340. 10.1111/mec.12232 23379795",
+                            "id": [
+                                {
+                                    "@value": "doi_________::f9a22e8351cd128ce6f9a31d13619d52",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "23379795",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/mec.12232",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "65",
+                            "rawText": "Ronquist F.Huelsenbeck J. P. (2003). MrBayes 3: bayesian phylogenetic inference under mixed models. Bioinformatics 19 1572\u20131574. 10.1093/bioinformatics/btg180 12912839",
+                            "id": [
+                                {
+                                    "@value": "doi_________::79244435a72198ca7a0166a7f7bfdced",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "12912839",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/bioinformatics/btg180",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "66",
+                            "rawText": "Roossinck M. J. (2010). Lifestyles of plant viruses. Philos. Trans. R. Soc. B Biol. Sci. 365 1899\u20131905. 10.1098/rstb.2010.0057 20478885",
+                            "id": [
+                                {
+                                    "@value": "doi_________::a7de675bd29cc4b8e2dae1a4a76b32c2",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "20478885",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1098/rstb.2010.0057",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "67",
+                            "rawText": "Roossinck M. J. (2012). Plant virus metagenomics: biodiversity and ecology. Annu. Rev. Genet. 46 359\u2013369. 10.1146/annurev-genet-110711-155600 22934641",
+                            "id": [
+                                {
+                                    "@value": "doi_________::f4f9f3d7d53c347fa7951ecc2ee095e8",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "22934641",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1146/annurev-genet-110711-155600",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "68",
+                            "rawText": "Rost B.Yachdav G.Liu J. (2004). The predictprotein server. Nucleic Acids Res. 32 W321\u2013W326. 10.1093/nar/gkh377 15215403",
+                            "id": [
+                                {
+                                    "@value": "pmid________::f0b9e5d19f766fad44ec2563619e5c67",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "15215403",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/nar/gkh377",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "69",
+                            "rawText": "Sacrist\u00e1n S.Fraile A.Garc\u00eda-Arenal F. (2004). Population dynamics of cucumber mosaic virus in melon crops and in weeds in central Spain. Phytopathology 94 992\u2013998. 10.1094/PHYTO.2004.94.9.992 18943076",
+                            "id": [
+                                {
+                                    "@value": "18943076",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1094/PHYTO.2004.94.9.992",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "70",
+                            "rawText": "S\u00e1nchez F.S\u00e1ez M.Lunello P.Ponz F. (2013). Plant viral elongated nanoparticles modified for log-increases of foreign peptide immunogenicity and specific antibody detection. J. Biotechnol. 168 409\u2013415. 10.1016/j.jbiotec.2013.09.002 24055625",
+                            "id": [
+                                {
+                                    "@value": "doi_________::395e93d8998b2b6a911260c98f3d16cd",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "24055625",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.jbiotec.2013.09.002",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "71",
+                            "rawText": "Scholle S. O.Ypma R. J.Lloyd A. L.Koelle K. (2013). Viral substitution rate variation can arise from the interplay between within-host and epidemiological dynamics. Am. Nat. 182 494\u2013513. 10.1086/672000 24021402",
+                            "id": [
+                                {
+                                    "@value": "doi_________::59ea3d4d768d0989842fbdb2d21e18d2",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "24021402",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1086/672000",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "72",
+                            "rawText": "Shukla D. D.Ward C. W.Brunt A. A. (1994). The Potyviridae. Wallingford: CAB International."
+                        },
+                        {
+                            "@position": "73",
+                            "rawText": "Stobbe A. H.Roossinck M. J. (2014). Plant virus metagenomics: what we know and why we need to know more. Front. Plant Sci. 5:150. 10.3389/fpls.2014.00150 24795737",
+                            "id": [
+                                {
+                                    "@value": "doajarticles::b6bd1cc429c5205b1d322fec4eb68320",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "24795737",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.3389/fpls.2014.00150",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "74",
+                            "rawText": "Tamura K.Stecher G.Peterson D.Filipski A.Kumar S. (2013). MEGA6: molecular evolutionary genetics analysis version 6.0. Mol. Biol. Evol. 30 2725\u20132729. 10.1093/molbev/mst197 24132122",
+                            "id": [
+                                {
+                                    "@value": "doi_________::be50d8bf8230c88fa7bfa4bcb7e6cbc8",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "24132122",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/molbev/mst197",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "75",
+                            "rawText": "Tugume A. K.Mukasa S. B.Valkonen J. P. (2016). Mixed infections of four viruses, the incidence and phylogenetic relationships of Sweet potato chlorotic fleck virus (Betaflexiviridae) isolates in wild species and sweetpotatoes in Uganda and evidence of distinct isolates in East Africa. PLOS ONE 11:e0167769. 10.1371/journal.pone.0167769 28005969",
+                            "id": [
+                                {
+                                    "@value": "doajarticles::b5566f20d5bf9a23ca13058fe9842a92",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "28005969",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1371/journal.pone.0167769",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "76",
+                            "rawText": "Urcuqui-Inchima S.Haenni A.-L.Bernardi F. (2001). Potyvirus proteins: a wealth of functions. Virus Res. 74 157\u2013175. 10.1016/S0168-1702(01)00220-9 11226583",
+                            "id": [
+                                {
+                                    "@value": "11226583",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/S0168-1702(01)00220-9",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "77",
+                            "rawText": "Vijayan V.L\u00f3pez-Gonz\u00e1lez S.S\u00e1nchez F.Ponz F.Pag\u00e1n I. (2017). Virulence evolution of a sterilizing plant virus: tuning multiplication and resource exploitation. Virus Evol. 3:vex033 10.1093/ve/vex033",
+                            "id": [
+                                {
+                                    "@value": "pmid________::907f8afed6ed0751916bccd4dc442270",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1093/ve/vex033",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "78",
+                            "rawText": "Vurro M.Bonciani B.Vannacci G. (2010). Emerging infectious diseases of crop plants in developing countries: impact on agriculture and socio-economic consequences. Food Secur. 2 113\u2013132. 10.1007/s12571-010-0062-7",
+                            "id": [
+                                {
+                                    "@value": "doi_________::fc8aa73ee3f68d42ce7cb3a0d202c495",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s12571-010-0062-7",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "79",
+                            "rawText": "Walsh J. A.Jenner C. E. (2002). Turnip mosaic virus and the quest for durable resistance. Mol. Plant Pathol. 3 289\u2013300. 10.1046/j.1364-3703.2002.00132.x 20569337",
+                            "id": [
+                                {
+                                    "@value": "doi_________::c27642797ee49add12b457bfb9750b22",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "20569337",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1046/j.1364-3703.2002.00132.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "80",
+                            "rawText": "Webster C. G.Coutts B. A.Jones R. A. C.Jones M. G. K.Wylie S. J. (2007). Virus impact at the interface of an ancient ecosystem and a recent agroecosystem: studies on three legume-infecting potyviruses in the southwest Australian floristic region. Plant Pathol. 56 729\u2013742. 10.1111/j.1365-3059.2007.01653.x",
+                            "id": [
+                                {
+                                    "@value": "doi_________::be0c51076fb760fa5f12f6c4b23390f4",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/j.1365-3059.2007.01653.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "81",
+                            "rawText": "Woolhouse M. E. (2002). Population biology of emerging and re-emerging pathogens. Trends Microbiol. 10 s3\u2013s7. 10.1016/S0966-842X(02)02428-9 12377561",
+                            "id": [
+                                {
+                                    "@value": "12377561",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/S0966-842X(02)02428-9",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "82",
+                            "rawText": "Woolhouse M. E.Haydon D. T.Antia R. (2005). Emerging pathogens: the epidemiology and evolution of species jumps. Trends Ecol. Evol. 20 238\u2013244. 10.1016/j.tree.2005.02.009 16701375",
+                            "id": [
+                                {
+                                    "@value": "doi_________::f26726a2ed850384d7fa5673a1ecdb78",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "16701375",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.tree.2005.02.009",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "83",
+                            "rawText": "Woolhouse M. E.Taylor L. H.Haydon D. T. (2001). Population biology of multihost pathogens. Science 292 1109\u20131112. 10.1126/science.1059026 1135206 6",
+                            "id": [
+                                {
+                                    "@value": "doi_________::25555b093ee11bcb110fc7a3ace50c33",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "11352066",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1126/science.1059026",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "84",
+                            "rawText": "Wren J. D.Roossinck M. J.Nelson R. S.Scheets K.Palmer M. W.Melcher U. (2006). Plant virus biodiversity and ecology. PLOS Biol. 4:e80. 10.1371/journal.pbio.0040080 16524342",
+                            "id": [
+                                {
+                                    "@value": "doajarticles::ad6e8b659b854e14af759e44ff676706",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "16524342",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1371/journal.pbio.0040080",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "85",
+                            "rawText": "Wylie S. J.Kueh J.Welsh B.Smith L. J.Jones M. G. K.Jones R. A. C. (2002). A non-aphid-transmissible isolate of bean yellow mosaic potyvirus has an altered NAG motif in its coat protein. Arch. Virol. 147 1813\u20131820. 10.1007/s00705-002-0846-y 12209319",
+                            "id": [
+                                {
+                                    "@value": "doi_________::4deffaf30500ec90dbc50005625eb08d",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "12209319",
+                                    "@type": "pmid",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1007/s00705-002-0846-y",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "86",
+                            "rawText": "Zam ora J.Verdu J.Galante E. (2007). Species richness in Mediterranean agroecosystems: spatial and temporal analysis for biodiversity conservation. Biol. Conserv. 134 113\u2013121. 10.1016/j.biocon.2006.08.011",
+                            "id": [
+                                {
+                                    "@value": "doi_________::535f42a86f816cd14b1f5f268914d56f",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1016/j.biocon.2006.08.011",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        },
+                        {
+                            "@position": "87",
+                            "rawText": "Zheng L.Rodoni B. C.Gibbs M. J.Gibbs A. J. (2010). A novel pair of universal primers for the detection of potyviruses. Plant Pathol. 59 211\u2013220. 10.1111/j.1365-3059.2009.02201.x",
+                            "id": [
+                                {
+                                    "@value": "doi_________::9703a85d9a197dc0aacf677cb642d0f0",
+                                    "@type": "openaire",
+                                    "@trustLevel": "0.9"
+                                },
+                                {
+                                    "@value": "10.1111/j.1365-3059.2009.02201.x",
+                                    "@type": "doi",
+                                    "@trustLevel": "0.9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

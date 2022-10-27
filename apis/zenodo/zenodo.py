@@ -5,7 +5,7 @@ import requests
 
 
 query = "UPM" # UPM
-page_size = 1000 # max 200 min 1
+page_size = 1000 # 
 page = 1 # min 1
 record_type = "software" # publication, software
 

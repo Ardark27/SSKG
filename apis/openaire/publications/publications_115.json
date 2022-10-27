@@ -1,0 +1,351 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "dedup_wf_001::3df5e1097eb1df15438e2bda5559d64f",
+        "dri:dateOfCollection": "2018-06-25T15:31:30.513Z",
+        "dri:dateOfTransformation": "2022-09-01T06:34:17.735Z"
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Reposit\u00f3rio da UTAD",
+                        "@id": "opendoar____::efb76cff97aaf057654ef2f38cd77d73"
+                    },
+                    {
+                        "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                        "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                    }
+                ],
+                "originalId": [
+                    "oai:repositorio.utad.pt:10348/6380",
+                    "50|od______1628::3df5e1097eb1df15438e2bda5559d64f",
+                    "50|od______3056::3df5e1097eb1df15438e2bda5559d64f"
+                ],
+                "pid": {
+                    "@classid": "handle",
+                    "@classname": "Handle",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "@inferred": "false",
+                    "@provenanceaction": "sysimport:crosswalk:repository",
+                    "@trust": "0.9",
+                    "#text": "10348/6380"
+                },
+                "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "@inferred": "false",
+                    "@provenanceaction": "sysimport:crosswalk:repository",
+                    "@trust": "0.9",
+                    "#text": "Micro esta\u00e7\u00e3o meteorol\u00f3gica para vinhas"
+                },
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": {
+                    "@rank": "1",
+                    "@name": "Francisco Eduardo Gomes Baptista",
+                    "@surname": "Cordeiro",
+                    "#text": "Cordeiro, Francisco Eduardo Gomes Baptista"
+                },
+                "contributor": [
+                    "Silva, Pedro Miguel Mestre Alves da",
+                    "Ser\u00f4dio, Carlos Manuel Jos\u00e9 Alves"
+                ],
+                "country": {
+                    "@classid": "PT",
+                    "@classname": "Portugal",
+                    "@schemeid": "dnet:countries",
+                    "@schemename": "dnet:countries"
+                },
+                "dateofacceptance": "2016-08-22",
+                "description": "Disserta\u00e7\u00e3o de Mestrado em Engenharia Electrot\u00e9cnica e de Computadores Devido \u00e0 crescente necessidade de uma maior efic\u00e1cia na vinha, torna-se evidente a necessidade de sistemas que forne\u00e7am informa\u00e7\u00f5es essenciais para o melhoramento na produ\u00e7\u00e3o da uva. Com a escassez de dados meteorol\u00f3gicos localizados da vinha, \u00e9 necess\u00e1rio a utiliza\u00e7\u00e3o de um mecanismo tecnol\u00f3gico de o apoio \u00e0 decis\u00e3o, para o sector da viticultura. O objetivo deste trabalho \u00e9 implementar uma Micro Esta\u00e7\u00e3o Meteorol\u00f3gica para Vinhas, que seja capaz de adquirir os dados dos v\u00e1rios sensores que est\u00e3o conectados e os envie para um computador central, para que sejam posteriormente consultados e analisados pelo respons\u00e1vel da vinha. Esta Micro Esta\u00e7\u00e3o Meteorol\u00f3gica possui comunica\u00e7\u00f5es atrav\u00e9s de tecnologia RSSF e \u00e9 aut\u00f3nomo ao n\u00edvel energ\u00e9tico, pois \u00e9 alimentada atrav\u00e9s de um painel fotovoltaico. A evolu\u00e7\u00e3o da tecnologia dos microcontroladores, muito contribu\u00edram para possibilitar a cria\u00e7\u00e3o de sistemas deste tipo, robustos e fi\u00e1veis. O sistema desenvolvido utiliza o padr\u00e3o IEEE802.15.4 para a comunica\u00e7\u00e3o com o sistema central. Este padr\u00e3o \u00e9 dos mais utilizados em RSSF. Due to the growing need for greater efficiency in the vineyard, it becomes evident the need for systems that provide essential information for the improvement of grape production. With the scarcity of localized weather data of vineyards, the use of technologic solutions to support the decision making process is needed for the viticulture sector. The objective of this work is to implement a Micro weather Station for Cineyards, able of acquiring data from several sensors and then send it to a central computer, for later visualisation and analysis by the manager of the vineyard. This Micro Weather Station uses a WSN for communications, and it is self powered. It uses a solar panel. The evolution of microcontrollers greatly contributed to enable the creation of systems of this type, with robustness and high level of reliability. The developed system uses standard communications to send data to the central system. This standard is IEEE802.15.4 which is the most used protocol in WSN. FEDER, FCT",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Sensores"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Vinha"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Microcontroladores"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Micro esta\u00e7\u00e3o meteorol\u00f3gica"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "681.58(043)"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "621.39(043)"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "004.2(043)"
+                    }
+                ],
+                "language": {
+                    "@classid": "por",
+                    "@classname": "Portuguese",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "source": [
+                    "instname:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal (RCAAP)",
+                    "instacron:RCAAP",
+                    "reponame:Reposit\u00f3rio Cient\u00edfico de Acesso Aberto de Portugal"
+                ],
+                "format": "application/pdf",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "UNKNOWN",
+                    "@schemeid": "dnet:dataCite_resource",
+                    "@schemename": "dnet:dataCite_resource"
+                },
+                "context": {
+                    "@id": "FCT",
+                    "@label": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "FCT::5876-PPCDTI",
+                        "@label": "5876-PPCDTI"
+                    }
+                },
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": [
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:instrepo",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::e77d37ca7d20aa99326f624766abfddb"
+                            },
+                            "country": {
+                                "@classid": "PT",
+                                "@classname": "Portugal",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalshortname": "UTAD",
+                            "legalname": "University of Tr\u00e1s-os-Montes and Alto Douro"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.72",
+                            "@inferenceprovenance": "iis::document_referencedProjects",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "fct_________::6d0b47575292d36900b7650863526a9e"
+                            },
+                            "funding": {
+                                "funder": {
+                                    "@id": "fct_________::FCT",
+                                    "@shortname": "FCT",
+                                    "@name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, I.P.",
+                                    "@jurisdiction": "PT"
+                                },
+                                "funding_level_0": {
+                                    "@name": "5876-PPCDTI",
+                                    "#text": "fct_________::FCT::5876-PPCDTI"
+                                }
+                            },
+                            "acronym": "PTDC/AGR-PRO/120264/2010",
+                            "title": "Molecular biology of grape berry phenolic maturation",
+                            "code": "PTDC/AGR-PRO/120264/2010"
+                        }
+                    ]
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "od______1628::3df5e1097eb1df15438e2bda5559d64f",
+                            "collectedfrom": {
+                                "@name": "Reposit\u00f3rio da UTAD",
+                                "@id": "opendoar____::efb76cff97aaf057654ef2f38cd77d73"
+                            },
+                            "dateofacceptance": "2016-08-22",
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10348/6380"
+                            },
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Micro esta\u00e7\u00e3o meteorol\u00f3gica para vinhas"
+                            }
+                        },
+                        {
+                            "@objidentifier": "od______3056::3df5e1097eb1df15438e2bda5559d64f",
+                            "collectedfrom": {
+                                "@name": "LAReferencia - Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas Latinoamericanas",
+                                "@id": "opendoar____::dc6e224a8d74ce03bf301152d6e33e97"
+                            },
+                            "dateofacceptance": "2016-08-22",
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10348/6380"
+                            },
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Micro esta\u00e7\u00e3o meteorol\u00f3gica para vinhas"
+                            }
+                        }
+                    ]
+                }
+            },
+            "extraInfo": {
+                "@name": "result reference list",
+                "@typology": "reference list",
+                "@provenance": "iis::document_referencedDocuments",
+                "@trust": "0.9",
+                "references": {
+                    "reference": [
+                        {
+                            "@position": "1",
+                            "rawText": "1 Introdu\u00b8c\u02dcao 1 1.1 Motiva\u00b8c\u02dcao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 1.2 Objetivos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.3 Organiza\u00b8c\u02dcao da Dissertac\u00b8\u02dcao . . . . . . . . . . . . . . . . . . . . . . . 3"
+                        },
+                        {
+                            "@position": "2",
+                            "rawText": "[14] A. Technologies, \u201cPractical Temperature Measurements.\u201d Agilent Technologies, Inc., 2012. http://cp.literature.agilent.com/litweb/pdf/5965-7822E. pdf. 22, 27"
+                        },
+                        {
+                            "@position": "3",
+                            "rawText": "[15] W. A. Wiegand, \u201cApplication of thermocouples.\u201d WIKA Alexander Wiegand SE & Co. KG, 2013. http://de-de.wika.de/upload/DS_IN0023_en_co_ 51542.pdf. 22, 23"
+                        },
+                        {
+                            "@position": "4",
+                            "rawText": "[16] N. Instruments, \u201cMedic\u00b8\u02dcoes de temperatura com termopares: Guia pra\u00b4tico.\u201d National Instruments, 2013. 23"
+                        },
+                        {
+                            "@position": "5",
+                            "rawText": "[17] N. Instruments, \u201cRTD, Term\u00b4\u0131stor, Tabela de compara\u00b8c\u02dcao para termopares.\u201d National Instruments, 2007. http://digital.ni.com/public.nsf/allkb/ D242511854DEE66686257BE2005D5A2D. 23"
+                        },
+                        {
+                            "@position": "6",
+                            "rawText": "[18] Thermibel, What are the Pt100 types? Thermibel S.A. http://www.thermibel.be/documents/pt100/pt100-types.xml?lang=en. 24, 26"
+                        },
+                        {
+                            "@position": "7",
+                            "rawText": "[25] Capgo, \u201cSemiconductor.\u201d Capgo Pty Ltd. http://www.capgo.com/ Resources/Temperature/Semiconductor/Semi.html. 27"
+                        },
+                        {
+                            "@position": "8",
+                            "rawText": "[26] Digi-Key, \u201cHumidity Sensors and Signal Conditioning Choices.\u201d Digi-Key Corporation, 2011. http://www.digikey.com/en/articles/techzone/2011/ oct/humidity-sensors-and-signal-conditioning-choices. 28"
+                        },
+                        {
+                            "@position": "9",
+                            "rawText": "[27] I. Engineering360, \u201cWeather Instruments Information.\u201d IHS Engineering360. http://www.globalspec.com/learnmore/sensors_transducers_ detectors/weather_sensing/weather_instruments. 28 [35] ictinternational, \u201cDynamax Dynagages.\u201d ictinternational. ictinternational.com/products/shb/dynamax-dynagages/. 43"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

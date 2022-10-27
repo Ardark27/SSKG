@@ -1,0 +1,3273 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::e88ae040f8f5b4204ad30349ec2331eb",
+            "dri:dateOfCollection": "2022-04-29T08:17:24.16Z",
+            "dri:dateOfTransformation": "2022-04-29T08:26:19.883Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::e88ae040f8f5b4204ad30349ec2331eb",
+                        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5c8d51583"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "State of the art and numerical methodology, validation plan"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "This Deliverable includes: - Summary of the state of the art described in Task 2.1 - Report on the selected methodology fot the numerical analysis and the validation process - Report describing the strategy of testing in accordance with the numerical method. Including the description of four concepts or devices to improve the heat exchanger efficiency that will be proposed for testing",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-11-07"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                            },
+                            "code": "831977",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "CS2-RIA",
+                                    "#text": "ec__________::EC::H2020::CS2-RIA"
+                                }
+                            },
+                            "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                            "acronym": "SACOC"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5c8d51583&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::a117132eb6d86d6e8f30277aa40b985c",
+            "dri:dateOfCollection": "2022-04-29T08:16:22.616Z",
+            "dri:dateOfTransformation": "2022-04-29T08:25:24.254Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::a117132eb6d86d6e8f30277aa40b985c",
+                        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5d64d4270"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Test Facilities"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "This deliverable includes: - Main specifications of the test facilities (x2) to be used during the project - Details of assembled test facilities (drawings, CAD, instrumentation, design \u2026) - Results of the first runs with the reference heat exchanger. The data obtained will be also provided to TM type: (R) Report and (D) Data",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2021-01-04"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                            },
+                            "code": "831977",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "CS2-RIA",
+                                    "#text": "ec__________::EC::H2020::CS2-RIA"
+                                }
+                            },
+                            "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                            "acronym": "SACOC"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5d64d4270&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::0557e4222b9bb1e32adf670a02209813",
+            "dri:dateOfCollection": "2022-05-06T19:52:22Z",
+            "dri:dateOfTransformation": null
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "ZENODO",
+                            "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                        },
+                        {
+                            "@name": "Sygma",
+                            "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                        }
+                    ],
+                    "originalId": [
+                        "S0017931021010760",
+                        "10.1016/j.ijheatmasstransfer.2021.121971",
+                        "50|doiboost____::0557e4222b9bb1e32adf670a02209813",
+                        "3204527017",
+                        "oai:zenodo.org:5702893",
+                        "50|od______2659::a1b193bb3716c6fb1423c497d4aaf20f",
+                        "50|sygma_______::0557e4222b9bb1e32adf670a02209813"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1016/j.ijheatmasstransfer.2021.121971"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.19357654497e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.6",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "1.04925439797e-08",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "1.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "1.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Numerical optimization of the fin shape experiments of a heat conjugate problem surface air/oil heat exchanger (SACOC)"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Numerical optimization of the fin shape experiments of a heat conjugate problem surface air/oil heat exchanger (SACOC)"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "@name": "Miguel",
+                            "@surname": "Ch\u00e1vez-M\u00f3dena",
+                            "@orcid_pending": "0000-0002-1585-6341",
+                            "#text": "Ch\u00e1vez-M\u00f3dena, Miguel"
+                        },
+                        {
+                            "@rank": "2",
+                            "@name": "Leo Miguel",
+                            "@surname": "Gonz\u00e1lez",
+                            "@orcid_pending": "0000-0002-1629-0001",
+                            "#text": "Gonz\u00e1lez, Leo Miguel"
+                        },
+                        {
+                            "@rank": "3",
+                            "@name": "Eusebio",
+                            "@surname": "Valero",
+                            "@orcid_pending": "0000-0002-1627-6883",
+                            "@URL": "https://academic.microsoft.com/#/detail/2422870916",
+                            "#text": "Valero, Eusebio"
+                        }
+                    ],
+                    "dateofacceptance": "2021-09-24",
+                    "description": "<p>Efficient&nbsp;aircraft engine&nbsp;designs imply the presence of a surface air/oil&nbsp;heat exchanger&nbsp;placed at the&nbsp;bypass flow&nbsp;separation of the engine. The heat exchanger consists of several parallel&nbsp;longitudinal fins&nbsp;that increase the contact area to obtain a higher heat&nbsp;dissipation rate. The design of these fins is an important task as the pressure drop generated by the presence of the heat exchanger is the largest drawback to be minimized in the final setup. Consequently, an efficient design of the fins that optimizes the global performance of the heat exchanger is highly demanded. The result of this optimization process should minimize the pressure drop caused by the exchanger without decreasing the heat transfer. The optimization methodology proposed in this work is split in two independent parts: in the first one, the fin shape is optimized using the adjoint method and the derived sensitivity function that controls the position of the fin shape design. In parallel, the range of fin thickness and distance between fins was investigated to have an optimized fin distribution for a given SACOC width. Once the geometry was optimized, the coupled conjugate heat problem is numerically solved using realistic conditions showing good accuracy in the two presented validations. The result for the optimized geometry presents a substantial pressure drop reduction with little heat transfer variation, addressing the objectives that motivated the present study.</p>",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Fluid Flow and Transfer Processes"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanical Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Condensed Matter Physics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Fin"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Work (thermodynamics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Materials science"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Position (vector)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Heat transfer"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Reduction (mathematics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Heat exchanger"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Contact area"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Pressure drop"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "02 engineering and technology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0202 electrical engineering"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "electronic engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "SACOC heat exchanger"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Aircraft Engines"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Optimization"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Adjoint method"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Finite volumes"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Conjugate heat problem"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2021-09-24"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2022-01-01"
+                        },
+                        {
+                            "@classid": "issued",
+                            "@classname": "issued",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "2021-09-24"
+                        }
+                    ],
+                    "publisher": "Elsevier BV",
+                    "source": [
+                        "Crossref",
+                        null
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "journal": {
+                        "@issn": "0017-9310",
+                        "@sp": "121971",
+                        "@vol": "182",
+                        "#text": "International Journal of Heat and Mass Transfer"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "validated": {
+                                    "@date": "2021-12-13"
+                                },
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                                },
+                                "code": "831977",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "H2020",
+                                        "#text": "ec__________::EC::H2020"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "CS2-RIA",
+                                        "#text": "ec__________::EC::H2020::CS2-RIA"
+                                    }
+                                },
+                                "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                                "acronym": "SACOC"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_similarities_standard",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "IsAmongTopNSimilarDocuments",
+                                    "@scheme": "dnet:result_result_relations",
+                                    "@type": "publication",
+                                    "#text": "doi_dedup___::69a7c91a746ef12cfe97655c52a2d822"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "ZENODO",
+                                        "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                    }
+                                ],
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Experimental aerothermal characterization of surface air-cooled oil coolers for turbofan engines"
+                                },
+                                "dateofacceptance": "2022-03-14",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2022.122775"
+                                },
+                                "publisher": "Elsevier BV"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______2659::a1b193bb3716c6fb1423c497d4aaf20f",
+                                "publisher": "Zenodo",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Numerical optimization of the fin shape experiments of a heat conjugate problem surface air/oil heat exchanger (SACOC)"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2021-09-24"
+                            },
+                            {
+                                "@objidentifier": "sygma_______::0557e4222b9bb1e32adf670a02209813",
+                                "collectedfrom": {
+                                    "@name": "Sygma",
+                                    "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Numerical optimization of the fin shape experiments of a heat conjugate problem surface air/oil heat exchanger (SACOC)"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::0557e4222b9bb1e32adf670a02209813",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2021.121971"
+                                },
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Numerical optimization of the fin shape experiments of a heat conjugate problem surface air/oil heat exchanger (SACOC)"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "dateofacceptance": "2022-01-01",
+                                "publisher": "Elsevier BV"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2021-09-24",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://zenodo.org/record/5702893"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "International Journal of Heat and Mass Transfer",
+                                    "@id": "issn___print::c6048f8a55685c4f4e4661f0d1d50fc9"
+                                },
+                                "dateofacceptance": "2022-01-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2021.121971"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2021.121971"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": [
+                                    "https://www.elsevier.com/tdm/userlicense/1.0/",
+                                    "http://creativecommons.org/licenses/by/4.0/"
+                                ],
+                                "webresource": {
+                                    "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2021.121971"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::01a978d5fd60c886dd33fe33ad7452a3",
+            "dri:dateOfCollection": "2022-04-29T08:17:25.468Z",
+            "dri:dateOfTransformation": "2022-04-29T08:23:34.099Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::01a978d5fd60c886dd33fe33ad7452a3",
+                        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5c8cc5ac9"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Scoping report and project requirements"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "This Deliverable corresponds to the summary of the main aspects of tasks included in WP1 (updated work plan, resiks, roles, Data and information exchange system. It also includes the main requirements for both numerical methods and tests.",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2019-11-07"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                            },
+                            "code": "831977",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "CS2-RIA",
+                                    "#text": "ec__________::EC::H2020::CS2-RIA"
+                                }
+                            },
+                            "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                            "acronym": "SACOC"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5c8cc5ac9&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::69a7c91a746ef12cfe97655c52a2d822",
+            "dri:dateOfCollection": "2022-05-06T20:16:02Z",
+            "dri:dateOfTransformation": null
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "ZENODO",
+                            "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                        },
+                        {
+                            "@name": "Sygma",
+                            "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                        }
+                    ],
+                    "originalId": [
+                        "S0017931022002575",
+                        "10.1016/j.ijheatmasstransfer.2022.122775",
+                        "50|doiboost____::69a7c91a746ef12cfe97655c52a2d822",
+                        "oai:zenodo.org:6357614",
+                        "50|od______2659::09ad7b7cc0a0020ee4f1d53bceb129c1",
+                        "50|sygma_______::69a7c91a746ef12cfe97655c52a2d822"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1016/j.ijheatmasstransfer.2022.122775"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.06690394631e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "7.56226675137e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "0.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Experimental aerothermal characterization of surface air-cooled oil coolers for turbofan engines"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "@name": "Jorge",
+                            "@surname": "Garc\u00eda-Tiscar",
+                            "@orcid_pending": "0000-0003-4934-4587",
+                            "#text": "Garc\u00eda-Tiscar, Jorge"
+                        },
+                        {
+                            "@rank": "2",
+                            "@name": "Alberto",
+                            "@surname": "Broatch",
+                            "@orcid_pending": "0000-0001-9991-1039",
+                            "#text": "Broatch, Alberto"
+                        },
+                        {
+                            "@rank": "3",
+                            "@name": "Pablo",
+                            "@surname": "Olmeda",
+                            "@orcid_pending": "0000-0002-3161-0165",
+                            "#text": "Olmeda, Pablo"
+                        },
+                        {
+                            "@rank": "4",
+                            "@name": "Andr\u00e9s",
+                            "@surname": "Felgueroso",
+                            "@orcid_pending": "0000-0002-3433-3829",
+                            "#text": "Felgueroso, Andr\u00e9s"
+                        },
+                        {
+                            "@rank": "5",
+                            "@name": "Miguel",
+                            "@surname": "Ch\u00e1vez-Modena",
+                            "@orcid_pending": "0000-0002-1585-6341",
+                            "#text": "Ch\u00e1vez-Modena, Miguel"
+                        },
+                        {
+                            "@rank": "6",
+                            "@name": "Leo Miguel",
+                            "@surname": "Gonz\u00e1lez",
+                            "@orcid_pending": "0000-0002-1629-0001",
+                            "#text": "Gonz\u00e1lez, Leo Miguel"
+                        },
+                        {
+                            "@rank": "7",
+                            "@name": "Matteo",
+                            "@surname": "Gelain",
+                            "@orcid_pending": "0000-0002-6581-4588",
+                            "#text": "Gelain, Matteo"
+                        },
+                        {
+                            "@rank": "8",
+                            "@name": "Alexandre",
+                            "@surname": "Couilleaux",
+                            "#text": "Couilleaux, Alexandre"
+                        }
+                    ],
+                    "dateofacceptance": "2022-03-14",
+                    "description": "<p>Thermal management is a major challenge for new generation turbofan aero-engines. One of the most promising&nbsp;heat exchangers&nbsp;are the so-called surface air-cooled oil coolers (SACOCs). In this study, an experimental methodology is proposed and implemented in order to characterize SACOCs mounted in turbofan bypass ducts. Three different SACOC geometries have been characterized under the same nominal operating point, while the actual&nbsp;velocity profile&nbsp;in the bypass was reproduced by means of a distortion screen upstream the test section. The heat exchangers were mounted in&nbsp;counterflow configuration&nbsp;and feature the same fin geometry in the oil side. The three prototypes varied only in the air side, being the first a baseline flat plate, the second a SACOC with standard trapezoidal fins and the third featuring optimized fins designed to reduce the pressure drop. Aerothermal results demonstrated that the effect of the SACOC on the bypass flow was confined to a region about the same height and width of the finned area, avoiding the need of reproducing the whole bypass duct. However, for this reduced-height experimental approach to be valid, we show that the velocity profile needs to be rearranged to match the specific section&nbsp;of the whole bypass. We also demonstrate how the optimized fin geometry achieved a 10% lower&nbsp;friction factor&nbsp;than the standard one at nominal flow conditions while increasing the overall&nbsp;heat transfer coefficient&nbsp;by 5.2%.</p>",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Fluid Flow and Transfer Processes"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanical Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Condensed Matter Physics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Aero engines"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Experimental aerodynamics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Heat exchangers"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Turbomachinery"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Thermal management"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "SACOC"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2022-03-14"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2022-07-01"
+                        },
+                        {
+                            "@classid": "issued",
+                            "@classname": "issued",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "2022-03-14"
+                        }
+                    ],
+                    "publisher": "Elsevier BV",
+                    "source": "Crossref",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "journal": {
+                        "@issn": "0017-9310",
+                        "@sp": "122775",
+                        "@vol": "190",
+                        "#text": "International Journal of Heat and Mass Transfer"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "validated": {
+                                    "@date": "2022-06-15"
+                                },
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                                },
+                                "code": "831977",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "H2020",
+                                        "#text": "ec__________::EC::H2020"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "CS2-RIA",
+                                        "#text": "ec__________::EC::H2020::CS2-RIA"
+                                    }
+                                },
+                                "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                                "acronym": "SACOC"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_similarities_standard",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "IsAmongTopNSimilarDocuments",
+                                    "@scheme": "dnet:result_result_relations",
+                                    "@type": "publication",
+                                    "#text": "doi_dedup___::0557e4222b9bb1e32adf670a02209813"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    },
+                                    {
+                                        "@name": "ZENODO",
+                                        "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                    }
+                                ],
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2021.121971"
+                                },
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Numerical optimization of the fin shape experiments of a heat conjugate problem surface air/oil heat exchanger (SACOC)"
+                                },
+                                "publisher": "Elsevier BV",
+                                "dateofacceptance": "2021-09-24"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_similarities_standard",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "IsAmongTopNSimilarDocuments",
+                                    "@scheme": "dnet:result_result_relations",
+                                    "@type": "publication",
+                                    "#text": "dedup_wf_001::6c4d761e0b733b75a3c7522e684064b0"
+                                },
+                                "dateofacceptance": "2021-10-21",
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "RiuNet",
+                                        "@id": "opendoar____::3a20f62a0af1aa152670bab3c602feed"
+                                    }
+                                ],
+                                "publisher": "Universitat Polit\u00e8cnica de Val\u00e8ncia",
+                                "title": {
+                                    "@classid": "AlternativeTitle",
+                                    "@classname": "AlternativeTitle",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Caracterizaci\u00f3n aerot\u00e9rmica de un intercambiador de calor de aceite para motores turbofan de nueva generaci\u00f3n bajo condiciones realistas de funcionamiento"
+                                },
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10251/175267"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_similarities_standard",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "IsAmongTopNSimilarDocuments",
+                                    "@scheme": "dnet:result_result_relations",
+                                    "@type": "publication",
+                                    "#text": "doi_dedup___::66c6e43de2c0daa3fb37909421649ae3"
+                                },
+                                "pid": [
+                                    {
+                                        "@classid": "doi",
+                                        "@classname": "Digital Object Identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "#text": "10.2514/6.2021-2901"
+                                    },
+                                    {
+                                        "@classid": "handle",
+                                        "@classname": "Handle",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@trust": "0.9",
+                                        "#text": "10251/173454"
+                                    }
+                                ],
+                                "collectedfrom": [
+                                    {
+                                        "@name": "RiuNet",
+                                        "@id": "opendoar____::3a20f62a0af1aa152670bab3c602feed"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    },
+                                    {
+                                        "@name": "ZENODO",
+                                        "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                    }
+                                ],
+                                "dateofacceptance": "2021-08-02",
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                                },
+                                "publisher": "Institute of Aeronautics and Astronautics, Inc."
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______2659::09ad7b7cc0a0020ee4f1d53bceb129c1",
+                                "publisher": "Zenodo",
+                                "dateofacceptance": "2022-03-14",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Experimental aerothermal characterization of surface air-cooled oil coolers for turbofan engines"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::69a7c91a746ef12cfe97655c52a2d822",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Experimental aerothermal characterization of surface air-cooled oil coolers for turbofan engines"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    }
+                                ],
+                                "dateofacceptance": "2022-07-01",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2022.122775"
+                                },
+                                "publisher": "Elsevier BV"
+                            },
+                            {
+                                "@objidentifier": "sygma_______::69a7c91a746ef12cfe97655c52a2d822",
+                                "collectedfrom": {
+                                    "@name": "Sygma",
+                                    "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Experimental aerothermal characterization of surface air-cooled oil coolers for turbofan engines"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2022-03-14",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://zenodo.org/record/6357614"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "International Journal of Heat and Mass Transfer",
+                                    "@id": "issn___print::c6048f8a55685c4f4e4661f0d1d50fc9"
+                                },
+                                "dateofacceptance": "2022-07-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2022.122775"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2022.122775"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": [
+                                    "https://www.elsevier.com/tdm/userlicense/1.0/",
+                                    "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                                ],
+                                "webresource": {
+                                    "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.122775"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::1feb52c01638d41bc0b292b95937ef89",
+            "dri:dateOfCollection": "2022-04-29T08:17:05.568Z",
+            "dri:dateOfTransformation": "2022-04-29T08:23:52.827Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "50|r3c4b2081b22::1feb52c01638d41bc0b292b95937ef89",
+                        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5ca7b2d62"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "DMP"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "Data Management Plan",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2020-02-12"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                            },
+                            "code": "831977",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "CS2-RIA",
+                                    "#text": "ec__________::EC::H2020::CS2-RIA"
+                                }
+                            },
+                            "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                            "acronym": "SACOC"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5ca7b2d62&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "r3c4b2081b22::5ee0e059b7ad92685d312955cb94110b",
+            "dri:dateOfCollection": "2022-04-29T08:16:34.935Z",
+            "dri:dateOfTransformation": "2022-04-29T08:24:33.369Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": {
+                        "@name": "European Union Open Data Portal",
+                        "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                    },
+                    "originalId": [
+                        "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5d04b096b",
+                        "50|r3c4b2081b22::5ee0e059b7ad92685d312955cb94110b"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "PEDR"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "description": "Plan for the communication and Exploitation of Results",
+                    "language": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": null,
+                        "provenanceaction": {
+                            "@classid": "sysimport:crosswalk",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "validated": {
+                                "@date": "2020-06-30"
+                            },
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                            },
+                            "code": "831977",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "CS2-RIA",
+                                    "#text": "ec__________::EC::H2020::CS2-RIA"
+                                }
+                            },
+                            "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                            "acronym": "SACOC"
+                        }
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "European Union Open Data Portal",
+                                "@id": "re3data_____::c4b2081b224be6b3e79d0e5e5556f631"
+                            },
+                            "hostedby": {
+                                "@name": "European Commission Participant Portal",
+                                "@id": "openaire____::a3da458be435bc38345d79c3d845da9d"
+                            },
+                            "instancetype": {
+                                "@classid": "0034",
+                                "@classname": "Project deliverable",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5d04b096b&amp;appId=PPGMS"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::66c6e43de2c0daa3fb37909421649ae3",
+            "dri:dateOfCollection": "2022-08-31T00:09:32+0000",
+            "dri:dateOfTransformation": "2022-09-01T07:51:08.941Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "RiuNet",
+                            "@id": "opendoar____::3a20f62a0af1aa152670bab3c602feed"
+                        },
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "Sygma",
+                            "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                        },
+                        {
+                            "@name": "ZENODO",
+                            "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                        }
+                    ],
+                    "originalId": [
+                        "oai:riunet.upv.es:10251/173454",
+                        "50|od______1560::6ca05616f77929ffc7c93127d780f1de",
+                        "50|RECOLECTA___::ee51a50b1dc3e0675a96a0caacab1e69",
+                        "oai:dnet:riunet______::6ca05616f77929ffc7c93127d780f1de",
+                        "10.2514/6.2021-2901",
+                        "10.2514/MAVIAT21",
+                        "50|doiboost____::66c6e43de2c0daa3fb37909421649ae3",
+                        "3192714916",
+                        "50|sygma_______::66c6e43de2c0daa3fb37909421649ae3",
+                        "oai:zenodo.org:5579249",
+                        "50|od______2659::4af85f1ec854d5c91f9be964d8a23104"
+                    ],
+                    "pid": [
+                        {
+                            "@classid": "handle",
+                            "@classname": "Handle",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "10251/173454"
+                        },
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "#text": "10.2514/6.2021-2901"
+                        }
+                    ],
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.06690394631e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "6.49757280681e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "0.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2795403426",
+                            "#text": "Miguel Ch\u00e1vez-Modena"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/2191967472",
+                            "#text": "Leo M. Gonz\u00e1lez"
+                        },
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/2422870916",
+                            "#text": "Eusebio Valero"
+                        },
+                        {
+                            "@rank": "4",
+                            "@orcid_pending": "0000-0001-9991-1039",
+                            "@URL": "https://academic.microsoft.com/#/detail/3203167968",
+                            "#text": "A. Broatch"
+                        },
+                        {
+                            "@rank": "6",
+                            "@URL": "https://academic.microsoft.com/#/detail/3202273696",
+                            "#text": "Andr\u00e9s Felgueroso-Rodr\u00edguez"
+                        },
+                        {
+                            "@rank": "5",
+                            "@URL": "https://academic.microsoft.com/#/detail/3204799682",
+                            "@orcid_pending": "0000-0003-4934-4587",
+                            "#text": "Jorge Garcia Tiscar"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2021-08-02",
+                    "description": [
+                        "[Otros] A surface air-cooled oil cooler (SACOC) is a passive heat exchanger used to evacuate a large quantity of heat from the oil circuit of a turbofan engine to its secondary flow with minimal perturbation. Using the secondary flow as a heat sink has the advantage of the evacuated enthalpy being available in the nozzle. The performance of a SACOC is therefore measured in terms of maximum heat release capacity with minimal pressure loss and flow perturbations. These heat exchangers are typically composed of parallel fins and are usually tested in bespoke wind tunnels where the interaction between the three-dimensional high velocity flow and the heat exchangers is evaluated. Modern numerical computations that include the solution of the fluid equations in the flow field and a conjugate thermal problem can be also performed. This numerical approach, once validated, allows a complete and computationally affordable analysis of the aero-thermodynamic performance of the SACOC. In this work, a first comparison between both experimental and computational perspectives is presented in terms of pressure and temperature profiles to achieve a complete characterization of the device. This double experimental numerical perspective allows comparing the behaviour of the different fins of the SACOC depending on their relative position but also to trust the numerical conclusions with experimental robust data.",
+                        "This project has received funding from the Clean Sky 2 Joint Undertaking under the European Union\u00bfs Horizon 2020 research and innovation programme under grant agreement No 831977 Aerodynamic upgrade of Surface AirCooled Oil Coolers (SACOC). Leo M. Gonz\u00e1lez acknowledges the financial support from the Spanish Ministry for Science, Innovation and Universities (MCIU) under grant RTI2018-096791-B-C21 Hidrodin\u00e1mica de elementos de amortiguamiento del movimiento de aerogeneradores flotantes. The authors also wish to thank Safran Aircraft Engines for their kind permission to share the data presented in this publication"
+                    ],
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "MAQUINAS Y MOTORES TERMICOS"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "INGENIERIA AEROESPACIAL"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "MAQUINAS Y MOTORES TERMICOS"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "INGENIERIA AEROESPACIAL"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Aerodynamics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Christian ministry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Engineering"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.40765077",
+                            "#text": "business.industry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.40765077",
+                            "#text": "business"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "European union"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.543006",
+                            "#text": "media_common.cataloged_instance"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.543006",
+                            "#text": "media_common"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Surface heat"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Aeronautics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Aero engine"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "02 engineering and technology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0202 electrical engineering"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "electronic engineering"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "issued",
+                            "@classname": "issued",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "2021-08-06"
+                        },
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2021-07-28"
+                        },
+                        {
+                            "@classid": "published-online",
+                            "@classname": "published-online",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2021-07-28"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2021-08-02"
+                        },
+                        {
+                            "@classid": "issued",
+                            "@classname": "issued",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "2021-08-02"
+                        }
+                    ],
+                    "publisher": "Institute of Aeronautics and Astronautics, Inc.",
+                    "source": [
+                        "Crossref",
+                        "reponame:RiuNet: Repositorio Institucional de la Universitat Polit\u00e9cnica de Val\u00e9ncia",
+                        "instname:Universitat Polit\u00e8cnica de Val\u00e8ncia (UPV)",
+                        null,
+                        "AIAA AVIATION 2021 FORUM",
+                        "eisbn: 978-1-62410-610-1"
+                    ],
+                    "format": [
+                        "application/pdf",
+                        "4838303",
+                        "3791640",
+                        "4722261"
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::H2020",
+                            "@label": "Horizon 2020 Framework Programme",
+                            "concept": {
+                                "@id": "EC::H2020::CS2-RIA",
+                                "@label": "Research and Innovation action"
+                            }
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::f67cca1f053780d7c76a2524f9e82086"
+                                },
+                                "legalname": "Institute of Molecular and Cellular Biology of Plants",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "IBMCP"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "validated": {
+                                    "@date": "2021-12-13"
+                                },
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda__h2020::fa1a6ed54d52cd6a50baf5535994e510"
+                                },
+                                "code": "831977",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "H2020",
+                                        "#text": "ec__________::EC::H2020"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "CS2-RIA",
+                                        "#text": "ec__________::EC::H2020::CS2-RIA"
+                                    }
+                                },
+                                "title": "Aerodynamic upgrade of Surface Air Cooled Oil Cooler (SACOC)",
+                                "acronym": "SACOC"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::b67443ad1d74cb4676eea4bea7034492"
+                                },
+                                "legalshortname": "I3M",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Instituto de Instrumentaci\u00f3n para Imagen Molecular"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_similarities_standard",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "IsAmongTopNSimilarDocuments",
+                                    "@scheme": "dnet:result_result_relations",
+                                    "@type": "publication",
+                                    "#text": "doi_dedup___::69a7c91a746ef12cfe97655c52a2d822"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "ZENODO",
+                                        "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                    }
+                                ],
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Experimental aerothermal characterization of surface air-cooled oil coolers for turbofan engines"
+                                },
+                                "dateofacceptance": "2022-03-14",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.ijheatmasstransfer.2022.122775"
+                                },
+                                "publisher": "Elsevier BV"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::ea8a8b940b32ce94e0fbd6129fe01796"
+                                },
+                                "legalname": "Universitat Polit\u00e8cnica de Val\u00e8ncia",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "UPV"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______2659::4af85f1ec854d5c91f9be964d8a23104",
+                                "publisher": "Zenodo",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                                },
+                                "dateofacceptance": "2021-08-02",
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                }
+                            },
+                            {
+                                "@objidentifier": "RECOLECTA___::ee51a50b1dc3e0675a96a0caacab1e69",
+                                "dateofacceptance": "2021-01-01",
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                                },
+                                "publisher": "Institute of Aeronautics and Astronautics, Inc."
+                            },
+                            {
+                                "@objidentifier": "doi_________::66c6e43de2c0daa3fb37909421649ae3",
+                                "publisher": "American Institute of Aeronautics and Astronautics",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.2514/6.2021-2901"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "dateofacceptance": "2021-07-28",
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od______1560::6ca05616f77929ffc7c93127d780f1de",
+                                "dateofacceptance": "2021-08-06",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                                },
+                                "pid": {
+                                    "@classid": "handle",
+                                    "@classname": "Handle",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10251/173454"
+                                },
+                                "collectedfrom": {
+                                    "@name": "RiuNet",
+                                    "@id": "opendoar____::3a20f62a0af1aa152670bab3c602feed"
+                                },
+                                "publisher": "Institute of Aeronautics and Astronautics, Inc."
+                            },
+                            {
+                                "@objidentifier": "sygma_______::66c6e43de2c0daa3fb37909421649ae3",
+                                "publisher": "American Institute of Aeronautics and Astronautics",
+                                "collectedfrom": {
+                                    "@name": "Sygma",
+                                    "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Numerical and experimental analysis of thermo-aerodynamic performance in an aero engine surface heat exchanger"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2021-08-02",
+                                "instancetype": {
+                                    "@classid": "0004",
+                                    "@classname": "Conference object",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://zenodo.org/record/5579249"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "instancetype": {
+                                    "@classid": "0004",
+                                    "@classname": "Conference object",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.2514/6.2021-2901"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "https://riunet.upv.es/bitstream/10251/173454/7/Chavez-ModenaValeroMiguel%20-%20Numerical%20and%20experimental%20analysis%20of%20thermo-aerodynamic%20performance....pdf"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "RiuNet",
+                                        "@id": "opendoar____::3a20f62a0af1aa152670bab3c602feed"
+                                    },
+                                    {
+                                        "@name": "Sygma",
+                                        "@id": "openaire____::a8db6f6b2ce4fe72e8b2314a9a93e7d9"
+                                    },
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "RiuNet",
+                                    "@id": "opendoar____::3a20f62a0af1aa152670bab3c602feed"
+                                },
+                                "dateofacceptance": [
+                                    "2021-08-06",
+                                    "2021-07-28"
+                                ],
+                                "instancetype": [
+                                    {
+                                        "@classid": "0038",
+                                        "@classname": "Other literature type",
+                                        "@schemeid": "dnet:publication_resource",
+                                        "@schemename": "dnet:publication_resource"
+                                    },
+                                    {
+                                        "@classid": "0004",
+                                        "@classname": "Conference object",
+                                        "@schemeid": "dnet:publication_resource",
+                                        "@schemename": "dnet:publication_resource"
+                                    }
+                                ],
+                                "pid": [
+                                    {
+                                        "@classid": "doi",
+                                        "@classname": "Digital Object Identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "#text": "10.2514/6.2021-2901"
+                                    },
+                                    {
+                                        "@classid": "handle",
+                                        "@classname": "Handle",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk:repository",
+                                        "@trust": "0.9",
+                                        "#text": "10251/173454"
+                                    }
+                                ],
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.2514/6.2021-2901"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://rightsstatements.org/vocab/InC/1.0/",
+                                "webresource": {
+                                    "url": "https://doi.org/10.2514/6.2021-2901"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "hostedby": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "dateofacceptance": "2021-01-01",
+                                "instancetype": {
+                                    "@classid": "0004",
+                                    "@classname": "Conference object",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": [
+                                    {
+                                        "@classid": "doi",
+                                        "@classname": "Digital Object Identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk",
+                                        "@trust": "0.9",
+                                        "#text": "10.2514/6.2021-2901"
+                                    },
+                                    {
+                                        "@classid": "doi",
+                                        "@classname": "Digital Object Identifier",
+                                        "@schemeid": "dnet:pid_types",
+                                        "@schemename": "dnet:pid_types",
+                                        "@inferred": "false",
+                                        "@provenanceaction": "sysimport:crosswalk",
+                                        "@trust": "0.9",
+                                        "#text": "10.13039/501100000780"
+                                    }
+                                ],
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "http://hdl.handle.net/10251/173454"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]

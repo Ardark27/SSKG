@@ -1,0 +1,2672 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::419d092df995c711ef6259a47eff1ddf",
+            "dri:dateOfCollection": "2021-07-09T23:20:50+0000",
+            "dri:dateOfTransformation": "2021-07-09T23:20:50+0000"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Datacite",
+                            "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                        },
+                        {
+                            "@name": "ZENODO",
+                            "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                        }
+                    ],
+                    "originalId": [
+                        "10.5281/zenodo.4817341",
+                        "50|od______2659::d5519113209415b0a69fb64a4bb92048",
+                        "oai:zenodo.org:4817342"
+                    ],
+                    "pid": [
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.9",
+                            "#text": "10.5281/zenodo.4817341"
+                        },
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "10.5281/zenodo.4817342"
+                        }
+                    ],
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.06690394631e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "6.49757280681e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "0.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Covid-19 Basic Facts and Figure"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": {
+                        "@rank": "1",
+                        "#text": "Firsthow"
+                    },
+                    "dateofacceptance": "2021-05-27",
+                    "description": "<p>According to <a href=\"https://firsthow.com/\">firsthow.com</a> &quot;COVID-19 is a member of the SARS-CoV-2 family. People who have underlying medical conditions like heart or lung disease might be at higher risk for developing more serious complications from COVID-19.&quot;&nbsp; This deadly virus spreads from person to person by talking, coughing, or sneezing an infected person.&nbsp;</p> <p><strong>Key Facts</strong></p> <p><a href=\"https://firsthow.com\">Firsthow</a> has described in detail covid-19 disease and facts about covid-19. Here we are going to define the basic key facts of covid-19</p> <ul> <li> <p>COVID-19 virus spreads through respiratory droplets by an infected person&#39;s coughs, sneezes, or even talks.</p> </li> <li> <p><a href=\"https://firsthow.com/what/what-are-symptoms-of-covid-19/\">Symptoms</a> appear between 2-14 days after someone is infected by this virus and can include fever, chills, and cough.</p> </li> <li> <p>Some people who are infected may not have symptoms because of a strong immune system.</p> </li> <li> <p>Some people can have a severe illness from COVID-19, especially older adults and people with underlying medical conditions.</p> </li> <li> <p>If you have tested negative for the COVID-19 test, you should take steps to protect yourself and others by following the SOPs.</p> </li> </ul> <p><strong>Prevention Tips</strong></p> <ul> <li> <p>Wash your hands with soap for 20 seconds. Use a hand sanitizer that contains at least 60% alcohol.</p> </li> <li> <p>Avoid close contact with others. Stay at least 6 feet from others.</p> </li> <li> <p>Wear a mask in public. The make cover will help protect others in case you are infected.</p> </li> <li> <p>Cover your coughs and sneezes with a tissue or the inside of your elbow. Throw used tissues in the trash and then wash your hands with soap and water for at least 20 seconds.</p> </li> </ul>",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Covid-19"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Coronavirus"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": {
+                        "@classid": "issued",
+                        "@classname": "issued",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2021-05-27"
+                    },
+                    "publisher": "Zenodo",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": [
+                        {
+                            "@id": "EC",
+                            "@label": "European Commission",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "EC::FP7",
+                                "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                "concept": [
+                                    {
+                                        "@id": "EC::FP7::SP3",
+                                        "@label": "SP3-People"
+                                    },
+                                    {
+                                        "@id": "EC::FP7::SP3::PEOPLE",
+                                        "@label": "Marie-Curie Actions"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@id": "covid-19",
+                            "@label": "COVID-19",
+                            "@type": "community"
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda_______::25e49a2a33eee38489d29a847d12346b"
+                            },
+                            "contracttype": {
+                                "@classid": "MC",
+                                "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                "@schemeid": "ec:FP7contractTypes",
+                                "@schemename": "ec:FP7contractTypes"
+                            },
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "FP7",
+                                    "#text": "ec__________::EC::FP7"
+                                },
+                                "funding_level_1": {
+                                    "@name": "SP3",
+                                    "#text": "ec__________::EC::FP7::SP3"
+                                },
+                                "funding_level_2": {
+                                    "@name": "PEOPLE",
+                                    "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                }
+                            },
+                            "title": "USA and Europe Cooperation in Mini UAVs",
+                            "code": "269276",
+                            "acronym": "UECIMUAVS"
+                        }
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "doi_________::e27337cd3a03b4db8c0f002368ab5810",
+                                "publisher": "Zenodo",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.4817341"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Covid-19 Basic Facts and Figure"
+                                },
+                                "dateofacceptance": "2021-05-27",
+                                "collectedfrom": {
+                                    "@name": "Datacite",
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::419d092df995c711ef6259a47eff1ddf",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Covid-19 Basic Facts and Figure"
+                                },
+                                "publisher": "Zenodo",
+                                "dateofacceptance": "2021-05-27",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.4817342"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Datacite",
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2021-05-27",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.4817341"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://doi.org/10.5281/zenodo.4817341"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2021-05-27",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.4817342"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://doi.org/10.5281/zenodo.4817342"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::b5da59f8535dcad9e941f32fd89ca4cf",
+            "dri:dateOfCollection": "2019-06-10T06:24:02.127Z",
+            "dri:dateOfTransformation": "2020-07-25T11:58:55.223Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        },
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "Open Repository and Bibliography - Luxembourg",
+                            "@id": "opendoar____::18ad9899f3f21a5a1583584d5f11c0c0"
+                        }
+                    ],
+                    "originalId": [
+                        "50|od______1033::b78b9c2eba10f7da0c79a6a4ff84c686",
+                        "oai:oa.upm.es:41456",
+                        "50|RECOLECTA___::b78b9c2eba10f7da0c79a6a4ff84c686",
+                        "88423131",
+                        "288",
+                        "10.1007/s10846-015-0288-x",
+                        "50|doiboost____::b5da59f8535dcad9e941f32fd89ca4cf",
+                        "2287046280",
+                        "oai:orbilu.uni.lu:10993/45776",
+                        "50|od______2658::eaa6dc0a79214f51b57dc5e7cb61d206",
+                        "88425242"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1007/s10846-015-0288-x"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "1.30143434105e-08",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "7.60452096",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "3.35535782005e-08",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "46.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "22.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "A Reliable Open-Source System Architecture for the Fast Designing and Prototyping of Autonomous Multi-UAV Systems: Simulation and Experimentation"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "A Reliable Open-Source System Architecture for the Fast Designing and Prototyping of Autonomous Multi-UAV Systems: Simulation and Experimentation"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/2311536301",
+                            "#text": "Jesus Pestana"
+                        },
+                        {
+                            "@rank": "1",
+                            "@orcid": "0000-0001-5018-0925",
+                            "@URL": "https://academic.microsoft.com/#/detail/1970200933",
+                            "#text": "Jose Luis Sanchez-Lopez"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/2344807993",
+                            "@orcid": "0000-0002-8652-0300",
+                            "#text": "Paloma de la Puente"
+                        },
+                        {
+                            "@rank": "4",
+                            "@orcid": "0000-0002-9894-2009",
+                            "@URL": "https://academic.microsoft.com/#/detail/2083272342",
+                            "#text": "Pascual Campoy"
+                        }
+                    ],
+                    "country": [
+                        {
+                            "@classid": "ES",
+                            "@classname": "Spain",
+                            "@schemeid": "dnet:countries",
+                            "@schemename": "dnet:countries"
+                        },
+                        {
+                            "@classid": "LU",
+                            "@classname": "Luxembourg",
+                            "@schemeid": "dnet:countries",
+                            "@schemename": "dnet:countries"
+                        }
+                    ],
+                    "dateofacceptance": "2015-10-23",
+                    "description": "During the process of design and development of an autonomous Multi-UAV System, two main problems appear. The first one is the difficulty of designing all the modules and behaviors of the aerial multi-robot system. The second one is the difficulty of having an autonomous prototype of the system for the developers that allows to test the performance of each module even in an early stage of the project. These two problems motivate this paper. A multipurpose system architecture for autonomous multi-UAV platforms is presented. This versatile system architecture can be used by the system designers as a template when developing their own systems. The proposed system architecture is general enough to be used in a wide range of applications, as demonstrated in the paper. This system architecture aims to be a reference for all designers. Additionally, to allow for the fast prototyping of autonomous multi-aerial systems, an Open Source framework based on the previously defined system architecture is introduced. It allows developers to have a flight proven multi-aerial system ready to use, so that they can test their algorithms even in an early stage of the project. The implementation of this framework, introduced in the paper with the name of ``CVG Quadrotor Swarm'', which has also the advantages of being modular and compatible with different aerial platforms, can be found at \\url{https://github.com/Vision4UAV/cvg_quadrotor_swarm} with a consistent catalog of available modules. The good performance of this framework is demonstrated in the paper by choosing a basic instance of it and carrying out simulation and experimental tests whose results are summarized and discussed in this paper.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Rob\u00f3tica e Inform\u00e1tica Industrial"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Rob\u00f3tica e Inform\u00e1tica Industrial"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Electrical and Electronic Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Artificial Intelligence"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Industrial and Manufacturing Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanical Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Control and Systems Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Software"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Engineering"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.39296475",
+                            "#text": "business.industry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.39296475",
+                            "#text": "business"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Process (engineering)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Systems architecture"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Systems simulation"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Embedded system"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Remotely operated underwater vehicle"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Range (mathematics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Modular design"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mobile robot"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Swarm behaviour"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "02 engineering and technology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0202 electrical engineering"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0209 industrial biotechnology"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "020901 industrial engineering & automation"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "electronic engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Aerial robotics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Distributed robot systems"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Multi-robot coordination"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "System architecture"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Open-source"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Visual navigation"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Quadrotor"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Mobile robots"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Remotely operated vehicles"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "MAV"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": ": Computer science [C05] [Engineering, computing & technology]"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": ": Sciences informatiques [C05] [Ing\u00e9nierie, informatique & technologie]"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2015-10-23"
+                        },
+                        {
+                            "@classid": "published-online",
+                            "@classname": "published-online",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2015-10-23"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2016-12-01"
+                        }
+                    ],
+                    "publisher": "E.T.S.I. Industriales (UPM)",
+                    "source": [
+                        "Crossref",
+                        "Journal of Intelligent and Robotic Systems, ISSN 0921-0296, 2015-10-23",
+                        null,
+                        "reponame:Archivo Digital UPM",
+                        "BASE - Bielefeld Academic Search Engine",
+                        "instname:"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "journal-article",
+                        "@classname": "journal-article",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": [
+                        {
+                            "@id": "EC",
+                            "@label": "European Commission",
+                            "@type": "funding",
+                            "category": {
+                                "@id": "EC::FP7",
+                                "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                "concept": [
+                                    {
+                                        "@id": "EC::FP7::SP3",
+                                        "@label": "SP3-People"
+                                    },
+                                    {
+                                        "@id": "EC::FP7::SP3::PEOPLE",
+                                        "@label": "Marie-Curie Actions"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@id": "neanias-atmospheric",
+                            "@label": "NEANIAS Atmospheric Research Community",
+                            "@type": "community"
+                        }
+                    ],
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::25e49a2a33eee38489d29a847d12346b"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "title": "USA and Europe Cooperation in Mini UAVs",
+                                "code": "269276",
+                                "acronym": "UECIMUAVS"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::2dbe47117fd5409f9c61620813456632"
+                                },
+                                "country": {
+                                    "@classid": "LU",
+                                    "@classname": "Luxembourg",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalshortname": "University of Luxembourg",
+                                "legalname": "University of Luxembourg"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______2658::eaa6dc0a79214f51b57dc5e7cb61d206",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "A reliable open-source system architecture for the fast designing and prototyping of autonomous multi-uav systems: Simulation and experimentation"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Open Repository and Bibliography - Luxembourg",
+                                    "@id": "opendoar____::18ad9899f3f21a5a1583584d5f11c0c0"
+                                },
+                                "dateofacceptance": "2016-12-01"
+                            },
+                            {
+                                "@objidentifier": "doi_________::b5da59f8535dcad9e941f32fd89ca4cf",
+                                "publisher": "Springer Science and Business Media LLC",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1007/s10846-015-0288-x"
+                                },
+                                "dateofacceptance": "2015-10-23",
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "A Reliable Open-Source System Architecture for the Fast Designing and Prototyping of Autonomous Multi-UAV Systems: Simulation and Experimentation"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od______1033::b78b9c2eba10f7da0c79a6a4ff84c686",
+                                "publisher": "E.T.S.I. Industriales (UPM)",
+                                "dateofacceptance": "2015-10-23",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "A Reliable Open-Source System Architecture for the Fast Designing and Prototyping of Autonomous Multi-UAV Systems: Simulation and Experimentation"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            },
+                            {
+                                "@objidentifier": "RECOLECTA___::b78b9c2eba10f7da0c79a6a4ff84c686",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "A Reliable Open-Source System Architecture for the Fast Designing and Prototyping of Autonomous Multi-UAV Systems: Simulation and Experimentation"
+                                },
+                                "publisher": "E.T.S.I. Industriales (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "dateofacceptance": "2015-01-01"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "CLOSED",
+                                    "@classname": "Closed Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "Journal of Intelligent & Robotic Systems",
+                                    "@id": "issn___print::d771cb0b9f2bdcb028a273e8bff44fc2"
+                                },
+                                "dateofacceptance": "2015-10-23",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1007/s10846-015-0288-x"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://www.springer.com/tdm",
+                                "webresource": {
+                                    "url": "https://doi.org/10.1007/s10846-015-0288-x"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Journal of Intelligent & Robotic Systems",
+                                    "@id": "issn___print::d771cb0b9f2bdcb028a273e8bff44fc2"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1007/s10846-015-0288-x"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/41456/1/INVE_MEM_2015_231426.pdf"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Open Repository and Bibliography - Luxembourg",
+                                        "@id": "opendoar____::18ad9899f3f21a5a1583584d5f11c0c0"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    }
+                                ],
+                                "hostedby": {
+                                    "@name": "Open Repository and Bibliography - Luxembourg",
+                                    "@id": "opendoar____::18ad9899f3f21a5a1583584d5f11c0c0"
+                                },
+                                "dateofacceptance": "2016-12-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "http://orbilu.uni.lu/handle/10993/45776"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "dateofacceptance": [
+                                    "2015-01-01",
+                                    "2015-10-23"
+                                ],
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.1007/s10846-015-0288-x"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/41456/"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::1def13a73ef7ccff5836430cbec89852",
+            "dri:dateOfCollection": "2022-09-09T00:31:08+0000",
+            "dri:dateOfTransformation": "2022-09-09T07:45:14.177Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "ZENODO",
+                            "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                        },
+                        {
+                            "@name": "Datacite",
+                            "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                        }
+                    ],
+                    "originalId": [
+                        "oai:zenodo.org:7039991",
+                        "50|od______2659::8ef838de84836184b266c0b64622e6cc",
+                        "10.5281/zenodo.7039990"
+                    ],
+                    "pid": [
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "10.5281/zenodo.7039991"
+                        },
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.9",
+                            "#text": "10.5281/zenodo.7039990"
+                        }
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Keto Blast Gummies (UPDATE 2022) Buy Now From The Official Website"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": {
+                        "@rank": "1",
+                        "#text": "Welles"
+                    },
+                    "dateofacceptance": "2022-09-01",
+                    "description": "<p>Where to Buy?<br> <a href=\"https://www.outlookindia.com/outlook-spotlight/keto-blast-gummies-scam-alert-keto-blast-gummies-shark-tank-real-ingredients--news-218796\">Keto Blast Gummies</a> might be valuable for the two genders hoping to get in shape. After the spring and mid-year months have gone and the washing season has begun, many individuals start to search in the mirror fundamentally interestingly.<a href=\"https://www.outlookindia.com/outlook-spotlight/keto-blast-gummies-scam-alert-keto-blast-gummies-shark-tank-real-ingredients--news-218796\">Keto Blast Gummies Review</a> Being overweight is not generally regarded as uncommon in the present society. In this present circumstance, one&#39;s age is irrelevant. Due to the gathering of fat on one&#39;s hips during one&#39;s lifetime, a customary eating regimen is presently not ready to eliminate it effectively.</p>",
+                    "subject": {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Keto Blast Gummies"
+                    },
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": {
+                        "@classid": "issued",
+                        "@classname": "issued",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "2022-09-01"
+                    },
+                    "publisher": "Zenodo",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda_______::25e49a2a33eee38489d29a847d12346b"
+                            },
+                            "contracttype": {
+                                "@classid": "MC",
+                                "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                "@schemeid": "ec:FP7contractTypes",
+                                "@schemename": "ec:FP7contractTypes"
+                            },
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "FP7",
+                                    "#text": "ec__________::EC::FP7"
+                                },
+                                "funding_level_1": {
+                                    "@name": "SP3",
+                                    "#text": "ec__________::EC::FP7::SP3"
+                                },
+                                "funding_level_2": {
+                                    "@name": "PEOPLE",
+                                    "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                }
+                            },
+                            "title": "USA and Europe Cooperation in Mini UAVs",
+                            "code": "269276",
+                            "acronym": "UECIMUAVS"
+                        }
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "doi_________::1def13a73ef7ccff5836430cbec89852",
+                                "publisher": "Zenodo",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Keto Blast Gummies (UPDATE 2022) Buy Now From The Official Website"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7039990"
+                                },
+                                "dateofacceptance": "2022-09-01",
+                                "collectedfrom": {
+                                    "@name": "Datacite",
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::4a1c619b6ac9e1e27113a3b33fbb0766",
+                                "publisher": "Zenodo",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7039991"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Keto Blast Gummies (UPDATE 2022) Buy Now From The Official Website"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2022-09-01"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2022-09-01",
+                                "instancetype": {
+                                    "@classid": "0038",
+                                    "@classname": "Other literature type",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7039991"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://doi.org/10.5281/zenodo.7039991"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Datacite",
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2022-09-01",
+                                "instancetype": {
+                                    "@classid": "0034",
+                                    "@classname": "Project deliverable",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7039990"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://doi.org/10.5281/zenodo.7039990"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::c05275f44fb559516d485169a92d86ed",
+            "dri:dateOfCollection": "2018-06-14T13:16:59.674Z",
+            "dri:dateOfTransformation": "2021-05-05T14:03:30.537Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Tesis Doctorals en Xarxa",
+                            "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        }
+                    ],
+                    "originalId": [
+                        "50|od_______296::f9016a55bfa2a72bdd16534b2c8c66d4",
+                        "oai:www.tdx.cat:10803/454542",
+                        "10.20868/upm.thesis.47726",
+                        "50|doiboost____::c05275f44fb559516d485169a92d86ed",
+                        "oai:oa.upm.es:47726",
+                        "50|RECOLECTA___::8bb0852d7f1d34008ee828432ff52af9",
+                        "50|od______1033::8bb0852d7f1d34008ee828432ff52af9"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.20868/upm.thesis.47726"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.06690394631e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "3.59695401103e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "0.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "0.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Vision-Based Autonomous Navigation of Multirotor Micro Aerial Vehicles"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": {
+                        "@rank": "1",
+                        "@name": "Jesu\u0301s",
+                        "@surname": "Pestana Puerta",
+                        "#text": "Pestana Puerta, Jes\u00fas"
+                    },
+                    "contributor": [
+                        "Campoy Cervera, Pascual",
+                        "Dom\u00ednguez Cabrerizo, Sergio"
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2017-09-14",
+                    "description": "El objetivo de esta tesis es conseguir una navegaci\u00f3n basada en visi\u00f3n fiable y explorar el potencial de los algoritmos del estado del arte moderno en visi\u00f3n por computador para la rob\u00f3tica a\u00e9rea, y especialmente aplicados a drones de tipo multirotor. Dado que las c\u00e1maras digitales pueden proveer potencialmente de una cantidad enorme de informaci\u00f3n al robot, que son menos costosas que otras alternativas de sensado y que son muy ligeras; los m\u00e9todos de estimaci\u00f3n basados en visi\u00f3n son muy prometedores para el desarrollo de aplicaciones civiles con drones. La parte principal de esta tesis consiste en el dise\u00f1o, la implementaci\u00f3n y la evaluaci\u00f3n de tres m\u00f3dulos n\u00f3veles de prop\u00f3sito general para multirotores que utilizan m\u00e9todos basados en visi\u00f3n para tomar decisiones de navegaci\u00f3n. El primer m\u00f3dulo propuesto es un controlador de navegaci\u00f3n para multirotores que fue dise\u00f1ado para conseguir un vuelo fiable en entornos sin disponibilidad de se\u00f1al GPS por medio del uso de la visi\u00f3n por computador. Con este objetivo en mente, la estimaci\u00f3n de velocidad basada en el flujo \u00f3ptico del suelo fue seleccionada para explorar las implicaciones de la utilizaci\u00f3n de m\u00e9todos basados en la visi\u00f3n como principal sistema de medida para la retroalimentaci\u00f3n del controlador. Fijar y respetar una limitaci\u00f3n en la velocidad de navegaci\u00f3n fue identificada como una manera fiable de asegurar que la estimaci\u00f3n de velocidad basada en flujo \u00f3ptico no falle. El controlador propuesto tiene en cuenta las limitaciones de velocidad establecidas por el uso de un m\u00e9todo de estimaci\u00f3n de la posici\u00f3n basado en odometr\u00eda visual. Esta capacidad del controlador de respetar una velocidad m\u00e1xima preconfigurada ha sido utilizada con \u00e9xito para realizar investigaci\u00f3n en la navegaci\u00f3n descentralizada simult\u00e1nea de m\u00faltiples drones. Una capacidad com\u00fanmente buscada en drones, es la realizaci\u00f3n de un seguimiento visual y la estabilizaci\u00f3n del vuelo mientras se adquieren im\u00e1genes de un objeto de inter\u00e9s. El segundo m\u00f3dulo propuesto en esta tesis es una arquitectura para el seguimiento en vuelo de objetos. Esta arquitectura fue desarrollada con el prop\u00f3sito de explorar el potencial de los m\u00e9todos modernos de seguimiento visual basados en aprendizaje de m\u00e1quina, o \u201cmachine learning\u201d en ingl\u00e9s. Este tipo de algoritmos tienen como objeto determinar la posici\u00f3n de un objeto en el flujo de im\u00e1genes. Los m\u00e9todos de seguimiento visual tradicionales funcionan correctamente en las condiciones para las cuales fueron originalmente dise\u00f1ados, pero a menudo fallan en situaciones reales. La soluci\u00f3n propuesta ha demostrado que los m\u00e9todos actuales de seguimiento visual basados en aprendizaje de m\u00e1quina permiten conseguir un seguimiento en vuelo fiable de una gran variedad de objetos. El despliegue r\u00e1pido de drones aut\u00f3nomos en entornos desconocidos es todav\u00eda un problema actual en investigaci\u00f3n. Uno de los principales desaf\u00edos es el c\u00e1lculo de trayectorias que permitan una navegaci\u00f3n r\u00e1pida en dichos entornos. Con este problema en mente, el tercer m\u00f3dulo propuesto permite la generaci\u00f3n autom\u00e1tica de trayectorias seguras en entornos abarrotados de obst\u00e1culos. Este m\u00f3dulo ha sido probado utilizando mapas adquiridos en tiempo real a bordo del dron mediante el uso de algoritmos de fotogrametr\u00eda basados en la visi\u00f3n por computador. Aun usando navegaci\u00f3n basada en GPS, mediante la realizaci\u00f3n de experimentos se ha mostrado que el despliegue r\u00e1pido de drones es factible incluso utilizando solo el ordenador y los sensores a bordo del dron. Parte de los m\u00f3dulos desarrollados han sido liberados en c\u00f3digo abierto, contribuyendo al entorno de desarrollo \u201cAerostack\u201d de c\u00f3digo abierto del CVAR, previamente CVG, (UPM). Los m\u00f3dulos propuestos en esta tesis han sido repetidamente probados con \u00e9xito en experimentos fuera del laboratorio y en eventos p\u00fablicos, demostrando su fiabilidad y potencial, y promoviendo su evaluaci\u00f3n en diferentes escenarios. ----------ABSTRACT---------- The aim of this thesis is to attain reliable vision-based navigation and explore the potential of state of the art Computer Vision algorithms in Aerial Robotics, and specifically for multirotor drones. Since digital cameras can potentially provide a vast amount of information to the robot, are less expensive than their alternatives and are very lightweight, vision-based estimation methods are very promising for the development of civilian applications for drones. The main part of this thesis consists on the design, implementation and evaluation of three novel general purpose modules for multirotors that utilize visionbased methods to make navigation decisions. The first proposed module is a novel multirotor navigation controller that was designed to achieve reliable flight in GPS-denied environments by using Computer Vision. With this objective in mind, ground optical flow speed estimation was selected to explore the implications of using vision-based methods as the main measurement feedback for the controller. Setting and enforcing a speed limitation during navigation was identified as a reliable way to ensure that the optical flow speed estimation method does not malfunction. The proposed controller takes into account the speed limitations established by the vision-based odometry estimation method. In addition, by leveraging this capability of the controller to ensure navigation respecting the preconfigured maximum speed, it has also been successfully utilized to research on decentralized multi-drone navigation. A common objective for drones is to be able to fly and stabilize looking at and close-by to an object of interest. The second module proposed in this thesis is a novel vision-based object tracking architecture for multirotor drones, which was designed to explore the reliability of machine learning based visual trackers to provide feedback to an object following controller. Visual trackers have the purpose to determine the position of an object in an image stream and are, therefore, good candidates to achieve this objective. However traditional visual tracking methods, though very effective in the specific conditions for which they were designed, have the drawback of not generalizing well to the myriad of different visual appearances that real objects exhibit. The proposed architecture has demonstrated that current machine learning based visual tracking algorithms can reliably provide feedback to a visual servoing controller. The fast deployment of autonomous drones in unknown environments is still an ongoing research problem. One of the main challenges to achieve it is the calculation of trajectories that allow fast navigation in such areas. With this problem in mind, the third proposed module is a trajectory planner that delivers smooth safe trajectories in relatively cluttered environments. The algorithm has been tested experimentally on maps obtained using an on-board real-time capable Computer Vision mapping method. Although other modules would be needed to decide the exact navigation objectives of the drone, using this planner we have shown that it is feasible to deploy drones in unknown outdoors environments, by leveraging the good qualities of maps obtained using state of the art photogrammetry methods. Part of these modules have been released as open-source, contributing to the CVAR\u2019s, previously CVG, (UPM) Open-Source Aerial Robotics Framework \u201cAerostack\u201d, which main purpose is enabling drone civilian applications. The proposed modules have been repeatedly evaluated with successful results in several out-of-the-lab demonstrations, therefore showing their potential and good qualities. The utilization of the proposed modules in public events has promoted their further testing in different settings and applications, e. g. indoors and outdoors flight, narrow corridors, passage through windows and landing in different conditions.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Ingenier\u00eda Industrial"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Ingenier\u00eda Industrial"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2017-09-14"
+                    },
+                    "publisher": "E.T.S.I. Industriales (UPM)",
+                    "source": [
+                        "Crossref",
+                        "instname:Universidad Polit\u00e9cnica de Madrid",
+                        "reponame:Archivo Digital UPM"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::25e49a2a33eee38489d29a847d12346b"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "title": "USA and Europe Cooperation in Mini UAVs",
+                                "code": "269276",
+                                "acronym": "UECIMUAVS"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "RECOLECTA___::8bb0852d7f1d34008ee828432ff52af9",
+                                "publisher": "E.T.S.I. Industriales (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "dateofacceptance": "2017-01-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "Vision-Based Autonomous Navigation of Multirotor Micro Aerial Vehicles"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od_______296::f9016a55bfa2a72bdd16534b2c8c66d4",
+                                "publisher": "E.T.S.I. Industriales (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Tesis Doctorals en Xarxa",
+                                    "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Vision-Based Autonomous Navigation of Multirotor Micro Aerial Vehicles"
+                                }
+                            },
+                            {
+                                "@objidentifier": "od______1033::8bb0852d7f1d34008ee828432ff52af9",
+                                "publisher": "E.T.S.I. Industriales (UPM)",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Vision-Based Autonomous Navigation of Multirotor Micro Aerial Vehicles"
+                                },
+                                "dateofacceptance": "2017-01-01",
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::c05275f44fb559516d485169a92d86ed",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Vision-Based Autonomous Navigation of Multirotor Micro Aerial Vehicles"
+                                },
+                                "dateofacceptance": "2017-09-14",
+                                "publisher": "Universidad Politecnica de Madrid - University Library",
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    }
+                                ],
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.20868/upm.thesis.47726"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "dateofacceptance": "2017-01-01",
+                                "instancetype": {
+                                    "@classid": "0006",
+                                    "@classname": "Doctoral thesis",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "10.20868/upm.thesis.47726"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/47726/"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "instancetype": {
+                                    "@classid": "0044",
+                                    "@classname": "Thesis",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.20868/upm.thesis.47726"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/47726/1/JESUS_PESTANA_PUERTA.pdf"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "EMBARGO",
+                                    "@classname": "Embargo",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Tesis Doctorals en Xarxa",
+                                    "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                                },
+                                "hostedby": {
+                                    "@name": "Tesis Doctorals en Xarxa",
+                                    "@id": "opendoar____::d296c101daa88a51f6ca8cfc1ac79b50"
+                                },
+                                "instancetype": {
+                                    "@classid": "0006",
+                                    "@classname": "Doctoral thesis",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://hdl.handle.net/10803/454542"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                "hostedby": {
+                                    "@name": "Unknown Repository",
+                                    "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                                },
+                                "dateofacceptance": "2017-09-14",
+                                "instancetype": {
+                                    "@classid": "0044",
+                                    "@classname": "Thesis",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.20868/upm.thesis.47726"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://doi.org/10.20868/upm.thesis.47726"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::228e094788d2d093fd77fb196ce09cf9",
+            "dri:dateOfCollection": "2022-09-09T00:31:08+0000",
+            "dri:dateOfTransformation": "2022-09-09T07:43:53.091Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "ZENODO",
+                            "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                        },
+                        {
+                            "@name": "Datacite",
+                            "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                        }
+                    ],
+                    "originalId": [
+                        "oai:zenodo.org:7053640",
+                        "50|od______2659::b41425ec67ae9afb0309daa4d2cdb37c",
+                        "10.5281/zenodo.7053639"
+                    ],
+                    "pid": [
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "10.5281/zenodo.7053640"
+                        },
+                        {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.9",
+                            "#text": "10.5281/zenodo.7053639"
+                        }
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Ignite Amazonian Sunrise Drops Reviews (#1 Dual Action Formula) Provides You Lean Body!"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": {
+                        "@rank": "1",
+                        "@name": "Ignite Amazonian Sunrise",
+                        "@surname": "Drops",
+                        "@orcid_pending": "0000-0002-8818-9148",
+                        "#text": "Drops, Ignite Amazonian Sunrise"
+                    },
+                    "dateofacceptance": "2022-09-06",
+                    "description": "<p><strong>Ignite Amazonian Sunrise Drops Reviews</strong>:</p> <p>A shadow of disappointment surely appears on your face whenever somebody instructs you to be on a healthy diet plan to retain a lean and trimmed physique. There are millions out there who don&rsquo;t like to give up eating their favorite foods to shed excess weight. During a rigorous weight loss journey, every individual seeks a shortcut to becoming fit and trimmed. In addition to that, following strict diet plans or workout modules doesn&rsquo;t help minimize excess weight all the time. Not everyone manages to transform quickly by dieting and exercising strictly.</p> <p><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">MUST CHECK: (HUGE SAVINGS HERE) Click Here to Purchase Ignite Amazonian Sunrise Drops</a></p> <table> <tbody> <tr> <th>Product</th> <th><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">Ignite Amazonian Sunrise Drops</a></th> </tr> <tr> <th>Ingredients</th> <th>Astragalus root, Capsicum, African Mango, Panax Ginseng, Green Tea Leaf extract, Grapefruit seed extract, Maca root, Gymnema leaf, Eleuthero root, Guarana seed</th> </tr> <tr> <th>Benefits</th> <th> <ul> <li>Activates the BAM-15 hormone inside your body</li> <li>Helps increase your body&rsquo;s metabolic rate</li> <li>Helps your body turn extra fat into energy</li> <li>Helps regulate blood pressure levels</li> <li>Reduce the risks of cardiac issues</li> <li>Balances your body&rsquo;s blood glucose levels</li> <li>Makes you more energetic</li> <li>Helps reduce your body fat percentage</li> </ul> </th> </tr> <tr> <th>Highlights</th> <th> <ul> <li>Made in the USA</li> <li>Made in FDA-approved research labs</li> <li>The manufacturers followed the GMP guidelines</li> <li>Vegan and gluten-free</li> </ul> </th> </tr> <tr> <th>Dosage</th> <th>10 drops daily prior to breakfast</th> </tr> <tr> <th>Side Effects</th> <th>The product doesn&rsquo;t cause major side effects</th> </tr> <tr> <th>Price</th> <th> <ul> <li><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">1 bottle at $69.</a></li> <li><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">3 bottles at $156.</a></li> <li><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">5 bottles at $246.</a></li> </ul> </th> </tr> <tr> <th>Refund</th> <th>150-day money-back guarantee</th> </tr> </tbody> </table> <p>A plethora of digital health solutions and gimmicky weight loss supplements are sold on the market that are far from delivering the expected weight reduction benefits. In brief, it&rsquo;s not easy to find a beneficial nutritional supplement that combines the power of active metabolism-boosting ingredients. In the long queue of various products and supplements, the Ignite Amazonian Sunrise Drops is a revolutionary option for all obese individuals. Your age or physical condition doesn&rsquo;t matter in terms of weight loss when you decide to use the incredible solution from Ignite. Converting your body into a fat-burning furnace is literally a complicated process that becomes easily possible with the help of this mind-blowing weight loss liquid.</p> <p>Now, why would you prefer this liquid solution over a powdered nutritional supplement? After all, most weight loss supplements are available in powdered or capsule forms on the market. Why are we suggesting this unique product then? Well, the reasons behind endorsing the phenomenal liquid supplement are solid and you will unfold those reasons in the further segments of this Ignite review. Just like the variety of weight loss supplements available on the market, numerous Ignite reviews can be found on the internet too. Sadly, they will barely help you know a little about the supplement and you may not acquire the confidence to order the product after reading them. That&rsquo;s why we insist you read out this entire review to understand why the Amazonian Sunrise Drops are better than other various health solutions and supplements in this segment.</p> <p><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">Must Read: &ndash; Latest Update &ldquo;Ignite Amazonian Sunrise Drops&rdquo; is HERE to BANG ON 2022</a></p> <p>&nbsp;</p> <p>What Is The Ignite Amazonian Sunrise Drops?</p> <p>The Ignite Amazonian Sunrise is a scientifically approved blend of some efficient natural ingredients and natural antioxidants that have significant effects on one&rsquo;s weight loss process. The product targets a large percentage of the global population that is dealing with slow metabolism issues. The manufacturers believe that it&rsquo;s possible to revive one&rsquo;s active and healthy lifestyle by increasing the body&rsquo;s fat-burning rate. Slow metabolism, a lower fat oxidation rate, and several other factors lead to obesity and obesity is the root of chronic and life-threatening problems. The main purpose of the Ignite Amazonian Sunrise is to give every user an energy boost by elevating his body&rsquo;s normal metabolism with the help of handpicked natural ingredients.</p> <p>Unlike the majority of bodybuilding supplements and metabolism boosters sold on the market, the Ignite Amazonian Sunrise holds the capability to create a significant difference in one&rsquo;s body fat percentage within a few weeks. The proprietary blend behind the supplement is solid and all the ingredients blended together have been passed through multiple phases of clinical trials. All these components were tested by third-party labs and they are backed by legit clinical approvals. The active ingredients blended into the proprietary formula result in fast metabolism while offering other benefits simultaneously. To date, Ignite Amazonian Sunrise has received overwhelmingly positive responses from existing users and that tells us how decent the formula is.</p> <p>The formula mainly targets middle-aged men and women who just stepped into their 40s. This is a vital phase of any person&rsquo;s life as the chance of excessive weight gain remains very high in this period. Also, the normal metabolic power of one&rsquo;s body starts decreasing as he grows older. The powerful blend of the supplement purports to help middle-aged users retain their metabolic abilities so that they can remain lean and fit. The supplement is formulated with completely vegan components and no artificial colors, flavors, or additives are added to the formula. Being an all-natural formula, the supplement becomes an outstanding choice for individuals who are trying to reduce weight safely.</p> <p><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">READ ALSO: Does the Ignite Amazonian Sunrise Drops Work For Everyone? Before you buy, read real customer reviews and testimonials!!</a></p> <p><strong>How Does Ignite Amazonian Sunrise Work?</strong></p> <p>The manufacturers of Ignite Amazonian Sunrise claim that they have discovered the main secret to retaining unchanged metabolic abilities regardless of age. Several scientific journals and studies have disclosed the fact that the human body produced a special hormone, BAM-15, and the hormone holds the capability to help an individual burn fat 366% more intensely when activated. According to weight loss experts and scientists, the hormone resides in the human body as an inactive substance. Activating the hormone is the key to retaining powerful metabolic functions. The drops of Ignite Amazonian Sunrise purport to activate the hormone inside your body so that your metabolic functions become better and you can burn fat more effectively.</p> <p>&nbsp;</p> <p><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">Purchase Today: Click Here to View Ignite Amazonian Sunrise Drops Pricing and Availability</a></p> <p>Ignite Amazonian Sunrise Ingredients</p> <p>We have already mentioned that the formulation of the Ignite Amazonian Sunrise is pretty solid and the ingredients are shortlisted by certified doctors and professional scientists. They tested the efficiency of each of the ingredients included in the Ignite Amazonian Sunrise. To gauge the efficiency level of the supplement, it&rsquo;s crucial to check the ingredients behind it.</p> <p>Astragalus Root</p> <p>Astragalus root is one of the key components of Ignite Amazonian Sunrise. You have already come to know that the supplement focuses on activating the BAM15 hormone, which acts as a catalyst by catalyzing your body&rsquo;s fat-burning rate. By activating the hormone in your body, this herbal ingredient turns your body into a fat-burning furnace. Astragalus root also participates in maximizing the energy production rate of your body naturally by making your body turn fat into calories. Besides contributing to the metabolic enhancement inside your body, Astragalus root also balances your body&rsquo;s natural insulin resistance so that your blood glucose levels remain under control. Astragalus root also participates in delaying the effects of aging and the component is well-known for increasing one&rsquo;s body&rsquo;s collagen production. Apart from offering incomparable fat-burning results, the component also supports better skin and hair health. In addition to that, the natural component also enhances the inflammatory responses of your body so that you don&rsquo;t suffer from inflammatory diseases frequently.</p> <p>African Mango</p> <p>Another important ingredient of this exclusive weight loss supplement is African Mango. The natural component is rich in beneficial vitamins, minerals, and nutrients and those particles combinedly work to enhance your body&rsquo;s metabolic capabilities. Apart from that, African Mango is also behind optimal cardiac functions. Consuming regular doses of African Mango extract continuously for a few weeks can help you reduce the chance of cardiac ailments and high blood pressure issues. The component stabilizes your blood pressure levels effectively. The vitamins and minerals found in this exceptional ingredient also keep the hormonal levels inside your body balanced so that your bodily functions don&rsquo;t get interrupted. Most importantly, the component supercharges your metabolic capabilities to produce more energy and makes you more energetic and charged up.</p> <p>Capsicum</p> <p>Capsicum has been used as a natural aid for weight loss for years. The natural antioxidants found in Capsicum are responsible for the powerful weight reduction properties of the component. The antioxidants present in Capsicum elevate your body&rsquo;s metabolic function and make your body burn more fat in terms of producing more energy. Consuming Capsicum on a regular basis is also extremely helpful for better inflammatory health. The component can help you get rid of inflammatory issues quite easily and all sorts of pains and aches can be subsided with the help of this special ingredient. Capsicum is also a proven cholesterol-balancing ingredient and the antioxidants of this ingredient can eliminate bad cholesterol from your body to help you get rid of blood pressure issues. In another word, the possibility of cardiac ailments gets minimized with the help of Capsicum.</p> <p>Panax Ginseng</p> <p>Panax Ginseng is also blended into the supplement in proper clinical doses to maximize its efficiency and potency. According to scientific studies, Panax Ginseng gets involved in the process of elevating testosterone production in a man&rsquo;s body. Being the primary male hormone, testosterone actively helps a man build lean muscles while dissolving fat. Panax Ginseng also elevates the metabolic capabilities of your body so that you can burn more fat within short spans. Panax Ginseng also helps minimize your stress level, which is another important factor behind unexplained weight accumulation. Overall, the natural herb works efficiently to make your body get rid of extra fat and that turns out beneficial for your overall health.</p> <p>Green Tea Leaf Extract</p> <p>Green Tea Leaf extract is also mixed into the supplement adequately to intensify its metabolic-boosting properties. Green tea leaf extract is a beneficial natural component that consists of powerful antioxidants that detoxify your body and its internal organs. Some scientists also believe that the natural component helps manages high blood sugar levels to an extent. Some of them also believe that it&rsquo;s possible to prevent Type-II diabetes by consuming potent doses of this natural ingredient regularly. The main benefit of Green Tea Leaf extract is that the ingredient naturally increases your body&rsquo;s metabolic functions within a few days. As that happens, your body starts burning more and more fat and you can reduce your weight substantially.</p> <p>Grapefruit Seed</p> <p>Grapefruit seed is another crucial ingredient of this supplement as it elevates the hormone production rate of your body through a safe and natural process. The component participates greatly in maximizing the production of BAM15 inside your body so that your body becomes ready to burn extra calories. Alongside that, Grapefruit seed also makes your body&rsquo;s immune functions stronger to make you less prone to getting sick. People can attain healthier lives by consuming substantial doses of Grapefruit seed on a regular basis. The component also has proven effects on your body&rsquo;s inflammatory responses.</p> <p>Gymnema Leaf</p> <p>Besides Green tea extract and other supportive ingredients, Gymnema leaf is also blended into the supplement to enhance its blood sugar support properties. Gymnema leaf impactfully balances the glycemic index of one&rsquo;s body and reduces the chance of developing diabetes and other chronic blood sugar diseases. The natural ingredient also supports better cardiac health and it doesn&rsquo;t let your blood pressure get high easily. Gymnema leaf also strengthens your body&rsquo;s metabolic functions evidently to prevent unnecessary fat storage. Also, Gymnema leaf is a proven substance in terms of minimizing the levels of triglycerides inside your body. The ingredient is also known for optimizing your cellular health naturally so that your bodily functions remain healthy and uninterrupted.</p> <p>Maca Root</p> <p>This one is another magnificent ingredient to boost the production of BAM15 in your body and the component manages to support your body&rsquo;s fat-burning process in that way. It attempts to level up your body&rsquo;s fat oxidation rate so that you start burning calories in a higher volume. Regular consumption of Maca root is also associated with powerful cognitive benefits. According to some famous psychologists and scientists, Maca root balances the levels of hormones in your brain to alleviate the symptoms of anxiety, mood swings, and other cognitive issues. Maca root actively balances your brain&rsquo;s functions and makes you lose weight effectively.</p> <p>Guarana Seed</p> <p>Guarana seed is also a proven metabolic booster like Green tea extract and the component actively boosts your body&rsquo;s metabolic speed so that you can burn more calories within short durations. Guarana seed is a rare ingredient that is not found in weight loss production very often. Ignite Amazonian Sunrise incorporates adequate amounts of Guarana seed extract to benefit users in the best possible ways.</p> <p>Eleuthero Root</p> <p>This is another unique and rare ingredient that is found in the supplement. The manufacturers of Ignite decided to add this element to the formula because of its gut-stabilizing abilities and cognitive support properties. Consuming Eleuthero root extract regularly not only helps you shed weight quickly but also stabilizes your gut microbiome. Also, it actively supercharges your mental abilities and cognitive state. The supplement is a perfect blend of all these potent and beneficial ingredients. Consisting of these handpicked and scientifically approved ingredients, Ignite Amazonian Sunrise becomes one of the finest weight reduction supplements sold on the market. The scientists and doctors behind the formula considered adding all these ingredients in proper doses so that the supplement becomes more effective and fruitful.</p> <p><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">Special Price for Sale: Order Ignite Amazonian Sunrise Drops from the Official Website Online</a></p> <p>Pricing and Refund</p> <p>The product is also pretty affordable and cheaper than most weight reduction products sold on the market. In fact, the price point of the product is set considerably so that middle-class users can purchase this comfortably.</p> <ul> <li>1 bottle comes at $69.</li> <li>3 bottles come at $156 and you get a bonus product with that.</li> <li>5 bottles come at $246 and the bonus product is available with this purchase option too.</li> </ul> <p>All these purchase options are secured by a 150-day refund policy and users can claim refunds by returning their purchases if they don&rsquo;t feel satisfied with the performance delivered by the supplement.</p> <p>&nbsp;</p> <p>The final word: Is Ignite Drops worth a try?</p> <p>Everyone wants to lose weight and become fit, but the goal seems impossible unless they get the right product to support their journeys. Ignite Amazonian Sunrise is definitely one of the best weight loss support products to help individuals lose weight within quick spans. The natural fat-burning process of your body gets a massive boost with the consumption of this special supplement and that makes your body burn fat more aggressively. Don&rsquo;t consider it a fancy drink that will offer mild and temporary effects.</p> <p>Being consistent in consuming Ignite drops will help you lose weight mandatorily while uplifting your body&rsquo;s energy production rate. As you have already seen, the supplement even helps you evoke the cardiovascular risk factors and complications associated with other vital organs to some extent. Individuals with certain medical conditions shouldn&rsquo;t start taking regular doses of the supplement on their own. That&rsquo;s an inconsiderate act and don&rsquo;t try that. We strongly suggest every interested buyer consult with their primary healthcare provider before consuming the supplement.</p> <p>If you still feel that the product is not convincing enough even after going through this detailed Ignite review, we suggest you go to the official website to check the reviews from the existing customers. Also, make sure that you purchase the supplement from the official website only. That will help you filter out fake products and get authentic products. So, order your bottle of Ignite Amazonian Sunrise today.</p> <p><a href=\"https://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-dropshttps://www.globalfitnessmart.com/get-ignite-amazonian-sunrise-drops\">(SAVINGS TODAY) Order Ignite Amazonian Sunrise Drops Before Stock Runs Out</a></p>",
+                    "subject": {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Ignite Amazonian Sunrise Drops"
+                    },
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": {
+                        "@classid": "issued",
+                        "@classname": "issued",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "2022-09-06"
+                    },
+                    "publisher": "Zenodo",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda_______::25e49a2a33eee38489d29a847d12346b"
+                            },
+                            "contracttype": {
+                                "@classid": "MC",
+                                "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                "@schemeid": "ec:FP7contractTypes",
+                                "@schemename": "ec:FP7contractTypes"
+                            },
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "FP7",
+                                    "#text": "ec__________::EC::FP7"
+                                },
+                                "funding_level_1": {
+                                    "@name": "SP3",
+                                    "#text": "ec__________::EC::FP7::SP3"
+                                },
+                                "funding_level_2": {
+                                    "@name": "PEOPLE",
+                                    "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                }
+                            },
+                            "title": "USA and Europe Cooperation in Mini UAVs",
+                            "code": "269276",
+                            "acronym": "UECIMUAVS"
+                        }
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "doi_________::857efb80f630ae8379977843a67385d0",
+                                "publisher": "Zenodo",
+                                "dateofacceptance": "2022-09-06",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7053639"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Datacite",
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                                },
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Ignite Amazonian Sunrise Drops Reviews (#1 Dual Action Formula) Provides You Lean Body!"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::228e094788d2d093fd77fb196ce09cf9",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7053640"
+                                },
+                                "publisher": "Zenodo",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Ignite Amazonian Sunrise Drops Reviews (#1 Dual Action Formula) Provides You Lean Body!"
+                                },
+                                "dateofacceptance": "2022-09-06",
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Datacite",
+                                    "@id": "openaire____::9e3be59865b2c1c335d32dae2fe7b254"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2022-09-06",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:actionset",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7053639"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://doi.org/10.5281/zenodo.7053639"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "hostedby": {
+                                    "@name": "ZENODO",
+                                    "@id": "opendoar____::358aee4cc897452c00244351e4d91f69"
+                                },
+                                "dateofacceptance": "2022-09-06",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.5281/zenodo.7053640"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                                "webresource": {
+                                    "url": "https://doi.org/10.5281/zenodo.7053640"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]

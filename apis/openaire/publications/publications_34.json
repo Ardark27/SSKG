@@ -1,0 +1,987 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "doi_dedup___::b82240220e12c391553250988dae3b35",
+        "dri:dateOfCollection": "2022-03-15T09:47:37.795Z",
+        "dri:dateOfTransformation": "2022-"
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                    },
+                    {
+                        "@name": "DIGITAL.CSIC",
+                        "@id": "opendoar____::c9f95a0a5af052bffce5c89917335f67"
+                    },
+                    {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    {
+                        "@name": "ORCID",
+                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                    },
+                    {
+                        "@name": "Microsoft Academic Graph",
+                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                    },
+                    {
+                        "@name": "Archivo Digital UPM",
+                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                    }
+                ],
+                "originalId": [
+                    "oai:oa.upm.es:29346",
+                    "50|RECOLECTA___::ea8df042e359aedbded66cb7d590a54e",
+                    "50|RECOLECTA___::b8652c3cfa42c45cf8a1298f758f328b",
+                    "oai:digital.csic.es:10261/126333",
+                    "50|od______1106::b8652c3cfa42c45cf8a1298f758f328b",
+                    "10.1117/12.2004366",
+                    "50|doiboost____::b82240220e12c391553250988dae3b35",
+                    "2038320671",
+                    "50|od______1033::ea8df042e359aedbded66cb7d590a54e"
+                ],
+                "pid": [
+                    {
+                        "@classid": "handle",
+                        "@classname": "Handle",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "10261/126333"
+                    },
+                    {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1117/12.2004366"
+                    }
+                ],
+                "measure": [
+                    {
+                        "@id": "influence",
+                        "@score": "5.82253020262e-09",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity_alt",
+                        "@score": "0.020155392",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity",
+                        "@score": "2.20834352645e-09",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "influence_alt",
+                        "@score": "2.0",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "impulse",
+                        "@score": "2.0",
+                        "@class": "C"
+                    }
+                ],
+                "title": [
+                    {
+                        "@classid": "alternative title",
+                        "@classname": "alternative title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                    },
+                    {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                    }
+                ],
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": [
+                    {
+                        "@rank": "3",
+                        "@URL": "https://academic.microsoft.com/#/detail/1994854928",
+                        "#text": "Antonio Consoli"
+                    },
+                    {
+                        "@rank": "9",
+                        "@URL": "https://academic.microsoft.com/#/detail/2213040474",
+                        "#text": "Salvador Balle"
+                    },
+                    {
+                        "@rank": "7",
+                        "@URL": "https://academic.microsoft.com/#/detail/2060560849",
+                        "#text": "M. Vilera"
+                    },
+                    {
+                        "@rank": "5",
+                        "@URL": "https://academic.microsoft.com/#/detail/2779185494",
+                        "#text": "S. Aguilera"
+                    },
+                    {
+                        "@rank": "1",
+                        "@URL": "https://academic.microsoft.com/#/detail/2002506341",
+                        "#text": "Pawel Adamiec"
+                    },
+                    {
+                        "@rank": "6",
+                        "@URL": "https://academic.microsoft.com/#/detail/1757653955",
+                        "#text": "Ignacio Esquivias"
+                    },
+                    {
+                        "@rank": "2",
+                        "@URL": "https://academic.microsoft.com/#/detail/2095963643",
+                        "#text": "Borja Bonilla"
+                    },
+                    {
+                        "@rank": "8",
+                        "@URL": "https://academic.microsoft.com/#/detail/2296385502",
+                        "#text": "Julien Javaloyes"
+                    },
+                    {
+                        "@rank": "4",
+                        "@URL": "https://academic.microsoft.com/#/detail/1532609155",
+                        "#text": "Jose Manuel G. Tijero"
+                    }
+                ],
+                "contributor": [
+                    "Ministerio de Ciencia e Innovaci\u00f3n (Espa\u00f1a)",
+                    "European Commission"
+                ],
+                "country": {
+                    "@classid": "ES",
+                    "@classname": "Spain",
+                    "@schemeid": "dnet:countries",
+                    "@schemename": "dnet:countries"
+                },
+                "dateofacceptance": "2013-03-04",
+                "description": [
+                    "The authors gratefully acknowledge the support of the Ministerio de Ciencia e Innovaci\u00f3n (Spain) through project TEC2009-14581 and European Commission through the FP7-PEOPLE-2009-IEF project no 252473 >LASPULSE>",
+                    "Peer Reviewed",
+                    "We study experimentally the dynamic properties of a fully integrated high power master-oscillator power-amplifier emitting at 1.5 \u03bcm under continuous wave and gain-switching conditions. High peak power (2.7 W) optical pulses with short duration (\u223c 110 ps) have been generated by gain switching the master-oscillator. We show the existence of working points at very close driving conditions with stable or unstable regimes caused by the compound cavity effects. The optical and radio-frequency spectra of stable and unstable operating points are analyzed. \u00a9 2013 SPIE"
+                ],
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Telecomunicaciones"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "High power semiconductor lasers"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Master Oscillator Power Amplifier"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Optical pulses"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:result_subject",
+                        "@schemename": "dnet:result_subject",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Laser dynamics"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "High power semiconductor lasers"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Master Oscillator Power Amplifier"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Optical pulses"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Laser dynamics"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Physics"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Gain-switching"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Spectral line"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Master oscillator"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Semiconductor laser theory"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Continuous wave"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Optoelectronics"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.44122317",
+                        "#text": "business.industry"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:actionset",
+                        "@trust": "0.44122317",
+                        "#text": "business"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Power (physics)"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "High peak"
+                    },
+                    {
+                        "@classid": "MAG",
+                        "@classname": "Microsoft Academic Graph classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Amplifier"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "02 engineering and technology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "01 natural sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0210 nano-technology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0103 physical sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "010309 optics"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "021001 nanoscience & nanotechnology"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "Telecomunicaciones"
+                    }
+                ],
+                "language": {
+                    "@classid": "und",
+                    "@classname": "Undetermined",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                    {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2013-03-14"
+                    },
+                    {
+                        "@classid": "published-print",
+                        "@classname": "published-print",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2013-03-04"
+                    }
+                ],
+                "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)",
+                "source": [
+                    "Crossref",
+                    "reponame:Digital.CSIC: Repositorio Institucional del CSIC",
+                    "instname:Consejo Superior de Investigaciones Cient\u00edficas (CSIC)",
+                    null,
+                    "instname:Universidad Polit\u00e9cnica de Madrid",
+                    "reponame:Archivo Digital UPM",
+                    "Novel In-Plane Semiconductor Lasers XII, ISSN 0277-786X, 2013, Vol. 8640"
+                ],
+                "format": "application/pdf",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "UNKNOWN",
+                    "@schemeid": "dnet:dataCite_resource",
+                    "@schemename": "dnet:dataCite_resource"
+                },
+                "context": {
+                    "@id": "EC",
+                    "@label": "European Commission",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "EC::FP7",
+                        "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                        "concept": [
+                            {
+                                "@id": "EC::FP7::SP3",
+                                "@label": "SP3-People"
+                            },
+                            {
+                                "@id": "EC::FP7::SP3::PEOPLE",
+                                "@label": "Marie-Curie Actions"
+                            }
+                        ]
+                    }
+                },
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": [
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                            },
+                            "legalshortname": "CAR",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Centre for Automation and Robotics"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:instrepo",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::7b08393d24bb163bc4b5008322df6894"
+                            },
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Spanish National Research Council",
+                            "legalshortname": "CSIC"
+                        },
+                        {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda_______::02951d190a671456673a32b594a29c1b"
+                            },
+                            "contracttype": {
+                                "@classid": "MC",
+                                "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                "@schemeid": "ec:FP7contractTypes",
+                                "@schemename": "ec:FP7contractTypes"
+                            },
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "FP7",
+                                    "#text": "ec__________::EC::FP7"
+                                },
+                                "funding_level_1": {
+                                    "@name": "SP3",
+                                    "#text": "ec__________::EC::FP7::SP3"
+                                },
+                                "funding_level_2": {
+                                    "@name": "PEOPLE",
+                                    "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                }
+                            },
+                            "title": "Multi-section semiconductor lasers for all-optical signal processing and short pulse generation",
+                            "acronym": "LASPULSE",
+                            "code": "252473"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "iis::document_affiliations",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                            },
+                            "legalshortname": "UPM",
+                            "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                            },
+                            "legalshortname": "CBGP",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                            },
+                            "legalname": "Centre for Plant Biotechnology and Genomics",
+                            "legalshortname": "CBGP",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                            },
+                            "legalshortname": "CRIDA",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                        }
+                    ]
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "od______1106::b8652c3cfa42c45cf8a1298f758f328b",
+                            "dateofacceptance": "2013-01-01",
+                            "publisher": "The International Society for Optics and Photonics",
+                            "collectedfrom": {
+                                "@name": "DIGITAL.CSIC",
+                                "@id": "opendoar____::c9f95a0a5af052bffce5c89917335f67"
+                            },
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                            },
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10261/126333"
+                            }
+                        },
+                        {
+                            "@objidentifier": "RECOLECTA___::ea8df042e359aedbded66cb7d590a54e",
+                            "dateofacceptance": "2013-01-01",
+                            "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)",
+                            "collectedfrom": {
+                                "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                            },
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "@trust": "0.9",
+                                "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                            }
+                        },
+                        {
+                            "@objidentifier": "RECOLECTA___::b8652c3cfa42c45cf8a1298f758f328b",
+                            "dateofacceptance": "2013-01-01",
+                            "publisher": "The International Society for Optics and Photonics",
+                            "collectedfrom": {
+                                "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                            },
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "@trust": "0.9",
+                                "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                            }
+                        },
+                        {
+                            "@objidentifier": "od______1033::ea8df042e359aedbded66cb7d590a54e",
+                            "dateofacceptance": "2013-01-01",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                            },
+                            "publisher": "E.T.S.I. Telecomunicaci\u00f3n (UPM)",
+                            "collectedfrom": {
+                                "@name": "Archivo Digital UPM",
+                                "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                            }
+                        },
+                        {
+                            "@objidentifier": "doi_________::b82240220e12c391553250988dae3b35",
+                            "publisher": "SPIE",
+                            "title": {
+                                "@classid": "alternative title",
+                                "@classname": "alternative title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "Dynamic response of a monolithic master-oscillator power-amplifier at 1.5 \u00b5m"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1117/12.2004366"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                {
+                                    "@name": "ORCID",
+                                    "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                },
+                                {
+                                    "@name": "Microsoft Academic Graph",
+                                    "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                }
+                            ],
+                            "dateofacceptance": "2013-03-04"
+                        }
+                    ],
+                    "instance": [
+                        {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                {
+                                    "@name": "DIGITAL.CSIC",
+                                    "@id": "opendoar____::c9f95a0a5af052bffce5c89917335f67"
+                                }
+                            ],
+                            "hostedby": [
+                                {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                {
+                                    "@name": "DIGITAL.CSIC",
+                                    "@id": "opendoar____::c9f95a0a5af052bffce5c89917335f67"
+                                }
+                            ],
+                            "dateofacceptance": "2013-01-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "handle",
+                                "@classname": "Handle",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "10261/126333"
+                            },
+                            "alternateidentifier": [
+                                {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "10.1117/12.2004366"
+                                },
+                                {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "10.13039/501100004837"
+                                },
+                                {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "10.13039/501100000780"
+                                }
+                            ],
+                            "refereed": {
+                                "@classid": "0001",
+                                "@classname": "peerReviewed",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "http://hdl.handle.net/10261/126333"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "UNKNOWN",
+                                "@classname": "not available",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            },
+                            "hostedby": {
+                                "@name": "Unknown Repository",
+                                "@id": "openaire____::55045bd2a65019fd8e6741a755395c8c"
+                            },
+                            "dateofacceptance": "2013-03-04",
+                            "instancetype": {
+                                "@classid": "0004",
+                                "@classname": "Conference object",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1117/12.2004366"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "webresource": {
+                                "url": "https://doi.org/10.1117/12.2004366"
+                            }
+                        },
+                        {
+                            "accessright": {
+                                "@classid": "RESTRICTED",
+                                "@classname": "Restricted",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            ],
+                            "hostedby": [
+                                {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            ],
+                            "dateofacceptance": "2013-01-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "alternateidentifier": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "@trust": "0.9",
+                                "#text": "10.1117/12.2004366"
+                            },
+                            "refereed": {
+                                "@classid": "0001",
+                                "@classname": "peerReviewed",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                            "webresource": {
+                                "url": "http://oa.upm.es/29346/"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

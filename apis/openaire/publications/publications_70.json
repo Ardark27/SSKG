@@ -1,0 +1,355 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "doi_dedup___::d0599d747dabba9bbe051bebd41b92c2",
+        "dri:dateOfCollection": "2022-07-05T12:40:46Z",
+        "dri:dateOfTransformation": null
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    {
+                        "@name": "Multidisciplinary Digital Publishing Institute",
+                        "@id": "openaire____::c2cdfa5866e03cdd07d313cbc8fb8311"
+                    }
+                ],
+                "originalId": [
+                    "app12136760",
+                    "10.3390/app12136760",
+                    "50|doiboost____::d0599d747dabba9bbe051bebd41b92c2",
+                    "oai:mdpi.com:/2076-3417/12/13/6760/",
+                    "50|multidiscipl::4ba0bb454ab64246e018430c86b3f62f"
+                ],
+                "pid": {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "#text": "10.3390/app12136760"
+                },
+                "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "#text": "Efficiency of Pulsating Base Bleeding to Control Trailing Edge Flow Configurations"
+                },
+                "bestaccessright": {
+                    "@classid": "OPEN",
+                    "@classname": "Open Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": [
+                    {
+                        "@rank": "1",
+                        "@name": "Carlos",
+                        "@surname": "Carbajosa",
+                        "@orcid_pending": "0000-0001-8201-4542",
+                        "#text": "Carlos Carbajosa"
+                    },
+                    {
+                        "@rank": "2",
+                        "@name": "Alejandro",
+                        "@surname": "Martinez-Cava",
+                        "@orcid_pending": "0000-0001-6380-7985",
+                        "#text": "Alejandro Martinez-Cava"
+                    },
+                    {
+                        "@rank": "3",
+                        "@name": "Eusebio",
+                        "@surname": "Valero",
+                        "@orcid_pending": "0000-0002-1627-6883",
+                        "#text": "Eusebio Valero"
+                    },
+                    {
+                        "@rank": "4",
+                        "@name": "Guillermo",
+                        "@surname": "Paniagua",
+                        "@orcid_pending": "0000-0002-2437-4045",
+                        "#text": "Guillermo Paniagua"
+                    }
+                ],
+                "dateofacceptance": "2022-07-04",
+                "description": "<jats:p>As high-pressure-turbines operate at extreme temperature conditions, base bleed can be applied at the trailing edge of the airfoils, enhancing the thermal protection along the trailing edge surface, but also disrupting the trailing edge flow and altering the overall aerodynamic pressure losses. The current work explores the potential use of base bleed as a flow control tool to modulate the flow between turbine blade rows. Through the numerical analysis of a symmetric airfoil immersed in a subsonic flow, the effects that trailing edge ejection has on the base region properties and the downstream flow are evaluated. In particular, previous research constrained to steady blowing is now extended to consider an unsteady pulsating base bleed injection. Three injection frequencies are investigated, covering a wide range of base bleed intensities. The results presented herein demonstrate that pulsating bleed flow is more efficient than its steady counterpart in terms of reducing pressure losses and controlling the primary frequency of the downstream oscillations for the same mass flow injection.</jats:p>",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Fluid Flow and Transfer Processes"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Computer Science Applications"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Process Chemistry and Technology"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "General Engineering"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "Instrumentation"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "General Materials Science"
+                    },
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk:repository",
+                        "@trust": "0.9",
+                        "#text": "flow control; aerodynamics; trailing edge flow; unsteady flow characteristics; computational fluid dynamics"
+                    }
+                ],
+                "language": {
+                    "@classid": "und",
+                    "@classname": "Undetermined",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                    {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-07-04"
+                    },
+                    {
+                        "@classid": "published-online",
+                        "@classname": "published-online",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2022-07-04"
+                    }
+                ],
+                "publisher": "MDPI AG",
+                "source": [
+                    "Crossref",
+                    "Applied Sciences; Volume 12; Issue 13; Pages: 6760"
+                ],
+                "format": "application/pdf",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "UNKNOWN",
+                    "@classname": "UNKNOWN",
+                    "@schemeid": "dnet:dataCite_resource",
+                    "@schemename": "dnet:dataCite_resource"
+                },
+                "journal": {
+                    "@eissn": "2076-3417",
+                    "@sp": "6760",
+                    "@vol": "12",
+                    "#text": "Applied Sciences"
+                },
+                "context": {
+                    "@id": "EC",
+                    "@label": "European Commission",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "EC::H2020",
+                        "@label": "Horizon 2020 Framework Programme",
+                        "concept": {
+                            "@id": "EC::H2020::MSCA-IF-GF",
+                            "@label": "Global Fellowships"
+                        }
+                    }
+                },
+                "datainfo": {
+                    "inferred": "true",
+                    "deletedbyinference": "false",
+                    "trust": "0.8",
+                    "inferenceprovenance": "dedup-result-decisiontree-v3",
+                    "provenanceaction": {
+                        "@classid": "sysimport:dedup",
+                        "@classname": "Inferred by OpenAIRE",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": {
+                        "@inferred": "false",
+                        "@trust": "0.9",
+                        "@inferenceprovenance": "",
+                        "@provenanceaction": "sysimport:actionset",
+                        "to": {
+                            "@class": "isProducedBy",
+                            "@scheme": "dnet:result_project_relations",
+                            "@type": "project",
+                            "#text": "corda__h2020::78e9298e097ef9e2062b1247d0baa9fe"
+                        },
+                        "funding": {
+                            "funder": {
+                                "@id": "ec__________::EC",
+                                "@shortname": "EC",
+                                "@name": "European Commission",
+                                "@jurisdiction": "EU"
+                            },
+                            "funding_level_0": {
+                                "@name": "H2020",
+                                "#text": "ec__________::EC::H2020"
+                            },
+                            "funding_level_1": {
+                                "@name": "MSCA-IF-GF",
+                                "#text": "ec__________::EC::H2020::MSCA-IF-GF"
+                            }
+                        },
+                        "acronym": "FLOWCID",
+                        "title": "Flow Control for Industrial Design",
+                        "code": "101019137"
+                    }
+                },
+                "children": {
+                    "result": [
+                        {
+                            "@objidentifier": "multidiscipl::4ba0bb454ab64246e018430c86b3f62f",
+                            "publisher": "Multidisciplinary Digital Publishing Institute",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "@inferred": "false",
+                                "@provenanceaction": "sysimport:crosswalk:repository",
+                                "@trust": "0.9",
+                                "#text": "Efficiency of Pulsating Base Bleeding to Control Trailing Edge Flow Configurations"
+                            },
+                            "collectedfrom": {
+                                "@name": "Multidisciplinary Digital Publishing Institute",
+                                "@id": "openaire____::c2cdfa5866e03cdd07d313cbc8fb8311"
+                            },
+                            "dateofacceptance": "2022-07-04"
+                        },
+                        {
+                            "@objidentifier": "doi_________::d0599d747dabba9bbe051bebd41b92c2",
+                            "title": {
+                                "@classid": "main title",
+                                "@classname": "main title",
+                                "@schemeid": "dnet:dataCite_title",
+                                "@schemename": "dnet:dataCite_title",
+                                "#text": "Efficiency of Pulsating Base Bleeding to Control Trailing Edge Flow Configurations"
+                            },
+                            "collectedfrom": {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            },
+                            "publisher": "MDPI AG",
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.3390/app12136760"
+                            },
+                            "dateofacceptance": "2022-07-04"
+                        }
+                    ],
+                    "instance": {
+                        "accessright": {
+                            "@classid": "OPEN",
+                            "@classname": "Open Access",
+                            "@schemeid": "dnet:access_modes",
+                            "@schemename": "dnet:access_modes"
+                        },
+                        "collectedfrom": [
+                            {
+                                "@name": "Multidisciplinary Digital Publishing Institute",
+                                "@id": "openaire____::c2cdfa5866e03cdd07d313cbc8fb8311"
+                            },
+                            {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            }
+                        ],
+                        "hostedby": {
+                            "@name": "Applied Sciences",
+                            "@id": "doajarticles::3d2c5259d756c2543239586527e4597e"
+                        },
+                        "dateofacceptance": "2022-07-04",
+                        "instancetype": [
+                            {
+                                "@classid": "0038",
+                                "@classname": "Other literature type",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            }
+                        ],
+                        "pid": {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "#text": "10.3390/app12136760"
+                        },
+                        "alternateidentifier": {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "10.3390/app12136760"
+                        },
+                        "refereed": {
+                            "@classid": "0000",
+                            "@classname": "UNKNOWN",
+                            "@schemeid": "dnet:review_levels",
+                            "@schemename": "dnet:review_levels"
+                        },
+                        "license": "https://creativecommons.org/licenses/by/4.0/",
+                        "webresource": {
+                            "url": "https://doi.org/10.3390/app12136760"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

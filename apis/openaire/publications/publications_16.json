@@ -1,0 +1,408 @@
+{
+    "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+    "header": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "dri:objIdentifier": "doi_________::7c1a3f99ef7a2efe68812012ae940814",
+        "dri:dateOfCollection": "2022-04-03T07:58:22Z",
+        "dri:dateOfTransformation": null
+    },
+    "metadata": {
+        "oaf:entity": {
+            "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+            "oaf:result": {
+                "collectedfrom": [
+                    {
+                        "@name": "Crossref",
+                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                    },
+                    {
+                        "@name": "ORCID",
+                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                    }
+                ],
+                "originalId": [
+                    "10.1103/physrevapplied.16.064067",
+                    "50|doiboost____::7c1a3f99ef7a2efe68812012ae940814"
+                ],
+                "pid": {
+                    "@classid": "doi",
+                    "@classname": "Digital Object Identifier",
+                    "@schemeid": "dnet:pid_types",
+                    "@schemename": "dnet:pid_types",
+                    "#text": "10.1103/physrevapplied.16.064067"
+                },
+                "measure": [
+                    {
+                        "@id": "influence",
+                        "@score": "5.06690394631e-09",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity_alt",
+                        "@score": "0.0",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "popularity",
+                        "@score": "6.49757280681e-09",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "influence_alt",
+                        "@score": "0.0",
+                        "@class": "C"
+                    },
+                    {
+                        "@id": "impulse",
+                        "@score": "0.0",
+                        "@class": "C"
+                    }
+                ],
+                "title": {
+                    "@classid": "main title",
+                    "@classname": "main title",
+                    "@schemeid": "dnet:dataCite_title",
+                    "@schemename": "dnet:dataCite_title",
+                    "#text": "Particle Separation through Diverging Nanochannels via Diffusiophoresis and Diffusioosmosis"
+                },
+                "bestaccessright": {
+                    "@classid": "CLOSED",
+                    "@classname": "Closed Access",
+                    "@schemeid": "dnet:access_modes",
+                    "@schemename": "dnet:access_modes"
+                },
+                "creator": [
+                    {
+                        "@rank": "1",
+                        "@name": "LUIS",
+                        "@surname": "CUETO-FELGUEROSO LANDEIRA",
+                        "@orcid": "0000-0001-5303-0236",
+                        "#text": "LUIS CUETO-FELGUEROSO LANDEIRA"
+                    },
+                    {
+                        "@rank": "2",
+                        "@name": "Mamta",
+                        "@surname": "Jotkar",
+                        "@orcid": "0000-0003-1812-0652",
+                        "#text": "Mamta Jotkar"
+                    }
+                ],
+                "dateofacceptance": "2021-12-29",
+                "subject": [
+                    {
+                        "@classid": "keyword",
+                        "@classname": "keyword",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "#text": "General Physics and Astronomy"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "02 engineering and technology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "01 natural sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0210 nano-technology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "0104 chemical sciences"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "021001 nanoscience & nanotechnology"
+                    },
+                    {
+                        "@classid": "FOS",
+                        "@classname": "Fields of Science and Technology classification",
+                        "@schemeid": "dnet:subject_classification_typologies",
+                        "@schemename": "dnet:subject_classification_typologies",
+                        "@inferred": "true",
+                        "@inferenceprovenance": "update",
+                        "@provenanceaction": "subject:fos",
+                        "#text": "010402 general chemistry"
+                    }
+                ],
+                "language": {
+                    "@classid": "und",
+                    "@classname": "Undetermined",
+                    "@schemeid": "dnet:languages",
+                    "@schemename": "dnet:languages"
+                },
+                "relevantdate": [
+                    {
+                        "@classid": "created",
+                        "@classname": "created",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2021-12-29"
+                    },
+                    {
+                        "@classid": "published-online",
+                        "@classname": "published-online",
+                        "@schemeid": "dnet:dataCite_date",
+                        "@schemename": "dnet:dataCite_date",
+                        "#text": "2021-12-29"
+                    }
+                ],
+                "publisher": "American Physical Society (APS)",
+                "source": "Crossref",
+                "resulttype": {
+                    "@classid": "publication",
+                    "@classname": "publication",
+                    "@schemeid": "dnet:result_typologies",
+                    "@schemename": "dnet:result_typologies"
+                },
+                "resourcetype": {
+                    "@classid": "0001",
+                    "@classname": "Article",
+                    "@schemeid": "dnet:publication_resource",
+                    "@schemename": "dnet:publication_resource"
+                },
+                "journal": {
+                    "@eissn": "2331-7019",
+                    "@vol": "16",
+                    "#text": "Physical Review Applied"
+                },
+                "context": {
+                    "@id": "EC",
+                    "@label": "European Commission",
+                    "@type": "funding",
+                    "category": {
+                        "@id": "EC::H2020",
+                        "@label": "Horizon 2020 Framework Programme",
+                        "concept": {
+                            "@id": "EC::H2020::MSCA-IF-EF-ST",
+                            "@label": "Standard European Fellowships"
+                        }
+                    }
+                },
+                "datainfo": {
+                    "inferred": "false",
+                    "deletedbyinference": "false",
+                    "trust": "0.9",
+                    "inferenceprovenance": "null",
+                    "provenanceaction": {
+                        "@classid": "sysimport:actionset",
+                        "@classname": "Harvested",
+                        "@schemeid": "dnet:provenanceActions",
+                        "@schemename": "dnet:provenanceActions"
+                    }
+                },
+                "rels": {
+                    "rel": [
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                            },
+                            "legalshortname": "CAR",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Centre for Automation and Robotics"
+                        },
+                        {
+                            "@inferred": "false",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "",
+                            "@provenanceaction": "sysimport:actionset",
+                            "to": {
+                                "@class": "isProducedBy",
+                                "@scheme": "dnet:result_project_relations",
+                                "@type": "project",
+                                "#text": "corda__h2020::9ebf629b8dc93fc7aa902bcabf3b06a9"
+                            },
+                            "title": "Pore-scale simulations to study the interaction of DIffusioPHORESis, flow and transport through porous media",
+                            "acronym": "DIPHORES",
+                            "code": "895569",
+                            "funding": {
+                                "funder": {
+                                    "@id": "ec__________::EC",
+                                    "@shortname": "EC",
+                                    "@name": "European Commission",
+                                    "@jurisdiction": "EU"
+                                },
+                                "funding_level_0": {
+                                    "@name": "H2020",
+                                    "#text": "ec__________::EC::H2020"
+                                },
+                                "funding_level_1": {
+                                    "@name": "MSCA-IF-EF-ST",
+                                    "#text": "ec__________::EC::H2020::MSCA-IF-EF-ST"
+                                }
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                            },
+                            "legalshortname": "CRIDA",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                            },
+                            "legalname": "Centre for Plant Biotechnology and Genomics",
+                            "legalshortname": "CBGP",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.9",
+                            "@inferenceprovenance": "iis::document_affiliations",
+                            "@provenanceaction": "iis",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                            },
+                            "legalshortname": "UPM",
+                            "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            }
+                        },
+                        {
+                            "@inferred": "true",
+                            "@trust": "0.85",
+                            "@inferenceprovenance": "propagation",
+                            "@provenanceaction": "result:organization:semrel",
+                            "to": {
+                                "@class": "hasAuthorInstitution",
+                                "@scheme": "dnet:result_organization_relations",
+                                "@type": "organization",
+                                "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                            },
+                            "legalshortname": "CBGP",
+                            "country": {
+                                "@classid": "ES",
+                                "@classname": "Spain",
+                                "@schemeid": "dnet:countries",
+                                "@schemename": "dnet:countries"
+                            },
+                            "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                        }
+                    ]
+                },
+                "children": {
+                    "instance": {
+                        "accessright": {
+                            "@classid": "CLOSED",
+                            "@classname": "Closed Access",
+                            "@schemeid": "dnet:access_modes",
+                            "@schemename": "dnet:access_modes"
+                        },
+                        "collectedfrom": {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        "hostedby": {
+                            "@name": "Physical Review Applied",
+                            "@id": "issn__online::4b7f96d70276908fd3298e8983540930"
+                        },
+                        "dateofacceptance": "2021-12-29",
+                        "instancetype": {
+                            "@classid": "0001",
+                            "@classname": "Article",
+                            "@schemeid": "dnet:publication_resource",
+                            "@schemename": "dnet:publication_resource"
+                        },
+                        "pid": {
+                            "@classid": "doi",
+                            "@classname": "Digital Object Identifier",
+                            "@schemeid": "dnet:pid_types",
+                            "@schemename": "dnet:pid_types",
+                            "#text": "10.1103/physrevapplied.16.064067"
+                        },
+                        "refereed": {
+                            "@classid": "0000",
+                            "@classname": "UNKNOWN",
+                            "@schemeid": "dnet:review_levels",
+                            "@schemename": "dnet:review_levels"
+                        },
+                        "license": "https://link.aps.org/licenses/aps-default-license",
+                        "webresource": {
+                            "url": "https://doi.org/10.1103/physrevapplied.16.064067"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

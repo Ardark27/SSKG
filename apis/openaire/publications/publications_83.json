@@ -1,0 +1,2395 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::bca3e370b770881fc17f4d577be3eef6",
+            "dri:dateOfCollection": "2022-03-15T08:58:19.798Z",
+            "dri:dateOfTransformation": "2022-"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        }
+                    ],
+                    "originalId": [
+                        "50|RECOLECTA___::4a9c55b77a9d46402f431ec3b05d21ea",
+                        "oai:oa.upm.es:48321",
+                        "S0045793017303699",
+                        "10.1016/j.compfluid.2017.10.011",
+                        "50|doiboost____::bca3e370b770881fc17f4d577be3eef6",
+                        "2766382478",
+                        "50|od______1033::4a9c55b77a9d46402f431ec3b05d21ea"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1016/j.compfluid.2017.10.011"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.45077260728e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.9216",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "7.41910631185e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "4.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "4.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "A stability analysis of the compressible boundary layer flow over indented surfaces"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "A stability analysis of the compressible boundary layer flow over indented surfaces"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/2789782664",
+                            "#text": "Silvia Sanvido"
+                        },
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2794730952",
+                            "@orcid": "0000-0002-7422-5320",
+                            "#text": "Jes\u00fas Garicano-Mena"
+                        },
+                        {
+                            "@rank": "2",
+                            "@orcid": "0000-0003-1519-0444",
+                            "@URL": "https://academic.microsoft.com/#/detail/2127332540",
+                            "#text": "Esteban Ferrer"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2422870916",
+                            "#text": "Eusebio Valero"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2017-01-01",
+                    "description": "Abstract This contribution presents a stability analysis for compressible boundary layer flows over indented surfaces. Specifically, the effects of increasing depth D/\u03b4* and Ma \u221e number on perturbation time-decay rates and spatial amplification factors are quantified and compared with those of an unindented configuration. The indented surfaces represent aeronautical lifting surfaces endowed with the smooth gap resulting when a filler material applied at the junction of leading-edge and wing-box components retracts upon its curing process. Since the configuration considered is such that the parallel/weakly-parallel assumptions are necessarily compromised, a global temporal stability analysis is considered in this study. Our analysis does not require a parallel flow constrain, and hence it is believed to be valid when two dimensional effects are relevant. We find that small surface modifications enhance certain flow instabilities. An increase in Ma \u221e enhances further this behaviour: for the\u00a0 D / \u03b4 * = 1.5 , Ma \u221e = 0.5 case, amplification factors at a given location can be up to 20 times larger than those corresponding to the unindented case.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Aeron\u00e1utica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "General Engineering"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "General Computer Science"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Boundary layer"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Perturbation (astronomy)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Geometry"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Compressibility"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Parallel flow"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Stability (probability)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mathematics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Surface (mathematics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Flow (mathematics)"
+                        },
+                        {
+                            "@classid": "SDG",
+                            "@classname": "Sustainable Development Goals",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:sdg",
+                            "#text": "2. Zero hunger"
+                        },
+                        {
+                            "@classid": "SDG",
+                            "@classname": "Sustainable Development Goals",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:sdg",
+                            "#text": "7. Clean energy"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0101 mathematics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010101 applied mathematics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Aeron\u00e1utica"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2017-10-23"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2018-01-01"
+                        }
+                    ],
+                    "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                    "source": [
+                        "Crossref",
+                        "Computer and Fluids, ISSN 0045-7930, 2017-01, Vol. 160",
+                        null,
+                        "instname:Universidad Polit\u00e9cnica de Madrid",
+                        "reponame:Archivo Digital UPM"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:instrepo",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::cd3aaee5fc2a7ca3c4a5e43ad4bf87d2"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "code": "324298",
+                                "title": "New Numerical and Analytical Tools for Aerodynamic flow Control",
+                                "acronym": "NNATAC"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______1033::4a9c55b77a9d46402f431ec3b05d21ea",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "A stability analysis of the compressible boundary layer flow over indented surfaces"
+                                },
+                                "dateofacceptance": "2017-01-01",
+                                "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            },
+                            {
+                                "@objidentifier": "RECOLECTA___::4a9c55b77a9d46402f431ec3b05d21ea",
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "dateofacceptance": "2017-01-01",
+                                "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "A stability analysis of the compressible boundary layer flow over indented surfaces"
+                                }
+                            },
+                            {
+                                "@objidentifier": "doi_________::bca3e370b770881fc17f4d577be3eef6",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.compfluid.2017.10.011"
+                                },
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "A stability analysis of the compressible boundary layer flow over indented surfaces"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "dateofacceptance": "2018-01-01",
+                                "publisher": "Elsevier BV"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "CLOSED",
+                                    "@classname": "Closed Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                "hostedby": {
+                                    "@name": "Computers & Fluids",
+                                    "@id": "issn___print::6b27b2b3b6688ac1ec2c40198d28a603"
+                                },
+                                "dateofacceptance": "2018-01-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.compfluid.2017.10.011"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://www.elsevier.com/tdm/userlicense/1.0/",
+                                "webresource": {
+                                    "url": "https://doi.org/10.1016/j.compfluid.2017.10.011"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "dateofacceptance": "2017-01-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "10.1016/j.compfluid.2017.10.011"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/48321/"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Computers & Fluids",
+                                    "@id": "issn___print::6b27b2b3b6688ac1ec2c40198d28a603"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.compfluid.2017.10.011"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/48321/1/INVE_MEM_2017_262981.pdf"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::66e142a7643453f375676a9a583945ae",
+            "dri:dateOfCollection": "2019-06-20T06:01:23.169Z",
+            "dri:dateOfTransformation": "2020-07-25T09:41:47.185Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        },
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        }
+                    ],
+                    "originalId": [
+                        "50|od______1033::6f3c82d482dbec5c97b99a713ff0ab71",
+                        "oai:oa.upm.es:39460",
+                        "50|RECOLECTA___::6f3c82d482dbec5c97b99a713ff0ab71",
+                        "S002199911500772X",
+                        "10.1016/j.jcp.2015.11.032",
+                        "50|doiboost____::66e142a7643453f375676a9a583945ae",
+                        "2183636399"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1016/j.jcp.2015.11.032"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "7.25148411524e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "5.7397632",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "2.83007695254e-08",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "27.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "15.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Adaptation strategies for high order discontinuous Galerkin methods based on Tau-estimation"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Adaptation strategies for high order discontinuous Galerkin methods based on Tau-estimation"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "3",
+                            "@orcid": "0000-0003-1519-0444",
+                            "@URL": "https://academic.microsoft.com/#/detail/2127332540",
+                            "#text": "Esteban Ferrer"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2422870916",
+                            "#text": "Eusebio Valero"
+                        },
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/2163087648",
+                            "#text": "Gonzalo Rubio"
+                        },
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2186788986",
+                            "#text": "Moritz Kompenhans"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2016-02-01",
+                    "description": "In this paper three p-adaptation strategies based on the minimization of the truncation error are presented for high order discontinuous Galerkin methods. The truncation error is approximated by means of a ? -estimation procedure and enables the identification of mesh regions that require adaptation. Three adaptation strategies are developed and termed a posteriori, quasi-a priori and quasi-a priori corrected. All strategies require fine solutions, which are obtained by enriching the polynomial order, but while the former needs time converged solutions, the last two rely on non-converged solutions, which lead to faster computations. In addition, the high order method permits the spatial decoupling for the estimated errors and enables anisotropic p-adaptation. These strategies are verified and compared in terms of accuracy and computational cost for the Euler and the compressible Navier?Stokes equations. It is shown that the two quasi- a priori methods achieve a significant reduction in computational cost when compared to a uniform polynomial enrichment. Namely, for a viscous boundary layer flow, we obtain a speedup of 6.6 and 7.6 for the quasi-a priori and quasi-a priori corrected approaches, respectively.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Aeron\u00e1utica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Aeron\u00e1utica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Computer Science Applications"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Physics and Astronomy (miscellaneous)"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Applied Mathematics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Computational Mathematics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Modeling and Simulation"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Numerical Analysis"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Discontinuous Galerkin method"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mathematical optimization"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Minification"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Truncation error (numerical integration)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "A priori and a posteriori"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Speedup"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Polynomial"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Applied mathematics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Reduction (complexity)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Euler's formula"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.4801917",
+                            "#text": "symbols.namesake"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.4801917",
+                            "#text": "symbols"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mathematics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0101 mathematics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010101 applied mathematics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "eng",
+                        "@classname": "English",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2015-12-01"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2016-02-01"
+                        }
+                    ],
+                    "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                    "source": [
+                        "Crossref",
+                        "Journal of Computational Physics, ISSN 0021-9991, 2016-02, Vol. 306",
+                        null,
+                        "instname:Universidad Polit\u00e9cnica de Madrid",
+                        "reponame:Archivo Digital UPM"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "0001",
+                        "@classname": "Article",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::cd3aaee5fc2a7ca3c4a5e43ad4bf87d2"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "code": "324298",
+                                "title": "New Numerical and Analytical Tools for Aerodynamic flow Control",
+                                "acronym": "NNATAC"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::60e27d221467c0430d2e1e7c346ae92a"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "acronym": "ANADE",
+                                "title": "Advances in Numerical and Analytical tools for DEtached flow prediction",
+                                "code": "289428"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______1033::6f3c82d482dbec5c97b99a713ff0ab71",
+                                "dateofacceptance": "2016-02-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Adaptation strategies for high order discontinuous Galerkin methods based on Tau-estimation"
+                                },
+                                "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            },
+                            {
+                                "@objidentifier": "RECOLECTA___::6f3c82d482dbec5c97b99a713ff0ab71",
+                                "dateofacceptance": "2016-01-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "Adaptation strategies for high order discontinuous Galerkin methods based on Tau-estimation"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)"
+                            },
+                            {
+                                "@objidentifier": "doi_________::66e142a7643453f375676a9a583945ae",
+                                "dateofacceptance": "2016-02-01",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.jcp.2015.11.032"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "Adaptation strategies for high order discontinuous Galerkin methods based on Tau-estimation"
+                                },
+                                "publisher": "Elsevier BV"
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Journal of Computational Physics",
+                                    "@id": "issn___print::a665e4d16407cbc5c89771ee3b32b1ae"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.jcp.2015.11.032"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/39460/1/INVE_MEM_2016_216962.pdf"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "CLOSED",
+                                    "@classname": "Closed Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                "hostedby": {
+                                    "@name": "Journal of Computational Physics",
+                                    "@id": "issn___print::a665e4d16407cbc5c89771ee3b32b1ae"
+                                },
+                                "dateofacceptance": "2016-02-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1016/j.jcp.2015.11.032"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "https://www.elsevier.com/tdm/userlicense/1.0/",
+                                "webresource": {
+                                    "url": "https://doi.org/10.1016/j.jcp.2015.11.032"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "dateofacceptance": [
+                                    "2016-02-01",
+                                    "2016-01-01"
+                                ],
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "10.1016/j.jcp.2015.11.032"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/39460/"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_dedup___::f6d371817b831011ea0920158cfa35b5",
+            "dri:dateOfCollection": "2022-03-15T09:50:58.531Z",
+            "dri:dateOfTransformation": "2022-03-10T00:30:19.284Z"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "UnpayWall",
+                            "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        },
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        }
+                    ],
+                    "originalId": [
+                        "50|RECOLECTA___::f89c2fe411000640e2a83484edf369ee",
+                        "oai:dnet:archivodigit::239cd71b6e0a40ab59b32ac9cc012126",
+                        "10.1063/1.5119342",
+                        "50|doiboost____::f6d371817b831011ea0920158cfa35b5",
+                        "2984552323",
+                        "oai:oa.upm.es:67030",
+                        "50|od______1033::239cd71b6e0a40ab59b32ac9cc012126"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1063/1.5119342"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "6.12084200287e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "6.384",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "3.99128414545e-08",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "16.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "16.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "A composite dynamic mode decomposition analysis of turbulent channel flows"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "A composite dynamic mode decomposition analysis of turbulent channel flows"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "2",
+                            "@URL": "https://academic.microsoft.com/#/detail/3051942821",
+                            "#text": "Bing-Hua Li"
+                        },
+                        {
+                            "@rank": "4",
+                            "@URL": "https://academic.microsoft.com/#/detail/2422870916",
+                            "#text": "Eusebio Valero"
+                        },
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2794730952",
+                            "#text": "Jes\u00fas Garicano-Mena"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/2127332540",
+                            "#text": "Esteban Ferrer"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2019-11-01",
+                    "description": "In this contribution, we consider the Dynamic Mode Decomposition (DMD) framework as a purely data-driven tool to investigate both standard and actuated turbulent channel databases via Direct Numerical Simulation (DNS). Both databases have comparable Reynolds number Re \u2248 3600. The actuation consists in the imposition of a streamwise-varying sinusoidal spanwise velocity at the wall, known to lead to drag reduction. Specifically, a composite-based DMD analysis is conducted, with hybrid snapshots composed by skin friction and Reynolds stresses. A small number of dynamic modes (\u223c3\u20139) are found to recover accurately the DNS Reynolds stresses near walls. Moreover, the DMD modes retrieved propagate at a range of phase speeds consistent with those reported in the literature. We conclude that composite DMD is an attractive, purely data-driven tool to study turbulent flows. On the one hand, DMD is helpful to identify features associated with the drag, and on the other hand, it reveals the changes in flow structure when actuation is imposed.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Aeron\u00e1utica"
+                        },
+                        {
+                            "@classid": "arxiv",
+                            "@classname": "arXiv",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "iis::document_classes",
+                            "@provenanceaction": "iis",
+                            "@trust": "0.891",
+                            "#text": "Physics::Fluid Dynamics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Condensed Matter Physics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Fluid Flow and Transfer Processes"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanics of Materials"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Computational Mechanics"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanical Engineering"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Parasitic drag"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Dynamic mode decomposition"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Mechanics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Reynolds number"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.550937",
+                            "#text": "symbols.namesake"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:actionset",
+                            "@trust": "0.550937",
+                            "#text": "symbols"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Reynolds stress"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Direct numerical simulation"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Turbulence"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Flow (psychology)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Physics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Drag"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010306 general physics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Aeron\u00e1utica"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2019-11-07"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2019-11-01"
+                        }
+                    ],
+                    "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                    "source": [
+                        "Physics of Fluids, ISSN 1070-6631, 2019, Vol. 31, No. 11",
+                        "Crossref",
+                        null,
+                        "instname:Universidad Polit\u00e9cnica de Madrid",
+                        "reponame:Archivo Digital UPM"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": [
+                            {
+                                "@id": "EC::FP7",
+                                "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                                "concept": [
+                                    {
+                                        "@id": "EC::FP7::SP3",
+                                        "@label": "SP3-People"
+                                    },
+                                    {
+                                        "@id": "EC::FP7::SP3::PEOPLE",
+                                        "@label": "Marie-Curie Actions"
+                                    }
+                                ]
+                            },
+                            {
+                                "@id": "EC::H2020",
+                                "@label": "Horizon 2020 Framework Programme",
+                                "concept": {
+                                    "@id": "EC::H2020::RIA",
+                                    "@label": "Research and Innovation action"
+                                }
+                            }
+                        ]
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda__h2020::e4ae4e5d031c7bbb1044be380768ebdf"
+                                },
+                                "code": "690623",
+                                "title": "Drag Reduction in Turbulent Boundary Layer via Flow Control",
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "H2020",
+                                        "#text": "ec__________::EC::H2020"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "RIA",
+                                        "#text": "ec__________::EC::H2020::RIA"
+                                    }
+                                },
+                                "acronym": "DRAGY"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:crosswalk",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::cd3aaee5fc2a7ca3c4a5e43ad4bf87d2"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "code": "324298",
+                                "title": "New Numerical and Analytical Tools for Aerodynamic flow Control",
+                                "acronym": "NNATAC"
+                            },
+                            {
+                                "@inferred": "false",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "",
+                                "@provenanceaction": "sysimport:actionset",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "od______1033::239cd71b6e0a40ab59b32ac9cc012126",
+                                "dateofacceptance": "2019-01-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "A composite dynamic mode decomposition analysis of turbulent channel flows"
+                                },
+                                "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            },
+                            {
+                                "@objidentifier": "RECOLECTA___::f89c2fe411000640e2a83484edf369ee",
+                                "dateofacceptance": "2019-01-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "A composite dynamic mode decomposition analysis of turbulent channel flows"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "publisher": "E.T.S. de Ingenier\u00eda Aeron\u00e1utica y del Espacio (UPM)"
+                            },
+                            {
+                                "@objidentifier": "doi_________::f6d371817b831011ea0920158cfa35b5",
+                                "dateofacceptance": "2019-11-01",
+                                "publisher": "AIP Publishing",
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1063/1.5119342"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Crossref",
+                                        "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                    },
+                                    {
+                                        "@name": "UnpayWall",
+                                        "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                    },
+                                    {
+                                        "@name": "ORCID",
+                                        "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                                    },
+                                    {
+                                        "@name": "Microsoft Academic Graph",
+                                        "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                                    }
+                                ],
+                                "title": {
+                                    "@classid": "alternative title",
+                                    "@classname": "alternative title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "#text": "A composite dynamic mode decomposition analysis of turbulent channel flows"
+                                }
+                            }
+                        ],
+                        "instance": [
+                            {
+                                "accessright": {
+                                    "@classid": "UNKNOWN",
+                                    "@classname": "not available",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Crossref",
+                                    "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                                },
+                                "hostedby": {
+                                    "@name": "Physics of Fluids",
+                                    "@id": "issn___print::e6e83de712c97d766386d90722ac79dc"
+                                },
+                                "dateofacceptance": "2019-11-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1063/1.5119342"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "webresource": {
+                                    "url": "https://doi.org/10.1063/1.5119342"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "hostedby": [
+                                    {
+                                        "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                        "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                    },
+                                    {
+                                        "@name": "Archivo Digital UPM",
+                                        "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                    }
+                                ],
+                                "dateofacceptance": "2019-01-01",
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "alternateidentifier": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "10.1063/1.5119342"
+                                },
+                                "refereed": {
+                                    "@classid": "0001",
+                                    "@classname": "peerReviewed",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/67030/"
+                                }
+                            },
+                            {
+                                "accessright": {
+                                    "@classid": "OPEN",
+                                    "@classname": "Open Access",
+                                    "@schemeid": "dnet:access_modes",
+                                    "@schemename": "dnet:access_modes"
+                                },
+                                "collectedfrom": {
+                                    "@name": "UnpayWall",
+                                    "@id": "openaire____::8ac8380272269217cb09a928c8caa993"
+                                },
+                                "hostedby": {
+                                    "@name": "Physics of Fluids",
+                                    "@id": "issn___print::e6e83de712c97d766386d90722ac79dc"
+                                },
+                                "instancetype": {
+                                    "@classid": "0001",
+                                    "@classname": "Article",
+                                    "@schemeid": "dnet:publication_resource",
+                                    "@schemename": "dnet:publication_resource"
+                                },
+                                "pid": {
+                                    "@classid": "doi",
+                                    "@classname": "Digital Object Identifier",
+                                    "@schemeid": "dnet:pid_types",
+                                    "@schemename": "dnet:pid_types",
+                                    "#text": "10.1063/1.5119342"
+                                },
+                                "refereed": {
+                                    "@classid": "0000",
+                                    "@classname": "UNKNOWN",
+                                    "@schemeid": "dnet:review_levels",
+                                    "@schemename": "dnet:review_levels"
+                                },
+                                "license": "cc-by-nc-nd",
+                                "webresource": {
+                                    "url": "http://oa.upm.es/67030/1/INVEMEM_2019_320135.pdf"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]

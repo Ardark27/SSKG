@@ -1,0 +1,1007 @@
+[
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "doi_________::388db17eec2f9d42465112dca8fad38b",
+            "dri:dateOfCollection": "2022-04-01T06:28:14Z",
+            "dri:dateOfTransformation": null
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Crossref",
+                            "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                        },
+                        {
+                            "@name": "ORCID",
+                            "@id": "openaire____::806360c771262b4d6770e7cdf04b5c5a"
+                        },
+                        {
+                            "@name": "Microsoft Academic Graph",
+                            "@id": "openaire____::5f532a3fc4f1ea403f37070f59a7a53a"
+                        }
+                    ],
+                    "originalId": [
+                        "1843",
+                        "10.1140/epjst/e2013-01775-5",
+                        "50|doiboost____::388db17eec2f9d42465112dca8fad38b",
+                        "2029728428"
+                    ],
+                    "pid": {
+                        "@classid": "doi",
+                        "@classname": "Digital Object Identifier",
+                        "@schemeid": "dnet:pid_types",
+                        "@schemename": "dnet:pid_types",
+                        "#text": "10.1140/epjst/e2013-01775-5"
+                    },
+                    "measure": [
+                        {
+                            "@id": "influence",
+                            "@score": "5.1467804694e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity_alt",
+                            "@score": "0.0279936",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "popularity",
+                            "@score": "2.08758493281e-09",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "influence_alt",
+                            "@score": "1.0",
+                            "@class": "C"
+                        },
+                        {
+                            "@id": "impulse",
+                            "@score": "1.0",
+                            "@class": "C"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "@classid": "alternative title",
+                            "@classname": "alternative title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Two-dimensional steady states in off-critical mixtures with high interface tension"
+                        },
+                        {
+                            "@classid": "main title",
+                            "@classname": "main title",
+                            "@schemeid": "dnet:dataCite_title",
+                            "@schemename": "dnet:dataCite_title",
+                            "#text": "Two-dimensional steady states in off-critical mixtures with high interface tension"
+                        }
+                    ],
+                    "bestaccessright": {
+                        "@classid": "CLOSED",
+                        "@classname": "Closed Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "@URL": "https://academic.microsoft.com/#/detail/2021578563",
+                            "#text": "Fathi Bribesh"
+                        },
+                        {
+                            "@rank": "3",
+                            "@URL": "https://academic.microsoft.com/#/detail/1631808327",
+                            "@orcid": "0000-0001-7989-9271",
+                            "#text": "Uwe Thiele"
+                        },
+                        {
+                            "@rank": "2",
+                            "@orcid": "0000-0002-9996-1287",
+                            "@URL": "https://academic.microsoft.com/#/detail/2311668652",
+                            "#text": "Santiago Madruga"
+                        }
+                    ],
+                    "dateofacceptance": "2013-03-01",
+                    "description": "We present 2D steady concentration profiles of confined layers of off-critical polymer blends. The layer rests on a solid substrate and has a flat free surface due to very high surface tension. The profiles correspond to non-linear steady solutions of the Cahn-Hilliard equation in a rectangular domain. The free polymer-gas interface is considered to be sharp, while the internal interfaces are diffuse. We explore the rich solution structure (including laterally structured layers, stratified layers, checkerboard structures, oblique states and droplets) as a function of mean concentration.",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Physical and Theoretical Chemistry"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "General Physics and Astronomy"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "General Materials Science"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Molecular physics"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Tension (physics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Nanotechnology"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Layer (electronics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Polymer blend"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Materials science"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Function (mathematics)"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Bifurcation diagram"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Oblique case"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Free surface"
+                        },
+                        {
+                            "@classid": "MAG",
+                            "@classname": "Microsoft Academic Graph classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "#text": "Solid substrate"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "01 natural sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "0103 physical sciences"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010306 general physics"
+                        },
+                        {
+                            "@classid": "FOS",
+                            "@classname": "Fields of Science and Technology classification",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "true",
+                            "@inferenceprovenance": "update",
+                            "@provenanceaction": "subject:fos",
+                            "#text": "010305 fluids & plasmas"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "relevantdate": [
+                        {
+                            "@classid": "created",
+                            "@classname": "created",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2013-03-14"
+                        },
+                        {
+                            "@classid": "published-online",
+                            "@classname": "published-online",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2013-03-19"
+                        },
+                        {
+                            "@classid": "published-print",
+                            "@classname": "published-print",
+                            "@schemeid": "dnet:dataCite_date",
+                            "@schemename": "dnet:dataCite_date",
+                            "#text": "2013-03-01"
+                        }
+                    ],
+                    "publisher": "Springer Science and Business Media LLC",
+                    "source": [
+                        "Crossref",
+                        null
+                    ],
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "0001",
+                        "@classname": "Article",
+                        "@schemeid": "dnet:publication_resource",
+                        "@schemename": "dnet:publication_resource"
+                    },
+                    "journal": {
+                        "@issn": "1951-6355",
+                        "@eissn": "1951-6401",
+                        "@ep": "12",
+                        "@sp": "3",
+                        "@vol": "219",
+                        "#text": "The European Physical Journal Special Topics"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "false",
+                        "deletedbyinference": "false",
+                        "trust": "0.9",
+                        "inferenceprovenance": "null",
+                        "provenanceaction": {
+                            "@classid": "sysimport:actionset",
+                            "@classname": "Harvested",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.7087",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::49123a67f3e17bb6443fe2811d7b1bef"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "title": "Structure formation and microfluidics in binary mixtures",
+                                "code": "234384",
+                                "acronym": "FOBIMI"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.7087",
+                                "@inferenceprovenance": "iis::document_affiliations",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "instance": {
+                            "accessright": {
+                                "@classid": "CLOSED",
+                                "@classname": "Closed Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": {
+                                "@name": "Crossref",
+                                "@id": "openaire____::081b82f96300b6a6e3d282bad31cb6e2"
+                            },
+                            "hostedby": {
+                                "@name": "The European Physical Journal Special Topics",
+                                "@id": "issn___print::f9e9bb93b848e2455c6f8999995063f5"
+                            },
+                            "dateofacceptance": "2013-03-01",
+                            "instancetype": {
+                                "@classid": "0001",
+                                "@classname": "Article",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "pid": {
+                                "@classid": "doi",
+                                "@classname": "Digital Object Identifier",
+                                "@schemeid": "dnet:pid_types",
+                                "@schemename": "dnet:pid_types",
+                                "#text": "10.1140/epjst/e2013-01775-5"
+                            },
+                            "refereed": {
+                                "@classid": "0000",
+                                "@classname": "UNKNOWN",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "http://www.springer.com/tdm",
+                            "webresource": {
+                                "url": "https://doi.org/10.1140/epjst/e2013-01775-5"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "@xmlns:dri": "http://www.driver-repository.eu/namespace/dri",
+        "header": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "dri:objIdentifier": "dedup_wf_001::de540e792483acdbd6c2a25c8f1ddee5",
+            "dri:dateOfCollection": "2022-03-15T09:44:42.6Z",
+            "dri:dateOfTransformation": "2022-03"
+        },
+        "metadata": {
+            "oaf:entity": {
+                "@xmlns:oaf": "http://namespace.openaire.eu/oaf",
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:schemaLocation": "http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+                "oaf:result": {
+                    "collectedfrom": [
+                        {
+                            "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                            "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                        },
+                        {
+                            "@name": "Archivo Digital UPM",
+                            "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                        }
+                    ],
+                    "originalId": [
+                        "50|RECOLECTA___::de540e792483acdbd6c2a25c8f1ddee5",
+                        "oai:oa.upm.es:13257",
+                        "50|od______1033::de540e792483acdbd6c2a25c8f1ddee5"
+                    ],
+                    "title": {
+                        "@classid": "main title",
+                        "@classname": "main title",
+                        "@schemeid": "dnet:dataCite_title",
+                        "@schemename": "dnet:dataCite_title",
+                        "@inferred": "false",
+                        "@provenanceaction": "sysimport:crosswalk",
+                        "@trust": "0.9",
+                        "#text": "Convective transport and stability in films of binary mixtures"
+                    },
+                    "bestaccessright": {
+                        "@classid": "OPEN",
+                        "@classname": "Open Access",
+                        "@schemeid": "dnet:access_modes",
+                        "@schemename": "dnet:access_modes"
+                    },
+                    "creator": [
+                        {
+                            "@rank": "1",
+                            "@name": "Santiago",
+                            "@surname": "Madruga Sa\u0301nchez",
+                            "#text": "Madruga S\u00e1nchez, Santiago"
+                        },
+                        {
+                            "@rank": "2",
+                            "@name": "Fathi",
+                            "@surname": "Bribesh",
+                            "#text": "Bribesh, Fathi"
+                        },
+                        {
+                            "@rank": "3",
+                            "@name": "Thiele",
+                            "@surname": "Uwe",
+                            "#text": "Uwe, Thiele"
+                        }
+                    ],
+                    "country": {
+                        "@classid": "ES",
+                        "@classname": "Spain",
+                        "@schemeid": "dnet:countries",
+                        "@schemename": "dnet:countries"
+                    },
+                    "dateofacceptance": "2011-01-01",
+                    "description": "Thin polymer films are increasingly used in advanced technological applications. The use of these films as coatings is often limited by their lack of stability due to their wettability properties on the substrates",
+                    "subject": [
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:result_subject",
+                            "@schemename": "dnet:result_subject",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk",
+                            "@trust": "0.9",
+                            "#text": "Electr\u00f3nica"
+                        },
+                        {
+                            "@classid": "keyword",
+                            "@classname": "keyword",
+                            "@schemeid": "dnet:subject_classification_typologies",
+                            "@schemename": "dnet:subject_classification_typologies",
+                            "@inferred": "false",
+                            "@provenanceaction": "sysimport:crosswalk:repository",
+                            "@trust": "0.9",
+                            "#text": "Electr\u00f3nica"
+                        }
+                    ],
+                    "language": {
+                        "@classid": "und",
+                        "@classname": "Undetermined",
+                        "@schemeid": "dnet:languages",
+                        "@schemename": "dnet:languages"
+                    },
+                    "publisher": "E.T.S.I. Aeron\u00e1uticos (UPM)",
+                    "source": [
+                        "The 7th East Asia SIAM Conference & RIMS Workshop on Methods in Industrial and Applied Mathematics EASIAM 2011 | The 7th East Asia SIAM Conference & RIMS Workshop on Methods in Industrial and Applied Mathematics EASIAM 2011 | 27/06/2011 - 29/06/2011 | Kitakyushu (Jap\u00f3n)",
+                        "reponame:Archivo Digital UPM",
+                        "instname:"
+                    ],
+                    "format": "application/pdf",
+                    "resulttype": {
+                        "@classid": "publication",
+                        "@classname": "publication",
+                        "@schemeid": "dnet:result_typologies",
+                        "@schemename": "dnet:result_typologies"
+                    },
+                    "resourcetype": {
+                        "@classid": "UNKNOWN",
+                        "@classname": "UNKNOWN",
+                        "@schemeid": "dnet:dataCite_resource",
+                        "@schemename": "dnet:dataCite_resource"
+                    },
+                    "context": {
+                        "@id": "EC",
+                        "@label": "European Commission",
+                        "@type": "funding",
+                        "category": {
+                            "@id": "EC::FP7",
+                            "@label": "SEVENTH FRAMEWORK PROGRAMME",
+                            "concept": [
+                                {
+                                    "@id": "EC::FP7::SP3",
+                                    "@label": "SP3-People"
+                                },
+                                {
+                                    "@id": "EC::FP7::SP3::PEOPLE",
+                                    "@label": "Marie-Curie Actions"
+                                }
+                            ]
+                        }
+                    },
+                    "datainfo": {
+                        "inferred": "true",
+                        "deletedbyinference": "false",
+                        "trust": "0.8",
+                        "inferenceprovenance": "dedup-result-decisiontree-v3",
+                        "provenanceaction": {
+                            "@classid": "sysimport:dedup",
+                            "@classname": "Inferred by OpenAIRE",
+                            "@schemeid": "dnet:provenanceActions",
+                            "@schemename": "dnet:provenanceActions"
+                        }
+                    },
+                    "rels": {
+                        "rel": [
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.8244",
+                                "@inferenceprovenance": "iis::document_affiliations",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::cad284878801b9465fa51a95b1d779db"
+                                },
+                                "legalshortname": "UPM",
+                                "legalname": "Universidad Polit\u00e9cnica de Madrid",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::a0538793f20dc9559848f5b25f78d332"
+                                },
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centro de Biotecnolog\u00eda y Gen\u00f3mica de Plantas - Universidad Politecnica Madrid"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.6235",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::49123a67f3e17bb6443fe2811d7b1bef"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "title": "Structure formation and microfluidics in binary mixtures",
+                                "code": "234384",
+                                "acronym": "FOBIMI"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::acb73beb03fa32c8d2ea75c6994aede7"
+                                },
+                                "legalshortname": "CAR",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Centre for Automation and Robotics"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.897",
+                                "@inferenceprovenance": "iis::document_referencedProjects",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "isProducedBy",
+                                    "@scheme": "dnet:result_project_relations",
+                                    "@type": "project",
+                                    "#text": "corda_______::cee667b47c50d6436f83a4c3147f540c"
+                                },
+                                "contracttype": {
+                                    "@classid": "MC",
+                                    "@classname": "Support for training and career development of researchers (Marie Curie)",
+                                    "@schemeid": "ec:FP7contractTypes",
+                                    "@schemename": "ec:FP7contractTypes"
+                                },
+                                "funding": {
+                                    "funder": {
+                                        "@id": "ec__________::EC",
+                                        "@shortname": "EC",
+                                        "@name": "European Commission",
+                                        "@jurisdiction": "EU"
+                                    },
+                                    "funding_level_0": {
+                                        "@name": "FP7",
+                                        "#text": "ec__________::EC::FP7"
+                                    },
+                                    "funding_level_1": {
+                                        "@name": "SP3",
+                                        "#text": "ec__________::EC::FP7::SP3"
+                                    },
+                                    "funding_level_2": {
+                                        "@name": "PEOPLE",
+                                        "#text": "ec__________::EC::FP7::SP3::PEOPLE"
+                                    }
+                                },
+                                "title": "MULTI-SCALE COMPLEX FLUID FLOWS and INTERFACIAL PHENOMENA",
+                                "code": "214919",
+                                "acronym": "MULTIFLOW"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::fa650aa34072d2b3c1ea424852bc370d"
+                                },
+                                "legalshortname": "CRIDA",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Reference Center for Research, Development and Innovation in ATM"
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.85",
+                                "@inferenceprovenance": "propagation",
+                                "@provenanceaction": "result:organization:semrel",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::dd67438d040795d4a990fc144615a2e3"
+                                },
+                                "legalname": "Centre for Plant Biotechnology and Genomics",
+                                "legalshortname": "CBGP",
+                                "country": {
+                                    "@classid": "ES",
+                                    "@classname": "Spain",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                }
+                            },
+                            {
+                                "@inferred": "true",
+                                "@trust": "0.9",
+                                "@inferenceprovenance": "iis::document_affiliations",
+                                "@provenanceaction": "iis",
+                                "to": {
+                                    "@class": "hasAuthorInstitution",
+                                    "@scheme": "dnet:result_organization_relations",
+                                    "@type": "organization",
+                                    "#text": "openorgs____::276882186c235f87bab02e2a0b714705"
+                                },
+                                "country": {
+                                    "@classid": "GB",
+                                    "@classname": "United Kingdom",
+                                    "@schemeid": "dnet:countries",
+                                    "@schemename": "dnet:countries"
+                                },
+                                "legalname": "Loughborough University",
+                                "legalshortname": "Loughborough University"
+                            }
+                        ]
+                    },
+                    "children": {
+                        "result": [
+                            {
+                                "@objidentifier": "RECOLECTA___::de540e792483acdbd6c2a25c8f1ddee5",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk",
+                                    "@trust": "0.9",
+                                    "#text": "Convective transport and stability in films of binary mixtures"
+                                },
+                                "publisher": "E.T.S.I. Aeron\u00e1uticos (UPM)",
+                                "collectedfrom": {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                "dateofacceptance": "2011-01-01"
+                            },
+                            {
+                                "@objidentifier": "od______1033::de540e792483acdbd6c2a25c8f1ddee5",
+                                "publisher": "E.T.S.I. Aeron\u00e1uticos (UPM)",
+                                "dateofacceptance": "2011-01-01",
+                                "title": {
+                                    "@classid": "main title",
+                                    "@classname": "main title",
+                                    "@schemeid": "dnet:dataCite_title",
+                                    "@schemename": "dnet:dataCite_title",
+                                    "@inferred": "false",
+                                    "@provenanceaction": "sysimport:crosswalk:repository",
+                                    "@trust": "0.9",
+                                    "#text": "Convective transport and stability in films of binary mixtures"
+                                },
+                                "collectedfrom": {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            }
+                        ],
+                        "instance": {
+                            "accessright": {
+                                "@classid": "OPEN",
+                                "@classname": "Open Access",
+                                "@schemeid": "dnet:access_modes",
+                                "@schemename": "dnet:access_modes"
+                            },
+                            "collectedfrom": [
+                                {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            ],
+                            "hostedby": [
+                                {
+                                    "@name": "Recolector de Ciencia Abierta, RECOLECTA",
+                                    "@id": "openaire____::4cb2a3eb94033446c37331f60fad0847"
+                                },
+                                {
+                                    "@name": "Archivo Digital UPM",
+                                    "@id": "opendoar____::e17184bcb70dcf3942c54e0b537ffc6d"
+                                }
+                            ],
+                            "dateofacceptance": "2011-01-01",
+                            "instancetype": {
+                                "@classid": "0004",
+                                "@classname": "Conference object",
+                                "@schemeid": "dnet:publication_resource",
+                                "@schemename": "dnet:publication_resource"
+                            },
+                            "refereed": {
+                                "@classid": "0001",
+                                "@classname": "peerReviewed",
+                                "@schemeid": "dnet:review_levels",
+                                "@schemename": "dnet:review_levels"
+                            },
+                            "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/es/",
+                            "webresource": {
+                                "url": "http://oa.upm.es/13257/"
+                            }
+                        }
+                    }
+                },
+                "extraInfo": {
+                    "@name": "result reference list",
+                    "@typology": "reference list",
+                    "@provenance": "iis::document_referencedDocuments",
+                    "@trust": "0.9",
+                    "references": {
+                        "reference": [
+                            {
+                                "@position": "1",
+                                "rawText": "[1] R. Yerushalmi-Rozen, T. Kerle, and J. Klein. Science. 285, 1254{1256 (1999)."
+                            },
+                            {
+                                "@position": "2",
+                                "rawText": "[2] U. Thiele, S. Madruga, and L. Frastia. Phys. of Fluids. 19, 122106, 2007."
+                            },
+                            {
+                                "@position": "3",
+                                "rawText": "[3] D.M. Anderson, G.B. McFadden, and A.A. Wheeler. Ann. Rev. Fluid Mech. 30, 139-165 (1998)."
+                            },
+                            {
+                                "@position": "4",
+                                "rawText": "[4] S. Madruga and U. Thiele. Phys. of Fluids. 21, 062104, 2009."
+                            },
+                            {
+                                "@position": "5",
+                                "rawText": "[5] S. Madruga and U. Thiele. Eur. Phys. J. Special Topics. 192, 101-108 (2011)."
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]
