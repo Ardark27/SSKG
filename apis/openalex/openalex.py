@@ -24,7 +24,7 @@ for i in range(iteractions+1):
         data = requests.get(final_url).json()
         next_cursor = data['meta']['next_cursor']
         works = works + data['results']
-        break # change to continue if you want to get all the works
+        break# change to continue if you want to get all the works
     final_url = url + "&cursor=" + next_cursor
     data = requests.get(final_url).json()
     next_cursor = data['meta']['next_cursor']
