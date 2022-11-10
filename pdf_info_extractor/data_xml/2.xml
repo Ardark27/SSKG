@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Morph-KGC: Scalable knowledge graph materialization with mapping partitions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IOS Press</publisher>
+				<availability status="unknown"><p>Copyright IOS Press</p>
+				</availability>
+				<date type="published" when="2022-08-25">2022-08-25</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Julián</forename><surname>Arenas-Guerrero</surname></persName>
+							<email>julian.arenas.guerrero@upm.es</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Chaves-Fraga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Declarative Languages and Artificial Intelligence Group</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Flanders Make</orgName>
+								<orgName type="institution">DTAI-FET</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jhon</forename><surname>Toledo</surname></persName>
+							<email>ja.toledo@upm.es</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">María</forename><forename type="middle">S</forename><surname>Pérez</surname></persName>
+							<email>maria.s.perez@upm.es</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Corcho</surname></persName>
+							<email>oscar.corcho@upm.es</email>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Bonn</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Leibniz Information Centre For Science and Technology</orgName>
+								<orgName type="department" key="dep2">Leibniz Information Centre For Science and Technology</orgName>
+								<address>
+									<addrLine>Sherzod Hakimov</addrLine>
+									<country>Germany, Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Morph-KGC: Scalable knowledge graph materialization with mapping partitions</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Semantic Web</title>
+						<title level="j" type="abbrev">SW</title>
+						<idno type="ISSN">1570-0844</idno>
+						<idno type="eISSN">2210-4968</idno>
+						<imprint>
+							<publisher>IOS Press</publisher>
+							<biblScope unit="page" from="1" to="20"/>
+							<date type="published" when="2022-08-25" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">45FBA014D3C54BC8119D4A229BC22859</idno>
+					<idno type="DOI">10.3233/sw-223135</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-10-27T10:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Knowledge Graphs</term>
+					<term>R2RML</term>
+					<term>RML</term>
+					<term>Scalability</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Knowledge graphs are often constructed from heterogeneous data sources, using declarative rules that map them to a target ontology and materializing them into RDF. When these data sources are large, the materialization of the entire knowledge graph may be computationally expensive and not suitable for those cases where a rapid materialization is required. In this work, we propose an approach to overcome this limitation, based on the novel concept of mapping partitions. Mapping partitions are defined as groups of mapping rules that generate disjoint subsets of the knowledge graph. Each of these groups can be processed separately, reducing the total amount of memory and execution time required by the materialization process. We have included this optimization in our materialization engine Morph-KGC, and we have evaluated it over three different benchmarks. Our experimental results show that, compared with state-of-the-art techniques, the use of mapping partitions in Morph-KGC presents the following advantages: (i) it decreases significantly the time required for materialization, (ii) it reduces the maximum peak of memory used, and (iii) it scales to data sizes that other engines are not capable of processing currently.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The amount of data that is being published in RDF has been steadily increasing in recent years. The generalized acceptance and use of knowledge graphs (KGs) <ref type="bibr" target="#b20">[21]</ref> in a wide range of domains and organizations has contributed to this increase. Given that most of the data available inside organizations are structured in heterogeneous data formats, data integration techniques are often used in the data transformation and homogenization process required for knowledge graph construction (KGC).</p><p>KGC engines can be considered as data integration systems DIS = O, S, M where O is the global schema expressed in terms of an ontology (or network of ontologies), S is a set of input data sources and M are the mapping rules describing the relationships between O and S <ref type="bibr" target="#b29">[30]</ref>. Mappings are usually expressed as declarative rules, using standard specifications such as the W3C Recommendation R2RML <ref type="bibr" target="#b8">[9]</ref> and its well-known extension for data</p><formula xml:id="formula_0">C O R R E C T E D P R O O F</formula><p>sources beyond relational databases (RDBs), RML <ref type="bibr" target="#b13">[14]</ref>. The construction of KGs can be done using a materialization process or by virtualization <ref type="bibr" target="#b33">[34]</ref>. Materialization (also known as semantic extract-transform-load) uses the rules in M to transform all data into RDF. Virtualization uses M to translate SPARQL queries into the native query language of S, i.e., data integration is performed on-the-fly during query processing <ref type="bibr" target="#b40">[41]</ref>.</p><p>There are many techniques and associated implementations that can be used to create knowledge graphs integrating heterogeneous data sources using declarative mapping rules <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39]</ref>. In the specific case of materialization, different optimizations have been proposed to speed up the materialization process in complex data integration scenarios (e.g., high rate of duplicates, large data sources, or transformation functions). Approaches such as SDM-RDFizer <ref type="bibr" target="#b21">[22]</ref>, RMLStreamer <ref type="bibr" target="#b16">[17]</ref> and FunMap <ref type="bibr" target="#b22">[23]</ref> propose optimizations to enhance the performance of the materialization process. In our previous work <ref type="bibr" target="#b0">[1]</ref>, in which we analyzed several KGC engines, the experimental evaluation suggests that more efficient solutions are still needed, especially when the volume of data is large.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Problem and objectives</head><p>We address the problem of scalability in knowledge graph construction from heterogeneous data sources using declarative mapping rules. Our main objective is to propose the theoretical background and a set of techniques that can enhance the process of KGC in complex data integration systems, increasing the performance in both time and memory consumption.</p><p>Proposed approach We present the novel concept of mapping partitions, which can be used to reduce the time required for the materialization of a knowledge graph and the peak amount of memory required in the process. Mapping partitions group rules in the input mapping documents ensuring the generation of disjoint sets of RDF triples by each of them. The experimental evaluation reveals that our proposal outperforms state-of-the-art engines significantly in terms of execution time and memory consumption, as well as our own implementation in the absence of this optimization.</p><p>Contributions (i) The novel concept of mapping partition, which allows the identification of rules that produce disjoint sets of RDF triples; (ii) algorithms to find a partition of a mapping document and to remove redundant selfjoins within mapping documents; (iii) Morph-KGC, a scalable interpreter of R2RML and RML that implements mapping partition-based construction of the knowledge graph; (iv) an empirical evaluation of our approach and a comparison against four well-known KGC engines using three different benchmarks (GTFS-Madrid-Bench <ref type="bibr" target="#b5">[6]</ref>, SDM-Genomic-Datasets <ref type="bibr" target="#b21">[22]</ref>, and NPD <ref type="bibr" target="#b26">[27]</ref>).</p><p>The remainder of the article is structured as follows. Section 2 introduces R2RML and RML, and presents a set of concepts, notations, and conventions that will be used throughout the rest of the paper. In Section 3 we delve into the foundations of mapping partitions. Section 4 presents the experimental evaluation comparing Morph-KGC with other R2RML and RML engines. Finally, Section 5 summarizes the related work and Section 6 wraps up and outlines future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Preliminaries</head><p>In this section, we first provide some background by introducing R2RML and RML, the mapping languages that this work focuses on. Then, we present some concepts, notations, and conventions that will be used in the following sections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">R2RML and RML</head><p>R2RML <ref type="bibr" target="#b8">[9]</ref> is the W3C Recommendation declarative mapping language that links relational databases to the RDF data model. RML <ref type="bibr" target="#b13">[14]</ref> is a well-known extension of R2RML that supports input data formats beyond RDBs (e.g., CSV, JSON, or XML). As RML is a superset of R2RML, in this section we present the main notions of these mapping languages focusing solely on RML.</p><p>An RML mapping is represented as an RDF graph. An RML mapping document is an RDF document that encodes an RML mapping, and it consists of one or more triples maps. A triples map has one logical source and contains the</p><formula xml:id="formula_1">C O R R E C T E D P R O O F</formula><p>rules to generate the RDF triples. A triples map consists of one subject map and zero or more predicate-object maps.</p><p>Each predicate-object map has in turn, one or more predicate maps and object maps. Subject, predicate, and object maps are term maps specifying how to generate the RDF terms in the homonymous positions of the triples. Term maps can be constant-valued (always generate the same value), reference-valued (the values are obtained directly from the logical source, e.g., a column in a table of an RDB), or template-valued (which generate RDF terms with some parts given by constants and others given by references). A template-valued term map comprises a string template, that defines how RDF terms are generated from one or more references (enclosed in curly braces) over the logical source. Constant shortcut properties are a compact method of expressing constant-valued term maps.</p><p>A referencing object map allows to generate triples in which the object map is given by the subject map of another triples map, known as the parent triples map. A join condition is used when the logical sources of both triples maps are different. The evaluation of a triples map 1 produces an RDF graph whose triples consist of the generated RDF terms that result from applying its subject, predicate and object maps to the input logical source.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Assumptions, notation and conventions</head><p>In our work, we rely on the normalization of mapping rules as defined in <ref type="bibr" target="#b35">[36]</ref>. A normalized mapping does not contain shortcuts, it uses predicate-object maps to type resources, and all its triples maps contain a single predicateobject map with one predicate map and one object map. This is not restrictive as any R2RML or RML document can be normalized <ref type="bibr" target="#b35">[36]</ref>.</p><p>We target KGC where the resulting RDF graph does not contain duplicated triples, as assumed by most engines <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b21">22]</ref>. Given that an RDF graph is a set of triples <ref type="bibr" target="#b7">[8]</ref>, the presence of duplicated triples in the serialization of the RDF graph does not affect the final result. We add this restriction as it has an impact on memory and time consumption, as well as on the size of the resulting files.</p><p>We use [R2]RML to refer to R2RML and RML. Our proposal may be easily extended to other R2RML-based mapping languages. We refer to R2RML columns and RML references indistinctly as references. We refer to RDF triples and quads indistinctly. TM, SM, POM and OM denote triples map, subject map, predicate-object map and object map respectively.</p><p>Let T be a term map, T the set of all possible term maps, and P the set of positions that the RDF terms generated by the term map T can occupy in a quad, i.e., {subject, predicate, object, graph}. We define position as a function mapping T to P. Assume T to be the set of possible types of term maps, i.e., {IRI, Literal, BlankNode}, then type is a function mapping T to T. Assume V to be the set of possible values that a term map can have, i.e., {constant, reference, template}, then value is a function that maps T to V. Assume C to be the set of possible constant values that a constant-valued term map can take, then we define const as a function mapping T to C where T = {T ∈ T | value(T ) = constant}. Let I be the set of all possible values of the specified language tags or specified datatypes (as defined in <ref type="bibr" target="#b8">[9]</ref>), then we define literaltype as a function mapping T to I where</p><formula xml:id="formula_2">T = {T ∈ T | type(T ) = Literal}.</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The Morph-KGC approach</head><p>In this section, we introduce the foundations of Morph-KGC, an [R2]RML engine for constructing knowledge graphs at scale. First, we introduce self-join elimination at the mapping level. Next, we formalize the novel concept of mapping partitions. After that, we propose two algorithms to generate mapping partitions of [R2]RML documents and tackle KGC based on them. Finally, we validate the feasibility of this approach over different benchmarks and real use cases. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Self-join elimination at the mapping level</head><p>Most virtualization engines in the state of the art (e.g., <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b34">35]</ref>) remove redundant self-joins in the SQL queries that they generate, with the objective of making query evaluation more efficient. However, most materialization engines do not address self-joins that can occur in a mapping, which in most cases are executed locally by the engine.</p><p>Definition 1 (Redundant self-join in an [R2]RML document). A redundant self-join in an [R2]RML document appears when a referencing object map joins two triples maps with the same logical source and it has join conditions with the same unique references.</p><p>Redundant self-joins in an [R2]RML document can be removed by replacing the referencing object maps with object maps given by the subject map of the parent triples map, producing the same set of RDF triples.</p><p>Example 1. Consider the R2RML mapping rules with a self-join taken from GTFS-Madrid-Bench <ref type="bibr" target="#b5">[6]</ref>: Both triples maps use the same database table, and the referencing object map uses the same unique column to join both triples maps. This can be transformed into an object map without a join condition (the second object map in the triples map #shapesTM).</p><formula xml:id="formula_3">&lt;#</formula><p>As defined in the R2RML Recommendation <ref type="bibr" target="#b8">[9]</ref>, the effective SQL query of the referencing object map in the triples map #shapesTM of Example 1 is:</p><formula xml:id="formula_4">SELECT * FROM ( SELECT * FROM SHAPES ) AS child, ( SELECT * FROM SHAPES ) AS parent WHERE child.shape_id=parent.shape_id</formula><p>Removing this kind of SQL joins is widely studied in the literature, known as semantic query optimization <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b38">39]</ref>. Under the assumption that the join references in a mapping are unique, self-joins can be eliminated in mapping documents for any data format. The impact of redundant self-joins in materialization engines has been previously reported by us in <ref type="bibr" target="#b0">[1]</ref>. We propose to remove redundant self-joins within the mapping documents to improve the performance of KGC engines without the need to modify their current materialization procedures. In this way, an [R2]RML document without redundant self-joins does not contain referencing object maps involving two triples maps with the same logical source and with the same unique references in the join conditions. This redundant self-join elimination approach is independent from the underlying data format, as opposed to the previous techniques (e.g., <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b34">35]</ref>  An [R2]RML document and its canonicalization are equivalent, this entails that any transformation of a mapping document comprised in Definition 2 (i.e., normalization and redundant self-join elimination) also generates an equivalent mapping document. Algorithm 1 obtains the canonicalization of any mapping document. First, it normalizes the document (see <ref type="bibr" target="#b35">[36]</ref>). Next, it discards referencing object maps with different logical sources in the triples map and the parent triples map (lines 4-6). After that, the algorithm checks that the fields in all join conditions match (lines 7-11). When that happens, the self-join can be removed, and the object map is replaced by the subject map of the parent triples map (lines 12-13).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mapping partitions</head><p>Given an initial set of mapping rules, we aim at identifying those that produce disjoint sets of triples, i.e., the initial mapping rules will be grouped so that those in different groups generate sets of RDF triples that do not overlap. In the following, when we refer to the sets of generated triples, we consider them to be composed of all the triples that a mapping rule, group of mappings rules, or mapping document generate given a data source.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Definition 3. (Mapping Partition of an [R2]RML document).</head><p>Let M be a normalized [R2]RML document with a set of mapping rules m 1 , m 2 , . . . , m n that generates the triple set T . Then, a mapping partition P of M is a set of subsets of M, designated as mapping groups G 1 , G 2 , . . . , G k , that generate the triple sets t 1 , t 2 , . . . , t k , satisfying the following conditions:</p><formula xml:id="formula_5">C O R R E C T E D P R O O F -k i=1 t i = ∅, i.e.</formula><p>, the triple sets generated by each mapping group are disjoint. -k i=1 t i = T , i.e., the union of the triple sets generated by all the mapping groups is equivalent to T . Multiple mapping partitions can exist for M. The most trivial mapping partition is the one with only one mapping group (i.e., the singleton set), and we denote it with P ∅ . Mind that this definition of mapping partition does not entail that a mapping group can be considered as a new mapping document. A mapping rule in a mapping group can still have a join condition involving a rule from a different group of mappings.</p><p>Example 2. Consider the mapping rules (taken from <ref type="bibr" target="#b8">[9]</ref>): Both mapping rules can be assigned to different mapping groups as they do not generate common triples, given that the predicates are constants and that they are different. Nonetheless, the mapping rule in #TM2 is dependent on #TM1, since the object map of the former is given by the subject map of the latter, and this results in a join dependency between those mapping groups. This prevents both mapping groups from becoming independent mapping documents. Figure <ref type="figure" target="#fig_1">1</ref> depicts an example of mapping partitioning that involves three initial mapping documents with eleven normalized mapping rules in total. Six mapping groups are formed, which have between one and three mapping rules. As can be seen, there are join dependencies between different groups of mappings, nonetheless, they are still disjoint in terms of the set of triples that they generate.</p><formula xml:id="formula_6">&lt;#</formula><p>We now delve into the rationale to obtain partitions of a mapping document M. This is done incrementally by first examining the disjointness of term maps, next of mapping rules, and finally of mapping groups. Definition 4 (Prefix of a template). We define the prefix of a template as the constant (or immutable) part of its string template preceding the first reference in it. If a template starts with a reference, then its prefix is empty (∅). Note that this is different to the notion of prefix declaration in RDF documents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Example 3. Consider the following string templates along with their prefixes:</head><p>Template: ex:employee={EMPNO}/department={DEPTNO} Prefix: ex:employee= The prefixes are obtained by eliminating the first reference and what follows. The beginning of the latter string template is data source-dependent and therefore its prefix is ∅.</p><formula xml:id="formula_7">C O R R E C T E D P R O O F</formula><p>Definition 5 (Invariant of an [R2]RML term map). The invariant I of a term map T is the longest common initial part of all the RDF terms that can be generated by T . I is an intrinsic property of T and remains immutable regardless of data coming from the input sources. I depends on V, and it is obtained as follows:</p><formula xml:id="formula_8">• If value(T ) = constant, then I = const(T ). • If value(T ) = template, then I = prefix(T ). • If value(T ) = reference, then I = ∅.</formula><p>Notation 1 (Invariants). For simplicity and clarity, we define the following notation for invariants:</p><p>• I ∅ denotes the empty invariant.</p><p>• I 1 &lt; I 2 , denotes that the length of I 1 is shorter than I 2 , with the length given by the number of characters of the invariants. • I 1 ⊂ I 2 , denotes that I 1 matches the beginning of I 2 . This entails</p><formula xml:id="formula_9">I 1 &lt; I 2 .</formula><p>Example 4. Consider the three templates in Example 3 and their invariants I 1 , I 2 and I 3 respectively (given by their prefixes). Then, the following applies:</p><formula xml:id="formula_10">• I 3 = I ∅ . • I 3 &lt; I 2 &lt; I 1 . • I 3 ⊂ I 1 , I 3 ⊂ I 2 , I 2 ⊂ I 1 and I 1 ⊂ I 2 .</formula><p>Definition 6 (Disjoint Term Maps). Let T 1 and T 2 be two term maps and I 1 , I 2 their respective invariants. T 1 and T 2 are disjoint iff the sets of RDF terms that they can generate are in turn disjoint, regardless of the input data. The disjoint property for T 1 and T 2 applies iff at least one of the following conditions hold:</p><formula xml:id="formula_11">1. type(T 1 ) = type(T 2 ). 2. I 1 = I 2 , I 1 ⊂ I 2 and I 2 ⊂ I 1 . C O R R E C T E D P R O O F 3. I 1 &lt; I 2 , type(T 1 ) = constant, or vice versa. 4. type(T 1 ) = type(T 2 ) = Literal, and literaltype(T 1 ) = literaltype(T 2 ).</formula><p>Disjointness of term maps depends on: T, invariants, and I. Term maps with different T enforces the generation of distinct (disjoint) RDF terms (first condition). We focus now on term maps with similar T. For term maps with distinct invariants, the generated triple sets are disjoint if none of the invariants matches the beginning of the other (second condition). The latter is necessary to not make any assumptions on data coming from the sources. Note that in this case I ∅ prevents term map disjointness to apply. When the value of the term map with the shortest invariant is constant, the second condition can be relaxed, and it is only necessary that the invariant of this term is shorter than the other invariant (third condition). This is because the term map with the shortest invariant is not dependent on data and the RDF terms will always be shorter (and therefore distinct) than those generated by the other term map. For the specific case that two term maps generate literals, they are disjoint if they have distinct I (fourth condition). This is because RDF literals with different datatypes or language tags are different. This is also true for the empty literal type, e.g., a typed literal will always be different from a non-typed literal. Abusing of notation, given two term maps T 1 and T 2 , we use T 1 ∩ T 2 = ∅ to denote that they are disjoint. Definition 7 (Disjoint Mapping Rules). Two mapping rules m 1 , m 2 that generate triple sets t 1 , t 2 respectively, are disjoint iff they do not generate common triples, i.e., t 1 ∩ t 2 = ∅, regardless of the input data sources. Disjointness of m 1 and m 2 can be determined as follows:</p><formula xml:id="formula_12">∃T 1 ∈ m 1 , ∃T 2 ∈ m 2 | T 1 ∩ T 2 = ∅, position(T 1 ) = position(T 2 )</formula><p>For two mapping rules to be disjoint, it is required that at least two position-wise term maps are disjoint. This is true because once two triples have a different subject, predicate, object or graph then the triples are immediately distinct. Abusing of notation, given two mapping rules m 1 and m 2 , we use m 1 ∩ m 2 = ∅ to denote that they are disjoint.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Definition 8 (Disjoint Mapping Groups of an [R2]RML document)</head><p>. Two mapping groups G 1 and G 2 of M are disjoint iff they generate disjoint sets of triples. This property holds when all the mapping rules in G 1 are disjoint of all the mapping rules in G 2 . As a consequence, a mapping rule cannot belong simultaneously to disjoint mapping groups. Formally:</p><formula xml:id="formula_13">∀m 1 ∈ G 1 , ∀m 2 ∈ G 2 | m 1 ∩ m 2 = ∅ Definition 9 (Maximal Mapping Partition of an [R2]RML document).</formula><p>The maximal mapping partition of M (denoted with P max ) is the one with the largest number of mapping groups.</p><p>Given a mapping document, its maximal mapping partition is not necessarily unique, i.e., there may be several maximal mapping partitions for the original mapping document. When all the mapping rules in a mapping document are disjoint, each mapping group in P max is a singleton set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Mapping partition-based knowledge graph construction</head><p>Knowledge graph construction can leverage mapping partitions to reduce execution time and memory consumption. Before this, a partition of the mapping needs to be performed. We propose Algorithm 2, which generates partial mapping partitions by P, and aggregates them for further partitioning. The purpose of this algorithm is to find a good partition (i.e., with a high number of mapping groups) while keeping it simple and with a low computational cost.</p><p>The outer for-loop (line 3) of Algorithm 2 iterates four times to retrieve partial mapping partitions by subject, predicate, object and graph. The normalized mappings are sorted lexicographically by the T, I and invariants (line ), the third condition in Definition 6 can be applied. Otherwise, it is checked if condition 2, which is more restrictive, is fulfilled (line 23). The final P is the result of aggregating the partial mapping partitions by P (line 29), e.g., a mapping rule with partial mapping partitions subject(4), predicate <ref type="bibr" target="#b22">(23)</ref>, object <ref type="bibr" target="#b10">(11)</ref> and graph(1) would be assigned the final partition 4-23-11-1.</p><p>The time complexity of Algorithm 2 is O(n log n), where n is the number of mapping rules. This is because the outer for-loop can be removed by repeating its inner code four times (once per each P). The complexity is then determined by the lexicographic sorting of the mapping rules.</p><p>We also propose Algorithm 3 which generates the maximal mapping partition of an [R2]RML document, i.e., it solves the problem of finding P max of a mapping document. The assumption here is that exploring every possible mapping partition of an [R2]RML document guarantees obtaining the maximal one. To do so, it considers all orderings of P (line 3) and iterates over them (line 4). Partitioning is done independently by G (lines 6-7), thus the aggregation of the partial partitions is done before (line 5) to generate these groups. Once the full partition has been created for an order of P (line 10), it is checked whether it has more groups than any other previously created (lines 11 <ref type="bibr">-12)</ref>. Finally, the partial mapping partitions are reset (line 13) to prepare them for the next order processing. The time complexity of Algorithm 3 is upper bounded by O(n log n), where n is the number of mapping rules. The worst case for lines 6-7 happens when the mapping partition has only one mapping group and they all need to be sorted (line 5 of Algorithm 2). It must be noted that lines 3-4 do not affect the time complexity since they are fixed by P. Although the time complexity of Algorithms 2 and 3 are similar, the latter needs to perform more operations, since it considers every permutation of P.</p><p>The construction of a knowledge graph based on a mapping partition can be done in two different ways. The first one (Fig. <ref type="figure">2a</ref>) processes each mapping group sequentially. Hence, only the triples of a single mapping group are kept Fig. <ref type="figure">2</ref>. Mapping partition-based KGC. Example of sequential and parallel processing of a mapping partition for constructing a knowledge graph. While the former creates the KG by processing one mapping group at a time, reducing memory consumption, the latter generates triples for several mapping groups simultaneously, reducing execution time.</p><formula xml:id="formula_14">C O R R E C T E D P R O O F</formula><p>in memory simultaneously to remove duplicated triples. Memory usage is bounded by the largest group of mappings (in terms of the number of triples that it generates). The second one (Fig. <ref type="figure">2b</ref>) processes each group of mappings in parallel. As a consequence, the execution time is reduced at the cost of increasing the maximum memory required, as multiple triple sets of different groups of mappings are maintained in memory at the same time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Significance of mapping partitions</head><p>The performance of partition-based KGC strongly depends on the ability to partition mapping documents. If the conditions required to generate mapping partitions are not generally met, then mapping partitioning would not be feasible in practice (for instance, I ∅ prevents partitioning in the general case). In addition, the ability to generate a high number of mapping groups affects the improvement in the performance. In general, a higher number of mapping groups entails a higher parallelization capacity (bounded by the number of CPU cores), and a lower number of mapping rules in each of the groups, and therefore less memory consumption in the case of sequential processing.</p><p>We have compiled information on mapping partitioning for several well-known benchmarks (namely, NPD <ref type="bibr" target="#b26">[27]</ref>, BSBM <ref type="bibr" target="#b1">[2]</ref>, GTFS-Madrid-Bench <ref type="bibr" target="#b5">[6]</ref> and LSLOD <ref type="bibr" target="#b17">[18]</ref>), the DevOps ICT knowledge graph <ref type="bibr" target="#b6">[7]</ref>, and other real uses cases from the KGC W3C Community Group 2 in Table <ref type="table" target="#tab_4">1</ref>. We have included whether all the predicate maps are constant-valued, so that the third condition in Definition 6 applies. We select predicate maps for this purpose because in real settings constant-valued term maps usually appear in this position (and in graph maps, but they are not used in the selected cases). The number of mapping groups and the maximum number of mapping rules in a group have been obtained using Algorithms 2 and 3. In all cases it has been possible to obtain a mapping partition beyond P ∅ . In most of the cases the partitioning conditions are very advantageous, and low #mappingrules #groups ratios as well as small groups of mappings (with few mapping rules) are obtained. It can also be observed that both algorithms obtain a similar number of mapping groups in many cases. The most significant difference is found in the case of Data Hub -Ontopic, for which Algorithm 3 obtains a partition with a number of groups more than three times higher and drastically reduces the number of mapping rules in the largest group. </p><formula xml:id="formula_15">C O R R E C T E D P R O O F</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Empirical evaluation</head><p>In this section, we experimentally evaluate our proposal. The research questions that we aim to answer are: RQ1: What is the impact of mapping partitions in the execution time and the memory consumption during the materialization of KGs? RQ2: How does the number of groups in a mapping partition affect the materialization process? RQ3: What are the benefits of this approach for constructing KGs at scale w.r.t. state-of-the-art techniques? In the following, we describe the setup of the evaluation.</p><p>Benchmarks We evaluate our proposal on three different testbeds. First, we use GTFS-Madrid-Bench <ref type="bibr" target="#b5">[6]</ref>, a benchmark in the transport domain, for testing the performance and scalability of our proposal over different tabular data formats and sizes. After that, we use the SDM-Genomic-Datasets <ref type="bibr" target="#b21">[22]</ref> from the biomedical domain to evaluate our proposal over different mapping configurations. Finally, we use the Norwegian Petroleum Directorate (NPD) benchmark <ref type="bibr" target="#b26">[27]</ref>, from the energy domain, to compare different configurations of Morph-KGC. We have used MySQL 8.0 as DBMS for RDB. The NPD benchmark provides the mappings in R2RML, the SDM-Genomic-Datasets in RML, and GTFS-Madrid-Bench provides the mappings in both languages.</p><p>Engines We use Morph-KGC v1.1.0 3 and consider five configurations of it: (i) Morph-KGC as the baseline (without mapping partitioning); (ii) Morph-KGC p , which uses partial-aggregations for mapping partitioning and sequential processing; (iii) Morph-KGC p + , which uses partial-aggregations for mapping partitioning and parallel processing, (iv) Morph-KGC m which uses maximal partitioning and sequential processing; and (v) Morph-KGC m + which uses maximal partitioning and parallel processing. We also compare our proposal against state-of-the-art KGC engines. Based on the results reported in <ref type="bibr" target="#b0">[1]</ref>, we select two R2RML engines, Ontop v4.1.0 and R2RML-F v1.2.3, and two RML interpreters, SDM-RDFizer v4.1.1 and Chimera v2.1. In our evaluation, we consider relational databases and CSV files, SDM-RDFizer and R2RML-F can process both of them, Ontop only processes the former and Chimera only the latter. It is important to mention that both selected RML processors parallelize the execution of the mappings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metrics Execution time:</head><p>Elapsed time spent by an engine to complete the construction of a KG; it is measured as the absolute wall-clock system time as reported by the time command of the Linux operating system. Memory consumption: The memory used by an engine to construct the KG measured in time slots of 0.1 seconds. In addition, we have verified that the generated RDF are the same for all engines in terms of the number of triples and its correctness. All experiments were executed three times and the average execution time and memory consumption are reported. A timeout of 24 hours is used. The experiments are run on a CPU Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz, 20 cores, 128 GB RAM, and a SSD SAS Read-Intensive 12 GB/s. The absolute values obtained for these metrics are available online 4 and we use a logarithmic scale for the figures in this section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">GTFS-Madrid-Bench</head><p>We consider two distributions of the GTFS-Madrid-Bench based on the data format: GTFS csv and GTFS rdb . We have also generated different data sizes of these distributions considering the scaling factors: 1, 10, 100, and 1000. As reported in Table <ref type="table" target="#tab_4">1</ref>, the partial-aggregations and maximal partitioning algorithms return very similar mapping partitions (differing only in one mapping group). Thus, in this experiment, we only take into account partial-aggregations for mapping partitioning, avoiding the extra computational cost of maximal partitioning. While the performance of Morph-KGC and Ontop are not impacted by self-joins because they remove them, the rest of the considered engines are extraordinarily affected by them. For this reason, we have manually removed self-joins from the original mappings. Mind that Ontop is only able to process GTFS rdb and Chimera GTFS csv .</p><p>The impact of mapping partitions on the materialization of large input data sources can be observed in Fig. <ref type="figure" target="#fig_4">3</ref>. Regarding memory consumption, we can observe that the baseline, Morph-KGC, follows a growing trend over time. The reason is that it keeps the entire KG in memory to avoid the generation of duplicate triples. Indeed, Fig. <ref type="figure" target="#fig_4">3b</ref> shows that this approach produces an out-of-memory issue due to the size of the final KG. In the case of Morph-KGC p , it is observed how the memory is freed every time a group of mappings is materialized. In this configuration, the maximum peak of memory is given by the largest group of mapping rules (in terms of the total number of triples generated), and it is significantly lower than the other two configurations. However, this comes at the cost of a small overhead in the execution time w.r.t. the baseline. Morph-KGC p + demonstrates a great improvement w.r.t. the baseline regarding execution time, although the maximum peak of memory used is similar due to Morph-KGC p + maintaining multiple groups of mappings in memory at the same time, as they are being processed concurrently. Note that mapping partition-based KGC is bounded by the parallelization capacity of the processor and by the mapping partition itself (e.g., the number of mapping groups or the differences in size among them).</p><formula xml:id="formula_16">C O R R E C T E D P R O O F</formula><p>Figure <ref type="figure" target="#fig_5">4a</ref> shows the total execution time of Morph-KGC compared to the rest of the selected engines. Morph-KGC p + clearly outperforms the rest of the engines for all data formats and data scaling factors. The optimizations implemented by SDM-RDFizer make them the only competitor able to scale to GTFS 1000 . Figure <ref type="figure" target="#fig_5">4b</ref> depicts the maximum peak of memory used by each engine. It is observed that the operators compressing data in the data structures of SDM-RDFizer achieve the lowest memory usage for GTFS 1 and GTFS 10 . In the case of larger distributions of GTFS, Morph-KGC p outperforms SDM-RDFizer given that it reduces the maximum peak of memory used to that of the largest mapping group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">SDM-Genomic-Datasets</head><p>The SDM-Genomic-Datasets 5 provide a set of configurations taking into account different parameters that are relevant for constructing knowledge graphs <ref type="bibr" target="#b4">[5]</ref> such as the type of mappings, the number of duplicates, and data size. More in detail, regarding the latter, four different datasets are provided with different number of rows: 10K, 100K, 1M, and 10M. Although simpler configurations are also provided in terms of the number of duplicates, for this experimental evaluation we select the most complex one, i.e., 75% of duplicates with each duplicated value repeated 20 times. In addition, three mapping files with different types of predicate-object maps are considered: simple object map (POM), referencing object map with self-reference (REF), and referencing object map (JOIN).</p><formula xml:id="formula_17">C O R R E C T E D P R O O F</formula><p>A number is used together with the name of each mapping type to specify the number of rules (e.g., 4-POM indicates 4 object maps). The testbeds provide the mappings in RML and data is in the form of CSV files. For this reason, we do not consider the R2RML processors in this experiment. In the same manner as for GTFS-Madrid-Bench, we only report the time and memory consumption for the case of partial-aggregations partitioning as the maximal partitioning algorithm generates the same mapping partition. The total execution times for SDM-Genomic-Datasets are reported in Fig. <ref type="figure" target="#fig_6">5a</ref>. As Morph-KGC p + and Morph-KGC perform a self-join elimination over the REF mappings, they obtain similar results as in the POM ones, which is not the case of SDM-RDFizer and Chimera. While Morph-KGC p + obtains the best results for the former configurations, SDM-RDFizer clearly outperforms it for JOIN mappings. The main reason is that SDM-RDFizer implements the Predicate Join Tuple Table as a specific physical data structure for improving the join conditions during the construction of the KG, and Morph-KGC does not implement any join optimization beyond redundant self-join elimination. Figure <ref type="figure" target="#fig_6">5b</ref> shows that Morph-KGC p outperforms its baseline and state-of-the-art engines regarding memory consumption for POM and REF mappings. In the case of JOIN mappings, SDM-RDFizer obtains the best results given the data compression techniques of its structures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Norwegian Petroleum Directorate Benchmark</head><p>The NPD benchmark <ref type="bibr" target="#b26">[27]</ref> presents a comprehensive evaluation system for virtual KGC engines. It provides a set of SPARQL queries, a scalable instance of an RDB from the energy domain, and the corresponding mapping rules in R2RML. Although it has not been previously used for testing the performance of materialization engines, we notice that it is the only benchmark among those considered in Table <ref type="table" target="#tab_4">1</ref> in which the difference in the number of mapping groups obtained by the partial-aggregations and the maximal partitioning algorithms is significant. This will allow us to compare the impact of maximal partitioning when it achieves a mapping partition with more groups than partial-aggregations. To further evaluate mapping partitions with different number of groups, we also include the configurations Morph-KGC m + -s and Morph-KGC m + -p which means that only subject and predicate, respectively, are taken into account to perform mapping partitioning (instead of every P). We use the data generator of the benchmark <ref type="bibr" target="#b27">[28]</ref> to obtain three different distributions with data scaling factors: 1, 10 and 100. Apart from our proposal, the only engine able to parse the R2RML mappings and generate the correct KG is R2RML-F.</p><formula xml:id="formula_18">C O R R E C T E D P R O O F</formula><p>The results obtained are shown in Fig. <ref type="figure" target="#fig_7">6</ref>. We observe that the best performance regarding execution time is obtained by Morph-KGC p + . Surprisingly, the partition generated by Morph-KGC p + reports better results than the Morph-KGC m + one, showing that a higher number of mapping groups does not always entail a better execution time in the construction of the KG. A possible reason for this could be that the parallel processing is bounded by the number of cores of the machine (20 in our case), and increasing the number of mapping groups (477 for Morph-KGC p while there are 745 for Morph-KGC m ) does not result in a higher parallelization rate. Moreover, a higher number of mapping groups introduces an overhead as we saw previously in Fig. <ref type="figure" target="#fig_4">3</ref>, and maximal partitioning is computationally more expensive. However, we observe that the materialization time of Morph-KGC m + is very close to Morph-KGC p + , and that these two perform significantly better than Morph-KGC m -s and Morph-KGC m -p, with a lower number of mapping groups (17 and 327 respectively). This indicates that in general, it is desirable to have a high number of mapping groups to increase the parallelization rate. Regarding memory consumption, we see that Morph-KGC p and Morph-KGC m obtain similar results. Note that in sequential processing, the peak in the amount of memory used is determined by the largest mapping group. If maximal partitioning is not able to further partition that specific mapping group, then a reduction in the peak of memory consumption is not expected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Discussion</head><p>The experiments with SDM-Genomic-Datasets show that redundant self-join elimination is an effective technique and that it reduces the execution time of materialization. The same behaviour was also reported by us in <ref type="bibr" target="#b0">[1]</ref>  for GTFS-Madrid-Bench. Since our technique applies directly to mappings, it is engine independent and can also be applied to any data format, as opposed to other proposals such as <ref type="bibr" target="#b2">[3]</ref>, that only work for RDBs. Any engine can benefit from this technique by preprocessing the mapping rules using Algorithm 1. However, this only applies to redundant self-joins, and the experiments with SDM-Genomics-Datasets also show that Morph-KGC is outperformed by SDM-RDFizer in complex joins, given that it implements the Predicate Join Tuple Table <ref type="table">.</ref> Morph-KGC could implement this data structure to speed up other kinds of joins. The impact of high join selectivity in KG materialization has been shown in <ref type="bibr" target="#b4">[5]</ref>.</p><formula xml:id="formula_19">C O R R E C T E D P R O O F</formula><p>In general, our empirical evaluation shows that mapping partitioning is an effective technique for knowledge graph materialization that avoids the generation of duplicate triples. Concurrent processing of mapping partitions has achieved the best execution times in many of the evaluation configurations, except for those involving complex joins as previously mentioned. We have seen that in scenarios with several types of mappings (POM+REF+JOIN) (e.g., GTFS-Madrid-Bench or NPD), Morph-KGC p + obtains better results than the rest of the engines included in our evaluation. Moreover, sequential processing has obtained the lowest peak of memory used in most of the experiment configurations, reducing the amount of memory used to that of the largest mapping group. It has also been observed that sequential processing adds a small overhead in the execution time. Overall, parallel processing is suitable for those cases in which knowledge graph materialization needs to be rapidly executed, and sequential processing for those cases in which it is necessary to keep memory usage low. Mapping partitioning can be implemented by other engines, in particular, those that still report performance issues such as Chimera, could benefit from this technique.</p><p>We have seen in the experiment with NPD benchmark that the number of mapping groups in a partition has an impact on the performance of materialization. Regarding the execution time, a higher number of mapping groups entail a faster execution in parallel processing. However, once the maximum parallelization capacity of the machine is reached, a higher number of mapping groups does not reduce the execution time and can even slightly increase it. In respect to memory consumption, sequential processing bounds the maximum peak of memory to that of the</p><formula xml:id="formula_20">C O R R E C T E D P R O O F</formula><p>largest mapping group. A higher number of groups only reduces this peak in the case that the largest mapping group has been further partitioned.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Related work</head><p>Ontology-based data integration <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b40">41]</ref> systems differentiate between the data layer, composed of the data sources, and the conceptual layer, in which an ontology or network of ontologies are used to abstract the heterogeneity of the former. Mappings are used to specify how to populate entities and relationships in the ontology with data from the underlying data sources, i.e., mappings are the link mechanism between both layers.</p><p>Several languages have been proposed to define mappings <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b28">29]</ref>, but the one that stands out most notably is R2RML <ref type="bibr" target="#b8">[9]</ref>, the W3C Recommendation to map relational databases to RDF. However, R2RML does not generalize the underlying data model and cannot deal with heterogeneous data formats. RML <ref type="bibr" target="#b13">[14]</ref> is a well-known superset of R2RML that removes specific references to the relational data model and enables data formats beyond RDBs. In addition, other R2RML-related proposals have addressed transformation functions <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>, mixed content and RDF collections <ref type="bibr" target="#b32">[33]</ref>, usability <ref type="bibr" target="#b19">[20]</ref> or scalability <ref type="bibr" target="#b39">[40]</ref>.</p><p>There are two approaches to process the mappings: virtualization (or query translation) and materialization (or data translation). Virtualization uses mappings to translate SPARQL queries into the native query languages of the underlying data sources. Research around this technique has focused primarily on relational databases and on efficiently processing the generated SQL queries. We refer the interested reader on virtualization to <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b41">42]</ref>. Materialization uses the mappings to transform all data in the underlying data sources to the corresponding RDF.</p><p>There are several solutions targeting the materialization of knowledge graphs <ref type="bibr" target="#b0">[1]</ref>. For the specific case of RDBs, Ontop <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b42">43]</ref> leverages the fact that predicate maps are generally constant-valued. It generates one SPARQL query for each predicate with unbounded subject and object. These queries are then translated to SQL and optimized by applying a set of structural optimizations (e.g., subqueries elimination) and semantic query optimizations (e.g., redundant self-joins removal). It also avoids to retrieve large query result sets at once by doing it in chunks.</p><p>The work presented in <ref type="bibr" target="#b24">[25]</ref> exploits knowledge encoded in the mapping documents to project the attributes appearing in a triples map, reducing the size of the data sources that need to be processed. Similarly, to diminish the impact of duplicates in the evaluation of join conditions, it also pushes down projections into joins. SDM-RDFizer <ref type="bibr" target="#b21">[22]</ref> proposes physical data structures to store the knowledge graph in memory in a way that allows to efficiently remove duplicates and avoid unnecessary operations. In particular, it uses one hash table for each predicate (called Predicate Tuple Table <ref type="table">,</ref> where the hash key combines the subject and the object of the triple, and the value is the triple itself. It also proposes to speed up joins by creating the Predicate Join Tuple Table, a hash table using the values matching the join condition as the hash key, and being the values of the hash the set of the generated values by the parent triples map. These hash tables are checked every time a new triple is to be generated, in the case that the triple already exists, it is discarded, otherwise it is added to the knowledge graph, and the corresponding hash table is updated. Moreover, SDM-RDFizer considers data compression techniques that reduce the memory usage of the data structures that store intermediate results during materialization.</p><p>Recently, triples map planning has been proposed in <ref type="bibr" target="#b23">[24]</ref>. Here a bushy tree plan is created specifying an optimized execution order for executing mapping assertions. These bushy tree plans are obtained heuristically by relying on a greedy algorithm. Operating system commands are obtained from these execution plans that allow to efficiently execute different knowledge graph materialization engines.</p><p>Karma <ref type="bibr" target="#b25">[26]</ref> tackles the scalability of knowledge graph construction from large data sources using batch processing. Instead of loading all data into memory, when operating in batch mode, the engine continuously loads fractions of the data, transforming them to the nested relational model and then materializing the corresponding triples. In this manner, memory usage is reduced, as it is not required to maintain the entire knowledge graph in memory.</p><p>Parallelization has also been proposed to speed up the materialization process. The work presented in <ref type="bibr" target="#b16">[17]</ref> divides this process in three tasks following the producer-consumer paradigm: ingestion of data from the sources, mapping to RDF, and combination of the RDF. Parallelization is done up to the data record level. Nevertheless, the proposed approach does not tackle duplicate elimination. <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b36">37]</ref> also parallelize at the triples map level.</p><formula xml:id="formula_21">C O R R E C T E D P R O O F</formula><p>Regarding the efficient processing of transformation functions, FunMap <ref type="bibr" target="#b22">[23]</ref> addresses the materialization of these functions specified using FnO <ref type="bibr" target="#b9">[10]</ref>. FunMap proposes a set of lossless rewriting rules so that the functions are executed in the initial steps of the KG materialization process. This approach generates a set of mapping rules that are function-free and that can be executed by any RML engine.</p><p>Mapping partitioning can be used together with existing techniques to further optimize the process of knowledge graph materialization. For instance, the Predicate Join Tuple Table could be implemented along with mapping partitioning to speed up joins in parallel and sequential processing. Moreover, redundant self-join elimination could be implemented as a preprocessing step (similarly to other techniques such as the rewriting of rules in FunMap) which generates mappings without redundant self-joins that can be executed by any engine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions and future work</head><p>We address the problem of scalability in the materialization of knowledge graphs from heterogeneous data sources using declarative mapping rules. We present the novel concept of mapping partitions, which consists in grouping mapping rules that generate disjoints sets of RDF triples. Mapping partitions can be used to reduce memory consumption in KG materialization by processing each mapping group in a partition sequentially, or to decrease the execution time by processing multiple mapping groups in parallel. We implement this novel approach in an [R2]RML engine, Morph-KGC, and we empirically demonstrate that, in the general case, it outperforms state-of-the-art proposals in terms of the total execution time and the amount of memory required in the materialization process.</p><p>Our future lines of work include the extension of Morph-KGC and mapping partitions to RML-star <ref type="bibr" target="#b12">[13]</ref>, which poses the challenge of recursive and more complex mapping rules. We also plan to address the limitation of the current approach that prevents minimizing materialization time and memory consumption at the same time, by using standards such as MPI <ref type="bibr" target="#b31">[32]</ref>.</p><formula xml:id="formula_22">C O R R E C T E D P R O O F C O R R E C T E D P R O O F</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Algorithm 1 : 3 for OM ∈ TM do 4 if isRefOM(OM) then 5 parentTM = OM.parentTM 6 if 7 removeJoin = True 8 for joinCond ∈ OM do 9 if</head><label>13456789</label><figDesc>Canonicalization of an [R2]RML document, M Result: Canonical M 1 M = normalize(M) // see [36] 2 for TM ∈ M do TM.source == parentTM.source then joinCond.child = joinCond.parent then 10</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1. Mapping Partition. Mapping partition of three mapping documents with eleven normalized mapping rules in total. The mapping partition is composed of six mapping groups, which have between one and three mapping rules. In addition, there are two join dependencies among different groups of mappings.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>5 )Algorithm 2 : 4 // Lexicographic sort 5 M 9 / 11 I 29 P</head><label>524591129</label><figDesc>in the position being processed. Term maps for each P are then iterated (line 10). The first condition in Definition 6 is fulfilled with lines 12-15, that create a new G when a T with a different T is reached. The fourth condition in Partial-Aggregations Partitioning of an [R2]RML document, M Result: P of M 1 M = normalize(M) 2 // Repeat for subj., pred., obj., and graph 3 for p ∈ P do = sortByTermTypeAndLitTypeAndInv(M, p) / Iterate over TMs in M with a certain P 10 for T ∈ M[p] do = invariant(T ) 12 if type(T ) = curTermType then 13 curTermType = type(T ) 14 curInv = ∅ 15 curGroup + + 16 else if type(T ) = Literal ∧ literaltype(T ) = curLitType then 17 curLitType = literaltype(T ) = aggregatePartialPartitions(M) Definition 6 is satisfied with lines 16-19, which create a new a new G if I differs from that of the previous T . If it was not possible to generate a new G with the former, we proceed to partition by invariant. When all the term maps in a specific P have constant values (line 21</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Algorithm 3 : 4 for p ∈ order do 5 P 6 for G ∈ P do 7 Apply 10 P 12 P max = P 13 M</head><label>34567101213</label><figDesc>Maximal Partitioning of an [R2]RML document, M Result: P max of M 1 M = normalize(M) 2 P max = ∅ 3 for order ∈ permutations(P) do = aggregatePartialPartitions(M) lines 4-27 of Algorithm 2 to mapping rules in G = aggregatePartialPartitions(M) 11 if size(P) &gt; size(P max ) then = resetPartition(M) 14 end</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Morph-KGC over GTFS-Madrid-Bench. Memory over time in the materialization of GTFS rdb for three different configurations of the Morph-KGC engine: without mapping partitions (Morph-KGC), with mapping partitions and sequential processing (Morph-KGC p ), and with mapping partitions and parallel processing (Morph-KGC p + ).</figDesc><graphic coords="13,79.63,124.07,435.57,256.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Total execution time and memory consumption peak in GTFS-Madrid-Bench. KGC time in seconds and memory consumption time in kB (logarithmic scale) of the tabular datasets from GTFS-Madrid-Bench with data scaling factors 1, 10, 100 and 1000.</figDesc><graphic coords="14,72.11,262.75,111.70,89.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Total execution time and memory consumption peak in SDM-Genomic-Datasets. KGC time in seconds and memory consumption time in kB (logarithmic scale) of the SDM-Genomic-Datasets with data scale factors 10K, 100K, 1M and 10M rows.</figDesc><graphic coords="15,298.31,259.03,111.96,89.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Total execution time and memory consumption peak in NPD. KGC time in seconds and memory consumption time in kB (logarithmic scale) of the NPD benchmark with data scaling factors 1, 10, 100.</figDesc><graphic coords="16,118.43,263.71,119.16,92.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 1</head><label>1</label><figDesc>Mapping partitioning of benchmarks and real use cases</figDesc><table><row><cell>Benchmark or Real Use Case</cell><cell>All pred. constants</cell><cell># mapping rules</cell><cell cols="2">Partial-aggregations (Alg. 2)</cell><cell></cell><cell>Maximal (Alg. 3)</cell></row><row><cell></cell><cell></cell><cell></cell><cell># G</cell><cell>max # rules in G</cell><cell># G</cell><cell>max # rules in G</cell></row><row><cell>GTFS-Madrid-Bench</cell><cell>Yes</cell><cell>86</cell><cell>83</cell><cell>2</cell><cell>84</cell><cell>2</cell></row><row><cell>LSLOD -Bio2RDF</cell><cell>Yes</cell><cell>182</cell><cell>117</cell><cell>37</cell><cell>117</cell><cell>37</cell></row><row><cell>LSLOD -Linkedct</cell><cell>Yes</cell><cell>143</cell><cell>126</cell><cell>14</cell><cell>126</cell><cell>14</cell></row><row><cell>LSLOD -TCGA</cell><cell>Yes</cell><cell>2450</cell><cell>388</cell><cell>380</cell><cell>409</cell><cell>55</cell></row><row><cell>LSLOD -Dailymed</cell><cell>Yes</cell><cell>261</cell><cell>212</cell><cell>18</cell><cell>212</cell><cell>18</cell></row><row><cell>NPD</cell><cell>Yes</cell><cell>1177</cell><cell>477</cell><cell>116</cell><cell>745</cell><cell>14</cell></row><row><cell>BSBM</cell><cell>Yes</cell><cell>75</cell><cell>57</cell><cell>4</cell><cell>62</cell><cell>3</cell></row><row><cell>Open Cities -UPM</cell><cell>Yes</cell><cell>122</cell><cell>99</cell><cell>6</cell><cell>99</cell><cell>6</cell></row><row><cell>Btw Our Worlds -IDLab</cell><cell>Yes</cell><cell>62</cell><cell>47</cell><cell>4</cell><cell>47</cell><cell>4</cell></row><row><cell>SDM-Genomics -TIB</cell><cell>Yes</cell><cell>169</cell><cell>105</cell><cell>8</cell><cell>105</cell><cell>8</cell></row><row><cell>Drugs4Covid -UPM</cell><cell>Yes</cell><cell>75</cell><cell>27</cell><cell>29</cell><cell>38</cell><cell>19</cell></row><row><cell>Data Hub -Ontopic</cell><cell>Yes</cell><cell>270</cell><cell>69</cell><cell>83</cell><cell>232</cell><cell>6</cell></row><row><cell>DevOps ICT KG</cell><cell>Yes</cell><cell>326</cell><cell>299</cell><cell>3</cell><cell>299</cell><cell>3</cell></row></table><note>2 https://github.com/kg-construct/use-cases</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">https://github.com/oeg-upm/morph-kgc 4 https://doi.org/10.5281/zenodo.6542009</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">https://figshare.com/articles/dataset/SDM-Genomic-Datasets/14838342/1</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>This work was funded partially by the project Knowledge Spaces: Técnicas y herramientas para la gestión de grafos de conocimientos para dar soporte a espacios de datos (Grant PID2020-118274RB-I00, funded by MCIN/AEI/ 10.13039/501100011033) and also received partial financial support in the frame of the Euratom Research and Training Programme 2019-2020 under grant agreement No 900018 (ENTENTE project). David Chaves-Fraga is supported by the Spanish Minister of Universities (Ministerio de Universidades) and by the NextGenera-tionEU funds through the Margarita Salas postdoctoral fellowship.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Knowledge graph construction with R2RML and RML: An ETL system-based overview</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arenas-Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scrocca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iglesias-Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Toledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pozo-Gilo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<ptr target="CEUR-WS.org" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd International Workshop on Knowledge Graph Construction, CEUR Workshop Proceedings</title>
+				<meeting>the 2nd International Workshop on Knowledge Graph Construction, CEUR Workshop Proceedings</meeting>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">2873</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Berlin SPARQL benchmark</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schultz</surname></persName>
+		</author>
+		<idno type="DOI">10.4018/jswis.2009040101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal on Semantic Web and Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>IJSWIS</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Komla-Ebri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kontchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rodriguez-Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/SW-160217</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Ontop: Answering SPARQL queries over relational databases</title>
+				<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="471" to="487" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Logic-based approach to semantic query optimization</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Chakravarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minker</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/78922.78924</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Database Systems</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="162" to="207" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">What are the parameters that affect the construction of a knowledge graph</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Endris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-33246-4_43</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Confederated International Conferences</title>
+				<meeting>the Confederated International Conferences</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="695" to="713" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A benchmark for virtual knowledge graph access in the transport domain</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cimmino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Toledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gtfs-Madrid-Bench</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.websem.2020.100596</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Web Semantics</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">100596</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A high-level ontology network for ICT infrastructures</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Toledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arenas-Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Badenes-Olmedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Burrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-88361-4_26</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 20th International Semantic Web Conference, ISWC</title>
+				<meeting>the 20th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="446" to="462" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cyganiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lanthaler</surname></persName>
+		</author>
+		<ptr target="https://www.w3.org/TR/rdf11-concepts/" />
+		<title level="m">RDF 1.1 Concepts and Abstract Syntax, W3C Recommendation, W3C</title>
+				<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sundara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cyganiak</surname></persName>
+		</author>
+		<ptr target="http://www.w3.org/TR/r2rml/" />
+		<title level="m">R2RML: RDB to RDF Mapping Language, W3C Recommendation, W3C</title>
+				<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An ontology to semantically declare and describe functions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Meester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Extended Semantic Web Conference, ESWC, P&amp;D</title>
+				<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="46" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Declarative data transformations for linked data generation: The case of DBpedia</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Meester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-58451-5_3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th Extended Semantic Web Conference</title>
+				<meeting>the 14th Extended Semantic Web Conference</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="33" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">R2RML-F: Towards sharing and executing domain logic in R2RML mappings</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Debruyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'sullivan</surname></persName>
+		</author>
+		<ptr target="CEUR-WS.org" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 9th Workshop on Linked Data on the Web, CEUR Workshop Proceedings</title>
+				<meeting>the 9th Workshop on Linked Data on the Web, CEUR Workshop Proceedings</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">1593</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">RML-star: A declarative mapping language for RDF-star generation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Delva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arenas-Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iglesias-Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<ptr target="CEUR-WS.org" />
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference, ISWC, P&amp;D, CEUR Workshop Proceedings</title>
+				<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">2980</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">RML: A generic language for integrated RDF mappings of heterogeneous data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vander Sande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Colpaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van De Walle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Workshop on Linked Data on the Web, CEUR Workshop Proceedings</title>
+				<meeting>the 7th Workshop on Linked Data on the Web, CEUR Workshop Proceedings</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">1184</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>CEUR-WS.org</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Ontario: Federated query processing against a semantic data lake</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Endris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Rohde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-27615-7_29</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 30th International Conference on Database and Expert Systems Applications, DEXA</title>
+				<meeting>the 30th International Conference on Database and Expert Systems Applications, DEXA</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="379" to="395" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">ShExML: Improving the usability of heterogeneous data mapping languages for first-time users</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>García-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Boneva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Staworko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Labra-Gayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M C</forename><surname>Lovelle</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj-cs.318</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">e318</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Parallel RDF generation from heterogeneous big data</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haesendonck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heyvaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3323878.3325802</idno>
+		<idno>doi:10. 1145/3323878.3325802</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Workshop on Semantic Big Data</title>
+				<meeting>the International Workshop on Semantic Big Data</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">BioFed: Federated query processing over life sciences linked open data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hasnain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Mehmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sana E Zainab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saleem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zehra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Decker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rebholz-Schuhmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13326-017-0118-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomedical Semantics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A comparison of RDB-to-RDF mapping languages</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Gall</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2063518.2063522</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th International Conference on Semantic Systems, I-Semantics &apos;11</title>
+				<meeting>the 7th International Conference on Semantic Systems, I-Semantics &apos;11<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="25" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Declarative rules for linked data generation at your fingertips! in: Extended Semantic Web Conference, ESWC</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heyvaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Meester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-98192-5_40</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Springer International Publishing</publisher>
+			<biblScope unit="page" from="213" to="217" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Knowledge graphs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cochez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E L</forename><surname>Gayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Navigli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neumaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-C</forename><forename type="middle">N</forename><surname>Ngomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polleres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schmelzeisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sequeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Staab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3447772</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Computing Surveys</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">SDM-RDFizer: An RML interpreter for the efficient creation of RDF knowledge graphs</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jozashoori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Collarana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3340531.3412881</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 29th ACM International Conference on Information and Knowledge Management, CIKM</title>
+				<meeting>the 29th ACM International Conference on Information and Knowledge Management, CIKM</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="3039" to="3046" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">FunMap: Efficient execution of functional mappings for knowledge graph creation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jozashoori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 19th International Semantic Web Conference, ISWC</title>
+				<meeting>the 19th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="276" to="293" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Scaling Up Knowledge Graph Creation to Large and Heterogeneous Data Sources</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jozashoori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">MapSDI: A scaled-up semantic data integration framework for knowledge graph creation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jozashoori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-33246-4_4</idno>
+		<idno>doi:10.1007/ 978-3-030-33246-4_4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Confederated International Conferences</title>
+				<meeting>the Confederated International Conferences</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="58" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Exploiting semantics for big data integration</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Knoblock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Szekely</surname></persName>
+		</author>
+		<idno type="DOI">10.1609/aimag.v36i1.2565</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AI Magazine</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="276" to="293" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The NPD benchmark: Reality check for OBDA systems</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<idno type="DOI">10.5441/002/edbt.2015.62</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 18th International Conference on Extending Database Technology, EDBT, OpenProceedings.org</title>
+				<meeting>the 18th International Conference on Extending Database Technology, EDBT, OpenProceedings.org</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="617" to="628" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">VIG: Data scaling for OBDA benchmarks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/SW-180336</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semantic Web</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="413" to="433" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A SPARQL extension for generating RDF from heterogeneous formats</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lefrançois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bakerally</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th Extended Semantic Web Conference</title>
+				<meeting>the 14th Extended Semantic Web Conference</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="35" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Data integration: A theoretical perspective</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenzerini</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/543613.543644</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 21st ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS</title>
+				<meeting>the 21st ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="233" to="246" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Squerall: Virtual ontology-based access to heterogeneous and large data sources</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Mami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Graux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scerri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jabeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-30796-7_15</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 18th International Semantic Web Conference, ISWC</title>
+				<meeting>the 18th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="229" to="245" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">MPI: A Message-Passing Interface Standard Version 4.0</title>
+		<ptr target="https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Message Passing Interface Forum</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Translation of relational and non-relational databases into RDF with xR2RML</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Michel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Djimenou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Zucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Montagnat</surname></persName>
+		</author>
+		<idno type="DOI">10.5220/0005448304430454</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11th International Conference on Web Information Systems and Technologies</title>
+				<meeting>the 11th International Conference on Web Information Systems and Technologies</meeting>
+		<imprint>
+			<publisher>SciTePress</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="443" to="454" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Linking data to ontologies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lembo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Giacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenzerini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosati</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-77688-8_5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal on Data Semantics X</title>
+		<imprint>
+			<biblScope unit="page" from="133" to="173" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Formalisation and experiences of R2RML-based SPARQL to SQL query translation using morph</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sequeda</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2566486.2567981</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 23rd International Conference on World Wide Web, WWW &apos;14</title>
+				<meeting>the 23rd International Conference on World Wide Web, WWW &apos;14</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="479" to="490" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Efficient SPARQL-to-SQL with R2RML mappings</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rodríguez-Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.websem.2015.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Web Semantics</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="141" to="169" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Turning transport data to comply with EU standards while enabling a multimodal transport knowledge graph</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scrocca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Comerio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carenini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Celino</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-62466-8_26</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 19th International Semantic Web Conference, ISWC</title>
+				<meeting>the 19th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="411" to="429" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">OBDA: Query rewriting or materialization? In practice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Sequeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Miranker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-11964-9_34</idno>
+		<idno>doi:10. 1007/978-3-319-11964-9_34</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 13th International Semantic Web Conference, ISWC</title>
+				<meeting>the 13th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="535" to="551" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Ultrawrap: SPARQL execution on relational data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Sequeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Miranker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.websem.2013.08.002</idno>
+		<idno>doi:10. 1016/j.websem.2013.08.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Web Semantics</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="19" to="39" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">KR2RML: An alternative interpretation of R2RML for heterogeneous sources</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slepicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Szekely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Knoblock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 6th International Workshop on Consuming Linked Data, CEUR Workshop Proceedings</title>
+				<meeting>the 6th International Workshop on Consuming Linked Data, CEUR Workshop Proceedings</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">1426</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>CEUR-WS.org</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Ontology-based data access: A survey</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kontchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lembo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zakharyaschev</surname></persName>
+		</author>
+		<idno type="DOI">10.24963/ijcai.2018/777</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th International Joint Conference on Intelligence, IJCAI, International Joint Conferences on Artificial Intelligence Organization</title>
+				<meeting>the 27th International Joint Conference on Intelligence, IJCAI, International Joint Conferences on Artificial Intelligence Organization</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="5511" to="5519" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Virtual knowledge graphs: An overview of systems and use cases</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/dint_a_00011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Data Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="201" to="223" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The virtual knowledge graph system ontop</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kontchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Komla-Ebri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Güzel-Kalaycı</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Botoeva</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-62466-8_17</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 19th International Semantic Web Conference, ISWC</title>
+				<meeting>the 19th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="259" to="277" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
