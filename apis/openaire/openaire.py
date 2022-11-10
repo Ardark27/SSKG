@@ -64,9 +64,6 @@ def get_openaire_data():
 
         print(count,project_id, 'n_publications:', len_publications, 'n_software:', len_software)
         count += 1
-        
-        if len_software != 0 or count==250: # limit to 250 projects or first project with software
-            break
     
     save_json_data(project_list, "apis/openaire/projects.json")
     
