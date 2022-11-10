@@ -1,3 +1,0 @@
-https://github.com/oeg-upm/morph-kgc
-https://github.com/kermitt2/grobid
-https://github.com/kg-construct/use-cases
