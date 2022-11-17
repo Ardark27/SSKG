@@ -1,1 +1,1 @@
-# SSKG
+# Scientific Software Knowledge Graphs (SSKG)
