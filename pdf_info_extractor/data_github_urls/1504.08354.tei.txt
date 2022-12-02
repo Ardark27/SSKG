@@ -1,0 +1,2603 @@
+preserve
+http://www.tei-c.org/ns/1.0
+http://www.w3.org/2001/XMLSchema-instance
+http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd
+http://www.w3.org/1999/xlink
+en
+a
+main
+Chemical reactions induced by oscillating external fields in weak thermal environments
+unknown
+published
+2015-04-30
+30 Apr 2015
+first
+Galen
+middle
+T
+Craven
+aff0
+department
+Center for Computational Molecular Science and Technology
+aff1
+department
+School of Chemistry and Biochemistry
+institution
+Georgia Institute of Technology
+30332-0400
+Atlanta
+GA
+first
+Thomas
+Bartsch
+aff2
+department
+Department of Mathematical Sciences
+institution
+Loughborough University
+LE11 3TU
+Loughborough
+GB
+United Kingdom
+first
+Rigoberto
+Hernandez
+aff0
+department
+Center for Computational Molecular Science and Technology
+aff1
+department
+School of Chemistry and Biochemistry
+institution
+Georgia Institute of Technology
+30332-0400
+Atlanta
+GA
+a
+main
+Chemical reactions induced by oscillating external fields in weak thermal environments
+published
+2015-04-30
+30 Apr 2015
+MD5
+77A0D937C9747C36696921D5CCE6BDEC
+arXiv
+arXiv:1504.08354v1[physics.chem-ph]
+0.7.1
+GROBID
+2022-12-02T11:45+0000
+GROBID - A machine learning software for extracting information from scholarly documents
+https://github.com/kermitt2/grobid
+http://www.tei-c.org/ns/1.0
+Chemical reaction rates must increasingly be determined in systems that evolve under the control of external stimuli. In these systems, when a reactant population is induced to cross an energy barrier through forcing from a temporally varying external field, the transition state that the reaction must pass through during the transformation from reactant to product is no longer a fixed geometric structure, but is instead timedependent. For a periodically forced model reaction, we develop a recrossing-free dividing surface that is attached to a transition state trajectory [T. Bartsch, R. Hernandez, and T. Uzer, Phys. Rev. Lett. 95,  058301 (2005)]. We have previously shown that for single-mode sinusoidal driving, the stability of the timevarying transition state directly determines the reaction rate [G. T. Craven, T. Bartsch, and R. Hernandez, J. Chem. Phys. 141, 041106 (2014)]. Here, we extend our previous work to the case of multi-mode driving waveforms. Excellent agreement is observed between the rates predicted by stability analysis and rates obtained through numerical calculation of the reactive flux. We also show that the optimal dividing surface and the resulting reaction rate for a reactive system driven by weak thermal noise can be approximated well using the transition state geometry of the underlying deterministic system. This agreement persists as long as the thermal driving strength is less than the order of that of the periodic driving. The power of this result is its simplicity. The surprising accuracy of the time-dependent noise-free geometry for obtaining transition state theory rates in chemical reactions driven by periodic fields reveals the dynamics without requiring the cost of brute-force calculations.
+en
+http://www.tei-c.org/ns/1.0
+I. INTRODUCTION
+bibr
+[1]
+bibr
+#b1
+[2]
+bibr
+#b2
+[3]
+bibr
+#b3
+[4]
+bibr
+#b4
+[5]
+bibr
+#b5
+[6]
+bibr
+#b6
+[7]
+bibr
+#b7
+[8]
+bibr
+#b8
+[9]
+Optimal control of reaction pathways in systems undergoing configurational changes can be achieved through forcing from tailored external fields. These fields can be tuned to induce specific deformations on a potential energy surface, providing control of state-to-state transitions.  In these processes, a formally exact classical rate calculation can be obtained through modern-day transition state theory (TST).  The principal assumptions of TST are that (1) the distribution of energy states in the reactant configuration, and at the TS, are given by equilibrium distributions and (2) there exists a hypersurface between reactant and product confirmations that is crossed only once by reactive trajectories during the traversal of a free energy barrier separating these basins. The TST reaction rate is calculated from the flux through this dividing surface (DS). If the DS is recrossed by reactive trajectories, TST will give an overestimate to the classical reaction rate. Determination of a recrossing-free DS therefore leads to classically exact TST rates systems in which equilibrium statistical mechanics is applicable.
+bibr
+#b9
+[10]
+bibr
+#b10
+[11]
+bibr
+#b11
+[12]
+bibr
+#b12
+[13]
+bibr
+#b13
+[14]
+bibr
+#b14
+[15]
+bibr
+#b15
+[16]
+bibr
+#b16
+[17]
+bibr
+#b17
+[18]
+bibr
+#b18
+[19]
+bibr
+#b19
+[20]
+bibr
+#b20
+[21]
+bibr
+#b21
+[22]
+bibr
+#b15
+16
+bibr
+#b22
+[23]
+bibr
+#b23
+[24]
+bibr
+#b24
+[25]
+bibr
+#b25
+26
+bibr
+#b26
+[27]
+bibr
+#b27
+[28]
+bibr
+#b28
+[29]
+bibr
+#b29
+[30]
+bibr
+#b30
+31
+bibr
+#b31
+32
+bibr
+#b32
+33
+bibr
+#b33
+34
+bibr
+#b34
+[35]
+bibr
+#b35
+[36]
+bibr
+#b36
+[37]
+bibr
+#b35
+36,
+bibr
+#b37
+[38]
+bibr
+#b38
+[39]
+bibr
+#b39
+[40]
+bibr
+#b40
+[41]
+bibr
+#b36
+37,
+bibr
+#b41
+[42]
+bibr
+#b42
+[43]
+bibr
+#b43
+[44]
+bibr
+#b34
+35,
+bibr
+#b44
+45,
+bibr
+#b45
+46
+A phase space DS that is free of recrossings can be constructed in conservative systems at energies close to the a) Author to whom correspondence should be addressed; Electronic mail: hernandez@chemistry.gatech.edu. reaction threshold. In systems with two degrees of freedom, the optimal DS is the configuration space projection of an unstable periodic orbit (PO).  In systems with higher dimensionality, the generalization of this PO is a normally hyperbolic invariant manifold (NHIM).  The NHIM bounds the TS, being one less in dimension.  It defines a recrossing-free surface at energies below bifurcation thresholds.  Reactive trajectories are mediated by stable and unstable manifolds (reaction pathways) attached to the NHIM. These pathways persist even in reactions whose state-to-state transitions are not dictated by purely configurational changes.  In systems subjected to time-varying external forcing, the characterization of the NHIM as a hypersphere of constant energy breaks down. For example, fieldmatter interactions constitute processes in which energy is exchanged with a reacting system. These interactions lead to emergent and controllable behavior in assembly phenomena,  organic synthesis,  protein folding,  the detection of DNA,  and photodissociation.  Knowledge of the mechanism by which these interactions mediate reactive flow provides a methodological tool in the design of molecular devices with unique functionality.  Materials that undergo conformational changes in response to an external trigger offer examples of such emergent technology.  Stimuli such as thermal variations, electric fields, and photoinduction have been used as triggers for the conversion of chemical energy into me-chanical work.  Assemblies that convert chemical energy into directional motion can achieved through isomerization reactions which are induced either from light or applied electric fields.  In these responsive materials, controlling the rate and pathway at which reactants transform to products is fundamental to harness mechanical actions for applicative purposes.
+bibr
+#b46
+47
+bibr
+#b23
+24,
+bibr
+#b48
+[49]
+bibr
+#b49
+[50]
+bibr
+#b50
+[51]
+bibr
+#b51
+[52]
+The aim of this paper is to develop a rate theory for reactions that are driven by periodic external fields in weak thermal environments. In the absence of noise, a dissipative system that is periodically driven admits a DS that is free of recrossings.  This structure differs from the canonical view of the TS wherein the TS is a structure fixed in time at a saddle point on the potential energy surface. Here, we develop a rate theory based on reactive flux through this recrossing-free DS and the stability of the corresponding TS. In Ref. 48, we found that the stability of the moving TS directly determines the reaction rate for single-mode sinusoidal driving. In conservative systems, stability analysis is known to characterize molecular motions as well as determine the rate of configurational transitions.  Building on our previous work, we test the viability of stability analysis to determine reaction rates in systems driven by multi-mode waveforms with no thermal driving. The extent to which the accuracy of the rate theory relying on the noise-free geometry persists in systems that are coupled to a thermal bath is also verified through inclusion and variation of the thermal driving strength. This outline of this paper is as follows: In Sec. II, a dynamical system is introduced to model barrier crossings in chemical reactions forced by periodic external fields. In Sec. III, a dividing surface that is recrossing-free is constructed for this model in the absence of thermal driving. Section IV contains analytical theories to predict the reaction rates of driven reactions by calculation of the reactive flux through this dividing surface for both globally non-linear and locally linear dynamics. Comparison to the computational rates, computed from numerical integration of large ensembles of trajectories, is presented in Sec. V. Although not considered earlier, the effect of noise on the rate of these driven systems have also been addressed in Sec. VI. We find that the rates computed from the noise-free geometry are accurate up to relatively large values of the friction and sometimes even in the thermal regime.
+http://www.tei-c.org/ns/1.0
+II. MODEL DETAILS
+bibr
+#b2
+3,
+bibr
+#b52
+53,
+bibr
+#b53
+54
+The interaction of an external field with a reactant species can strongly influence the mechanism and rate of a reaction.  As a paradigmatic example of a chemical reaction driven under kinetic control, we consider a particle of unit mass moving along a reaction coordinate x. The trajectory of the particle begins at a position x 0 on the reactant side of an energy barrier that is moving in space under the influence of a time-dependent exter-nal field E(t). The chosen potential surface is the quartic form
+The time dependent, instantaneous position of the moving barrier top (BT) is specified by E(t).
+With the inclusion of additional non-conservative dissipation as well as stochastic driving forces, a particle at a phase space point Γ = (x, v) moving according to the potential (1) can be described by the Langevin equations of motion
+where γ ≥ 0 is a dissipation parameter, ω b is the barrier frequency, and ǫ is an anharmonic coefficient. Thus, for ǫ = 0 the coordinate of the particle is non-linearly coupled to the moving barrier. By restricting the anharmonic coefficient to values ǫ ≥ 0, there is a single maximum in the potential located at the BT. The random fluctuating force ξ α (t) is Gaussian white noise obeying the statistical properties
+bibr
+#b5
+6
+where α denotes a specific noise sequence. The strength of the noise is varied through the parameter σ ≥ 0. Depending on the geometry of U (x), initial conditions, as well as the specific realization of the thermal environment and the external field, a trajectory will either surmount the energy barrier and form product or remain on the reactant side. By calculation of the normalized flux of reactive trajectories through the the TS, the classical reaction rate for a system evolving through (2) can be obtained.  In this article, we consider periodic external driving of the form
+formula
+#formula_3
+4
+figure
+1
+where Ω s ⊂ R is a finite set of frequencies. The waveforms consist of a fundamental frequency Ω, and convolutions of this fundamental with higher order partial frequencies. Three frequency sets Ω s are considered: the single fundamental frequency Ω 1 = {Ω}, the fundamental and the second partial frequencies Ω 2 = {Ω, 2Ω}, and the fundamental, second, and third partial frequencies Ω 3 = {Ω, 2Ω, 3Ω}. The fundamental driving frequency Ω f is Ω for Ω 1 and Ω 2 , and 2Ω for Ω 3 . The products in Eq. ( ) for the three sets can be written as finite sums where the leading order terms exhibit the characteristic fundamental frequency. The maximum amplitude of each waveform is set to unity by adjusting the value of the parameter a accordingly. For the Ω 1 , Ω 2 , and Ω 3 sets, a = 1, a ≈ 1.299, and a ≈ 1.822, respectively. The functional forms of (5) are shown in Fig. .
+formula_0
+(1)
+U (x) = − 1 2 ω 2 b (x − E(t)) 2 − 1 4 ǫ(x − E(t)) 4 .
+formula_1
+(2)
+ẋ = v, v = −γv + ω 2 b (x − E(t)) + ǫ(x − E(t)) 3 + √ 2σ ξ α (t),
+formula_2
+(3)
+ξ α (t) = 0 and ξ α (t)ξ α (t ′ ) = δ(t − t ′ ),
+formula_3
+(4)
+E(t) = a ω∈Ωs sin(ω t + ϕ).
+formula_4
+(5)
+E 1 (t) = a sin(Ωt + ϕ), E 2 (t) = a 2 (cos(Ωt) + cos(3Ωt + 2ϕ)), E 3 (t) = a 4 (sin(2Ωt + ϕ) + sin(4Ωt + ϕ) + sin(6Ωt + 3ϕ) + sin(ϕ)),
+http://www.tei-c.org/ns/1.0
+III. THE TRANSITION STATE TRAJECTORY
+bibr
+#b54
+55,
+bibr
+#b55
+56
+bibr
+#b46
+47
+bibr
+#b57
+58,
+bibr
+#b58
+59
+bibr
+#b46
+47,
+bibr
+#b47
+48,
+bibr
+#b57
+[58]
+bibr
+#b58
+[59]
+bibr
+#b59
+[60]
+bibr
+#b60
+[61]
+bibr
+#b61
+[62]
+The construction and existence of a structure whose configuration space projection is free of recrossings is dependent on the mechanism and geometry of a given reaction. For example, Mullen et al.  have proposed that for ion-pair dissociation a no-recrossings DS does not exist. This is in contradiction to earlier work by Truhlar and Garrett 57 who proposed that through variation of a DS into an optimized orientation, recrossings could be eliminated. We have previously shown that for a periodically driven system with no thermal driving, an optimal (recrossing-free) DS can be readily obtained. It is associated with an unstable PO in the region of the BT.  Moreover, a DS that is free of recrossings is known to exist in thermally driven systems for the case of a harmonic barrier.  The time evolution of the configuration space projection of this DS has been termed the transition state trajectory.  It has not yet been proven is this is the only object which is free of recrossings over an arbitrary finite time interval. Nevertheless, all that is needed here is its existence and the configuration projection of the TS trajectory defines a DS that is recrossing-free.
+The TS trajectory is a specific trajectory that never descends into either the product or reactant regions, remaining bounded to BT for all time. For the system (2), it is a moving saddle point to which stable and unstable manifolds can be attached. All trajectories that exponentially approach the TS trajectory as t → ∞ are contained on the stable manifold. These trajectories will never descend from the BT region and therefore separate reactive from nonreactive trajectories in phase space. The unstable manifold is formed from trajectories that approach the TS trajectory as t → −∞. The role of the unstable manifold is less important for the purposes considered here.
+For an arbitrary driving E(t) of a harmonic (ǫ = 0) potential, the equations of motion can be solved exactly and an exact form of the TS trajectory can be obtained. The eigenvalues of (2)
+bibr
+#b53
+54,
+bibr
+#b58
+59
+correspond to the stable and unstable manifolds. The S functionals  S τ [µ, g
+bibr
+#b46
+47,
+bibr
+#b47
+48,
+bibr
+#b60
+61,
+bibr
+#b61
+62
+obtained as a Green's function solution, suppress the transient exponential factor in the solution and return only the equilibrium portion. In the absence of thermal driving (σ = 0), the TS trajectory for a harmonic barrier can therefore be expressed as  x
+For the case of T -periodic motion of a harmonic barrier, the TS trajectory can be identified more easily by looking for a bounded solution to the equations of motion. For the single frequency Ω 1 case, the ansatz
+yields the solution
+where
+In the absence of friction, γ = 0, this simplifies to
+In this case, the TS trajectory will oscillate in phase with the barrier, but with smaller amplitude A 1 < a.
+formula
+#formula_3
+4
+For the Ω 2 and Ω 3 cases, ansätze can be constructed through Fourier series expansion of Eq. ( ) yielding the solutions
+and
+For periodically driven anharmonic barriers (ǫ = 0), the TS trajectory rermains an unstable PO 47 but it does not admit to an exact solution of the system of equations (2). Nevertheless, the phase space vector of the TS trajectory Γ ‡ = (x ‡ (t), v ‡ (t)) is a bounded solution to the equations of motion. To find this bounded solution to arbitrary accuracy, numerical Newton-Raphson root finding methods were applied.
+figure
+1
+figure
+1
+The dynamics of x ‡ (t), shown in Fig. , illustrate the result that the instantaneous position of the TS trajectory does not correspond to the energetic maximum of the potential surface. For dissipative systems (γ = 0), x ‡ (t) will either lag behind in phase, as is the case for both the Ω 1 and Ω 3 sets, or advance in phase as is the case for the Ω 2 set, with respect to motion defined by E(t). Also note that x ‡ (t) oscillates with a smaller amplitude than E(t). Thus, even for in-phase oscillations, e.g., when γ = 0, it will not correspond to the location of an energetic saddle point. Figure  also shows the dependence of x ‡ (t) on the anharmonic parameter ǫ. As ǫ is increased, the curvature of the energy barrier increases. Non-intuitively, this results in a larger amplitude of oscillation for x ‡ (t) to remain bounded to the BT. This trend persists for all Ω s .
+For dynamical analysis, it is advantageous to introduce a coordinate system which has a fixed point at the origin. In relative coordinates
+the equations of motion read
+The relative equations of motion have a fixed point ∆Γ ⋆ at ∆x = ∆v = 0, i.e., on the TS trajectory, and the surrounding vector field itself will now oscillate with period T , the same period as the driving. The TS trajectory has both a stable and an unstable manifold attached. In relative coordinates, the directions of these manifolds will depend on time.
+formula_5
+(6)
+λ s,u = − 1 2 γ ± γ 2 + 4ω 2 b ,
+formula_6
+(7)
+; t] =          − ∞ t g(τ ) exp(µ(t − τ )) dτ : Re µ > 0, + t −∞ g(τ ) exp(µ(t − τ )) dτ : Re µ < 0,
+formula_7
+(8)
+‡ (t) = ω 2 b λ u − λ s (S[λ s , E; t] − S[λ u , E; t]) , v ‡ (t) = ω 2 b λ u − λ s (λ s S[λ s , E; t] − λ u S[λ u , E; t]) .
+formula_8
+(9)
+x ‡ 1 (t) = A sin(Ωt + ϕ) + B cos(Ωt + ϕ),
+formula_9
+(10)
+A = A 1 , B = B 1 ,
+formula_10
+11
+A k = a ω 2 b (ω 2 b + (kΩ) 2 ) (γkΩ) 2 + (ω 2 b + (kΩ) 2 ) 2 , B k = a ω 2 b γkΩ (γkΩ) 2 + (ω 2 b + (kΩ) 2 ) 2 . (
+formula_11
+)
+formula_12
+12
+A 1 = a 1 1 + Ω 2 /ω 2 b , B 1 = 0. (
+formula_13
+)
+formula_14
+(13)
+x ‡ 2 (t) = 1 2 (A 1 cos(Ωt) − B 1 sin(Ωt) − A 3 cos(3Ωt + 2ϕ) + B 3 sin(3Ωt + 2ϕ)),
+formula_15
+(14) respectively.
+x ‡ 3 (t) = 1 4 (A 2 sin(2Ωt + ϕ) + B 2 cos(2Ωt + ϕ) + A 4 sin(4Ωt + ϕ) + B 4 cos(4Ωt + ϕ) − A 6 sin(6Ωt + 3ϕ) − B 6 cos(6Ωt + 3ϕ) + a sin(ϕ)),
+formula_16
+(15)
+∆x = x − x ‡ (t), ∆v = v − v ‡ (t),
+formula_17
+16
+∆ ẋ = ∆v, ∆ v = −γ∆v − U ′ (∆x + x ‡ (t)) + U ′ (x ‡ (t)). (
+formula_18
+)
+http://www.tei-c.org/ns/1.0
+IV. REACTION RATE THEORY
+In the TST formalism, the rate of a chemical reaction is given by the time-dependence of the conversion process from reactant to product (R → P) where a DS in either configuration space or phase space separates the reactive constituents. The reaction rate can be obtained from the dynamics of the normalized reactive population (P R → P P ) either through analytical propagation of the phase space density of initial conditions or by treating large numbers of trajectories as discrete sets, and integrating the equations of motion.
+Consider a set of trajectories evolving through (2) that all have initial positions x 0 < x ‡ (0) on the reactant side of the moving surface. The initial position distribution at time t = 0 is δ(x − x 0 ) and the initial phase space density is
+where q(v) is a Boltzmann distribution. The initial velocity v 0 of each trajectory is sampled from q(v), although at later times due to dissipation and driving this distribution will not be conserved. A fraction of this initial density contains reactive trajectories. From the survival probability of P R the reaction rate can be expressed as the instantaneous flux-over-population. The flux calculation is formally exact because the DS attached to the TS trajectory is recrossing-free.
+formula_19
+(17)
+p 0 (x, v) = δ(x − x 0 ) q(v)
+http://www.tei-c.org/ns/1.0
+A. Harmonic barriers
+When the barrier is harmonic (ǫ = 0), reactive trajectories will cross the moving DS at a time 60
+The crossing time is a monotonically decreasing function of the initial velocity ∆v 0 : fast trajectories cross earlier.
+It diverges as ∆v 0 → λ s ∆x 0 approaches the stable manifold, and it tends to zero as ∆v 0 → ∞. At any time t > 0, the product region ∆x > 0, to the right of the moving surface, will contain all those trajectories that cross the surface at a time t ‡ < t. These are the trajectories that have an initial velocity of at least v min = v ‡ (0) + ∆v min , where t ‡ (∆v min ) = t. From this condition, we obtain
+The population of the product region at time t is therefore
+and the flux across the moving surface is
+This result is positive because ∆x 0 < 0.
+Alternatively, the flux can be calculated directly from the flux integral
+where p t (∆x, ∆v) is the density of trajectories in phase space at time t. Initially, this density is
+At later times, it can be obtained from p t (∆x, ∆v) = e γt p 0 (∆x(−t), ∆v(−t)).
+Here ∆x(−t) and ∆v(−t) denote the phase space point reached from ∆x, ∆v by propagating backwards to −t, i.e., it is the initial condition that has reached ∆x, ∆v at time t. The exponential prefactor accounts for the shrinkage of phase space volume: The relative dynamics stretches distances at a rate λ u in the u direction and by a rate λ s < 0 in the s direction. Volumes therefore are "stretched" at a constant rate λ u + λ s = −γ < 0, and densities must increase accordingly.
+Because the relative dynamics is linear, the equations of motion can be solved explicitly. The result is
+We thus obtain the flux integral which can be shown to agree with Eq. (21).
+formula
+#formula_22
+19
+In the limit t → ∞, the minimum velocity ( ) is approximately
+As expected, it tends to λ s ∆x 0 , which is the location of the stable manifold. Therefore,
+bibr
+#b60
+61,
+bibr
+#b61
+62
+The critical velocity V ‡ is determined by the point of intersection between the stable manifold and the line x = x 0 of initial conditions.  . The identification of V ‡ allows the separation of reactive (v 0 > V ‡ ) and nonreactive trajectories (v 0 < V ‡ ) from initial conditions.
+figure
+#fig_0
+2(a
+The stable manifold at t = 0 can be calculated through extension of this point to all values of x 0 and defines a critical curve V ‡ c . As illustrated in Figs. ) and 2(c), V ‡ c is a time-invariant phase space object which separates the reactive and nonreactive basins.
+The product population in the long-time limit is
+figure
+#fig_1
+3
+As shown in Fig. , the asymptotic population of the product region depends strongly on the frequency of the barrier motion Ω, the initial phase ϕ, and the friction γ. The asymptotic value is approached according to
+q(v) dv
+The rate of approach, i.e., the barrier crossing rate is
+It depends only on the damping and the shape of the barrier, but not on the details of the barrier motion or the distribution of initial conditions (unless q(v min (∞)) happens to vanish).
+formula_20
+18
+t ‡ = 1 λ u − λ s ln ∆v 0 − λ u ∆x 0 ∆v 0 − λ s ∆x 0 . (
+formula_21
+)
+formula_22
+19
+∆v min = λ u e −λut − λ s e −λst e −λut − e −λst ∆x 0 . (
+formula_23
+)
+formula_24
+(20)
+P P (t) = ∞ vmin(t) q(v) dv,
+formula_25
+21
+F M (t) = dP P dt = −q(v min (t)) dv min dt = −q(v min (t)) d∆v min dt = −q(v min (t)) ∆x 0 (λ u − λ s ) 2 e (λu+λs)t (e λut − e λst ) 2 . (
+formula_26
+)
+formula_27
+(22)
+F M (t) = ∞ 0 d∆v ∆v p t (∆x = 0, ∆v),
+formula_28
+23
+p 0 (∆x, ∆v) = δ(∆x − ∆x 0 ) q(v ‡ (0) + ∆v). (
+formula_29
+)
+formula_31
+∆x(−t) = a x ∆x + a v ∆v, ∆v(−t) = b x ∆x + b v ∆v, with a x = λ u e −λst − λ s e −λut λ u − λ s , a v = e −λut − e −λst λ u − λ s < 0, b x = − λ u λ s (e −λut − e −λst ) λ u − λ s , b v = λ u e −λut − λ s e −λst λ u − λ s .
+formula_32
+(25)
+F M (t) = e γt ∞ 0 d∆v ∆v δ(a v ∆v − x 0 ) q(v ‡ (0) + b v ∆v) = e γt ∞ 0 d∆v ∆v δ (∆v − x 0 /a v ) |a v | q(v ‡ (0) + b v ∆v) = e γt −a v x 0 a v q v ‡ (0) + b v /a v x 0 ,
+formula_33
+(26)
+∆v min = λ s ∆x 0 − (λ u − λ s )∆x 0 e −(λu−λs)t +O e −2(λu−λs)t .
+formula_34
+27
+v min (∞) = v ‡ (0) + λ s ∆x 0 = V ‡ . (
+formula_35
+)
+formula_36
+(28)
+P P (∞) = ∞ v ‡ (0)+λs ∆x0 q(v) dv.
+formula_37
+P P (t) = P P (∞) − vmin(t) vmin(∞)
+formula_38
+29
+= P P (∞) + q(v min (∞)) (λ u − λ s ) ∆x 0 e −(λu−λs)t +O e −2(λu−λs)t . (
+formula_39
+)
+formula_40
+(30)
+λ u − λ s = γ 2 + 4ω 2 b .
+http://www.tei-c.org/ns/1.0
+B. Anharmonic barriers
+bibr
+#b62
+[63]
+bibr
+#b63
+[64]
+bibr
+#b64
+[65]
+bibr
+#b60
+61,
+bibr
+#b61
+62
+figure
+#fig_0
+2(a
+Analogous to the harmonic case, for an anharmonic barrier, we assume that there is a unstable PO with the period of the driving. This is similar to the POs used by Lehmann et al.  for the case of thermal activation with additive periodic driving. Note that this TS trajectory Γ ‡ is an exact solution to the equations of motion. As Γ ‡ is an unstable PO, it has stable and unstable manifolds attached. The manifolds are uniquely defined and can be calculated perturbatively  or with a numerical scheme. The dependence of these manifolds on ǫ and the corresponding phase space reaction dynamics are shown in Figs. ) and 2(c). With increasing anharmonicity, V ‡ also increases due to curvature in the stable manifold. This results in a decrease in fraction of trajectories that surmount the barrier leading to products.
+formula
+#formula_17
+16
+The nonlinear equations of motion ( ) cannot, in general, be solved exactly. Let
+represent the phase space point that is reached at time t by a trajectory that starts at Γ 0 at time t 0 . Because of the external driving, it depends on t and t 0 separately, not only on the difference t − t 0 . The Jacobian matrix of this trajectory with respect to the initial conditions is
+All derivatives on the right hand side of (32) are to be evaluated at (Γ 0 , t 0 ; t).
+Reactive trajectories are those that have an initial velocity v i > V ‡ , for a critical velocity V ‡ measured at x 0 . Each reactive trajectory will cross the moving DS at a time t c (∆v i ) and with a velocity v c . If the crossing time decays monotonically from
+) can be obtained. For any crossing time t c > 0, there is a unique initial velocity v i that will lead to a crossing at the given time.
+formula
+#formula_24
+20
+The population of the product region ∆x > 0 at time t f is therefore, as in Eq. ( ),
+and the flux across the moving surface is
+This result is positive because the initial velocity is a decreasing function of the crossing time.
+formula
+#formula_27
+22
+The flux can also be evaluated directly from the flux integral ( )
+formula
+#formula_28
+23
+where p t (∆x, ∆v) is the density of trajectories in phase space at time t. Initially, this density is (Eq. ( ))
+formula
+#formula_30
+24
+At later times, it can be obtained from Eq. ( )
+formula
+37
+formula
+#formula_17
+16
+p t (∆x, ∆v) = e γt p 0 (ϕ x (∆x, ∆v, t; 0), ϕ v (∆x, ∆v, t; 0)). ( ) Here we have used the general notation for the flow of the equation of motion. The exponential accounts for the shrinkage of phase space volume and the corresponding increase in density. It is the same as in the harmonic case: In general, the flow of a differential equation u = f (u) leads to a stretching of volume whose rate is the divergence of the vector field f . For Eq. ( ), this rate is constant −γ, so that over time t all volumes will shrink by a factor e −γt .
+The flux integral formula (22) now reads
+The δ function requires that the trajectory that reaches ∆x = 0, ∆v at time t c must have started at ∆x 0 at time 0. It produces a single contribution to the integral at velocity ∆v c (t c ), so that
+where ϕ v (0, ∆v, t c ; 0) = ∆v i (t c ) and the subscript t c indicates that the derivative is to be evaluated at (0, ∆v c (t c ), t c ; 0). Similarly, a subscript 0 will be used to require evaluation at (∆x 0 , ∆v i (t c ), 0; t c ). These subscripts indicate derivatives of the flow taken along the trajectory from (∆x 0 , ∆v i (t c )) at t = 0 forward in time to (0, ∆v c (t c )) at t = t c (subscript 0) and along the same trajectory backward in time (subscript t c ).
+To verify that the flux integral (39) gives the same result as (34) that was obtained from the product population, it must be shown that
+To this end, first note that ∆v i (t c ) is defined by the condition
+Differentiating this condition with respect to t c gives,
+formula
+#formula_57
+41
+Now ∂ϕ x /∂t is the velocity of the trajectory at the end point. The second term in Eq. ( ) is therefore ∆v c (t c ). With this result, the condition (40) simplifies to
+formula
+#formula_59
+42
+Under the given assumptions on the geometry, the derivative on the left hand side is negative: A trajectory that arrives at the DS with larger velocity must have started further away, i.e., at smaller ∆x(0). The derivatives occurring in Eq. ( ) are elements of the Jacobian matrices
+respectively. Because these matrices describe variations around the same trajectory, taken forwards and backwards in time, they are inverse to each other. Formally, this can be shown by taking derivatives of the flow property Φ(Φ(Γ 0 , 0; t c ), t c ; 0) = Γ 0 for all Γ 0 , which says that propagating an arbitrary phase space point Γ 0 forward in time by t c and back again will return the original point. By the well known formula for the inverse of a 2 × 2 matrix, it follows that
+is the factor by which phase space volumes shrink during time t c . This proves the condition (42) and therefore the equality of the two flux formulas.
+TS trajectory is a moving saddle point and thus trajectories in the neighborhood of Γ ‡ can be described by a linearization of the equations of motion. In the phase space vector relative coordinate ∆Γ = (∆x, ∆v) this linearization is given by ∆ Γ = J(t) ∆Γ (43)   where
+formula
+#formula_17
+16
+formula
+43
+is the Jacobian of Eq. ( ). The asymptotic decay rate of P R (t) is determined by the behavior of trajectories with initial conditions close to the stable manifold. For an ensemble of trajectories constituting an initial phase space density p 0 , trajectories that emanate close to V ‡ c (the stable manifold at t = 0) will persist in the neighborhood where ( ) is valid for long times. The decay of these trajectories determines the reaction rate.
+bibr
+#b48
+[49]
+bibr
+#b49
+[50]
+bibr
+#b50
+[51]
+bibr
+#b47
+48
+formula
+43
+bibr
+#b65
+66
+The stretching and compression of phase space about a PO is known to dictate escape rates in conservative  and dissipative systems.  When J (t) is periodic in systems of the form of Eq. ( ), the rate of deformation in the linearized phase space can be quantified through calculation of the Floquet exponents.  To classify the stability of ∆Γ ‡ we consider the dynamics of a perturbation vector ∆σ(t). The equation of motion (43) is linear in ∆σ(t) and thus it satisfies
+where I is the 2 × 2 identity matrix. The principal fundamental matrix solution over one period of the driving is the monodromy matrix
+formula
+43
+A fundamental matrix solution ∆σ(t) of ( ) at some later time t + kT , for k = 1, 2, 3 . . ., can be obtained as
+through repeated operation by the monodromy matrix. The eigenvalues m s,u of M are the Floquet multipliers. The Floquet exponents
+bibr
+#b66
+[67]
+bibr
+#b67
+[68]
+bibr
+#b68
+[69]
+quantify the stability of ∆Γ ‡ and give the rate of expansion or contraction of the perturbation of per unit time.  The TS trajectory has both an unstable µ u > 0 and a stable µ s < 0 exponent which correspond to stretching and contraction of the initial perturbation in the directions of the unstable and stable manifolds, respectively.
+For an arbitrary time interval of length T , trajectories that cross the DS in this interval form a strip in the phase plane. Trajectories that cross the DS in the next following time interval T form a similar strip that that is closer to the stable manifold. In the region where the linearized system is valid, the phase space density is constant. The flux of trajectories through the DS in a given time interval is proportional to the width of the strip that contains these trajectories. During sequential periods this width decreases by a factor e −(µu−µs)t . From this it follows that, up to periodic modulation, the flux must decay as e −(µu−µs)t and the barrier crossing rate is
+formula
+#formula_40
+30
+which expresses the reaction rate in terms of the characteristic Floquet exponents of the TS trajectory. Equation (49) generalizes Eq. ( ) for the case of an anharmonic barrier.
+formula_41
+(31)
+Φ(Γ 0 , t 0 ; t) = ϕ x (Γ 0 , t 0 ; t) ϕ v (Γ 0 , t 0 ; t)
+formula_42
+32
+J (Γ 0 , t 0 ; t) =      ∂ϕ x ∂x 0 ∂ϕ x ∂v 0 ∂ϕ v ∂x 0 ∂ϕ v ∂v 0      . (
+formula_43
+)
+formula_44
+t c (∆V ‡ ) = ∞ to t c (∞) = 0 the inverse function ∆v i (t c ) or v i (t c ) = v ‡ (0) + δv i (t c
+formula_45
+(33)
+P P (t c ) = ∞ vi(tc) q(v) dv,
+formula_46
+34
+F M (t c ) = dP P dt c = −q(v i (t c )) dv i dt c = −q(v i (t c )) d∆v i dt c (
+formula_47
+)
+formula_48
+(35)
+F M (t c ) = ∞ 0 d∆v ∆v p tc (∆x = 0, ∆v),
+formula_49
+36
+p 0 (∆x, ∆v) = δ(∆x − ∆x 0 ) q(v ‡ (0) + ∆v). (
+formula_50
+)
+formula_51
+38
+F M (t c ) = e γtc ∞ 0 d∆v ∆v δ(ϕ x (0, ∆v, t c ; 0) − ∆x 0 ) q(v ‡ (0) + ϕ v (0, ∆v, t c ; 0)). (
+formula_52
+)
+formula_53
+(39)
+F M (t c ) = e γtc q(v ‡ (0) + ∆v i (t c )) ∆v c (t c ) ∂ϕx ∂∆v0 tc ,
+formula_54
+40
+− d∆v i dt c = e γtc ∆v c (t c ) ∂ϕx ∂∆v0 tc . (
+formula_55
+)
+formula_56
+ϕ x (∆x 0 , ∆v i (t c ), 0; t c ) = 0.
+formula_57
+41
+∂ϕ x ∂∆v 0 d∆v i dt c + ∂ϕ x ∂t 0 = 0. (
+formula_58
+)
+formula_59
+(42)
+− ∂ϕ x ∂∆v tc = e γtc ∂ϕ x ∂∆v 0 .
+formula_60
+J | tc = J (0, ∆v c (t c ), t c ; 0) =       ∂ϕ x ∂x tc ∂ϕ x ∂v tc ∂ϕ v ∂x tc ∂ϕ v ∂v tc       and J | 0 = J(∆x 0 , ∆v i (t c ), 0; t c ) =      ∂ϕ x ∂x 0 ∂ϕ x ∂v 0 ∂ϕ v ∂x 0 ∂ϕ v ∂v 0     
+formula_61
+J | tc = (J | 0 ) −1 = 1 det J | 0      ∂ϕ v ∂v 0 − ∂ϕ x ∂v 0 − ∂ϕ v ∂x 0 ∂ϕ x ∂x 0      , so that ∂ϕ x ∂∆v tc = − 1 det J | 0 ∂ϕ x ∂∆v 0 . Now det J | 0 = e −γtc
+formula_62
+44
+J (t) =   0 1 ω 2 b + 3ǫ(x ‡ (t) − E(t)) 2 −γ   (
+formula_63
+)
+formula_64
+45
+∆ σ = J(t) ∆σ, ∆σ(0) = I, (
+formula_65
+)
+formula_66
+(46)
+M =   ∆σ (1) (T ) ∆σ (2) (T ) ∆ σ(1) (T ) ∆ σ(2) (T )   .
+formula_67
+47
+∆σ(t + kT ) = M k ∆σ(t), (
+formula_68
+)
+formula_69
+(48)
+µ s,u = 1 T ln |m s,u |
+formula_70
+(49)
+k f = µ u − µ s ,
+http://www.tei-c.org/ns/1.0
+V. NUMERICAL RESULTS AND COMPARISON WITH THEORY
+bibr
+#b69
+70
+bibr
+#b47
+48
+The reaction rate of (2) was calculated by simulating ensembles of n = 10 8 − 10 9 trajectories for various sets of parameters {Ω, γ, ǫ, σ} and following the survival probability of P R as a function of time. A Runge-Kutta-Maruyama scheme  was implemented to perform the integration. In the absence of noise (σ = 0), this algorithm is the well-known fourth-order Runga-Kutta method. For all numerical simulations non-dimensional parameters were used by choosing units such that the barrier frequency ω b and driving amplitude are unity. Each trajectory was given an initial position x 0 = −0.1 (in the reactant region) and v 0 was sampled from a Boltzmann distribution with k B T = 1. The choice of initial conditions is arbitrary as the asymptotic decay rate of P R (t) is independent of the choice of initial distribution, suffice that there is enough density about the stable manifold such that a rate exists.  The ensemble of n trajectories was evolved through the equations of motion (2). The normalized reactant population was calculated at each time step in the integration scheme. An indicator function was employed to follow the state evolution of each trajectory,
+where x ‡ (t) is the configuration space projection of the TS trajectory. If for a specific trajectory i, x i (t) > x ‡ (t) that trajectory is in the product state and is not counted in the reactant population at time t. The instantaneous normalized population of the reactant region can be found by summing over all n trajectories and then normalizing by a factor 1/n,
+Trajectories can only exist in one of two states, reactant or product, and so the normalized product population
+figure
+#fig_2
+4
+As shown in Fig. , the scaled logarithm of the normalized reactant population, − ln [P R (t) − P R (∞)], is approximately linear in time after an initial transient section implying a first-order rate process. The asymptotic reaction rate k f can thus be found as the slope of the scaled logarithmic curve in the long-time limit. Periodic modulation in the decay of P (t) was found to become
+figure
+5
+figure
+#fig_2
+4
+FIG. . The barrier crossing rates of systems following the equations of motion (2) as a function of the anharmonic parameter ǫ for various frequency sets Ωs, driving frequencies Ω, and values of friction γ, as denoted in each panel. The circles denote the rates k f calculated from the time evolution of PR(t) through numerically simulation and correspond to the dashed lines in Fig. . The solid curves are the rates predicted by the difference in the characteristic Floquet exponents µu − µs of the corresponding TS trajectory.
+more prominent for low frequency driving (Ω f 2). In these cases the global exponential rate was calculated as an average over these modulations.
+formula
+#formula_70
+49
+figure
+5
+figure
+#fig_2
+4
+figure
+#fig_2
+4
+figure
+5(e)
+figure
+5
+A comparison between the rates calculated from numerical simulation and rates predicted by Eq. ( ) is shown in Fig. . For all frequency sets Ω s and parameter values, agreement is observed. Underdamped (γ < 2), overdamped (γ > 2), and critically damped (γ = 2) regimes of a corresponding harmonic well were considered. Agreement between the rates persists over all ranges of damping. For high frequency driving (Ω f > ω b ), the exponential rate can be averaged over several periods of driving and modulations in the decay are minimal, as illustrated in Fig. . Periodic modulations in the decay of P R (t) are prominent for low driving frequencies (Ω f ≈ ω b ) and the integration of n = 10 8 trajectories resulted in reaching the numerical asymptote P R (∞) at times less than the period of the external driving. In those cases for which the integration time was insufficient to sample the asymptotic region, a larger number of trajectories (n = 10 9 ) were integrated. Each trajectory was integrated to a final time of at least t f = 15 and, as shown in Fig. , P R (∞) is reached well before the end of this sampling window. Increasing the number of trajectories by an order of magnitude resulted in improved convergence of the scaled logarithmic population and marginally better agreement between the compared methodologies, as shown in Fig.  for Ω = 1. The agreement between the two methods is illustrated in Fig. (d) for the smaller, non-unity, driving amplitude case of Ω 2 . The decreased driving amplitude leads to a decrease in the reaction rate.
+formula_71
+(50)
+h R [x(t)] = 0, x(t) > x ‡ (t) , 1, x(t) < x ‡ (t) ,
+formula_72
+(51)
+P R (t) = 1 n n i=1 h R [x i (t)].
+formula_73
+P P = 1 − P R .
+formula_74
+(b) (c) (d) (e) (f )
+(a)
+http://www.tei-c.org/ns/1.0
+VI. CHARACTERIZING NOISY REACTIONS WITH THE NOISE-FREE GEOMETRY
+bibr
+#b62
+[63]
+bibr
+#b63
+[64]
+bibr
+#b64
+[65]
+bibr
+#b70
+[71]
+bibr
+#b71
+[72]
+bibr
+#b72
+[73]
+In systems in which the strength of an external driving force dominates over that of the thermal driving, statistical quantities can be approximated by those of a corresponding purely deterministically driven system. For thermally induced reactions, Lehmann, Reimann, Hänggi, and  have shown that in the overdamped (large-γ) regime, when a chemical reaction is forced by a periodic field the reaction rate is determined in part by the geometry of periodic trajectories in the purely deterministic phase space. This work was later extended to cases with different scaling behaviors between the strength of thermal activation and the strength of the external field.  Our goal here is to develop a minimalist theory, applicable at the limit where the magnitude √ 2σ of a noise sequence ξ α is a perturbation to the periodic driving E(t) that the TS trajectory of the noiseless system (the periodic orbit) gives rise to a DS with minimal recrossings. This deterministic TS trajectory (DTS trajectory) does not solve the equations of motion (2) with a non-zero value of σ. We therefore distinguish the DTS trajectory from the true TS trajectory of the noisy system (that we do not compute in this work).
+figure
+#fig_0
+2
+A principal assumption for the use of the noise-free geometry is that the phase space density of the thermal system, and its time-dependence, is approximately that of the deterministic system, i.e., p t (∆x α , ∆v α ) ≈ p t (∆x, ∆v). As shown in Fig. , for small values of σ the geometry of the thermal system is similar to that of its deterministic counterpart. The rate theory developed in Sec. IV C for the deterministic system can therefore be applied. This is advantageous in applications such as in comparisons with experiments in which the exact noise sequence is not known.
+bibr
+#b73
+74,
+bibr
+#b74
+75
+bibr
+#b75
+76
+figure
+7
+Thermal systems in which the fluctuation-dissipation theorem (FDR) is not obeyed due to energy dissipation constitute non-equilibrium processes. Formal treatments of fluctuation-response in periodically forced systems by Teramoto, Harada, and Sasa  provide insight into the rate of energy dissipation in such systems. Green et al.  have shown that the rate of energy dissipation is directly related to the dynamical entropy of the system. To realize non-equilibrium conditions in the present model reaction, the damping constant γ is held constant and the strength of the thermal fluctuations σ is increased up to the point where the FDR is satisfied. If the initial velocities are drawn from a Boltzmann ensemble with k B T = 1 (in dimensionless units), this is the case at σ = γ. If σ < γ the thermal bath is at a lower temperature than that of the distribution of initial velocities. In this case, the temperature of the ensemble of reactants will be continually cooled by the thermal bath. Thermal annealment of the ensemble calls for the development of postmodern rate theories which rely singularly on geometric properties of phase space, and not the dy-FIG. . Time dependence of the scaled logarithm of the reactant population for systems with single-frequency (Ω1) periodic and thermal driving for γ = 0.01 (top), γ = 0.1 (middle), and γ = 1 (bottom). The color of each line corresponds to a specific σ value. The decay for systems with various anharmonicites ǫ ∈ {1, 3, 10} are shown and denoted in each panel. The fundamental driving frequency is Ω f = 5 for all panels. For visual clarity, each curve is truncated at a point where the data became noisy. namics of the ensemble itself. This is in stark contrast to the TST assumption of equilibrium distributions in metastable states and at the TS.
+figure
+#fig_3
+6
+figure
+#fig_3
+6(a
+figure
+#fig_3
+6(c)
+figure
+#fig_3
+6(d)
+The percentage of thermal trajectories that recross the DS attached to the DTS trajectory is shown in Fig.  for varying noise strengths σ and constant dissipation rates. As shown in Figs. ) and 6(b), a minimal number of recrossings occur below and up to the FDR threshold for small values of γ. For the γ = 1 case, shown in Fig. , trajectories persist around the BT for long times, leading to a larger number of recrossings than observed for smaller dissipation rates. For the overdamped dynamics (γ = 3), shown Fig. , the deterministic DS identifies reactive trajectories adequately only for weak ther-mal driving (small σ) and strong anharmonicity. As the harmonic limit is approached or in equilibrium systems the superimposed DS becomes very poor.
+figure
+7
+figure
+7
+figure
+#fig_2
+4 and 7
+bibr
+#b76
+77
+figure
+#fig_4
+8
+figure
+#fig_3
+6
+figure
+#fig_4
+8
+The decay of the scaled logarithm of the normalized reactant population, as calculated with the superimposed deterministic DS, is shown in Fig.  for various parameter values. Over all friction regimes, the population decay of the systems with additional thermal driving follows that of its deterministic counterpart if the noise strength σ is sufficiently low. For γ = 1, when the strength of the thermal driving approaches that of the FDR, a decrease in the reaction rate is observed. The data presented in Fig.  becomes highly oscillatory at long times due to recrossings of the DS. For visual clarity each data series has been truncated to remove this noisy tail. As observed in Figs. , for short times (t 0.3), the decay of P R is non-exponential, signifying temporally global non-RRKM kinetic behavior. We obtain the rate from the long-time asymptotic decay of of P R , which is representative of kinetic experiments in which the concentration of a reactant species is directly measured over time.  The thermal rates calculated using the DTS trajectory are shown in Fig. . As expected by the minimal number of recrossings shown in Fig. , stability analysis of the DTS can produce an excellent approximation to the rate in thermal environments. Through calculation of the error between the numerically calculated rate with included noise and the rate given by the Floquet exponents of the DTS trajectory, the extent of applicability of the noise-free geometry can be quantified. This error is < 3% at γ = 0.01 over all parameter values. It is < 1% for ǫ ∈ {5, 10}. Increasing the dissipation by an order of magnitude (γ = 0.1) results in the same general trends, with all errors generally less than 5%. The exceptions occur at the noise strength where the FDR is obeyed (σ = 0.1) at ǫ ∈ {1, 3} and Ω = 5 for which the error ≈ 20%. For γ = 1.0 and Ω = 10, all calculated errors are less than or on the order of 20%, increasing monotonically as a function of σ. As illustrated in Fig. (e), at lower-frequency driving (Ω = 5) and large noise (σ = 1), the error is between 30%−50%. This suggests a practical upper bound to the applicability of the noise-free geometry in estimating the reaction rates in the presence of noise. Although not shown, for overdamped dynamics, stability analysis of the DTS gives an accurate approximation to the rate only in non-equilibrium small noise regimes.
+bibr
+#b4
+5
+The calculated errors are on the order of the error expected from application of variational transition state theory (VTST).  The presented methodology is advantageous over VTST as it does not require the integration of large numbers of trajectories or a flux minimization procedure. Thus, stability analysis of the DTS trajectory offers a simple rate calculation methodology that can be readily applied, in weak thermal environments, to driven chemical reactions with only prerequisite knowledge of the geometry of the energy surface and the functional shape of the driving waveform.
+http://www.tei-c.org/ns/1.0
+VII. CONCLUSIONS
+We have shown that in a model chemical reaction subjected to the influence of forcing from a temporally periodic external field, a recrossing-free dividing surface can be constructed over an unstable periodic orbit in the region of a moving energetic barrier top. This forms the basis for future work on specific driven chemical reactions that can be represented by a single collective variable for the reaction coordinate under nonequilibrium conditions. Potential targets include both substitution and isomerization reactions in which the governing multi-dimensional energy surface can be parameterized by a single collective degree of freedom. Other possible targets include mechanochemical reactions and stimuliresponsive assembly mechanisms when the reaction rate is dictated predominantly by geometric properties about the moving dividing surface. Generally, force-modified and temperature-modulated energy surfaces, deforming under the influence of temporally varying forces, motivate the development of rate methodologies that go beyond the simplistic equilibrium arguments intrinsic to classical equilibrium transition state theory.
+The no-recrossing surface constructed here has been shown to persist for strongly anharmonic barriers subjected to single-mode and multi-mode driving waveforms. A formally exact rate theory has been developed based on the flux of reactive trajectories through this recrossingfree surface. It rectifies the principal criterion of transition state theory for periodically driven chemical reactions.
+To circumvent computationally taxing numerical calculations of the reactive flux through this surface, a rate theory has been developed based on the stability of the dividing surface. Strong agreement was observed between the rate predicted by the Floquet exponents of a trajectory defining the phase space evolution on the dividing surface, and the rate calculated from simulation of a large ensemble of trajectories. Thus, in a periodically driven chemical reaction, the asymptotic decay rate of an initial distribution of reactants can be extracted directly from the stability of the time-varying dividing surface irrespective of the dynamics of the reactive population.
+bibr
+#b77
+78,
+bibr
+#b78
+79
+Use of the noise-free geometry to approximate the corresponding structure of a driven thermal system has been shown to give an excellent approximation to the optimal dividing surface if the magnitude of the oscillating force is large compared with that from the thermal environment. For thermally activated processes, the stability exponents of the purely periodically driven system can thus be used to predict the reaction rates without an explicit treatment of the thermal dynamics. Extensions of the this work to include an explicit treatment of the noise, including systems with structured solvents environments  and systems displaying fluctuating rates 80 are possible next steps, and ones which we are currently pursuing.
+http://www.tei-c.org/ns/1.0
+fig_0
+FIG. 2 .
+2
+FIG. 2. Phase space plots for a swarm of trajectories following the equations of motion (2) with various driving frequency sets and parameter values: Ω1 with Ω f = 5 and ǫ = 1 for (a) σ = 0 (noiseless) and (b) σ = 0.025 (thermal) driving, Ω3 with Ω f = 4 and ǫ = 3 for (c) σ = 0 and (d) σ = 0.025. The initial position for every trajectory, x0 = −0.1, is shown as a vertical solid white line. Reactive trajectories are colored in cyan and nonreactive trajectories are colored in orange. The TS trajectory Γ ‡ is shown as a solid white curve. The critical velocity V ‡ is indicated by a circle at the intersection of the dashed horizontal line and the line of initial conditions. The solid red curve is the critical curve V ‡ c and the solid blue curve is the harmonic critical curve V ‡ c |ǫ=0. Parameters for all panels are γ = 1 and ϕ = 0 in dimensionless units.
+http://www.tei-c.org/ns/1.0
+fig_1
+FIG. 3 .
+3
+FIG.3. The asymptotic product population PP(∞) of the harmonic potential (ǫ = 0) as a function of driving frequency Ω for the Ω1 frequency set. The curves are colored with respect to the value of the initial phase shift: ϕ = 0 (blue), ϕ = π/2 (cyan), and ϕ = π (red). For each value of ϕ, the dependency of the asymptotic population on the friction parameter γ is shown by varying the linestyle: γ = 0 (solid), γ = 1 (dashed), and γ = 2 (dotted).
+http://www.tei-c.org/ns/1.0
+fig_2
+FIG. 4 .
+4
+FIG. 4. Time dependence of the scaled logarithm of the reactant population, − ln [PR(t) − PR(∞)], for Ω1 (top), Ω2 (middle), and Ω3 (bottom) with Ω f = 5 for all panels. Values of the anharmonic parameter are ǫ ∈ {1, 2, 4, 6, 8, 10}. The slope of each dashed line is the barrier crossing rate k f . The color of each line corresponds to the respective ǫ value. In all panels, parameters are γ = 1 and ϕ = 0.
+http://www.tei-c.org/ns/1.0
+fig_3
+FIG. 6 .
+6
+FIG. 6. The percentage of trajectories that recross the moving dividing surface attached to the DTS trajectory as a function of noise strength σ with (a) γ = 0.01, (b) γ = 0.1, (c) γ = 1, and (d) γ = 3 for single-frequency (Ω1) driving and various values of ǫ and Ω. black vertical line (solid) marks the noise strength when the fluctuation-dissipation theorem is obeyed.
+http://www.tei-c.org/ns/1.0
+fig_4
+FIG. 8 .
+8
+FIG.8. The barrier crossing rates of systems following the equations of motion (2) as a function noise strength σ. The rates calculated using the DS attached to the DTS trajectory for single-frequency (Ω1) driving and various values of ǫ, γ, and Ω are shown as circles. The horizontal lines (solid) denote the rates given by the Floquet exponents of the corresponding DTS trajectory and are colored according to a respective ǫ value. The black vertical lines (solid) denote the noise strength where the fluctuation-dissipation theorem is obeyed.
+http://www.tei-c.org/ns/1.0
+fig_5
+VIII. ACKNOWLEDGMENTS This work has been partially supported by the Air Force Office of Scientific Research through Grant No. FA9550-12-1-0483. Travel between partners was partially supported through the People Programme (Marie Curie Actions) of the European Union's Seventh Framework Programme FP7/2007-2013/ under REA Grant Agreement No. 294974.
+http://www.tei-c.org/ns/1.0
+table
+tab_0
+FIG. 1. Functional forms of periodic driving E(t) for the single Ω1 (left), Ω2 (middle), and Ω3 (right) are shown in the top row. The corresponding TS trajectory for each frequency set and anharmonic parameter values ǫ ∈ {0, 4, 8} are shown in the bottom row. Various extrema of E(t) are denoted by circles with arguments shown as dashed vertical lines. The corresponding extrema of x ‡ (t) are denoted by circles and colored according to the respective ǫ value. Units in all panels dimensionless.
+references
+b0
+first
+Yamanouchi
+DOI
+10.1126/science.1068449
+j
+Science
+volume
+295
+page
+1659
+published
+2002
+2002
+b1
+first
+B
+middle
+J
+Sussman
+first
+D
+Townsend
+first
+M
+middle
+Y
+Ivanov
+first
+A
+Stolow
+DOI
+10.1126/science.1132289
+j
+Science
+volume
+314
+published
+2006
+2006
+b2
+first
+S
+Kawai
+first
+T
+Komatsuzaki
+DOI
+10.1063/1.3528937
+j
+J. Chem. Phys
+volume
+134
+page
+24317
+published
+2011
+2011
+b3
+first
+D
+middle
+G
+Truhlar
+first
+W
+middle
+L
+Hase
+first
+J
+middle
+T
+Hynes
+DOI
+10.1021/j100238a003
+j
+J. Phys. Chem
+volume
+87
+page
+2664
+published
+1983
+1983
+b4
+first
+D
+middle
+G
+Truhlar
+first
+B
+middle
+C
+Garrett
+DOI
+10.1146/annurev.pc.35.100184.001111
+j
+Annu. Rev. Phys. Chem
+volume
+35
+page
+159
+published
+1984
+1984
+b5
+first
+W
+middle
+H
+Miller
+j
+Acc. Chem. Res
+volume
+26
+page
+174
+published
+1993
+1993
+b6
+first
+D
+middle
+G
+Truhlar
+first
+B
+middle
+C
+Garrett
+first
+S
+middle
+J
+Klippenstein
+DOI
+10.1039/A805196H
+j
+J. Phys. Chem
+volume
+100
+page
+12771
+published
+1996
+1996
+b7
+first
+H
+Waalkens
+first
+R
+Schubert
+first
+S
+Wiggins
+DOI
+10.1088/0951-7715/21/1/R01
+j
+Nonlinearity
+volume
+21
+published
+2008
+2008
+b8
+first
+R
+Hernandez
+first
+T
+Bartsch
+first
+T
+Uzer
+DOI
+10.1016/j.chemphys.2010.01.016
+j
+Chem. Phys
+volume
+370
+page
+270
+published
+2010
+2010
+b9
+first
+E
+Pollak
+first
+P
+Pechukas
+DOI
+10.1063/1.436658
+j
+J. Chem. Phys
+volume
+69
+page
+1218
+published
+1978
+1978
+b10
+first
+E
+Pollak
+first
+P
+Pechukas
+DOI
+10.1063/1.437194
+j
+J. Chem. Phys
+volume
+70
+published
+1979
+1979
+b11
+first
+P
+Pechukas
+first
+E
+Pollak
+DOI
+10.1063/1.438575
+j
+J. Chem. Phys
+volume
+71
+page
+2062
+published
+1979
+1979
+b12
+first
+E
+Pollak
+first
+M
+middle
+S
+Child
+first
+P
+Pechukas
+DOI
+10.1063/1.439276
+j
+J. Chem. Phys
+volume
+72
+page
+1669
+published
+1980
+1980
+b13
+first
+R
+Hernandez
+first
+W
+middle
+H
+Miller
+DOI
+10.1016/0009-2614(93)90071-8
+j
+Chem. Phys. Lett
+volume
+214
+page
+129
+published
+1993
+1993
+b14
+first
+R
+Hernandez
+DOI
+10.1063/1.467985
+j
+J. Chem. Phys
+volume
+101
+page
+9534
+published
+1994
+1994
+b15
+first
+T
+Uzer
+first
+C
+Jaffé
+first
+J
+Palacián
+first
+P
+Yanguas
+first
+S
+Wiggins
+DOI
+10.1088/0951-7715/15/4/301
+j
+Nonlinearity
+volume
+15
+published
+2002
+2002
+b16
+first
+N
+De Leon
+first
+M
+middle
+A
+Mehta
+first
+R
+middle
+Q
+Topper
+j
+J. Chem. Phys
+volume
+94
+page
+8310
+published
+1991
+1991
+b17
+first
+C
+Li
+first
+A
+Shoujiguchi
+first
+M
+Toda
+first
+T
+Komatsuzaki
+DOI
+10.1103/PhysRevLett.97.028302
+j
+Phys. Rev. Lett
+volume
+97
+page
+28302
+published
+2006
+2006
+b18
+first
+H
+Waalkens
+first
+S
+Wiggins
+DOI
+10.1088/0305-4470/37/35/L02
+j
+J. Phys. A
+volume
+37
+page
+L435
+published
+2004
+2004
+b19
+first
+G
+middle
+S
+Ezra
+first
+H
+Waalkens
+first
+S
+Wiggins
+DOI
+10.1063/1.3119365
+j
+J. Chem. Phys
+volume
+130
+page
+164118
+published
+2009
+2009
+b20
+first
+G
+middle
+S
+Ezra
+first
+S
+Wiggins
+j
+J. Phys. A: Math. Theor
+volume
+42
+page
+205101
+published
+2009
+2009
+b21
+first
+H
+Teramoto
+first
+M
+Toda
+first
+T
+Komatsuzaki
+DOI
+10.1103/PhysRevLett.106.054101
+j
+Phys. Rev. Lett
+volume
+106
+page
+54101
+published
+2011
+2011
+b22
+first
+M
+Iñarrea
+first
+J
+middle
+F
+Palacián
+first
+A
+middle
+I
+Pascual
+first
+J
+middle
+P
+Salas
+DOI
+10.1063/1.3600744
+j
+J. Chem. Phys
+volume
+135
+page
+14110
+published
+2011
+2011
+b23
+first
+A
+Allahem
+first
+T
+Bartsch
+DOI
+10.1063/1.4769197
+j
+J. Chem. Phys
+volume
+137
+page
+214310
+published
+2012
+2012
+b24
+first
+R
+middle
+S
+Mackay
+first
+D
+middle
+C
+Strub
+DOI
+10.1088/0951-7715/27/5/859
+j
+Nonlinearity
+volume
+27
+published
+2014
+2014
+b25
+first
+U
+¸iftçi
+first
+H
+Waalkens
+DOI
+10.1103/PhysRevLett.110.233201
+j
+Phys. Rev. Lett
+volume
+110
+page
+233201
+published
+2013
+2013
+b26
+first
+N
+Elsner
+first
+C
+middle
+P
+Royall
+first
+B
+Vincent
+first
+D
+middle
+R E
+Snoswell
+DOI
+10.1063/1.3115641
+j
+J. Chem. Phys
+volume
+130
+page
+154901
+published
+2009
+2009
+b27
+first
+S
+Jäger
+first
+S
+middle
+H L
+Klapp
+DOI
+10.1039/c1sm05343d
+j
+Soft Matter
+volume
+7
+page
+6606
+published
+2011
+2011
+b28
+first
+A
+Prokop
+first
+J
+Vacek
+first
+J
+Michl
+DOI
+10.1021/nn300003x
+j
+ACS Nano
+volume
+6
+published
+1901
+1901. 2012
+b29
+first
+F
+Ma
+first
+D
+middle
+T
+Wu
+first
+N
+Wu
+DOI
+10.1021/ja403172p
+j
+J. Am. Chem. Soc
+volume
+135
+page
+7839
+published
+2013
+2013
+b30
+first
+P
+Lidström
+first
+J
+Tierney
+first
+B
+Wathey
+first
+J
+Westman
+DOI
+10.1016/S0040-4020(01)00906-1
+j
+Tetrahedron
+volume
+57
+published
+2001
+2001
+b31
+first
+M
+Platkov
+first
+M
+Gruebele
+DOI
+10.1063/1.4887360
+j
+J. Chem. Phys
+volume
+141
+page
+35103
+published
+2014
+2014
+b32
+first
+G
+Loget
+first
+A
+Kuhn
+DOI
+10.1038/ncomms1550
+j
+Nat. Commun
+volume
+2
+page
+535
+published
+2011
+2011
+b33
+first
+M
+middle
+E
+Corrales
+first
+J
+González-Vázquez
+first
+G
+Balerdi
+first
+I
+middle
+R
+Solá
+first
+R
+De Nalda
+first
+L
+Bañares
+DOI
+10.1038/nchem.2006
+j
+Nature Chem
+volume
+6
+page
+785
+published
+2014
+2014
+b34
+first
+S
+Saha
+first
+J
+middle
+F
+Stoddart
+DOI
+10.1039/B607187B
+j
+Chem. Soc. Rev
+volume
+36
+published
+2007
+2007
+b35
+first
+J
+Michl
+first
+E
+middle
+C H
+Sykes
+DOI
+10.1021/nn900411n
+j
+ACS Nano
+volume
+3
+published
+2009
+2009
+b36
+first
+C
+Zazza
+first
+G
+Mancini
+first
+G
+Brancato
+first
+V
+Barone
+DOI
+10.1021/jz4019404
+j
+J. Phys. Chem. Lett
+volume
+4
+page
+3885
+published
+2013
+2013
+b37
+first
+W
+middle
+R
+Browne
+first
+B
+middle
+L
+Feringa
+j
+Nature Nanotech
+volume
+1
+page
+25
+published
+2006
+2006
+b38
+first
+E
+middle
+R
+Kay
+first
+D
+middle
+A
+Leigh
+first
+F
+Zerbetto
+DOI
+10.1002/anie.200504313
+j
+Angew. Chem., Ind. Ed
+volume
+46
+published
+2007
+2007
+b39
+first
+V
+Balzani
+first
+A
+Credi
+first
+M
+Venturi
+j
+NanoToday
+volume
+2
+page
+18
+published
+2007
+2007
+b40
+first
+H
+Meng
+first
+G
+Li
+DOI
+10.1039/C3TA10716G
+j
+J. Mater. Chem. A
+volume
+1
+page
+7838
+published
+2013
+2013
+b41
+first
+B
+middle
+L
+Feringa
+DOI
+10.1038/35041665
+j
+Nature
+volume
+408
+published
+2000
+2000
+b42
+first
+D
+middle
+A
+Leigh
+first
+J
+middle
+K
+Wong
+first
+F
+Dehez
+first
+F
+Zerbetto
+DOI
+10.1038/nature01758
+j
+Nature
+volume
+424
+published
+2003
+2003
+b43
+first
+S
+middle
+P
+Fletcher
+first
+F
+Dumur
+first
+M
+middle
+M
+Pollard
+first
+B
+middle
+L
+Feringa
+DOI
+10.1126/science.1117090
+j
+Science
+volume
+310
+published
+2005
+2005
+b44
+first
+D
+Horinek
+first
+J
+Michl
+DOI
+10.1073/pnas.0506183102
+j
+Proc. Natl. Acad. Sci. U.S.A
+volume
+102
+page
+14175
+published
+2005
+2005
+b45
+first
+M
+Klok
+first
+N
+Boyle
+first
+M
+middle
+T
+Pryce
+first
+A
+Meetsma
+first
+W
+middle
+R
+Browne
+first
+B
+middle
+L
+Feringa
+DOI
+10.1021/ja8037245
+j
+J. Am. Chem. Soc
+volume
+130
+published
+2008
+2008
+b46
+first
+G
+middle
+T
+Craven
+first
+T
+Bartsch
+first
+R
+Hernandez
+DOI
+10.1103/PhysRevE.89.040801
+j
+Phys. Rev. E
+volume
+89
+issue
+R
+page
+40801
+published
+2014
+2014
+b47
+first
+G
+middle
+T
+Craven
+first
+T
+Bartsch
+first
+R
+Hernandez
+DOI
+10.1063/1.489147
+j
+J. Chem. Phys
+volume
+141
+page
+41106
+published
+2014
+2014
+b48
+first
+L
+middle
+P
+Kadanoff
+first
+C
+Tang
+DOI
+10.1073/pnas.81.4.1276
+j
+Proc. Natl. Acad. Sci. U.S.A
+volume
+81
+page
+1276
+published
+1984
+1984
+b49
+first
+R
+middle
+T
+Skodje
+first
+M
+middle
+J
+Davis
+DOI
+10.1016/0009-2614(90)85524-G
+j
+Chem. Phys. Lett
+ISSN
+0009-2614
+volume
+175
+page
+92
+published
+1990
+1990
+b50
+first
+P
+Gaspard
+j
+Chaos, Scattering and Statistical Mechanics
+volume
+9
+published
+1998
+1998
+Cambridge University Press
+b51
+first
+J
+middle
+R
+Green
+first
+T
+middle
+S
+Hofer
+first
+R
+middle
+S
+Berry
+first
+D
+middle
+J
+Wales
+DOI
+10.1063/1.3658642
+j
+J. Chem. Phys
+volume
+135
+page
+184307
+published
+2011
+2011
+b52
+first
+A
+middle
+E
+Orel
+first
+W
+middle
+H
+Miller
+DOI
+10.1063/1.439747
+j
+J. Chem. Phys
+volume
+72
+page
+5139
+published
+1980
+1980
+b53
+first
+S
+Kawai
+first
+A
+middle
+D
+Bandrauk
+first
+C
+Jaffé
+first
+T
+Bartsch
+first
+J
+Palacián
+first
+T
+Uzer
+DOI
+10.1063/1.2720841
+j
+J. Chem. Phys
+volume
+126
+page
+164306
+published
+2007
+2007
+b54
+first
+R
+middle
+G
+Mullen
+first
+J.-E
+Shea
+first
+B
+Peters
+DOI
+10.1021/ct4009798
+j
+J. Chem. Theory Comput
+volume
+10
+published
+2014
+2014
+b55
+first
+R
+middle
+G
+Mullen
+first
+J.-E
+Shea
+first
+B
+Peters
+DOI
+10.1063/1.4862504
+j
+J. Chem. Phys
+volume
+140
+page
+41104
+published
+2014
+2014
+b56
+first
+D
+middle
+G
+Truhlar
+first
+B
+middle
+C
+Garrett
+DOI
+10.1021/jp992430l
+j
+J. Phys. Chem. B
+volume
+104
+page
+1069
+published
+2000
+2000
+b57
+first
+T
+Bartsch
+first
+R
+Hernandez
+first
+T
+Uzer
+DOI
+10.1103/PhysRevLett.95.058301
+j
+Phys. Rev. Lett
+volume
+95
+page
+58301
+published
+2005
+2005
+b58
+first
+T
+Bartsch
+first
+T
+Uzer
+first
+R
+Hernandez
+DOI
+10.1063/1.2109827
+j
+J. Chem. Phys
+volume
+123
+page
+204102
+published
+2005
+2005
+b59
+first
+T
+Bartsch
+first
+T
+Uzer
+first
+J
+middle
+M
+Moix
+first
+R
+Hernandez
+DOI
+10.1063/1.2206587
+j
+J. Chem. Phys
+volume
+124
+issue
+01
+page
+244310
+published
+2006
+2006
+b60
+first
+F
+Revuelta
+first
+T
+Bartsch
+first
+R
+middle
+M
+Benito
+first
+F
+Borondo
+DOI
+10.1063/1.3692182
+j
+J. Chem. Phys
+volume
+136
+page
+91102
+published
+2012
+2012
+b61
+first
+T
+Bartsch
+first
+F
+Revuelta
+first
+R
+middle
+M
+Benito
+first
+F
+Borondo
+DOI
+10.1063/1.4726125
+j
+J. Chem. Phys
+volume
+136
+page
+224510
+published
+2012
+2012
+b62
+first
+J
+Lehmann
+first
+P
+Reimann
+first
+P
+Hänggi
+DOI
+10.1103/PhysRevLett.84.1639
+j
+Phys. Rev. Lett
+volume
+84
+page
+1639
+published
+2000
+2000
+b63
+first
+J
+Lehmann
+first
+P
+Reimann
+first
+P
+Hänggi
+DOI
+10.1103/PhysRevE.62.6282
+j
+Phys. Rev. E
+volume
+62
+published
+2000
+2000
+b64
+first
+J
+Lehmann
+first
+P
+Reimann
+first
+P
+Hänggi
+DOI
+10.1002/pssb.200301774
+j
+Phys. Status Solidi B
+volume
+237
+page
+53
+published
+2003
+2003
+b65
+first
+C
+Skokos
+DOI
+10.1016/S0167-2789(01)00347-5
+j
+Physica D
+volume
+159
+page
+155
+published
+2001
+2001
+b66
+first
+P
+Cvitanović
+first
+R
+Artuso
+first
+R
+Mainieri
+first
+G
+Tanner
+first
+G
+Vattay
+m
+Chaos: Classical and Quantum (ChaosBook.org, Niels Bohr Institute
+Copenhagen
+published
+2012
+2012
+b67
+first
+R
+middle
+P
+Boland
+first
+T
+Galla
+first
+A
+middle
+J
+Mckane
+DOI
+10.1103/PhysRevE.79.051131
+j
+Phys. Rev. E
+volume
+79
+page
+51131
+published
+2009
+2009
+b68
+first
+F
+middle
+L
+Traversa
+first
+M
+middle
+Di
+Ventra
+first
+F
+Bonani
+DOI
+10.1103/PhysRevLett.110.170602
+j
+Phys. Rev. Lett
+volume
+110
+page
+170602
+published
+2013
+2013
+b69
+first
+A
+Naess
+first
+V
+Moe
+DOI
+10.1016/S0266-8920(99)00031-4
+j
+Probab. Eng. Mech
+volume
+15
+page
+221
+published
+2000
+2000
+b70
+first
+R
+middle
+S
+Maier
+first
+D
+middle
+L
+Stein
+DOI
+10.1103/PhysRevLett.86.3942
+j
+Phys. Rev. Lett
+volume
+86
+page
+3942
+published
+2001
+2001
+b71
+first
+M
+middle
+I
+Dykman
+first
+B
+Golding
+first
+D
+Ryvkine
+DOI
+10.1103/PhysRevLett.92.080602
+j
+Phys. Rev. Lett
+volume
+92
+page
+80602
+published
+2004
+2004
+b72
+first
+M
+middle
+I
+Dykman
+first
+D
+Ryvkine
+DOI
+10.1103/PhysRevLett.94.070602
+j
+Phys. Rev. Lett
+volume
+94
+page
+70602
+published
+2005
+2005
+b73
+first
+T
+Harada
+first
+S.-I
+Sasa
+DOI
+10.1103/PhysRevLett.95.130602
+j
+Phys. Rev. Lett
+volume
+95
+page
+130602
+published
+2005
+2005
+b74
+first
+H
+Teramoto
+first
+S.-I
+Sasa
+DOI
+10.1103/PhysRevE.72.060102
+j
+Phys. Rev. E
+volume
+72
+page
+60102
+published
+2005
+2005
+b75
+first
+J
+middle
+R
+Green
+first
+A
+middle
+B
+Costa
+first
+B
+middle
+A
+Grzybowski
+first
+I
+Szleifer
+DOI
+10.1073/pnas.1312165110
+j
+Proc. Natl. Acad. Sci. U.S.A
+volume
+110
+page
+16339
+published
+2013
+2013
+b76
+first
+I
+middle
+N
+Levine
+j
+Physical Chemistry
+published
+2002
+2002
+McGraw-Hill
+b77
+first
+G
+middle
+T
+Craven
+first
+A
+middle
+V
+Popov
+first
+R
+Hernandez
+DOI
+10.1063/1.4810807
+j
+J. Chem. Phys
+volume
+138
+page
+244901
+published
+2013
+2013
+b78
+first
+G
+middle
+T
+Craven
+first
+A
+middle
+V
+Popov
+first
+R
+Hernandez
+DOI
+10.1039/C4SM00751D
+j
+Soft Matter
+volume
+10
+published
+2014
+2014
+b79
+first
+S
+middle
+W
+Flynn
+first
+H
+middle
+C
+Zhao
+first
+J
+middle
+R
+Green
+DOI
+10.1063/1.4895514
+j
+J. Chem. Phys
+volume
+141
+page
+104107
+published
+2014
+2014

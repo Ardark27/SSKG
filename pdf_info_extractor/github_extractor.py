@@ -29,15 +29,7 @@ def look_for_github_urls(data):
     github_urls = []
     for key, value in recursive_dict_iterator(data):
         if type(value) == str:
-            results = get_github_urls(value)
-            if results:
-                github_urls.extend(results)
-    # we dont remove duplicates due to the fact that we will use it
-    # github_urls = list(set(github_urls))
-    # remove . at the end of the url
-    github_urls = [url[:-1] if url[-1] == '.' else url for url in github_urls]
-    # remove https://github.com/kermitt2/grobid from the list
-    github_urls = [url for url in github_urls if url != 'https://github.com/kermitt2/grobid']
+            github_urls.append(value)
     
     return github_urls
 
@@ -47,7 +39,7 @@ def extract_github_urls(xml_path):
     return github_urls
 
 def save_github_urls(github_urls, output_path):
-    with open(output_path, 'w') as f:
+    with open(output_path, 'w',encoding="utf-8") as f:
         f.write('\n'.join(github_urls))
     return 200
 

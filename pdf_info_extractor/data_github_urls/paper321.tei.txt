@@ -1,1 +1,363 @@
-https://github.com/fair-software/howfairis/
+preserve
+http://www.tei-c.org/ns/1.0
+http://www.w3.org/2001/XMLSchema-instance
+http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd
+http://www.w3.org/1999/xlink
+en
+a
+main
+FOOPS!: An Ontology Pitfall Scanner for the FAIR Principles
+unknown
+first
+Daniel
+Garijo
+daniel.garijo@upm.es
+first
+Oscar
+Corcho
+ocorcho@fi.upm.es
+first
+María
+Poveda-Villalón
+aff0
+laboratory
+Ontology Engineering Group
+institution
+Universidad Politécnica de Madrid
+ES
+Spain
+aff1
+institution
+Universidad Politécnica de Madrid
+a
+main
+FOOPS!: An Ontology Pitfall Scanner for the FAIR Principles
+MD5
+0BCCFA398D60C4273708170306382D0F
+0.7.1
+GROBID
+2022-12-02T11:44+0000
+GROBID - A machine learning software for extracting information from scholarly documents
+https://github.com/kermitt2/grobid
+Ontology development
+FAIR principles
+FAIR semantics
+http://www.tei-c.org/ns/1.0
+This paper presents FOOPS!, a web service designed to assess the compliance of vocabularies or ontologies against the FAIR principles. FOOPS! performs a total of 24 different checks from the four FAIR dimensions, reflecting the best practices and latest community discussions to adapt FAIR to semantic artefacts. The web service not only detect best practices according to each principle, but also offers an explanation of why a particular principle fails, and helpful suggestions to overcome common issues.
+en
+http://www.tei-c.org/ns/1.0
+1
+Introduction
+bibr
+#b6
+[6]
+bibr
+#b7
+[7]
+The Findable, Accessible, Interoperable, Reusable (FAIR) data principles  have become increasingly relevant in the context of research data management and reproducibility; being a main subject of discussion and adoption in community initiatives such as the Research Data Alliance, FORCE 11 and the European Open Science Cloud. As a result, the FAIR principles have been adapted to other research artifacts, such as software, 1 and semantic resources such as ontologies. 2  In order to help researchers adopt best practices around FAIR, the scientific community has developed self-assessment tools and validators that help researchers assess the FAIRness of their resources. These are typically targeted towards research data, such as AmIFAIR , 3 F-UJI, 4 or fair-checker, 5 with some recent additions for research software (e.g., howfairis 6 ). However, there is no FAIR validator specifically targeted towards ontologies.
+bibr
+#b3
+[3]
+bibr
+#b4
+[4,
+bibr
+#b1
+2]
+In this demo we present FOOPS!, an ontology pitfall scanner for the FAIR principles. FOOPS! works for both OWL and SKOS vocabularies, and distinguishes itself from existing services such as Vapour 7 (focused on the quality of the content negotiation of resources) and OOPS!  (focused on common pitfalls on the ontology itself); to provide a comprehensive overview of how a vocabulary complies with current FAIR best practices for ontologies .
+http://www.tei-c.org/ns/1.0
+2
+FOOPS! features
+bibr
+#b0
+[1]
+bibr
+#b4
+[4]
+bibr
+#b1
+[2]
+FOOPS! is a web service and application that takes as input an OWL ontology or SKOS thesauri and runs 24 different checks distributed across the FAIR dimensions. These checks are based on the best practices and recommendations in , , , and can be summarized as follows:
+bibr
+#b5
+[5]
+-Findable (9 checks): the service assesses whether the ontology URI is persistent, resolvable, has a resolvable version IRI, and whether that IRI is unique for that version. FOOPS! will also assess if minimum descriptive metadata is included (e.g., title, description, etc.) and whether the ontology prefix and namespace can be found in external registries, i.e., prefix.cc 8 and LOV . 9 -Accessible (3 checks): FOOPS! will assess whether the ontology has proper content negotiation (with at least one RDF serialization and HTML), and whether the URI protocol is open. -Interoperable (3 checks): these checks focus on finding whether the vocabulary includes references to pre-existing vocabularies in their metadata annotations, classes, properties or data properties. -Reusable (9 checks): the service verifies whether a human-readable documentation is available, whether provenance metadata, license and detailed vocabulary metadata exist; and whether the ontology terms are properly described with labels and definitions.
+bibr
+#b0
+[1]
+FOOPS! does not penalize missing metadata that may not be found in the first release of a vocabulary (e.g., prior version, contributor, backward compatibility), although we detect its absence and recommend its inclusion if appropriate. Since the decision of which metadata is required is still under discussion by the community, we have included the set of terms defined in .
+http://www.tei-c.org/ns/1.0
+Fig. 1: Overview of the results after examining an ontology in FOOPS!
+A final score to represent FAIRness is calculated by adding individual check scores and dividing it by the total number of checks (a score of 100% implies the vocabulary complies with all FAIR principles). Since some checks may perform more than a single evaluation task (e.g., inspect the label of all ontology terms), all check scores are normalized to avoid biasing the overall result. The resultant score is an indicator, we leave out of the scope of our demo deciding on whether a vocabulary is FAIR or not based on such score.
+http://www.tei-c.org/ns/1.0
+3
+Demonstration
+figure
+1
+The demo will showcase the FOOPS! service and web user interface with different vocabularies and ontologies. Figure  shows an overview of the results returned by FOOPS! when loading an example ontology. The service returns an HTML page with its URI, title and license (if found in the ontology metadata); and provides an aggregated score and a radar chart with a score for each dimension. The rest of the website shows detailed information about each individual check, grouped by dimension and by related principle.
+figure
+1
+As depicted in Figure , for each check the website depicts: 1) its identifier and short title; 2) its score in the target ontology; 3) a brief description of what the check does; 4) an explanation of the score returned and suggestions for improvement; and 5) if applicable, the URIs of the resources affected by that check (e.g., elements with a missing label or description).
+http://www.tei-c.org/ns/1.0
+4
+Conclusions and Future Work
+This paper has briefly presented the FOOPS! validator service for checking the FAIRness of ontologies and vocabularies. Next steps for improvement include the ability to download the generated report so that it can be linked in the ontology documentation, expanding the list of external supported registries (e.g., to include BioPortal, 10 among others); and improving our current suggestions with actionable guidelines to address some of the issues found, like automatically suggesting prefixes in popular prefix registries.
+http://www.tei-c.org/ns/1.0
+3,174.53,115.84,266.29,341.69
+bitmap
+http://www.tei-c.org/ns/1.0
+foot
+3
+https//w3id.org/AmIFAIR 4 https://f-uji.net/index.php 5 https://fair-checker.france-bioinformatique.fr 6 https://github.com/fair-software/howfairis/ 7 https://fno.io/hub/vapour/ 8 https://prefix.cc 9 https://lov.linkeddata.es/
+http://www.tei-c.org/ns/1.0
+foot
+10
+https://bioportal.bioontology.org/
+references
+b0
+a
+main
+Best practices for implementing fair vocabularies and ontologies on the web
+first
+D
+Garijo
+first
+M
+Poveda-Villalón
+DOI
+10.3233/SSW200034
+https://doi.org/10.3233/SSW200034
+m
+Applications and Practices in Ontology Design, Extraction, and Reasoning
+first
+Giuseppe
+Cota
+first
+M
+middle
+D
+Pozzato
+first
+G
+middle
+L
+Netherlands
+IOS Press
+published
+2020
+2020
+b1
+first
+W
+Hugo
+first
+Y
+Le Franc
+first
+G
+Coen
+first
+J
+Parland-Von Essen
+first
+L
+Bonino
+m
+D2. 5 fair semantics recommendations second iteration
+published
+2020
+2020
+b2
+DOI
+10.5281/zenodo.4314321
+https://doi.org/10.5281/zenodo.4314321
+b3
+a
+main
+OOPS! (OntOlogy Pitfall Scanner!): An On-line Tool for Ontology Evaluation
+first
+M
+Poveda-Villalón
+first
+A
+Gómez-Pérez
+first
+M
+middle
+C
+Suárez-Figueroa
+j
+International Journal on Semantic Web and Information Systems
+volume
+10
+issue
+2
+page
+7
+34
+published
+2014
+2014
+IJSWIS)
+b4
+a
+main
+Coming to terms with fair ontologies: A position paper
+first
+M
+Poveda-Villalón
+first
+P
+Espinoza-Arias
+first
+D
+Garijo
+first
+O
+Corcho
+m
+Proceedings of the 22nd International Conference on Knowledge Engineering and Knowledge Management
+the 22nd International Conference on Knowledge Engineering and Knowledge Management
+published
+2020
+2020
+b5
+a
+main
+Linked Open Vocabularies (LOV): a gateway to reusable semantic vocabularies on the Web
+first
+P
+middle
+Y
+Vandenbussche
+first
+G
+middle
+A
+Atemezing
+first
+M
+Poveda-Villalón
+first
+B
+Vatant
+j
+Semantic Web
+volume
+8
+issue
+3
+page
+437
+452
+published
+2017
+2017
+b6
+a
+main
+The fair guiding principles for scientific data management and stewardship
+first
+M
+middle
+D
+Wilkinson
+first
+M
+Dumontier
+first
+I
+middle
+J
+Aalbersberg
+first
+G
+Appleton
+first
+M
+Axton
+first
+A
+Baak
+first
+N
+Blomberg
+first
+J
+middle
+W
+Boiten
+first
+L
+middle
+B
+Da Silva Santos
+first
+P
+middle
+E
+Bourne
+j
+Scientific data
+volume
+3
+issue
+1
+page
+1
+9
+published
+2016
+2016
+b7
+a
+main
+Evaluating fair maturity through a scalable, automated, community-governed framework
+first
+M
+middle
+D
+Wilkinson
+first
+M
+Dumontier
+first
+S
+middle
+A
+Sansone
+first
+L
+middle
+O B
+Da Silva Santos
+first
+M
+Prieto
+first
+D
+Batista
+first
+P
+Mcquilton
+first
+T
+Kuhn
+first
+P
+Rocca-Serra
+first
+M
+Crosas
+j
+Scientific data
+volume
+6
+issue
+1
+page
+1
+12
+published
+2019
+2019
