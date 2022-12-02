@@ -29,7 +29,6 @@ def look_for_github_urls(data):
     github_urls = []
     for key, value in recursive_dict_iterator(data):
         if type(value) == str:
-            print(value)
             results = get_github_urls(value)
             if results:
                 github_urls.extend(results)
