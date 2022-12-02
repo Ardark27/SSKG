@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import requests
 
 def get_pdf_url_and_doi(data_path):
@@ -15,9 +16,12 @@ def download_pdf(url,name_of_pdf):
 
 def main():
     oa_url,doi_id = get_pdf_url_and_doi('dois_not_arxiv_with_pdf_url.csv')
+
     for url,doi in zip(oa_url,doi_id):
-        print('Downloading: ', url)
-        download_pdf(url,doi)
+        #check if url is not empty
+        if url is not np.nan:
+            print('Downloading: ', url)
+            download_pdf(url,doi)
         break #remove this line to download all the pdfs
 
 if __name__ == '__main__':
