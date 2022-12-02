@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Knowledge Graph Construction with R2RML and RML: An ETL System-based Overview</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Julián</forename><surname>Arenas-Guerrero</surname></persName>
+							<email>julian.arenas.guerrero@upm.es</email>
+							<idno type="ORCID">0000-0002-3029-6469</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mario</forename><surname>Scrocca</surname></persName>
+							<email>mario.scrocca@cefriel.com</email>
+							<idno type="ORCID">0000-0002-8235-7331</idno>
+							<affiliation key="aff1">
+								<orgName type="institution">Cefriel -Politecnico di Milano</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><surname>Iglesias-Molina</surname></persName>
+							<email>ana.iglesiasmluis.pozo@upm.es</email>
+							<idno type="ORCID">0000-0001-5375-8024</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jhon</forename><surname>Toledo</surname></persName>
+							<email>ja.toledo@upm.es</email>
+							<idno type="ORCID">0000-0002-2924-7272</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luis</forename><surname>Pozo-Gilo</surname></persName>
+							<idno type="ORCID">0000-0002-2924-7272</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Doña</surname></persName>
+							<email>daniel.dona@upm.es</email>
+							<idno type="ORCID">0000-0002-5603-6390</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Corcho</surname></persName>
+							<email>oscar.corcho@upm.es</email>
+							<idno type="ORCID">0000-0002-9260-0753</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Chaves-Fraga</surname></persName>
+							<idno type="ORCID">0000-0003-3236-2789</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Knowledge Graph Construction with R2RML and RML: An ETL System-based Overview</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81B8905025916AD4746A213649628066</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-12-02T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Knowledge Graphs</term>
+					<term>RML</term>
+					<term>R2RML</term>
+					<term>GTFS-Madrid-Bench</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Knowledge graphs have proven to be a powerful technology to integrate and structure the myriad of data available nowadays. The semantic web community has actively worked on data integration systems, providing an important set of engines and mapping languages to facilitate the construction of knowledge graphs. Despite these important efforts, there is a lack of objective evaluations of the capabilities of these engines in terms of performance, scalability, and conformance with mapping specifications. In this work, we conduct such evaluation considering several R2RML and RML processors to identify their strengths and weaknesses. We (i) perform a qualitative analysis of the distinctive features of each engine, (ii) examine their conformance with the mapping language specification they support, and (iii) assess their performance and scalability using the GTFS-Madrid-Bench benchmark.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>In recent years, knowledge graphs (KGs) have become one of the most widely used technologies in data integration reaching the top positions of the Gartner Hype Cycle for Artificial intelligence in 2020 3 . This popularity has resulted in open KGs like Wikidata <ref type="bibr" target="#b25">[25]</ref> or YAGO <ref type="bibr" target="#b12">[12]</ref>, and in the adoption of this technology by major technology companies such as Facebook, Google, or eBay <ref type="bibr" target="#b19">[19]</ref>. To construct KGs from non-RDF data sources, mapping languages allow practitioners to define the relationships between input data sources and ontologies in a declarative and maintainable manner <ref type="bibr" target="#b17">[17]</ref>. Although there are several mapping languages in the state of the art (e.g., SPARQL-Generate <ref type="bibr" target="#b16">[16]</ref> or ShExML <ref type="bibr" target="#b8">[9]</ref>), there are two of them that stand out: R2RML <ref type="bibr" target="#b4">[5]</ref>, which is the W3C standard language for RDB2RDF mapping, and RML <ref type="bibr" target="#b7">[8]</ref>, which is a well-known extension of R2RML for data formats beyond relational databases (RDBs).</p><p>KGs can be constructed with [R2]RML-compliant engines that can implement two strategies: materialization or virtualization <ref type="bibr" target="#b20">[20]</ref>. The former is the ETL approach that generates the entire KG (i.e., all the triples), while the latter generates results for SPARQL queries by translating them to the native query language of the input data source (e.g., SQL queries in the case of RDBs) <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b21">21]</ref>. Given the high number of engines available <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b13">13,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b23">23,</ref><ref type="bibr" target="#b22">22,</ref><ref type="bibr" target="#b9">10]</ref>, it is easy for any practitioner to get lost in deciding which one best fits their use case. While there are comprehensive and structured evaluations for the virtualization approach <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b15">15]</ref> that ease the user's choice, there is a lack of such an evaluation for materialization engines.</p><p>In this paper, we evaluate knowledge graph construction (KGC) engines that implement the materialization approach and support the [R2]RML mapping languages. First, we identify the most relevant engines available and provide a qualitative analysis of their features. Next, we assess their conformance to the language specification considering the test cases defined by each language <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b1">2]</ref>. Finally, we test the engines using the GTFS-Madrid-Bench benchmark <ref type="bibr" target="#b3">[4]</ref> to evaluate their performance in terms of execution time, memory used and the number of triples generated using different data source formats and sizes.</p><p>The remainder of the article is structured as follows. Section 2 describes the related work on KGC systems and existing work evaluating them. Section 3 shows a qualitative analysis of several declarative KG engines where we highlight their strengths and weaknesses. Section 4 presents the quantitative experimental evaluation, using the test cases of each mapping language and the GTFS-Madrid-Bench benchmark. Finally, Section 5 provides a set of relevant conclusions extracted from the present work and the future lines of research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Related Work</head><p>The emergence of different engines tackling KGC fosters the definition of benchmarks to evaluate their capabilities. The Berlin SPARQL Benchmark (BSBM) <ref type="bibr" target="#b0">[1]</ref>, based on fabricated data considering the e-commerce domain, allows the comparison of SPARQL queries performance posed against triplestores but also virtual KGC engines. The Norwegian Petroleum Directorate Benchmark (NPDB) <ref type="bibr" target="#b15">[15]</ref>, relying on real relational data from the oil industry, focuses on the requirements for virtualization and defines different test cases considering the parameters that impact the performance of KGC engines (different sizes of the data sources, types of queries, mappings, etc.). The GTFS-Madrid-Bench benchmark <ref type="bibr" target="#b3">[4]</ref> considers data from the Madrid subway network and, reusing ideas from NPDB, defines a comprehensive set of test cases analyzing multiple requirements and considering data formats beyond relational DBMSs, namely CSV, JSON, and XML.</p><p>Despite the growing number of engines relying on the ETL approach, the efforts available in the literature analyzing KGC engines are mainly confined to the virtualization approach over RDB <ref type="bibr" target="#b26">[26]</ref>.</p><p>Materialization engines have been tested by their respective authors using ad-hoc evaluations. In consequence, the extracted conclusions are often limited, and cannot be generalized to all engines. SPARQL-Generate <ref type="bibr" target="#b16">[16]</ref> relies on the SPARQL syntax to define mappings from heterogeneous data sources to RDF and it has been compared with RMLMapper 4 considering CSV datasets of different sizes. The authors of RMLStreamer <ref type="bibr" target="#b9">[10]</ref> evaluated their tool against the SPARQL-Generate engine using artificial CSV, XML and JSON datasets and different sizes for these sources. The evaluation of RocketRML <ref type="bibr" target="#b23">[23]</ref> considered a custom testbed using real touristic data on accommodations in JSON and XML formats, and was compared to RMLMapper. SDM-RDFizer <ref type="bibr" target="#b13">[13]</ref> has been evaluated against RMLMapper and RocketRML using custom CSV datasets and considering different parameters beyond the data size, such as the factor of duplicates in the input data or different typologies of mappings. Finally, Fun-Map <ref type="bibr" target="#b14">[14]</ref> defined a tabular-based testbed to assess the impact of transformation functions <ref type="bibr" target="#b5">[6]</ref> in RML mappings, and the capability of their proposal executing functions in the initial phase of the KGC process. To the best of our knowledge, no comprehensive and structured evaluation has been carried out to assess the performance and scalability of materialization engines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Knowledge Graph Construction Engines</head><p>In this section, we introduce the description and qualitative analysis of knowledge graph construction engines that implement the materialization approach. In the analysis, we limit ourselves to open-source [R2]RML systems. We assume that the reader is familiar with R2RML and RML. Table <ref type="table" target="#tab_0">1</ref> shows a summary of the most relevant features of the selected engines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">R2RML Engines</head><p>The selected R2RML engines that we take into account are Ontop, Morph-RDB, db2triples, and R2RML-F. We excluded r2rml4net 5 as it only supports SQL Server (we use MySQL as the underlying DBMS for RDB in our evaluation). For each tool, we describe its main features and the strategies that they implement to improve the knowledge graph construction process. Ontop <ref type="bibr" target="#b2">[3]</ref>. Ontop is a virtual knowledge graph system over relational databases developed at the Free University of Bozen-Bolzano and also supported by Ontopic s.r.l. 6 . Ontop focuses on translating SPARQL queries to SQL (i.e. virtualization). Nevertheless, the engine also has a materialization mode, which allows retrieving all the triples in a relational database. In order to achieve this, Ontop  creates a set of SPARQL queries that together generate all the triples of the knowledge graph. These SPARQL queries are then translated to SQL using the query translation capabilities of the system and are later executed against the underlying DBMS. The main advantage of this strategy is that Ontop generates efficient SQL queries thanks to the implementation of several optimizations. The engine is Java-based and supports the main DBMSs and RDF serializations. In addition, it allows processing SQL queries by chunks, avoiding the retrieval of large result sets at once. Morph-RDB <ref type="bibr" target="#b21">[21]</ref>. Written in Scala, it is a virtual knowledge graph engine over relational databases developed at Universidad Politécnica de Madrid. Similarly to Ontop, it implements several query optimizations and provides a materialization mode. However, Morph-RDB does not generate SPARQL queries like Ontop, but it directly builds the necessary SQL queries for materialization. Namely, the engine generates one SQL query per triples map. If a triples map is composed of multiple referencing object maps, a join condition will be added to the SQL query per each of them. Hence, complex SQL queries with many join conditions may be generated. During materialization, Morph-RDB does not apply any of the optimization implemented for the virtualization mode. This results in queries that cannot be efficiently processed by DBMSs in some cases. Triples are written to a file using N-Triples format. Other serialization formats are supported by delegating to Apache Jena. Materialization of relational sources performed by the Morph-xR2RML <ref type="bibr" target="#b18">[18]</ref> engine works similarly to Morph-RDB, but Morph-xR2RML additionally supports the materialization of NoSQL databases and processes the xR2RML mapping language <ref type="bibr" target="#b18">[18]</ref>, an R2RML extension. db2triples 7 . db2triples is a Java materialization engine developed by Antidot 8 . The materialization is done using the algorithm proposed in the R2RML specification 9 . This algorithm independently executes each referencing predicate object map in a triples map, reducing the number of join conditions in the generated SQL queries w.r.t. Morph-RDB. As far as we know, the engine does not implement materialization optimizations. R2RML-F <ref type="bibr" target="#b6">[7]</ref>. R2RML-F is an extension of db2triples developed at Trinity College Dublin. It allows executing additional data transformations encoded in the mappings via functions. Additionally, R2RML-F further extends db2triples to support named graphs and CSV data sources. In order to process CSV sources, these are previously loaded into an in-memory RDBMS, creating a native RDB schema using the column names of the CSV files.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">RML Engines</head><p>The selected RML engines that we take into account for this analysis are RMLMapper, CARML, RMLStreamer, SDM-RDFizer, RocketRML, and Chimera. The selection criteria is the RML implementation report 10 , which is up-to-date, in contrast to the R2RML one. Similarly to R2RML engines, for each tool we provide a description of its main characteristics together with the approaches implemented to make the materialization process more efficient. RMLMapper 11 . RMLMapper is the reference implementation for an RML processor. It aims at being a feature-complete engine and ensuring compliance with the RML specification.  <ref type="table">that</ref> stores the values of the subjects generated by a triples map that are involved in simple and complex referencing predicate object maps. Associated with these two structures, SDM-RDFizer also implements efficient physical operators to manage those tables. These structures and operators are focused on efficiently removing duplicated triples and contributing to improve the performance of join conditions. RocketRML <ref type="bibr" target="#b23">[23]</ref>. RocketRML is a Node-based RML parser developed by STI Innsbruck that supports CSV, JSON, and XML data sources. The engine introduces optimizations over join conditions for improving their execution performance. Before starting the mapping process for a triples map, the implementation checks whether it is in the join condition of another triples map. If it is, the parent triples map of the join condition is evaluated and the obtained values are cached. Then, all triples maps are parsed iteratively and at the end of the execution, the cached hash table is used to generate the triples associated with rules with join conditions. RocketRML constructs an in-memory knowledge graph and its principal output format is JSON-LD. When N-Triples is required, it delegates the removal of duplicates to an external library. CARML 12 . CARML, currently developed by Skemu 13 , is an engine supporting CSV, JSON, and XML data sources. The system is available as a Java library, and it relies on the RDF4J library generating an RDF4J Model as a result of the mapping processing. CARML introduces two extensions (prefix carml:) to the RML specification in order to support: (i) named streams as input data sources for the transformation (carml:Stream), (ii) specification of XML namespaces used in XPath expression for XML data sources (carml:declaresNamespace).</p><p>Moreover, the engine defines a simplified mechanism based on Java annotations to bind the implementation of transformation functions. CARML defines an extensible mechanism to easily change the implementation of the logical source resolvers to access the input data sources. In contrast to other engines, such as RMLMapper, it optimizes the parsing procedure by adopting different Java libraries to access CSV, JSON and XML data sources.</p><p>RMLStreamer <ref type="bibr" target="#b9">[10]</ref>. RMLStreamer is a system developed at Ghent University that incorporates parallelization in the RDF generation process. Implemented in Scala, it is built on top of the distributed processing framework Apache Flink. RMLStreamer considers three main tasks: i) ingestion: implemented as an input operator on a Flink channel that depending on the data source can use a parallel or sequential input operator, ii) mapping processor: implemented as a transformation operator that reads data records from the ingestion task buffers, and generates RDF in its own buffer, iii) combination: it implements an output operator where it merges all the intermediate results in all the mapping processor buffers.</p><p>Chimera <ref type="bibr" target="#b22">[22]</ref>. Chimera is a framework developed by Cefriel 14 . It is implemented on top of Apache Camel and provides a set of building blocks to compose conversion pipelines based on Semantic Web solutions. A basic conversion pipeline is based on a lifting block to convert heterogeneous data sources into an RDF representation, and a lowering block to convert the obtained triples to the target data format. The default implementation of the lifting block is based on RMLMapper. To better support the Apache Camel framework, Chimera adds support for named streams as input data sources. Differently from CARML, it does not extend the RML specification, but it introduces an alternative and configurable access mechanism for the input data sources specified in the RML mappings. To improve the execution time, Chimera extends RMLMapper to define a multi-thread safe materialization procedure and introduces different options for concurrently processing the mappings. Moreover, it optimizes the parsing procedure for JSON and XML data sources. In order to improve memory consumption, the engine implements output writing to an external triplestore/SPARQL endpoint, and a mechanism for incremental/concurrent writes to optimize the processing of large datasets. Furthermore, it implements options to avoid the usage of caches when not needed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Comparison Framework</head><p>In this section, we address the capabilities of the engines previously presented. First, we address the conformance of the engines w.r.t. the mapping languages specifications, and then we empirically analyze their performance. The versions of the engines used in this comparison are the following: Ontop v4.1.0, Morph-RDB v3.12.5, db2triples v2. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Specification Conformance</head><p>To assess the conformance of the engines with their corresponding mapping language specifications, we rely on the test cases defined for R2RML <ref type="bibr" target="#b24">[24]</ref> and RML <ref type="bibr" target="#b10">[11]</ref>. These consist of a collection of tests that are used to check whether the engines support the requirements defined in the specifications. The results of these test cases also provide useful information for practitioners to select the engine that best fits their use cases. Additionally, they help developers to identify possible issues when parsing mapping rules. R2RML test cases. Table <ref type="table" target="#tab_2">2</ref> shows the number of R2RML tests passed and failed by the engines. Since R2RML-F is based on the code from db2triples, their results are similar. These two systems fail in most of the test cases because they do not support delimited identifiers in SQL. Although Morph-RDB usually outputs an error when it is expected by the test case, the engine also generates an empty graph which causes many of them to fail. Ontop performs well over PostgreSQL but it presents problems when the RDBMS is MySQL. Particularly, it fails when using rr:graphMap, and also in those test cases assessing the correctness of subject URIs. RML test cases. Table <ref type="table" target="#tab_3">3</ref> presents the results obtained by RML engines. RMLMapper, RMLStreamer, and Chimera cover most of the mapping language specification. The failed tests for RMLMapper are related to the automatic datatyping of literals in RDB <ref type="bibr" target="#b10">[11]</ref>. Although RocketRML supports rr:graphMap, most of the reported failures occur when this property is included in the mapping rules. SDM-RDFizer does not pass some test cases because it does not support the generation of blank nodes. Additionally, in the same manner as Morph-RDB, SDM-RDFizer generates an empty graph when an error occurs. Finally, CARML failures are related to the possibility to define multiple subject maps, multiple predicate maps, and named graphs in the mapping rules.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Performance and Scalability with GTFS-Madrid-Bench</head><p>To test the performance and scalability of KGC engines, we rely on the GTFS-Madrid-Bench benchmark <ref type="bibr" target="#b3">[4]</ref>. This benchmark provides a generator to create several distributions in different formats and sizes of the data. Datasets and Mappings. Using the generator provided by the benchmark, we generate 5 different distributions based on the data format: GTFS csv , GTFS rdb , GTFS xml , GTFS json and GTFS custom . We also generate different data sizes of these distributions considering the scaling factors: GTFS 1 , GTFS 10 , GTFS 100 , and GTFS 1000 . We have used MySQL 8.0 as DBMS for GTFS rdb . The benchmark already provides the mappings in [R2]RML languages. They are composed of 73 predicate object maps, of which, 12 are referencing predicate object maps. Most engines were not being able to process the referencing object map that joins the triples maps shapes and shapePoints. For this reason, we have transformed it into an equivalent predicate object map that does not affect the results.</p><p>Engines. The engines have been configured so that they do not generate duplicated triples and write the output RDF in N-Triples format. For Java engines, the heap size used for the different benchmark sizes has been configured accordingly to avoid heap errors. We have excluded RMLStreamer, which does not support removing duplicated triples, and we have opened an issue with this problematic in its public repository 16 . Metrics. We consider three metrics for the evaluation: execution time, maximum memory used and the number of triples generated. This last metric assesses the correctness of the generated RDF. However, it is limited, since it does not take into account aspects such as the generation of datatypes or whether data is extracted properly from the sources. A timeout of 24 hours is used. The experiments are executed in a CPU Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz, 20 cores, 128 Gb RAM and a SSD SAS Read-Intensive 12 Gb/s. Results. Because of the fact that all engines resulted in timeout or out-ofmemory for GTFS 1000 in all data formats, we have omitted this data scaling factor for the benchmark in the results. Figure <ref type="figure" target="#fig_1">1</ref> depicts the execution times obtained. For the case of GTFS rdb , the execution times for db2triples, Ontop, R2RML-F, and SDM-RDFizer are in the same order of magnitude. Nonetheless, SDM-RDFizer needs more than twice as long as Ontop to generate all the results for GTFS rdb 100 , possibly due to SDM-RDFizer not pushing down the joins to the DBMS. The high number of joins in the SQL queries used by Morph-RDB results in high query execution times, and the inefficient duplicates elimination strategy of RMLMapper causes the engine to reach timeout for data sizes greater than </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GTFS rdb</head><p>1 . For GTFS csv , Chimera manages to be the fastest tool for GTFS csv 10 thanks to parallelization, but it runs out of memory for GTFS csv 100 . R2RML-F and SDM-RDFizer are the only engines capable of generating all the results for GTFS csv 100 , but the later is more than seven times faster than the former. For the rest of the data formats, SDM-RDFizer stands out, being the only engine capable of materializing GTFS xml 100 , GTFS json 100 , and GTFS custom 100 . Maximum memory used by engines is presented in Figure <ref type="figure" target="#fig_2">2</ref>. Since most engines keep the entire KG in memory to eliminate duplicated triples, the memory consumption is high. The exception is Morph-RDB that uses a different strat- </p><formula xml:id="formula_0">- - - CSV - - - 39595300 39595300 0 0 0 0 JSON - - - - 39595300 0 0 0 0 XML - - - - 39595300 0 0 0 0 CUSTOM - - - - 39595300 0 0 0 0</formula><p>egy for duplicate elimination. R2RML-F and db2triples are the ones with the highest memory use for GTFS rdb , while Ontop and SDM-RDFizer require less than half of the memory. For the rest of data formats, SDM-RDFizer is the most memory-efficient engine as observed in the graphic of GTFS 10 . Table <ref type="table" target="#tab_4">4</ref> shows the number of triples generated by the engines. For GTFS 1 it can be observed that the engines that do not generate the expected number of results are Morph-RDB, RMLMapper, and RocketRML and CARML for GTFS json . Morph-RDB attempts to remove duplicates by using the DIS-TINCT clause in the SQL queries, which is not enough to remove all of them. RMLMapper, and RocketRML and CARML for GTFS json generate a higher number of triples because they generate triples for empty data values. In addition, RMLMapper generates triples in GTFS rdb when columns contain NULLs, which does not conform with R2RML specification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusions and Future Work</head><p>In this work, we address the problem of executing a comprehensive and structured evaluation over declarative knowledge graph construction engines that implement the materialization approach. We present a qualitative analysis of the engines including their main features, optimizations, and limitations. We also carry out a quantitative evaluation of the engines by first assessing their conformance with the mapping language specification using their test cases, and then testing their performance using the GTFS-Madrid-Bench benchmark. The results obtained suggest that: i) there are few systems with high coverage of the features considered in our qualitative analysis; ii) several engines have a medium-low conformance w.r.t. the mapping languages specifications; and iii) most of the engines report performance and scalability problems for large input data sources.</p><p>After our experience in testing the capabilities of KGC engines, we devise a set of future working lines that can conduct the research and development of a new generation of systems. First, new generalized optimizations for the ETL approach are desirable to scale current systems to big data integration scenarios. Second, work on the conformance of the systems with the specifications and increase the efforts to have feature-rich systems. Finally, new versions of the current mapping language specifications will be required for more complex data integration problems (e.g., transformation functions) together with the extension of benchmarks to assess them.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Total execution time of GTFS-Madrid-Bench. KGC time in seconds (logarithmic scale) for nine engines runned over GTFS csv , GTFS rdb , GTFS xml , GTFS json and GTFS custom for three data size scaling factors: (a) GTFS 1 , (b) GTFS 10 and (c) GTFS 100 . The absence of the bar indicates an out-of-memory issue. The bars reaching the top means a timeout issue.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Memory consumption peak of GTFS-Madrid-Bench. KGC maximum memory consumption in kB (logarithmic scale) for nine engines runned over GTFS csv , GTFS rdb , GTFS xml , GTFS json and GTFS custom for three data size scaling factors: (a) GTFS 1 , (b) GTFS 10 and (c) GTFS 100 . The absence of the bar indicates a timeout issue. The bars reaching the top means an out-ofmemory issue.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Summary of the features of knowledge graph construction systems.</figDesc><table><row><cell>Chimera CARML RocketRML RML-streamer</cell><cell>CSV, JSON, XML CSV, JSON, XML CSV, JSON, XML CSV, JSON, XML</cell><cell></cell><cell>----</cell><cell></cell><cell>File, File, File File,</cell><cell>Named Streams Named Streams Named Streams</cell><cell>RML RML RML RML</cell><cell></cell><cell>yes yes yes no</cell><cell>binary, json-ld, n3,</cell><cell>n-quads, n-triples, RDF4J Model n-triples, n-quads, json-ld n-quads, json-ld</cell><cell>rdf/xml, turtle, rdfa</cell></row><row><cell>RMLMapper</cell><cell>RDB, CSV,</cell><cell>JSON, XML</cell><cell>MySQL, PostgreSQL,</cell><cell>Oracle, and SQL Server</cell><cell>RDB Instance, File,</cell><cell>SPARQL endpoints</cell><cell>R2RML, RML, CSVW</cell><cell></cell><cell>yes</cell><cell></cell><cell>n-quads, turtle,</cell><cell>trig, trix, json-ld, hdt</cell></row><row><cell>SDM-RDFizer</cell><cell>RDB, CSV, JSON, XML</cell><cell></cell><cell>MySQL, PostgreSQL</cell><cell></cell><cell>RDB Instance, File</cell><cell></cell><cell>RML</cell><cell></cell><cell>yes</cell><cell></cell><cell>n-triples, n-quads</cell></row><row><cell>R2RML-F</cell><cell>RDB, CSV</cell><cell></cell><cell>PostgreSQL, MySQL,</cell><cell>and Oracle</cell><cell>RDB Instance, File</cell><cell></cell><cell>R2RML</cell><cell></cell><cell>yes</cell><cell>n-triples, rdf/xml,</cell><cell>rdf/xml-abbrev,</cell><cell>n3, rdf/json, json-ld,</cell><cell>n-quads, trig</cell></row><row><cell>db2triples</cell><cell>RDB</cell><cell>PostgreSQL, MySQL,</cell><cell>SQL Server, Oracle,</cell><cell>MariaDB and others</cell><cell>RDB Instance</cell><cell></cell><cell>R2RML</cell><cell></cell><cell>no</cell><cell></cell><cell>RDF/XML, n3,</cell><cell>n-triples, turtle</cell></row><row><cell>Morph-RDB</cell><cell>RDB</cell><cell></cell><cell>Oracle, MySQL, H2</cell><cell></cell><cell>RDB Instance</cell><cell></cell><cell>R2RML</cell><cell></cell><cell>no</cell><cell>rdf/xml,</cell><cell>rdf/xml-abbrev,</cell><cell>n-triples, turtle, n3</cell></row><row><cell>Ontop</cell><cell>RDB</cell><cell></cell><cell>PostgreSQL, MySQL,</cell><cell>SQL Server, Oracle, Db2</cell><cell>RDB Instance</cell><cell></cell><cell>R2RML,</cell><cell>Ontop mappings</cell><cell>no</cell><cell>rdf/xml, turtle,</cell><cell>n-triples, n-quads,</cell><cell>trig</cell></row><row><cell></cell><cell>Data formats</cell><cell></cell><cell>Relational</cell><cell>DBMS</cell><cell>Input data</cell><cell>sources</cell><cell>Mapping</cell><cell>languages</cell><cell>Functions</cell><cell></cell><cell>Output formats</cell><cell>Named graphs</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>The system, developed at Ghent University, is an inmemory Java-based processor that also supports R2RML mappings and can process different local and remote data sources (CSV/JSON/XML files, RDBs, SPARQL endpoints). RMLMapper supports the integration of RML and transformation functions, defining mechanisms to preload or dynamically load at runtime the functions referenced in the RML mappings. A set of in-memory caches are implemented to avoid multiple parsing procedures on the same input data source and multiple executions of the same triples map. SDM-RDFizer<ref type="bibr" target="#b13">[13]</ref>. Written in Python and developed by TIB Leibniz Information Center for Science and Technology, SDM-RDFizer provides a set of physical data structures for the efficient construction of the knowledge graph. More in detail, SDM-RDFizer provides two different structures: i) the Predicate Tuple Table that stores the triples associated with each predicate and, ii) the Predicate Join Tuple Table</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 :</head><label>2</label><figDesc>R2RML conformance of state of the art engines. The results provide the number of test cases passed and failed.</figDesc><table><row><cell>2, R2RML-F v1.2.3, RMLMapper v4.9.1, CARML</cell></row><row><cell>v0.3.1, RocketRML v1.8.2, SDM-RDFizer v3.5, RMLStreamer v2.0 and Chimera</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 :</head><label>3</label><figDesc>RML conformance of state of the art engines. The results provide the number of test cases passed and failed. Minus symbol denotes that the test-case is not applicable to an engine (the input data source is not supported).</figDesc><table><row><cell></cell><cell>CSV</cell><cell></cell><cell cols="2">JSON</cell><cell cols="2">XML</cell><cell cols="2">PostgreSQL</cell><cell cols="2">MySQL</cell></row><row><cell></cell><cell cols="10">passed failed passed failed passed failed passed failed passed failed</cell></row><row><cell>RMLMapper</cell><cell>38</cell><cell>1</cell><cell>38</cell><cell>2</cell><cell>36</cell><cell>2</cell><cell>53</cell><cell>7</cell><cell>50</cell><cell>10</cell></row><row><cell>CARML</cell><cell>25</cell><cell>14</cell><cell>23</cell><cell>17</cell><cell>23</cell><cell>15</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>RocketRML</cell><cell>29</cell><cell>10</cell><cell>30</cell><cell>10</cell><cell>29</cell><cell>9</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell cols="2">SDM-RDFizer 24</cell><cell>15</cell><cell>23</cell><cell>17</cell><cell>21</cell><cell>17</cell><cell>11</cell><cell>49</cell><cell>20</cell><cell>40</cell></row><row><cell cols="2">RMLStreamer 39</cell><cell>0</cell><cell>40</cell><cell>0</cell><cell>38</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Chimera</cell><cell>36</cell><cell>3</cell><cell>37</cell><cell>3</cell><cell>35</cell><cell>3</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell cols="11">v2.1. The resources used for the comparison of the engines are available in a</cell></row><row><cell cols="2">public repository 15 .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 :</head><label>4</label><figDesc>Number of triples generated by each engine per data format and size for GTFS-Madrid-Bench benchmark. The absence of value means that the engine does not support the format and zero value means that the engine outputs a timeout or an out-of-memory error.</figDesc><table><row><cell></cell><cell></cell><cell>Morph-</cell><cell></cell><cell></cell><cell cols="2">SDM-RML</cell><cell></cell><cell>Rocket</cell><cell></cell></row><row><cell></cell><cell cols="9">Ontop RDB db2triples R2RML-F RDFizer Maper Chimera RML CARML</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>GTFS-1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>RDB</cell><cell cols="2">395953 454661</cell><cell>395953</cell><cell>395953</cell><cell cols="2">395953 397622</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>CSV</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>395953</cell><cell cols="5">395953 397622 395953 395953 395953</cell></row><row><cell>JSON</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell cols="5">395953 397622 395953 397622 397622</cell></row><row><cell>XML</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell cols="5">395953 397622 395953 395953 395953</cell></row><row><cell>CUSTOM</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell cols="5">395953 397622 395953 395953 395953</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>GTFS-10</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>RDB</cell><cell cols="3">3959530 4546610 3959530</cell><cell>3959530</cell><cell>3959530</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>CSV</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>3959530</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell></row><row><cell>JSON</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell><cell>0</cell><cell>3976220</cell></row><row><cell>XML</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell></row><row><cell>CUSTOM</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell><cell>0</cell><cell>3959530</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">GTFS-100</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>RDB</cell><cell cols="5">39595300 45466100 39595300 39595300 39595300</cell><cell>0</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">https://github.com/RMLio/rmlmapper-java 5 https://github.com/r2rml4net/r2rml4net 6 https://ontopic.biz/</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">https://github.com/antidot/db2triples 8 https://www.antidot.net/ 9 https://www.w3.org/2001/sw/rdb2rdf/r2rml/#generated-triples 10 https://rml.io/implementation-report/</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">https://github.com/RMLio/rmlmapper-java 12 https://github.com/carml/carml 13 https://skemu.com</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">https://github.com/oeg-upm/kgc-eval</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16">https://github.com/RMLio/RMLStreamer/issues/26</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The work presented in this article is supported by the project Semantics for PerfoRmant and scalable INteroperability of multimodal Transport (SPRINT H2020-826172), by the Spanish Ministerio de Economía, Industria y Competitividad and EU FEDER funds under the DATOS 4.0: RETOS Y SOLUCIONES -UPM Spanish national project (TIN2016-78011-C4-4-R), and by an FPI grant (BES-2017-082511).</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Berlin SPARQL Benchmark</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal on Semantic Web and Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>IJSWIS</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">R2RML and Direct Mapping Test Cases</title>
+		<author>
+			<persName><forename type="first">V.-T</forename><surname>Boris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hausenblas</surname></persName>
+		</author>
+		<ptr target="https://www.w3.org/2001/sw/rdb2rdf/test-cases/" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>RDB2RDF Working Group</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Ontop: Answering SPARQL queries over relational databases</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Komla-Ebri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kontchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rodriguez-Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semantic Web</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="471" to="487" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">GTFS-Madrid-Bench: A Benchmark for Virtual Knowledge Graph Access in the Transport Domain</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cimmino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Toledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Web Semantics</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">100596</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sundara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cyganiak</surname></persName>
+		</author>
+		<ptr target="http://www.w3.org/TR/r2rml/" />
+		<title level="m">R2RML: RDB to RDF Mapping Language. W3C Recommendation</title>
+				<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Declarative Data Transformations for Linked Data Generation: The Case of DBpedia</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Meester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th European Semantic Web Conference, ESWC</title>
+				<meeting>the 14th European Semantic Web Conference, ESWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="33" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">R2RML-F: Towards Sharing and Executing Domain Logic in R2RML Mappings</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Debruyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 9th Workshop on Linked Data on the Web</title>
+				<meeting>the 9th Workshop on Linked Data on the Web</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">RML: A Generic Language for Integrated RDF Mappings of Heterogeneous Data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vander Sande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Colpaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van De Walle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Workshop on Linked Data on the Web</title>
+				<meeting>the 7th Workshop on Linked Data on the Web</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">1184</biblScope>
+		</imprint>
+	</monogr>
+	<note>CEUR Workshop Proceedings</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">ShExML: improving the usability of heterogeneous data mapping languages for first-time users</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>García-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Boneva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Staworko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Labra-Gayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M C</forename><surname>Lovelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">e318</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Parallel RDF Generation from Heterogeneous Dig Data</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haesendonck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heyvaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Workshop on Semantic Big Data</title>
+				<meeting>the International Workshop on Semantic Big Data</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Conformance Test Cases for the RDF Mapping Language (RML)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heyvaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m">Proceedings of the 1st Iberoamerican Knowledge Graphs and Semantic Web Conference</title>
+				<meeting>the 1st Iberoamerican Knowledge Graphs and Semantic Web Conference</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="162" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">YAGO2: Exploring and Querying World Knowledge in Time, Space, Context, and Many Languages</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoffart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Suchanek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Berberich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lewis-Kelham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Weikum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 20th International Conference Companion on World Wide Web</title>
+				<meeting>the 20th International Conference Companion on World Wide Web</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="229" to="232" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">SDM-RDFizer: An RML Interpreter for the Efficient Creation of RDF Knowledge Graphs</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jozashoori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Collarana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 29th ACM International Conference on Information and Knowledge Management, CIKM</title>
+				<meeting>the 29th ACM International Conference on Information and Knowledge Management, CIKM</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="3039" to="3046" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">FunMap: Efficient Execution of Functional Mappings for Knowledge Graph Creation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jozashoori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of the 19th International Semantic Web Conference, ISWC</title>
+				<meeting>eeding of the 19th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="276" to="293" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The NPD Benchmark: Reality Check for OBDA Systems</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 18th International Conference on Extending Database Technology, EDBT</title>
+				<meeting>the 18th International Conference on Extending Database Technology, EDBT</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="617" to="628" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A SPARQL Extension for Generating RDF from Heterogeneous Formats</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lefrançois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bakerally</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th European Semantic Web Conference, ESWC</title>
+				<meeting>the 14th European Semantic Web Conference, ESWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="35" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Data Integration: A Theoretical Perspective</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenzerini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 21st ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS</title>
+				<meeting>the 21st ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="233" to="246" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Translation of Relational and Non-Relational Databases into RDF with xR2RML</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Michel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Djimenou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Zucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Montagnat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11th International Conference on Web Information Systems and Technologies</title>
+				<meeting>the 11th International Conference on Web Information Systems and Technologies</meeting>
+		<imprint>
+			<publisher>SciTePress</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="443" to="454" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Industryscale Knowledge Graphs: Lessons and Challenges</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Noy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="36" to="43" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Linking Data to Ontologies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lembo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Giacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenzerini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal on Data Semantics X</title>
+		<imprint>
+			<biblScope unit="page" from="133" to="173" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Formalisation and experiences of R2RML-based SPARQL to SQL query translation using morph</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sequeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 23rd International Conference on World Wide Web</title>
+				<meeting>the 23rd International Conference on World Wide Web</meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="479" to="490" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Turning Transport Data to Comply with EU Standards While Enabling a Multimodal Transport Knowledge Graph</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scrocca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Comerio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carenini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Celino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of the 19th International Semantic Web Conference, ISWC</title>
+				<meeting>eeding of the 19th International Semantic Web Conference, ISWC</meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="411" to="429" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">RocketRML -A NodeJS implementation of a use-case specific RML mapper</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>¸imşek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kärle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fensel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of the 1st International Workshop on Knowledge Graph Building</title>
+				<meeting>eeding of the 1st International Workshop on Knowledge Graph Building</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">R2RML and Direct Mapping Test Cases. W3C Note</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Villazón-Terrazas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hausenblas</surname></persName>
+		</author>
+		<ptr target="http://www.w3.org/TR/rdb2rdf-test-cases/" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Wikidata: A Free Collaborative Knowledgebase</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vrandečić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krötzsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="78" to="85" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Virtual Knowledge Graphs: An Overview of Systems and Use Cases</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="201" to="223" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

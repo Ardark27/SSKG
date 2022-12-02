@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">FOOPS!: An Ontology Pitfall Scanner for the FAIR Principles</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Garijo</surname></persName>
+							<email>daniel.garijo@upm.es</email>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Corcho</surname></persName>
+							<email>ocorcho@fi.upm.es</email>
+						</author>
+						<author>
+							<persName><forename type="first">María</forename><surname>Poveda-Villalón</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">FOOPS!: An Ontology Pitfall Scanner for the FAIR Principles</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0BCCFA398D60C4273708170306382D0F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-12-02T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Ontology development</term>
+					<term>FAIR principles</term>
+					<term>FAIR semantics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This paper presents FOOPS!, a web service designed to assess the compliance of vocabularies or ontologies against the FAIR principles. FOOPS! performs a total of 24 different checks from the four FAIR dimensions, reflecting the best practices and latest community discussions to adapt FAIR to semantic artefacts. The web service not only detect best practices according to each principle, but also offers an explanation of why a particular principle fails, and helpful suggestions to overcome common issues.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>The Findable, Accessible, Interoperable, Reusable (FAIR) data principles <ref type="bibr" target="#b6">[6]</ref> have become increasingly relevant in the context of research data management and reproducibility; being a main subject of discussion and adoption in community initiatives such as the Research Data Alliance, FORCE 11 and the European Open Science Cloud. As a result, the FAIR principles have been adapted to other research artifacts, such as software, 1 and semantic resources such as ontologies. 2  In order to help researchers adopt best practices around FAIR, the scientific community has developed self-assessment tools and validators that help researchers assess the FAIRness of their resources. These are typically targeted towards research data, such as AmIFAIR <ref type="bibr" target="#b7">[7]</ref>, 3 F-UJI, 4 or fair-checker, 5 with some recent additions for research software (e.g., howfairis 6 ). However, there is no FAIR validator specifically targeted towards ontologies.</p><p>In this demo we present FOOPS!, an ontology pitfall scanner for the FAIR principles. FOOPS! works for both OWL and SKOS vocabularies, and distinguishes itself from existing services such as Vapour 7 (focused on the quality of the content negotiation of resources) and OOPS! <ref type="bibr" target="#b3">[3]</ref> (focused on common pitfalls on the ontology itself); to provide a comprehensive overview of how a vocabulary complies with current FAIR best practices for ontologies <ref type="bibr" target="#b4">[4,</ref><ref type="bibr" target="#b1">2]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">FOOPS! features</head><p>FOOPS! is a web service and application that takes as input an OWL ontology or SKOS thesauri and runs 24 different checks distributed across the FAIR dimensions. These checks are based on the best practices and recommendations in <ref type="bibr" target="#b0">[1]</ref>, <ref type="bibr" target="#b4">[4]</ref>, <ref type="bibr" target="#b1">[2]</ref>, and can be summarized as follows:</p><p>-Findable (9 checks): the service assesses whether the ontology URI is persistent, resolvable, has a resolvable version IRI, and whether that IRI is unique for that version. FOOPS! will also assess if minimum descriptive metadata is included (e.g., title, description, etc.) and whether the ontology prefix and namespace can be found in external registries, i.e., prefix.cc 8 and LOV <ref type="bibr" target="#b5">[5]</ref>. 9 -Accessible (3 checks): FOOPS! will assess whether the ontology has proper content negotiation (with at least one RDF serialization and HTML), and whether the URI protocol is open. -Interoperable (3 checks): these checks focus on finding whether the vocabulary includes references to pre-existing vocabularies in their metadata annotations, classes, properties or data properties. -Reusable (9 checks): the service verifies whether a human-readable documentation is available, whether provenance metadata, license and detailed vocabulary metadata exist; and whether the ontology terms are properly described with labels and definitions.</p><p>FOOPS! does not penalize missing metadata that may not be found in the first release of a vocabulary (e.g., prior version, contributor, backward compatibility), although we detect its absence and recommend its inclusion if appropriate. Since the decision of which metadata is required is still under discussion by the community, we have included the set of terms defined in <ref type="bibr" target="#b0">[1]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig. 1: Overview of the results after examining an ontology in FOOPS!</head><p>A final score to represent FAIRness is calculated by adding individual check scores and dividing it by the total number of checks (a score of 100% implies the vocabulary complies with all FAIR principles). Since some checks may perform more than a single evaluation task (e.g., inspect the label of all ontology terms), all check scores are normalized to avoid biasing the overall result. The resultant score is an indicator, we leave out of the scope of our demo deciding on whether a vocabulary is FAIR or not based on such score.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Demonstration</head><p>The demo will showcase the FOOPS! service and web user interface with different vocabularies and ontologies. Figure <ref type="figure">1</ref> shows an overview of the results returned by FOOPS! when loading an example ontology. The service returns an HTML page with its URI, title and license (if found in the ontology metadata); and provides an aggregated score and a radar chart with a score for each dimension. The rest of the website shows detailed information about each individual check, grouped by dimension and by related principle.</p><p>As depicted in Figure <ref type="figure">1</ref>, for each check the website depicts: 1) its identifier and short title; 2) its score in the target ontology; 3) a brief description of what the check does; 4) an explanation of the score returned and suggestions for improvement; and 5) if applicable, the URIs of the resources affected by that check (e.g., elements with a missing label or description).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Conclusions and Future Work</head><p>This paper has briefly presented the FOOPS! validator service for checking the FAIRness of ontologies and vocabularies. Next steps for improvement include the ability to download the generated report so that it can be linked in the ontology documentation, expanding the list of external supported registries (e.g., to include BioPortal, 10 among others); and improving our current suggestions with actionable guidelines to address some of the issues found, like automatically suggesting prefixes in popular prefix registries.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,174.53,115.84,266.29,341.69" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">https//w3id.org/AmIFAIR 4 https://f-uji.net/index.php 5 https://fair-checker.france-bioinformatique.fr 6 https://github.com/fair-software/howfairis/ 7 https://fno.io/hub/vapour/ 8 https://prefix.cc 9 https://lov.linkeddata.es/</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">https://bioportal.bioontology.org/</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Best practices for implementing fair vocabularies and ontologies on the web</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garijo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poveda-Villalón</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/SSW200034</idno>
+		<ptr target="https://doi.org/10.3233/SSW200034" />
+	</analytic>
+	<monogr>
+		<title level="m">Applications and Practices in Ontology Design, Extraction, and Reasoning</title>
+				<editor>
+			<persName><forename type="first">Giuseppe</forename><surname>Cota</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Pozzato</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>IOS Press</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hugo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Le Franc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Coen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parland-Von Essen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bonino</surname></persName>
+		</author>
+		<title level="m">D2. 5 fair semantics recommendations second iteration</title>
+				<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.5281/zenodo.4314321</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.4314321" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">OOPS! (OntOlogy Pitfall Scanner!): An On-line Tool for Ontology Evaluation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poveda-Villalón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gómez-Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Suárez-Figueroa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal on Semantic Web and Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="7" to="34" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>IJSWIS)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Coming to terms with fair ontologies: A position paper</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poveda-Villalón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Espinoza-Arias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garijo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 22nd International Conference on Knowledge Engineering and Knowledge Management</title>
+				<meeting>the 22nd International Conference on Knowledge Engineering and Knowledge Management</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Linked Open Vocabularies (LOV): a gateway to reusable semantic vocabularies on the Web</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Vandenbussche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Atemezing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poveda-Villalón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vatant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semantic Web</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="437" to="452" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The fair guiding principles for scientific data management and stewardship</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Aalbersberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Appleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Axton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Blomberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Boiten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Da Silva Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Bourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific data</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Evaluating fair maturity through a scalable, automated, community-governed framework</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sansone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O B</forename><surname>Da Silva Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prieto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Batista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcquilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rocca-Serra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crosas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific data</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

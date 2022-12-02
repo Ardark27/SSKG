@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemical reactions induced by oscillating external fields in weak thermal environments</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2015-04-30">30 Apr 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Galen</forename><forename type="middle">T</forename><surname>Craven</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Computational Molecular Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+								<address>
+									<postCode>30332-0400</postCode>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Bartsch</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Mathematical Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Loughborough</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rigoberto</forename><surname>Hernandez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Computational Molecular Science and Technology</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">Georgia Institute of Technology</orgName>
+								<address>
+									<postCode>30332-0400</postCode>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemical reactions induced by oscillating external fields in weak thermal environments</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-04-30">30 Apr 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">77A0D937C9747C36696921D5CCE6BDEC</idno>
+					<idno type="arXiv">arXiv:1504.08354v1[physics.chem-ph]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-12-02T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chemical reaction rates must increasingly be determined in systems that evolve under the control of external stimuli. In these systems, when a reactant population is induced to cross an energy barrier through forcing from a temporally varying external field, the transition state that the reaction must pass through during the transformation from reactant to product is no longer a fixed geometric structure, but is instead timedependent. For a periodically forced model reaction, we develop a recrossing-free dividing surface that is attached to a transition state trajectory [T. Bartsch, R. Hernandez, and T. Uzer, Phys. Rev. Lett. 95,  058301 (2005)]. We have previously shown that for single-mode sinusoidal driving, the stability of the timevarying transition state directly determines the reaction rate [G. T. Craven, T. Bartsch, and R. Hernandez, J. Chem. Phys. 141, 041106 (2014)]. Here, we extend our previous work to the case of multi-mode driving waveforms. Excellent agreement is observed between the rates predicted by stability analysis and rates obtained through numerical calculation of the reactive flux. We also show that the optimal dividing surface and the resulting reaction rate for a reactive system driven by weak thermal noise can be approximated well using the transition state geometry of the underlying deterministic system. This agreement persists as long as the thermal driving strength is less than the order of that of the periodic driving. The power of this result is its simplicity. The surprising accuracy of the time-dependent noise-free geometry for obtaining transition state theory rates in chemical reactions driven by periodic fields reveals the dynamics without requiring the cost of brute-force calculations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Optimal control of reaction pathways in systems undergoing configurational changes can be achieved through forcing from tailored external fields. These fields can be tuned to induce specific deformations on a potential energy surface, providing control of state-to-state transitions. <ref type="bibr">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> In these processes, a formally exact classical rate calculation can be obtained through modern-day transition state theory (TST). <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> The principal assumptions of TST are that (1) the distribution of energy states in the reactant configuration, and at the TS, are given by equilibrium distributions and (2) there exists a hypersurface between reactant and product confirmations that is crossed only once by reactive trajectories during the traversal of a free energy barrier separating these basins. The TST reaction rate is calculated from the flux through this dividing surface (DS). If the DS is recrossed by reactive trajectories, TST will give an overestimate to the classical reaction rate. Determination of a recrossing-free DS therefore leads to classically exact TST rates systems in which equilibrium statistical mechanics is applicable.</p><p>A phase space DS that is free of recrossings can be constructed in conservative systems at energies close to the a) Author to whom correspondence should be addressed; Electronic mail: hernandez@chemistry.gatech.edu. reaction threshold. In systems with two degrees of freedom, the optimal DS is the configuration space projection of an unstable periodic orbit (PO). <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> In systems with higher dimensionality, the generalization of this PO is a normally hyperbolic invariant manifold (NHIM). <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> The NHIM bounds the TS, being one less in dimension. <ref type="bibr" target="#b15">16</ref> It defines a recrossing-free surface at energies below bifurcation thresholds. <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> Reactive trajectories are mediated by stable and unstable manifolds (reaction pathways) attached to the NHIM. These pathways persist even in reactions whose state-to-state transitions are not dictated by purely configurational changes. <ref type="bibr" target="#b25">26</ref> In systems subjected to time-varying external forcing, the characterization of the NHIM as a hypersphere of constant energy breaks down. For example, fieldmatter interactions constitute processes in which energy is exchanged with a reacting system. These interactions lead to emergent and controllable behavior in assembly phenomena, <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> organic synthesis, <ref type="bibr" target="#b30">31</ref> protein folding, <ref type="bibr" target="#b31">32</ref> the detection of DNA, <ref type="bibr" target="#b32">33</ref> and photodissociation. <ref type="bibr" target="#b33">34</ref> Knowledge of the mechanism by which these interactions mediate reactive flow provides a methodological tool in the design of molecular devices with unique functionality. <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref> Materials that undergo conformational changes in response to an external trigger offer examples of such emergent technology. <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> Stimuli such as thermal variations, electric fields, and photoinduction have been used as triggers for the conversion of chemical energy into me-chanical work. <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref> Assemblies that convert chemical energy into directional motion can achieved through isomerization reactions which are induced either from light or applied electric fields. <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> In these responsive materials, controlling the rate and pathway at which reactants transform to products is fundamental to harness mechanical actions for applicative purposes.</p><p>The aim of this paper is to develop a rate theory for reactions that are driven by periodic external fields in weak thermal environments. In the absence of noise, a dissipative system that is periodically driven admits a DS that is free of recrossings. <ref type="bibr" target="#b46">47</ref> This structure differs from the canonical view of the TS wherein the TS is a structure fixed in time at a saddle point on the potential energy surface. Here, we develop a rate theory based on reactive flux through this recrossing-free DS and the stability of the corresponding TS. In Ref. 48, we found that the stability of the moving TS directly determines the reaction rate for single-mode sinusoidal driving. In conservative systems, stability analysis is known to characterize molecular motions as well as determine the rate of configurational transitions. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref> Building on our previous work, we test the viability of stability analysis to determine reaction rates in systems driven by multi-mode waveforms with no thermal driving. The extent to which the accuracy of the rate theory relying on the noise-free geometry persists in systems that are coupled to a thermal bath is also verified through inclusion and variation of the thermal driving strength. This outline of this paper is as follows: In Sec. II, a dynamical system is introduced to model barrier crossings in chemical reactions forced by periodic external fields. In Sec. III, a dividing surface that is recrossing-free is constructed for this model in the absence of thermal driving. Section IV contains analytical theories to predict the reaction rates of driven reactions by calculation of the reactive flux through this dividing surface for both globally non-linear and locally linear dynamics. Comparison to the computational rates, computed from numerical integration of large ensembles of trajectories, is presented in Sec. V. Although not considered earlier, the effect of noise on the rate of these driven systems have also been addressed in Sec. VI. We find that the rates computed from the noise-free geometry are accurate up to relatively large values of the friction and sometimes even in the thermal regime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. MODEL DETAILS</head><p>The interaction of an external field with a reactant species can strongly influence the mechanism and rate of a reaction. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b53">54</ref> As a paradigmatic example of a chemical reaction driven under kinetic control, we consider a particle of unit mass moving along a reaction coordinate x. The trajectory of the particle begins at a position x 0 on the reactant side of an energy barrier that is moving in space under the influence of a time-dependent exter-nal field E(t). The chosen potential surface is the quartic form</p><formula xml:id="formula_0">U (x) = − 1 2 ω 2 b (x − E(t)) 2 − 1 4 ǫ(x − E(t)) 4 .<label>(1)</label></formula><p>The time dependent, instantaneous position of the moving barrier top (BT) is specified by E(t).</p><p>With the inclusion of additional non-conservative dissipation as well as stochastic driving forces, a particle at a phase space point Γ = (x, v) moving according to the potential (1) can be described by the Langevin equations of motion</p><formula xml:id="formula_1">ẋ = v, v = −γv + ω 2 b (x − E(t)) + ǫ(x − E(t)) 3 + √ 2σ ξ α (t),<label>(2)</label></formula><p>where γ ≥ 0 is a dissipation parameter, ω b is the barrier frequency, and ǫ is an anharmonic coefficient. Thus, for ǫ = 0 the coordinate of the particle is non-linearly coupled to the moving barrier. By restricting the anharmonic coefficient to values ǫ ≥ 0, there is a single maximum in the potential located at the BT. The random fluctuating force ξ α (t) is Gaussian white noise obeying the statistical properties</p><formula xml:id="formula_2">ξ α (t) = 0 and ξ α (t)ξ α (t ′ ) = δ(t − t ′ ),<label>(3)</label></formula><p>where α denotes a specific noise sequence. The strength of the noise is varied through the parameter σ ≥ 0. Depending on the geometry of U (x), initial conditions, as well as the specific realization of the thermal environment and the external field, a trajectory will either surmount the energy barrier and form product or remain on the reactant side. By calculation of the normalized flux of reactive trajectories through the the TS, the classical reaction rate for a system evolving through (2) can be obtained. <ref type="bibr" target="#b5">6</ref> In this article, we consider periodic external driving of the form</p><formula xml:id="formula_3">E(t) = a ω∈Ωs sin(ω t + ϕ).<label>(4)</label></formula><p>where Ω s ⊂ R is a finite set of frequencies. The waveforms consist of a fundamental frequency Ω, and convolutions of this fundamental with higher order partial frequencies. Three frequency sets Ω s are considered: the single fundamental frequency Ω 1 = {Ω}, the fundamental and the second partial frequencies Ω 2 = {Ω, 2Ω}, and the fundamental, second, and third partial frequencies Ω 3 = {Ω, 2Ω, 3Ω}. The fundamental driving frequency Ω f is Ω for Ω 1 and Ω 2 , and 2Ω for Ω 3 . The products in Eq. ( <ref type="formula" target="#formula_3">4</ref>) for the three sets can be written as finite sums where the leading order terms exhibit the characteristic fundamental frequency. The maximum amplitude of each waveform is set to unity by adjusting the value of the parameter a accordingly. For the Ω 1 , Ω 2 , and Ω 3 sets, a = 1, a ≈ 1.299, and a ≈ 1.822, respectively. The functional forms of (5) are shown in Fig. <ref type="figure">1</ref>.</p><formula xml:id="formula_4">E 1 (t) = a sin(Ωt + ϕ), E 2 (t) = a 2 (cos(Ωt) + cos(3Ωt + 2ϕ)), E 3 (t) = a 4 (sin(2Ωt + ϕ) + sin(4Ωt + ϕ) + sin(6Ωt + 3ϕ) + sin(ϕ)),<label>(5)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. THE TRANSITION STATE TRAJECTORY</head><p>The construction and existence of a structure whose configuration space projection is free of recrossings is dependent on the mechanism and geometry of a given reaction. For example, Mullen et al. <ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56</ref> have proposed that for ion-pair dissociation a no-recrossings DS does not exist. This is in contradiction to earlier work by Truhlar and Garrett 57 who proposed that through variation of a DS into an optimized orientation, recrossings could be eliminated. We have previously shown that for a periodically driven system with no thermal driving, an optimal (recrossing-free) DS can be readily obtained. It is associated with an unstable PO in the region of the BT. <ref type="bibr" target="#b46">47</ref> Moreover, a DS that is free of recrossings is known to exist in thermally driven systems for the case of a harmonic barrier. <ref type="bibr" target="#b57">58,</ref><ref type="bibr" target="#b58">59</ref> The time evolution of the configuration space projection of this DS has been termed the transition state trajectory. <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref> It has not yet been proven is this is the only object which is free of recrossings over an arbitrary finite time interval. Nevertheless, all that is needed here is its existence and the configuration projection of the TS trajectory defines a DS that is recrossing-free.</p><p>The TS trajectory is a specific trajectory that never descends into either the product or reactant regions, remaining bounded to BT for all time. For the system (2), it is a moving saddle point to which stable and unstable manifolds can be attached. All trajectories that exponentially approach the TS trajectory as t → ∞ are contained on the stable manifold. These trajectories will never descend from the BT region and therefore separate reactive from nonreactive trajectories in phase space. The unstable manifold is formed from trajectories that approach the TS trajectory as t → −∞. The role of the unstable manifold is less important for the purposes considered here.</p><p>For an arbitrary driving E(t) of a harmonic (ǫ = 0) potential, the equations of motion can be solved exactly and an exact form of the TS trajectory can be obtained. The eigenvalues of (2)</p><formula xml:id="formula_5">λ s,u = − 1 2 γ ± γ 2 + 4ω 2 b ,<label>(6)</label></formula><p>correspond to the stable and unstable manifolds. The S functionals <ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b58">59</ref> S τ [µ, g</p><formula xml:id="formula_6">; t] =          − ∞ t g(τ ) exp(µ(t − τ )) dτ : Re µ &gt; 0, + t −∞ g(τ ) exp(µ(t − τ )) dτ : Re µ &lt; 0,<label>(7)</label></formula><p>obtained as a Green's function solution, suppress the transient exponential factor in the solution and return only the equilibrium portion. In the absence of thermal driving (σ = 0), the TS trajectory for a harmonic barrier can therefore be expressed as <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b61">62</ref> x</p><formula xml:id="formula_7">‡ (t) = ω 2 b λ u − λ s (S[λ s , E; t] − S[λ u , E; t]) , v ‡ (t) = ω 2 b λ u − λ s (λ s S[λ s , E; t] − λ u S[λ u , E; t]) .<label>(8)</label></formula><p>For the case of T -periodic motion of a harmonic barrier, the TS trajectory can be identified more easily by looking for a bounded solution to the equations of motion. For the single frequency Ω 1 case, the ansatz</p><formula xml:id="formula_8">x ‡ 1 (t) = A sin(Ωt + ϕ) + B cos(Ωt + ϕ),<label>(9)</label></formula><p>yields the solution</p><formula xml:id="formula_9">A = A 1 , B = B 1 ,<label>(10)</label></formula><p>where</p><formula xml:id="formula_10">A k = a ω 2 b (ω 2 b + (kΩ) 2 ) (γkΩ) 2 + (ω 2 b + (kΩ) 2 ) 2 , B k = a ω 2 b γkΩ (γkΩ) 2 + (ω 2 b + (kΩ) 2 ) 2 . (<label>11</label></formula><formula xml:id="formula_11">)</formula><p>In the absence of friction, γ = 0, this simplifies to</p><formula xml:id="formula_12">A 1 = a 1 1 + Ω 2 /ω 2 b , B 1 = 0. (<label>12</label></formula><formula xml:id="formula_13">)</formula><p>In this case, the TS trajectory will oscillate in phase with the barrier, but with smaller amplitude A 1 &lt; a.</p><p>For the Ω 2 and Ω 3 cases, ansätze can be constructed through Fourier series expansion of Eq. ( <ref type="formula" target="#formula_3">4</ref>) yielding the solutions</p><formula xml:id="formula_14">x ‡ 2 (t) = 1 2 (A 1 cos(Ωt) − B 1 sin(Ωt) − A 3 cos(3Ωt + 2ϕ) + B 3 sin(3Ωt + 2ϕ)),<label>(13)</label></formula><p>and</p><formula xml:id="formula_15">x ‡ 3 (t) = 1 4 (A 2 sin(2Ωt + ϕ) + B 2 cos(2Ωt + ϕ) + A 4 sin(4Ωt + ϕ) + B 4 cos(4Ωt + ϕ) − A 6 sin(6Ωt + 3ϕ) − B 6 cos(6Ωt + 3ϕ) + a sin(ϕ)),<label>(14) respectively.</label></formula><p>For periodically driven anharmonic barriers (ǫ = 0), the TS trajectory rermains an unstable PO 47 but it does not admit to an exact solution of the system of equations (2). Nevertheless, the phase space vector of the TS trajectory Γ ‡ = (x ‡ (t), v ‡ (t)) is a bounded solution to the equations of motion. To find this bounded solution to arbitrary accuracy, numerical Newton-Raphson root finding methods were applied.</p><p>The dynamics of x ‡ (t), shown in Fig. <ref type="figure">1</ref>, illustrate the result that the instantaneous position of the TS trajectory does not correspond to the energetic maximum of the potential surface. For dissipative systems (γ = 0), x ‡ (t) will either lag behind in phase, as is the case for both the Ω 1 and Ω 3 sets, or advance in phase as is the case for the Ω 2 set, with respect to motion defined by E(t). Also note that x ‡ (t) oscillates with a smaller amplitude than E(t). Thus, even for in-phase oscillations, e.g., when γ = 0, it will not correspond to the location of an energetic saddle point. Figure <ref type="figure">1</ref> also shows the dependence of x ‡ (t) on the anharmonic parameter ǫ. As ǫ is increased, the curvature of the energy barrier increases. Non-intuitively, this results in a larger amplitude of oscillation for x ‡ (t) to remain bounded to the BT. This trend persists for all Ω s .</p><p>For dynamical analysis, it is advantageous to introduce a coordinate system which has a fixed point at the origin. In relative coordinates</p><formula xml:id="formula_16">∆x = x − x ‡ (t), ∆v = v − v ‡ (t),<label>(15)</label></formula><p>the equations of motion read</p><formula xml:id="formula_17">∆ ẋ = ∆v, ∆ v = −γ∆v − U ′ (∆x + x ‡ (t)) + U ′ (x ‡ (t)). (<label>16</label></formula><formula xml:id="formula_18">)</formula><p>The relative equations of motion have a fixed point ∆Γ ⋆ at ∆x = ∆v = 0, i.e., on the TS trajectory, and the surrounding vector field itself will now oscillate with period T , the same period as the driving. The TS trajectory has both a stable and an unstable manifold attached. In relative coordinates, the directions of these manifolds will depend on time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. REACTION RATE THEORY</head><p>In the TST formalism, the rate of a chemical reaction is given by the time-dependence of the conversion process from reactant to product (R → P) where a DS in either configuration space or phase space separates the reactive constituents. The reaction rate can be obtained from the dynamics of the normalized reactive population (P R → P P ) either through analytical propagation of the phase space density of initial conditions or by treating large numbers of trajectories as discrete sets, and integrating the equations of motion.</p><p>Consider a set of trajectories evolving through (2) that all have initial positions x 0 &lt; x ‡ (0) on the reactant side of the moving surface. The initial position distribution at time t = 0 is δ(x − x 0 ) and the initial phase space density is</p><formula xml:id="formula_19">p 0 (x, v) = δ(x − x 0 ) q(v)<label>(17)</label></formula><p>where q(v) is a Boltzmann distribution. The initial velocity v 0 of each trajectory is sampled from q(v), although at later times due to dissipation and driving this distribution will not be conserved. A fraction of this initial density contains reactive trajectories. From the survival probability of P R the reaction rate can be expressed as the instantaneous flux-over-population. The flux calculation is formally exact because the DS attached to the TS trajectory is recrossing-free.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Harmonic barriers</head><p>When the barrier is harmonic (ǫ = 0), reactive trajectories will cross the moving DS at a time 60</p><formula xml:id="formula_20">t ‡ = 1 λ u − λ s ln ∆v 0 − λ u ∆x 0 ∆v 0 − λ s ∆x 0 . (<label>18</label></formula><formula xml:id="formula_21">)</formula><p>The crossing time is a monotonically decreasing function of the initial velocity ∆v 0 : fast trajectories cross earlier.</p><p>It diverges as ∆v 0 → λ s ∆x 0 approaches the stable manifold, and it tends to zero as ∆v 0 → ∞. At any time t &gt; 0, the product region ∆x &gt; 0, to the right of the moving surface, will contain all those trajectories that cross the surface at a time t ‡ &lt; t. These are the trajectories that have an initial velocity of at least v min = v ‡ (0) + ∆v min , where t ‡ (∆v min ) = t. From this condition, we obtain</p><formula xml:id="formula_22">∆v min = λ u e −λut − λ s e −λst e −λut − e −λst ∆x 0 . (<label>19</label></formula><formula xml:id="formula_23">)</formula><p>The population of the product region at time t is therefore</p><formula xml:id="formula_24">P P (t) = ∞ vmin(t) q(v) dv,<label>(20)</label></formula><p>and the flux across the moving surface is</p><formula xml:id="formula_25">F M (t) = dP P dt = −q(v min (t)) dv min dt = −q(v min (t)) d∆v min dt = −q(v min (t)) ∆x 0 (λ u − λ s ) 2 e (λu+λs)t (e λut − e λst ) 2 . (<label>21</label></formula><formula xml:id="formula_26">)</formula><p>This result is positive because ∆x 0 &lt; 0.</p><p>Alternatively, the flux can be calculated directly from the flux integral</p><formula xml:id="formula_27">F M (t) = ∞ 0 d∆v ∆v p t (∆x = 0, ∆v),<label>(22)</label></formula><p>where p t (∆x, ∆v) is the density of trajectories in phase space at time t. Initially, this density is</p><formula xml:id="formula_28">p 0 (∆x, ∆v) = δ(∆x − ∆x 0 ) q(v ‡ (0) + ∆v). (<label>23</label></formula><formula xml:id="formula_29">)</formula><p>At later times, it can be obtained from p t (∆x, ∆v) = e γt p 0 (∆x(−t), ∆v(−t)).</p><p>Here ∆x(−t) and ∆v(−t) denote the phase space point reached from ∆x, ∆v by propagating backwards to −t, i.e., it is the initial condition that has reached ∆x, ∆v at time t. The exponential prefactor accounts for the shrinkage of phase space volume: The relative dynamics stretches distances at a rate λ u in the u direction and by a rate λ s &lt; 0 in the s direction. Volumes therefore are "stretched" at a constant rate λ u + λ s = −γ &lt; 0, and densities must increase accordingly.</p><p>Because the relative dynamics is linear, the equations of motion can be solved explicitly. The result is</p><formula xml:id="formula_31">∆x(−t) = a x ∆x + a v ∆v, ∆v(−t) = b x ∆x + b v ∆v, with a x = λ u e −λst − λ s e −λut λ u − λ s , a v = e −λut − e −λst λ u − λ s &lt; 0, b x = − λ u λ s (e −λut − e −λst ) λ u − λ s , b v = λ u e −λut − λ s e −λst λ u − λ s .</formula><p>We thus obtain the flux integral which can be shown to agree with Eq. (21).</p><formula xml:id="formula_32">F M (t) = e γt ∞ 0 d∆v ∆v δ(a v ∆v − x 0 ) q(v ‡ (0) + b v ∆v) = e γt ∞ 0 d∆v ∆v δ (∆v − x 0 /a v ) |a v | q(v ‡ (0) + b v ∆v) = e γt −a v x 0 a v q v ‡ (0) + b v /a v x 0 ,<label>(25)</label></formula><p>In the limit t → ∞, the minimum velocity ( <ref type="formula" target="#formula_22">19</ref>) is approximately</p><formula xml:id="formula_33">∆v min = λ s ∆x 0 − (λ u − λ s )∆x 0 e −(λu−λs)t +O e −2(λu−λs)t .<label>(26)</label></formula><p>As expected, it tends to λ s ∆x 0 , which is the location of the stable manifold. Therefore,</p><formula xml:id="formula_34">v min (∞) = v ‡ (0) + λ s ∆x 0 = V ‡ . (<label>27</label></formula><formula xml:id="formula_35">)</formula><p>The critical velocity V ‡ is determined by the point of intersection between the stable manifold and the line x = x 0 of initial conditions. <ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b61">62</ref> . The identification of V ‡ allows the separation of reactive (v 0 &gt; V ‡ ) and nonreactive trajectories (v 0 &lt; V ‡ ) from initial conditions.</p><p>The stable manifold at t = 0 can be calculated through extension of this point to all values of x 0 and defines a critical curve V ‡ c . As illustrated in Figs. <ref type="figure" target="#fig_0">2(a</ref>) and 2(c), V ‡ c is a time-invariant phase space object which separates the reactive and nonreactive basins.</p><p>The product population in the long-time limit is</p><formula xml:id="formula_36">P P (∞) = ∞ v ‡ (0)+λs ∆x0 q(v) dv.<label>(28)</label></formula><p>As shown in Fig. <ref type="figure" target="#fig_1">3</ref>, the asymptotic population of the product region depends strongly on the frequency of the barrier motion Ω, the initial phase ϕ, and the friction γ. The asymptotic value is approached according to</p><formula xml:id="formula_37">P P (t) = P P (∞) − vmin(t) vmin(∞)</formula><p>q(v) dv</p><formula xml:id="formula_38">= P P (∞) + q(v min (∞)) (λ u − λ s ) ∆x 0 e −(λu−λs)t +O e −2(λu−λs)t . (<label>29</label></formula><formula xml:id="formula_39">)</formula><p>The rate of approach, i.e., the barrier crossing rate is</p><formula xml:id="formula_40">λ u − λ s = γ 2 + 4ω 2 b .<label>(30)</label></formula><p>It depends only on the damping and the shape of the barrier, but not on the details of the barrier motion or the distribution of initial conditions (unless q(v min (∞)) happens to vanish).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Anharmonic barriers</head><p>Analogous to the harmonic case, for an anharmonic barrier, we assume that there is a unstable PO with the period of the driving. This is similar to the POs used by Lehmann et al. <ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref> for the case of thermal activation with additive periodic driving. Note that this TS trajectory Γ ‡ is an exact solution to the equations of motion. As Γ ‡ is an unstable PO, it has stable and unstable manifolds attached. The manifolds are uniquely defined and can be calculated perturbatively <ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b61">62</ref> or with a numerical scheme. The dependence of these manifolds on ǫ and the corresponding phase space reaction dynamics are shown in Figs. <ref type="figure" target="#fig_0">2(a</ref>) and 2(c). With increasing anharmonicity, V ‡ also increases due to curvature in the stable manifold. This results in a decrease in fraction of trajectories that surmount the barrier leading to products.</p><p>The nonlinear equations of motion ( <ref type="formula" target="#formula_17">16</ref>) cannot, in general, be solved exactly. Let</p><formula xml:id="formula_41">Φ(Γ 0 , t 0 ; t) = ϕ x (Γ 0 , t 0 ; t) ϕ v (Γ 0 , t 0 ; t)<label>(31)</label></formula><p>represent the phase space point that is reached at time t by a trajectory that starts at Γ 0 at time t 0 . Because of the external driving, it depends on t and t 0 separately, not only on the difference t − t 0 . The Jacobian matrix of this trajectory with respect to the initial conditions is</p><formula xml:id="formula_42">J (Γ 0 , t 0 ; t) =      ∂ϕ x ∂x 0 ∂ϕ x ∂v 0 ∂ϕ v ∂x 0 ∂ϕ v ∂v 0      . (<label>32</label></formula><formula xml:id="formula_43">)</formula><p>All derivatives on the right hand side of (32) are to be evaluated at (Γ 0 , t 0 ; t).</p><p>Reactive trajectories are those that have an initial velocity v i &gt; V ‡ , for a critical velocity V ‡ measured at x 0 . Each reactive trajectory will cross the moving DS at a time t c (∆v i ) and with a velocity v c . If the crossing time decays monotonically from</p><formula xml:id="formula_44">t c (∆V ‡ ) = ∞ to t c (∞) = 0 the inverse function ∆v i (t c ) or v i (t c ) = v ‡ (0) + δv i (t c</formula><p>) can be obtained. For any crossing time t c &gt; 0, there is a unique initial velocity v i that will lead to a crossing at the given time.</p><p>The population of the product region ∆x &gt; 0 at time t f is therefore, as in Eq. ( <ref type="formula" target="#formula_24">20</ref>),</p><formula xml:id="formula_45">P P (t c ) = ∞ vi(tc) q(v) dv,<label>(33)</label></formula><p>and the flux across the moving surface is</p><formula xml:id="formula_46">F M (t c ) = dP P dt c = −q(v i (t c )) dv i dt c = −q(v i (t c )) d∆v i dt c (<label>34</label></formula><formula xml:id="formula_47">)</formula><p>This result is positive because the initial velocity is a decreasing function of the crossing time.</p><p>The flux can also be evaluated directly from the flux integral ( <ref type="formula" target="#formula_27">22</ref>)</p><formula xml:id="formula_48">F M (t c ) = ∞ 0 d∆v ∆v p tc (∆x = 0, ∆v),<label>(35)</label></formula><p>where p t (∆x, ∆v) is the density of trajectories in phase space at time t. Initially, this density is (Eq. ( <ref type="formula" target="#formula_28">23</ref>))</p><formula xml:id="formula_49">p 0 (∆x, ∆v) = δ(∆x − ∆x 0 ) q(v ‡ (0) + ∆v). (<label>36</label></formula><formula xml:id="formula_50">)</formula><p>At later times, it can be obtained from Eq. ( <ref type="formula" target="#formula_30">24</ref>)</p><p>p t (∆x, ∆v) = e γt p 0 (ϕ x (∆x, ∆v, t; 0), ϕ v (∆x, ∆v, t; 0)). ( <ref type="formula">37</ref>) Here we have used the general notation for the flow of the equation of motion. The exponential accounts for the shrinkage of phase space volume and the corresponding increase in density. It is the same as in the harmonic case: In general, the flow of a differential equation u = f (u) leads to a stretching of volume whose rate is the divergence of the vector field f . For Eq. ( <ref type="formula" target="#formula_17">16</ref>), this rate is constant −γ, so that over time t all volumes will shrink by a factor e −γt .</p><p>The flux integral formula (22) now reads</p><formula xml:id="formula_51">F M (t c ) = e γtc ∞ 0 d∆v ∆v δ(ϕ x (0, ∆v, t c ; 0) − ∆x 0 ) q(v ‡ (0) + ϕ v (0, ∆v, t c ; 0)). (<label>38</label></formula><formula xml:id="formula_52">)</formula><p>The δ function requires that the trajectory that reaches ∆x = 0, ∆v at time t c must have started at ∆x 0 at time 0. It produces a single contribution to the integral at velocity ∆v c (t c ), so that</p><formula xml:id="formula_53">F M (t c ) = e γtc q(v ‡ (0) + ∆v i (t c )) ∆v c (t c ) ∂ϕx ∂∆v0 tc ,<label>(39)</label></formula><p>where ϕ v (0, ∆v, t c ; 0) = ∆v i (t c ) and the subscript t c indicates that the derivative is to be evaluated at (0, ∆v c (t c ), t c ; 0). Similarly, a subscript 0 will be used to require evaluation at (∆x 0 , ∆v i (t c ), 0; t c ). These subscripts indicate derivatives of the flow taken along the trajectory from (∆x 0 , ∆v i (t c )) at t = 0 forward in time to (0, ∆v c (t c )) at t = t c (subscript 0) and along the same trajectory backward in time (subscript t c ).</p><p>To verify that the flux integral (39) gives the same result as (34) that was obtained from the product population, it must be shown that</p><formula xml:id="formula_54">− d∆v i dt c = e γtc ∆v c (t c ) ∂ϕx ∂∆v0 tc . (<label>40</label></formula><formula xml:id="formula_55">)</formula><p>To this end, first note that ∆v i (t c ) is defined by the condition</p><formula xml:id="formula_56">ϕ x (∆x 0 , ∆v i (t c ), 0; t c ) = 0.</formula><p>Differentiating this condition with respect to t c gives,</p><formula xml:id="formula_57">∂ϕ x ∂∆v 0 d∆v i dt c + ∂ϕ x ∂t 0 = 0. (<label>41</label></formula><formula xml:id="formula_58">)</formula><p>Now ∂ϕ x /∂t is the velocity of the trajectory at the end point. The second term in Eq. ( <ref type="formula" target="#formula_57">41</ref>) is therefore ∆v c (t c ). With this result, the condition (40) simplifies to</p><formula xml:id="formula_59">− ∂ϕ x ∂∆v tc = e γtc ∂ϕ x ∂∆v 0 .<label>(42)</label></formula><p>Under the given assumptions on the geometry, the derivative on the left hand side is negative: A trajectory that arrives at the DS with larger velocity must have started further away, i.e., at smaller ∆x(0). The derivatives occurring in Eq. ( <ref type="formula" target="#formula_59">42</ref>) are elements of the Jacobian matrices</p><formula xml:id="formula_60">J | tc = J (0, ∆v c (t c ), t c ; 0) =       ∂ϕ x ∂x tc ∂ϕ x ∂v tc ∂ϕ v ∂x tc ∂ϕ v ∂v tc       and J | 0 = J(∆x 0 , ∆v i (t c ), 0; t c ) =      ∂ϕ x ∂x 0 ∂ϕ x ∂v 0 ∂ϕ v ∂x 0 ∂ϕ v ∂v 0     </formula><p>respectively. Because these matrices describe variations around the same trajectory, taken forwards and backwards in time, they are inverse to each other. Formally, this can be shown by taking derivatives of the flow property Φ(Φ(Γ 0 , 0; t c ), t c ; 0) = Γ 0 for all Γ 0 , which says that propagating an arbitrary phase space point Γ 0 forward in time by t c and back again will return the original point. By the well known formula for the inverse of a 2 × 2 matrix, it follows that</p><formula xml:id="formula_61">J | tc = (J | 0 ) −1 = 1 det J | 0      ∂ϕ v ∂v 0 − ∂ϕ x ∂v 0 − ∂ϕ v ∂x 0 ∂ϕ x ∂x 0      , so that ∂ϕ x ∂∆v tc = − 1 det J | 0 ∂ϕ x ∂∆v 0 . Now det J | 0 = e −γtc</formula><p>is the factor by which phase space volumes shrink during time t c . This proves the condition (42) and therefore the equality of the two flux formulas.</p><p>TS trajectory is a moving saddle point and thus trajectories in the neighborhood of Γ ‡ can be described by a linearization of the equations of motion. In the phase space vector relative coordinate ∆Γ = (∆x, ∆v) this linearization is given by ∆ Γ = J(t) ∆Γ (43)   where</p><formula xml:id="formula_62">J (t) =   0 1 ω 2 b + 3ǫ(x ‡ (t) − E(t)) 2 −γ   (<label>44</label></formula><formula xml:id="formula_63">)</formula><p>is the Jacobian of Eq. ( <ref type="formula" target="#formula_17">16</ref>). The asymptotic decay rate of P R (t) is determined by the behavior of trajectories with initial conditions close to the stable manifold. For an ensemble of trajectories constituting an initial phase space density p 0 , trajectories that emanate close to V ‡ c (the stable manifold at t = 0) will persist in the neighborhood where ( <ref type="formula">43</ref>) is valid for long times. The decay of these trajectories determines the reaction rate.</p><p>The stretching and compression of phase space about a PO is known to dictate escape rates in conservative <ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref> and dissipative systems. <ref type="bibr" target="#b47">48</ref> When J (t) is periodic in systems of the form of Eq. ( <ref type="formula">43</ref>), the rate of deformation in the linearized phase space can be quantified through calculation of the Floquet exponents. <ref type="bibr" target="#b65">66</ref> To classify the stability of ∆Γ ‡ we consider the dynamics of a perturbation vector ∆σ(t). The equation of motion (43) is linear in ∆σ(t) and thus it satisfies</p><formula xml:id="formula_64">∆ σ = J(t) ∆σ, ∆σ(0) = I, (<label>45</label></formula><formula xml:id="formula_65">)</formula><p>where I is the 2 × 2 identity matrix. The principal fundamental matrix solution over one period of the driving is the monodromy matrix</p><formula xml:id="formula_66">M =   ∆σ (1) (T ) ∆σ (2) (T ) ∆ σ(1) (T ) ∆ σ(2) (T )   .<label>(46)</label></formula><p>A fundamental matrix solution ∆σ(t) of ( <ref type="formula">43</ref>) at some later time t + kT , for k = 1, 2, 3 . . ., can be obtained as</p><formula xml:id="formula_67">∆σ(t + kT ) = M k ∆σ(t), (<label>47</label></formula><formula xml:id="formula_68">)</formula><p>through repeated operation by the monodromy matrix. The eigenvalues m s,u of M are the Floquet multipliers. The Floquet exponents</p><formula xml:id="formula_69">µ s,u = 1 T ln |m s,u |<label>(48)</label></formula><p>quantify the stability of ∆Γ ‡ and give the rate of expansion or contraction of the perturbation of per unit time. <ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref><ref type="bibr" target="#b68">[69]</ref> The TS trajectory has both an unstable µ u &gt; 0 and a stable µ s &lt; 0 exponent which correspond to stretching and contraction of the initial perturbation in the directions of the unstable and stable manifolds, respectively.</p><p>For an arbitrary time interval of length T , trajectories that cross the DS in this interval form a strip in the phase plane. Trajectories that cross the DS in the next following time interval T form a similar strip that that is closer to the stable manifold. In the region where the linearized system is valid, the phase space density is constant. The flux of trajectories through the DS in a given time interval is proportional to the width of the strip that contains these trajectories. During sequential periods this width decreases by a factor e −(µu−µs)t . From this it follows that, up to periodic modulation, the flux must decay as e −(µu−µs)t and the barrier crossing rate is</p><formula xml:id="formula_70">k f = µ u − µ s ,<label>(49)</label></formula><p>which expresses the reaction rate in terms of the characteristic Floquet exponents of the TS trajectory. Equation (49) generalizes Eq. ( <ref type="formula" target="#formula_40">30</ref>) for the case of an anharmonic barrier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. NUMERICAL RESULTS AND COMPARISON WITH THEORY</head><p>The reaction rate of (2) was calculated by simulating ensembles of n = 10 8 − 10 9 trajectories for various sets of parameters {Ω, γ, ǫ, σ} and following the survival probability of P R as a function of time. A Runge-Kutta-Maruyama scheme <ref type="bibr" target="#b69">70</ref> was implemented to perform the integration. In the absence of noise (σ = 0), this algorithm is the well-known fourth-order Runga-Kutta method. For all numerical simulations non-dimensional parameters were used by choosing units such that the barrier frequency ω b and driving amplitude are unity. Each trajectory was given an initial position x 0 = −0.1 (in the reactant region) and v 0 was sampled from a Boltzmann distribution with k B T = 1. The choice of initial conditions is arbitrary as the asymptotic decay rate of P R (t) is independent of the choice of initial distribution, suffice that there is enough density about the stable manifold such that a rate exists. <ref type="bibr" target="#b47">48</ref> The ensemble of n trajectories was evolved through the equations of motion (2). The normalized reactant population was calculated at each time step in the integration scheme. An indicator function was employed to follow the state evolution of each trajectory,</p><formula xml:id="formula_71">h R [x(t)] = 0, x(t) &gt; x ‡ (t) , 1, x(t) &lt; x ‡ (t) ,<label>(50)</label></formula><p>where x ‡ (t) is the configuration space projection of the TS trajectory. If for a specific trajectory i, x i (t) &gt; x ‡ (t) that trajectory is in the product state and is not counted in the reactant population at time t. The instantaneous normalized population of the reactant region can be found by summing over all n trajectories and then normalizing by a factor 1/n,</p><formula xml:id="formula_72">P R (t) = 1 n n i=1 h R [x i (t)].<label>(51)</label></formula><p>Trajectories can only exist in one of two states, reactant or product, and so the normalized product population</p><formula xml:id="formula_73">P P = 1 − P R .</formula><p>As shown in Fig. <ref type="figure" target="#fig_2">4</ref>, the scaled logarithm of the normalized reactant population, − ln [P R (t) − P R (∞)], is approximately linear in time after an initial transient section implying a first-order rate process. The asymptotic reaction rate k f can thus be found as the slope of the scaled logarithmic curve in the long-time limit. Periodic modulation in the decay of P (t) was found to become</p><formula xml:id="formula_74">(a)<label>(b) (c) (d) (e) (f )</label></formula><p>FIG. <ref type="figure">5</ref>. The barrier crossing rates of systems following the equations of motion (2) as a function of the anharmonic parameter ǫ for various frequency sets Ωs, driving frequencies Ω, and values of friction γ, as denoted in each panel. The circles denote the rates k f calculated from the time evolution of PR(t) through numerically simulation and correspond to the dashed lines in Fig. <ref type="figure" target="#fig_2">4</ref>. The solid curves are the rates predicted by the difference in the characteristic Floquet exponents µu − µs of the corresponding TS trajectory.</p><p>more prominent for low frequency driving (Ω f 2). In these cases the global exponential rate was calculated as an average over these modulations.</p><p>A comparison between the rates calculated from numerical simulation and rates predicted by Eq. ( <ref type="formula" target="#formula_70">49</ref>) is shown in Fig. <ref type="figure">5</ref>. For all frequency sets Ω s and parameter values, agreement is observed. Underdamped (γ &lt; 2), overdamped (γ &gt; 2), and critically damped (γ = 2) regimes of a corresponding harmonic well were considered. Agreement between the rates persists over all ranges of damping. For high frequency driving (Ω f &gt; ω b ), the exponential rate can be averaged over several periods of driving and modulations in the decay are minimal, as illustrated in Fig. <ref type="figure" target="#fig_2">4</ref>. Periodic modulations in the decay of P R (t) are prominent for low driving frequencies (Ω f ≈ ω b ) and the integration of n = 10 8 trajectories resulted in reaching the numerical asymptote P R (∞) at times less than the period of the external driving. In those cases for which the integration time was insufficient to sample the asymptotic region, a larger number of trajectories (n = 10 9 ) were integrated. Each trajectory was integrated to a final time of at least t f = 15 and, as shown in Fig. <ref type="figure" target="#fig_2">4</ref>, P R (∞) is reached well before the end of this sampling window. Increasing the number of trajectories by an order of magnitude resulted in improved convergence of the scaled logarithmic population and marginally better agreement between the compared methodologies, as shown in Fig. <ref type="figure">5(e)</ref> for Ω = 1. The agreement between the two methods is illustrated in Fig. <ref type="figure">5</ref>(d) for the smaller, non-unity, driving amplitude case of Ω 2 . The decreased driving amplitude leads to a decrease in the reaction rate. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. CHARACTERIZING NOISY REACTIONS WITH THE NOISE-FREE GEOMETRY</head><p>In systems in which the strength of an external driving force dominates over that of the thermal driving, statistical quantities can be approximated by those of a corresponding purely deterministically driven system. For thermally induced reactions, Lehmann, Reimann, Hänggi, and <ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref> have shown that in the overdamped (large-γ) regime, when a chemical reaction is forced by a periodic field the reaction rate is determined in part by the geometry of periodic trajectories in the purely deterministic phase space. This work was later extended to cases with different scaling behaviors between the strength of thermal activation and the strength of the external field. <ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref><ref type="bibr" target="#b72">[73]</ref> Our goal here is to develop a minimalist theory, applicable at the limit where the magnitude √ 2σ of a noise sequence ξ α is a perturbation to the periodic driving E(t) that the TS trajectory of the noiseless system (the periodic orbit) gives rise to a DS with minimal recrossings. This deterministic TS trajectory (DTS trajectory) does not solve the equations of motion (2) with a non-zero value of σ. We therefore distinguish the DTS trajectory from the true TS trajectory of the noisy system (that we do not compute in this work).</p><p>A principal assumption for the use of the noise-free geometry is that the phase space density of the thermal system, and its time-dependence, is approximately that of the deterministic system, i.e., p t (∆x α , ∆v α ) ≈ p t (∆x, ∆v). As shown in Fig. <ref type="figure" target="#fig_0">2</ref>, for small values of σ the geometry of the thermal system is similar to that of its deterministic counterpart. The rate theory developed in Sec. IV C for the deterministic system can therefore be applied. This is advantageous in applications such as in comparisons with experiments in which the exact noise sequence is not known.</p><p>Thermal systems in which the fluctuation-dissipation theorem (FDR) is not obeyed due to energy dissipation constitute non-equilibrium processes. Formal treatments of fluctuation-response in periodically forced systems by Teramoto, Harada, and Sasa <ref type="bibr" target="#b73">74,</ref><ref type="bibr" target="#b74">75</ref> provide insight into the rate of energy dissipation in such systems. Green et al. <ref type="bibr" target="#b75">76</ref> have shown that the rate of energy dissipation is directly related to the dynamical entropy of the system. To realize non-equilibrium conditions in the present model reaction, the damping constant γ is held constant and the strength of the thermal fluctuations σ is increased up to the point where the FDR is satisfied. If the initial velocities are drawn from a Boltzmann ensemble with k B T = 1 (in dimensionless units), this is the case at σ = γ. If σ &lt; γ the thermal bath is at a lower temperature than that of the distribution of initial velocities. In this case, the temperature of the ensemble of reactants will be continually cooled by the thermal bath. Thermal annealment of the ensemble calls for the development of postmodern rate theories which rely singularly on geometric properties of phase space, and not the dy-FIG. <ref type="figure">7</ref>. Time dependence of the scaled logarithm of the reactant population for systems with single-frequency (Ω1) periodic and thermal driving for γ = 0.01 (top), γ = 0.1 (middle), and γ = 1 (bottom). The color of each line corresponds to a specific σ value. The decay for systems with various anharmonicites ǫ ∈ {1, 3, 10} are shown and denoted in each panel. The fundamental driving frequency is Ω f = 5 for all panels. For visual clarity, each curve is truncated at a point where the data became noisy. namics of the ensemble itself. This is in stark contrast to the TST assumption of equilibrium distributions in metastable states and at the TS.</p><p>The percentage of thermal trajectories that recross the DS attached to the DTS trajectory is shown in Fig. <ref type="figure" target="#fig_3">6</ref> for varying noise strengths σ and constant dissipation rates. As shown in Figs. <ref type="figure" target="#fig_3">6(a</ref>) and 6(b), a minimal number of recrossings occur below and up to the FDR threshold for small values of γ. For the γ = 1 case, shown in Fig. <ref type="figure" target="#fig_3">6(c)</ref>, trajectories persist around the BT for long times, leading to a larger number of recrossings than observed for smaller dissipation rates. For the overdamped dynamics (γ = 3), shown Fig. <ref type="figure" target="#fig_3">6(d)</ref>, the deterministic DS identifies reactive trajectories adequately only for weak ther-mal driving (small σ) and strong anharmonicity. As the harmonic limit is approached or in equilibrium systems the superimposed DS becomes very poor.</p><p>The decay of the scaled logarithm of the normalized reactant population, as calculated with the superimposed deterministic DS, is shown in Fig. <ref type="figure">7</ref> for various parameter values. Over all friction regimes, the population decay of the systems with additional thermal driving follows that of its deterministic counterpart if the noise strength σ is sufficiently low. For γ = 1, when the strength of the thermal driving approaches that of the FDR, a decrease in the reaction rate is observed. The data presented in Fig. <ref type="figure">7</ref> becomes highly oscillatory at long times due to recrossings of the DS. For visual clarity each data series has been truncated to remove this noisy tail. As observed in Figs. <ref type="figure" target="#fig_2">4 and 7</ref>, for short times (t 0.3), the decay of P R is non-exponential, signifying temporally global non-RRKM kinetic behavior. We obtain the rate from the long-time asymptotic decay of of P R , which is representative of kinetic experiments in which the concentration of a reactant species is directly measured over time. <ref type="bibr" target="#b76">77</ref> The thermal rates calculated using the DTS trajectory are shown in Fig. <ref type="figure" target="#fig_4">8</ref>. As expected by the minimal number of recrossings shown in Fig. <ref type="figure" target="#fig_3">6</ref>, stability analysis of the DTS can produce an excellent approximation to the rate in thermal environments. Through calculation of the error between the numerically calculated rate with included noise and the rate given by the Floquet exponents of the DTS trajectory, the extent of applicability of the noise-free geometry can be quantified. This error is &lt; 3% at γ = 0.01 over all parameter values. It is &lt; 1% for ǫ ∈ {5, 10}. Increasing the dissipation by an order of magnitude (γ = 0.1) results in the same general trends, with all errors generally less than 5%. The exceptions occur at the noise strength where the FDR is obeyed (σ = 0.1) at ǫ ∈ {1, 3} and Ω = 5 for which the error ≈ 20%. For γ = 1.0 and Ω = 10, all calculated errors are less than or on the order of 20%, increasing monotonically as a function of σ. As illustrated in Fig. <ref type="figure" target="#fig_4">8</ref>(e), at lower-frequency driving (Ω = 5) and large noise (σ = 1), the error is between 30%−50%. This suggests a practical upper bound to the applicability of the noise-free geometry in estimating the reaction rates in the presence of noise. Although not shown, for overdamped dynamics, stability analysis of the DTS gives an accurate approximation to the rate only in non-equilibrium small noise regimes.</p><p>The calculated errors are on the order of the error expected from application of variational transition state theory (VTST). <ref type="bibr" target="#b4">5</ref> The presented methodology is advantageous over VTST as it does not require the integration of large numbers of trajectories or a flux minimization procedure. Thus, stability analysis of the DTS trajectory offers a simple rate calculation methodology that can be readily applied, in weak thermal environments, to driven chemical reactions with only prerequisite knowledge of the geometry of the energy surface and the functional shape of the driving waveform. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII. CONCLUSIONS</head><p>We have shown that in a model chemical reaction subjected to the influence of forcing from a temporally periodic external field, a recrossing-free dividing surface can be constructed over an unstable periodic orbit in the region of a moving energetic barrier top. This forms the basis for future work on specific driven chemical reactions that can be represented by a single collective variable for the reaction coordinate under nonequilibrium conditions. Potential targets include both substitution and isomerization reactions in which the governing multi-dimensional energy surface can be parameterized by a single collective degree of freedom. Other possible targets include mechanochemical reactions and stimuliresponsive assembly mechanisms when the reaction rate is dictated predominantly by geometric properties about the moving dividing surface. Generally, force-modified and temperature-modulated energy surfaces, deforming under the influence of temporally varying forces, motivate the development of rate methodologies that go beyond the simplistic equilibrium arguments intrinsic to classical equilibrium transition state theory.</p><p>The no-recrossing surface constructed here has been shown to persist for strongly anharmonic barriers subjected to single-mode and multi-mode driving waveforms. A formally exact rate theory has been developed based on the flux of reactive trajectories through this recrossingfree surface. It rectifies the principal criterion of transition state theory for periodically driven chemical reactions.</p><p>To circumvent computationally taxing numerical calculations of the reactive flux through this surface, a rate theory has been developed based on the stability of the dividing surface. Strong agreement was observed between the rate predicted by the Floquet exponents of a trajectory defining the phase space evolution on the dividing surface, and the rate calculated from simulation of a large ensemble of trajectories. Thus, in a periodically driven chemical reaction, the asymptotic decay rate of an initial distribution of reactants can be extracted directly from the stability of the time-varying dividing surface irrespective of the dynamics of the reactive population.</p><p>Use of the noise-free geometry to approximate the corresponding structure of a driven thermal system has been shown to give an excellent approximation to the optimal dividing surface if the magnitude of the oscillating force is large compared with that from the thermal environment. For thermally activated processes, the stability exponents of the purely periodically driven system can thus be used to predict the reaction rates without an explicit treatment of the thermal dynamics. Extensions of the this work to include an explicit treatment of the noise, including systems with structured solvents environments <ref type="bibr" target="#b77">78,</ref><ref type="bibr" target="#b78">79</ref> and systems displaying fluctuating rates 80 are possible next steps, and ones which we are currently pursuing. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 2 .</head><label>2</label><figDesc>FIG. 2. Phase space plots for a swarm of trajectories following the equations of motion (2) with various driving frequency sets and parameter values: Ω1 with Ω f = 5 and ǫ = 1 for (a) σ = 0 (noiseless) and (b) σ = 0.025 (thermal) driving, Ω3 with Ω f = 4 and ǫ = 3 for (c) σ = 0 and (d) σ = 0.025. The initial position for every trajectory, x0 = −0.1, is shown as a vertical solid white line. Reactive trajectories are colored in cyan and nonreactive trajectories are colored in orange. The TS trajectory Γ ‡ is shown as a solid white curve. The critical velocity V ‡ is indicated by a circle at the intersection of the dashed horizontal line and the line of initial conditions. The solid red curve is the critical curve V ‡ c and the solid blue curve is the harmonic critical curve V ‡ c |ǫ=0. Parameters for all panels are γ = 1 and ϕ = 0 in dimensionless units.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG. 3 .</head><label>3</label><figDesc>FIG.3. The asymptotic product population PP(∞) of the harmonic potential (ǫ = 0) as a function of driving frequency Ω for the Ω1 frequency set. The curves are colored with respect to the value of the initial phase shift: ϕ = 0 (blue), ϕ = π/2 (cyan), and ϕ = π (red). For each value of ϕ, the dependency of the asymptotic population on the friction parameter γ is shown by varying the linestyle: γ = 0 (solid), γ = 1 (dashed), and γ = 2 (dotted).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 4 .</head><label>4</label><figDesc>FIG. 4. Time dependence of the scaled logarithm of the reactant population, − ln [PR(t) − PR(∞)], for Ω1 (top), Ω2 (middle), and Ω3 (bottom) with Ω f = 5 for all panels. Values of the anharmonic parameter are ǫ ∈ {1, 2, 4, 6, 8, 10}. The slope of each dashed line is the barrier crossing rate k f . The color of each line corresponds to the respective ǫ value. In all panels, parameters are γ = 1 and ϕ = 0.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG. 6 .</head><label>6</label><figDesc>FIG. 6. The percentage of trajectories that recross the moving dividing surface attached to the DTS trajectory as a function of noise strength σ with (a) γ = 0.01, (b) γ = 0.1, (c) γ = 1, and (d) γ = 3 for single-frequency (Ω1) driving and various values of ǫ and Ω. black vertical line (solid) marks the noise strength when the fluctuation-dissipation theorem is obeyed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG. 8 .</head><label>8</label><figDesc>FIG.8. The barrier crossing rates of systems following the equations of motion (2) as a function noise strength σ. The rates calculated using the DS attached to the DTS trajectory for single-frequency (Ω1) driving and various values of ǫ, γ, and Ω are shown as circles. The horizontal lines (solid) denote the rates given by the Floquet exponents of the corresponding DTS trajectory and are colored according to a respective ǫ value. The black vertical lines (solid) denote the noise strength where the fluctuation-dissipation theorem is obeyed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>VIII. ACKNOWLEDGMENTS This work has been partially supported by the Air Force Office of Scientific Research through Grant No. FA9550-12-1-0483. Travel between partners was partially supported through the People Programme (Marie Curie Actions) of the European Union's Seventh Framework Programme FP7/2007-2013/ under REA Grant Agreement No. 294974.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>FIG. 1. Functional forms of periodic driving E(t) for the single Ω1 (left), Ω2 (middle), and Ω3 (right) are shown in the top row. The corresponding TS trajectory for each frequency set and anharmonic parameter values ǫ ∈ {0, 4, 8} are shown in the bottom row. Various extrema of E(t) are denoted by circles with arguments shown as dashed vertical lines. The corresponding extrema of x ‡ (t) are denoted by circles and colored according to the respective ǫ value. Units in all panels dimensionless.</figDesc><table /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Yamanouchi</forename></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1068449</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page">1659</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Townsend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stolow</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1132289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Komatsuzaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3528937</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page">24317</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Truhlar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Hase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hynes</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/j100238a003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">2664</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Truhlar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Garrett</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.pc.35.100184.001111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">159</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acc. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">174</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Truhlar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Garrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Klippenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/A805196H</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">12771</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Waalkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0951-7715/21/1/R01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinearity</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphys.2010.01.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page">270</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pechukas</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.436658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">1218</biblScope>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pechukas</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.437194</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pechukas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pollak</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.438575</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">2062</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pollak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Child</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pechukas</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.439276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">1669</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0009-2614(93)90071-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.467985</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">9534</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jaffé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palacián</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yanguas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0951-7715/15/4/301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinearity</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>De Leon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Q</forename><surname>Topper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">8310</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shoujiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Toda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Komatsuzaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.97.028302</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">28302</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Waalkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0305-4470/37/35/L02</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. A</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">L435</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Ezra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Waalkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiggins</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3119365</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">164118</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Ezra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wiggins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. A: Math. Theor</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">205101</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Teramoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Toda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Komatsuzaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.106.054101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">54101</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iñarrea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Palacián</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Pascual</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Salas</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3600744</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page">14110</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Allahem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4769197</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page">214310</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Strub</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0951-7715/27/5/859</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinearity</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>¸iftçi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Waalkens</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.110.233201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">233201</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Elsner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Royall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R E</forename><surname>Snoswell</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3115641</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">154901</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jäger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H L</forename><surname>Klapp</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1sm05343d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">6606</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prokop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vacek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michl</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn300003x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1901">1901. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja403172p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page">7839</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lidström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wathey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0040-4020(01)00906-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tetrahedron</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Platkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gruebele</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4887360</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page">35103</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Loget</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuhn</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms1550</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">535</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Corrales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>González-Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Balerdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Solá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Nalda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bañares</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchem.2006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">785</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stoddart</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B607187B</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C H</forename><surname>Sykes</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn900411n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brancato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Barone</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jz4019404</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">3885</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Feringa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Nanotech</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Leigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zerbetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200504313</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem., Ind. Ed</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Balzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Credi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Venturi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NanoToday</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C3TA10716G</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">7838</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Feringa</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35041665</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">408</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Leigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dehez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zerbetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature01758</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">424</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dumur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Feringa</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1117090</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Horinek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michl</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0506183102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">14175</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Pryce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meetsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Feringa</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja8037245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevE.89.040801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. E</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">R</biblScope>
+			<biblScope unit="page">40801</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.489147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page">41106</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Kadanoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.81.4.1276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">1276</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Skodje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0009-2614(90)85524-G</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Phys. Lett</title>
+		<idno type="ISSN">0009-2614</idno>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page">92</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaspard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chaos, Scattering and Statistical Mechanics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="1998">1998</date>
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wales</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3658642</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page">184307</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Orel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.439747</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">5139</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Bandrauk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jaffé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palacián</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2720841</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">164306</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Mullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-E</forename><surname>Shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peters</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct4009798</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Theory Comput</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Mullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-E</forename><surname>Shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peters</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4862504</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page">41104</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Truhlar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Garrett</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp992430l</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. B</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">1069</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.95.058301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">58301</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2109827</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">204102</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Moix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2206587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page">244310</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Revuelta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Benito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Borondo</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3692182</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">91102</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bartsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Revuelta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Benito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Borondo</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4726125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">224510</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reimann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hänggi</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.84.1639</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">1639</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reimann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hänggi</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevE.62.6282</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. E</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reimann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hänggi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pssb.200301774</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi B</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page">53</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Skokos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0167-2789(01)00347-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica D</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page">155</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cvitanović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Artuso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mainieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vattay</surname></persName>
+		</author>
+		<title level="m">Chaos: Classical and Quantum (ChaosBook.org, Niels Bohr Institute</title>
+				<meeting><address><addrLine>Copenhagen</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Boland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Galla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mckane</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevE.79.051131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. E</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">51131</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Traversa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Di</forename><surname>Ventra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bonani</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.110.170602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">170602</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Naess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Moe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0266-8920(99)00031-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Probab. Eng. Mech</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">221</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Stein</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.86.3942</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">3942</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dykman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Golding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ryvkine</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.92.080602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">80602</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Dykman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ryvkine</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.94.070602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">70602</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-I</forename><surname>Sasa</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.95.130602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">130602</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Teramoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-I</forename><surname>Sasa</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevE.72.060102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. E</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">60102</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Grzybowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Szleifer</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1312165110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">16339</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Levine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry</title>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>McGraw-Hill</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Popov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4810807</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page">244901</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Popov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C4SM00751D</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4895514</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page">104107</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

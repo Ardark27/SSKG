@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GTFS-Madrid-Bench: A benchmark for virtual knowledge graph access in the transport domain</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2020-08-08">8 August 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">David</forename><surname>Chaves-Fraga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<settlement>Boadilla del Monte</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Freddy</forename><surname>Priyatna</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<settlement>Boadilla del Monte</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Cimmino</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<settlement>Boadilla del Monte</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jhon</forename><surname>Toledo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<settlement>Boadilla del Monte</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Edna</forename><surname>Ruckhaus</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<settlement>Boadilla del Monte</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Corcho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution">Universidad Politécnica de Madrid</orgName>
+								<address>
+									<settlement>Boadilla del Monte</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GTFS-Madrid-Bench: A benchmark for virtual knowledge graph access in the transport domain</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Web Semantics</title>
+						<title level="j" type="abbrev">Journal of Web Semantics</title>
+						<idno type="ISSN">1570-8268</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">65</biblScope>
+							<biblScope unit="page">100596</biblScope>
+							<date type="published" when="2020-08-08">8 August 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">540DCF3F4790A48198D226DD5F502CAA</idno>
+					<idno type="DOI">10.1016/j.websem.2020.100596</idno>
+					<note type="submission">Received 4 October 2019 Received in revised form 6 July 2020 Accepted 28 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-12-02T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Virtual knowledge graph Benchmark Query translation Data integration GTFS</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A large number of datasets are being made available on the Web using a variety of formats and according to diverse data models. Ontology Based Data Integration (OBDI) has been traditionally proposed as a mechanism to facilitate access to such heterogeneous datasets, providing a unified view over their data by means of ontologies. Recently, the term ''Virtual Knowledge Graph Access'' has begun to be used to refer to the mechanisms that provide query-based access to knowledge graphs virtually generated from heterogeneous data sources. Several OBDI engines exist in the state of the art, with overlapping capabilities but also clear differences among them (in terms of the data formats that they can deal with, mapping languages that they support, query expressivity that they allow, etc.). These engines have been evaluated with different testbeds and benchmarks. However, their heterogeneity has made it difficult to come up with a common comprehensive benchmark that allows for comparisons among them to facilitate their selection by practitioners, and more importantly, for their continuous improvement by the teams that maintain them. In this paper we present GTFS-Madrid-Bench, a benchmark to evaluate OBDI engines that can be used for the provision of access mechanisms to virtual knowledge graphs. Our proposal introduces several scenarios that aim at measuring the query capabilities, performance and scalability of all these engines, considering their heterogeneity. The data sources used in our benchmark are derived from the GTFS data files of the subway network of Madrid. They have been transformed into several formats (CSV, JSON, SQL and XML) and scaled up. The query set aims at addressing a representative number of SPARQL 1.1 features while covering usual queries that data consumers may be interested in.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Over the last few years, a growing number of datasets have been made available in various open data portals. For example, at the time of writing, the European Data Portal 1 aggregates approximately 500 K datasets from EU countries in a diversity of domains. In this context, RDF has been proposed as a standard format for data interchange on the Web, and RDF Schema and OWL ontologies have begun to appear so as to provide shared models in some domains. However, the amount of non-RDF data (e.g., CSV, JSON, XML) that are published in these open data portals continues to dominate the scene (see Table <ref type="table" target="#tab_0">1</ref>), and interoperability issues hinder their (re)use and consumption.</p><p>Data integration is not a new problem, it was already identified and addressed several decades ago with an emphasis on data in relational databases, but it is exacerbated by the availability of such open data on the Web. Different techniques and tools have been used to address this problem. In our work, we focus on those approaches based on ontologies. In Ontology Based Data Access (OBDA) <ref type="bibr" target="#b0">[1]</ref> data consumers issue queries over a dataset according to a common unified view (an ontology). The information needed to reformulate the queries is usually available in the form of declarative mappings. In Ontology Based Data Integration (OBDI) <ref type="bibr" target="#b0">[1]</ref>, these techniques are expanded to address heterogeneous datasets, whose data need to be integrated to provide answers to these queries. In both ontology-based approaches, two different alternatives exist to enable data access: <ref type="bibr" target="#b0">(1)</ref> those where data are materialized taking into account the mappings and the ontologies (for example, data is transformed into RDF and loaded into a triple store, so that it can be queried using SPARQL), and (2) those where the transformation is done on the queries, which can then be evaluated on the original data sources. This last alternative is the one considered for our work, because it removes the need for materialization, something especially useful for very dynamic data sources <ref type="bibr" target="#b1">[2]</ref>. We refer to it as ''virtualized knowledge graph access''.  To facilitate data exploitation in this context, application developers need to understand the strengths and weaknesses of existing data integration tools. Additionally, tool developers may want to know if their engines cover the requirements of realuse-case scenarios. In both cases the challenge is to develop a benchmark that covers the requirements for virtual knowledge graph access, and to ensure that is extensible and sustainable over time. In general, it is necessary to have an overview of state of the art engines that are tailored to different source formats, accepting as input those mappings that are represented in a variety of declarative languages.</p><p>Several benchmarks already exist in the state of the art of OBDA <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>, as well as in SPARQL query federation <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. The OBDA BSBM benchmark <ref type="bibr" target="#b2">[3]</ref> is focused on comparing the performance of SPARQL-to-SQL query translation versus the performance of native RDF Stores, and only considers OBDA engines that access relational data stores. The NPD benchmark <ref type="bibr" target="#b3">[4]</ref> specifically analyzes OBDA requirements related to datasets, query sets, mapping rules and query languages. In the area of federated SPARQL engines, existing benchmarks <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> are tailored to the context of SPARQL endpoint federation in an homogeneous format. As a result, none of these benchmarks address the requirement of virtualized access of multiple datasets available in heterogeneous formats. Additionally, OBDI engines have been evaluated in an ad-hoc manner <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref> and to the best of our knowledge, no benchmarks have been developed to evaluate OBDI proposals in a systematic manner.</p><p>We have identified several challenges for the development of a benchmark for virtual knowledge graph access that can be grouped into data, queries and mappings dimensions. The data challenges refer to having multiple data sources in an assortment of formats, based on real-world data and that can scale to large sizes. The queries challenges point to SPARQL queries where different sources can be identified, where relations among sources (according to the specific data model) are exploited, and where necessary features of SPARQL are included to represent real-life use cases. Finally, the main mappings challenge is to include the relevant parameters that affect the generation of the knowledge graph <ref type="bibr" target="#b9">[10]</ref> and give support to a set of mapping languages.</p><p>In this paper we describe a virtual knowledge graph access benchmark, GTFS-Madrid-Bench, that serves several purposes: (i) to evaluate and compare the performance of a mix of OBDA engines that access several (homogeneous) sources in the same format, but where the mapping language used by each engine is specific to the data format considered; (ii) to evaluate OBDI engines when data are centralized in a single location; and (iii) to evaluate the strengths and weaknesses of both, OBDA and OBDI engines. The general case of GTFS-Madrid-Bench is the comparison of the performance of OBDA and OBDI engines. The proposed benchmark is composed of the following elements: 2 Statistics obtained in January 2019 (note that one dataset can be made available in multiple formats).</p><p>• Several collections of sources in different formats (e.g. CSV, JSON, SQL, XML), which derive from the GTFS. 3 The General Transit Feed Specification (GTFS) is a de-facto standard developed by Google for the description of public transport planning, routes and fares, among others. In recent years its popularity has increased thanks to its simplicity and the fact that it has not only been adopted by Google Maps, but also by other route planning systems such as Open Trip Planner or navitia.io. feed from the city of Madrid metro. These collections are scaled up so as to allow scalability testing.</p><p>• A set of mappings represented in the family of declarative languages that address different source formats (RML, R2RML, xR2RML, ontop OBDA mappings) that map the GTFSbased data sources into the Linked GTFS ontology. 4   • A set of 18 SPARQL queries of varied complexity.</p><p>• A set of well-established measurements <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b10">11]</ref> that can be taken during the different phases of the OBDI workflow <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b11">12]</ref>, such as query rewriting, query translation, query execution and query aggregation time.</p><p>GTFS-Madrid-Bench offers a fair environment for the comparison of different OBDA and OBDI engines, regardless of the mapping language they have implemented, as long as the new mappings follow the same restrictions and specifications defined in the benchmark. Thus, newly released tools may be evaluated with the benchmark. Additionally, although we have generated our datasets from the GTFS feed of the city of Madrid metro system, any other city's GTFS feed may be used as data in the benchmark. We provide a data generator to scale up the original data in terms of size, and distribute the datasets over different formats (e.g. JSON, XML, CSV, RDB). We demonstrate the use of GTFS-Madrid-Bench with five open-source engines: Morph-RDB, 5  Ontop, 6 Ontario, 7 Morph-CSV. 8 and Morph-xR2RML 9  In summary, the main contributions of this work are:</p><p>1. C1: The proposal of a comprehensive and representative benchmark that includes a set of data sources, queries and mappings to be able to evaluate and comparing multiple OBDA and OBDI engines for virtual knowledge graph access. 2. C2: The extension of existing OBDA benchmark requirements to take into account (i) metrics that are commonly used in federated query-processing benchmarks; and (ii) steps defined in the new generation of OBDA and OBDI engines <ref type="bibr" target="#b1">[2]</ref>. 3. C3: A data generation process where single and mixed data formats are scaled-up based on the features of the original data model, integrating state of the art data-generator proposals for benchmark OBDA engines <ref type="bibr" target="#b12">[13]</ref>. 4. C4: Evaluation of the proposed benchmark over five different engines, discussion of the obtained results, and identification of the current limitations in the state of the art and future lines of work.</p><p>The rest of this paper is structured as follows: Section 2 introduces several notions and definitions relevant for the proposed work; Section 3 presents GTFS-Madrid-Bench and its main features, i.e. queries, datasets, mappings and metrics; Section 4 reports our experiment on evaluating five open source engines over GTFS-Madrid-Bench; we discuss our findings in Section 5; Section 6 reports the related work in OBDA and SPARQL federation benchmarks, OBDA/OBDI approaches and mapping languages; and finally, Section 7 recaps our findings and conclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Preliminaries</head><p>In this section, we introduce the main concepts and definitions that are later used to explain our work. Besides this, well-known concepts from the literature such as SPARQL queries and result sets <ref type="bibr" target="#b13">[14]</ref>, or ontologies <ref type="bibr" target="#b14">[15]</ref>, will be used throughout the paper.</p><p>Sources &amp; dataset: we define a source as a tuple γ = (ϕ, Σ, f ), where ϕ is the data of any entity from our domain, Σ is the model of the data, e.g. the columns of a CSV or the schema of a database table for SQL, and f is a specific data format such as CSV, JSON, XML, or SQL, among others. We define a dataset as a set of Sources, i.e., D = {γ 1 , γ 2 , . . . , γ n }.</p><p>Example 1. We define the following dataset D 1 = {(Routes, Σ 1 , SQL), (Stops, Σ 2 , JSON)} that involves the data of the metro routes (13 instances) and metro stops (1262 instances) in SQL and JSON formats, respectively. Both sources rely on different schemata Σ 1 and Σ 2 , the first specifies the columns of a table, and the second the JSON keys.</p><p>Dataset generator: we define a dataset generator as a function δ that takes as input a tuple (D, s), where D is a dataset and s is a non-negative number that specifies a scale factor. The output of δ is a dataset D ′ containing enlarged versions, according to s, of the data (ϕ) within the sources of D. Mapping: a mapping m is a set of rules that specify the relationship between an ontology and the model of one or more sources. A mapping rule relates the elements within the schema of a source, with elements from an ontology, including constants. In other words, a mapping rule r contains the correspondences between an element e within a schema of a source Σ and an element e * of an ontology Σ * . The ontology is known as a unified view, since it is the output of translating heterogeneous sources into the same model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Example 2. Assuming</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Example 3.</head><p>Given the Linked GTFS ontology and a CSV file with the columns ''id'' and ''route'', a mapping may state that each row generates a subject that includes the value of the column ''id', the predicate foaf:name, and its object with the corresponding value in the column ''route''.</p><p>Experiment configuration: we define an experiment configuration c as (D, q, M) where D is a dataset, q is an SPARQL query and M is a set of mappings.</p><p>Example 4. We can specify the following experiment configuration (D 1 , q1, {shapes, trips}), where D 1 is the dataset specified in Example 1, q 1 is the SPARQL query reported in Table <ref type="table" target="#tab_7">5</ref>, and M is the set of mappings {shapes, trips} reported in Table <ref type="table" target="#tab_6">4</ref>.</p><p>Processor: Given an experiment configuration c and an ontology Σ * , a processor represents a software component that encodes the function φ that takes as input a pair (c, Σ * ), and outputs a SPARQL result set R <ref type="bibr" target="#b13">[14]</ref>.</p><p>Internally, the processor translates the SPARQL query q into one or more queries expressed in different languages, depending on the formats within the dataset of c, using the mappings M. Then, the processor distributes and evaluates the queries and gathers the results. Consequently, a unified result set is provided as output. This task is known as Virtual Knowledge Graph Access. We distinguish two kinds of processors: OBDA and OBDI. The former are able to handle only experiment configurations where all the data sources have the same data format, while the latter are able to handle any experiment configuration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The GTFS-Madrid-Bench</head><p>The GTFS-Madrid Benchmark consists of an ontology, an initial dataset of the metro system of Madrid following the GTFS model, a set of mappings in several specifications, a set of queries according to the ontology that cover relevant features of the SPARQL query language, a data generator based on a state of the art proposal <ref type="bibr" target="#b12">[13]</ref>, and a set of relevant metrics. In the following sections we describe in detail the resources of our virtual knowledge graph access benchmark. They are aligned with an extension of the requirements detailed in <ref type="bibr" target="#b3">[4]</ref> (focused on benchmarks for OBDA) that we tailor to our context ( Table <ref type="table" target="#tab_3">2</ref>). All the resources described in this section are available online. 10   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">The linked GTFS ontology</head><p>GTFS is a de-facto standard developed by Google for the description of public transport schedules, routes, fares, etc. The specification defines the headers of 13 types of CSV files and a set of rules. Each file, as well as their headers, can be mandatory or optional and they have relations among them.</p><p>The Linked GTFS vocabulary 11 can be seen as an ontology that represents the entities, properties and relationships described in the GTFS specification. The GTFS-Madrid-Bench mappings have been aligned to a subset of this vocabulary, since the subway feed provides only the mandatory CSV files from the GTFS specification. Its conceptual model is shown in Fig. <ref type="figure" target="#fig_1">1</ref>, and a description of its classes is given in Table <ref type="table" target="#tab_4">3</ref>. The ontology usually defines one class for each of the sources in the GTFS specification with the corresponding data and object properties, but there are some additions. The gtfs:Service class represents information on the dates when a service (represented in GTFS in the files calendar and calendar_dates) is available for one or more routes; the ontology also adds the gtfs:ServiceRule class, together with its two subclasses (gtfs:CalendarRule and gtfs:CalendarDateRule), to represent the service rules specified in the calendar and calendar_dates files. Finally, the class gtfs:WheelchairBoardingStatus and its three possible values (instances) have also been added to represent the corresponding field definitions in stops and trips.</p><p>In general, all of the ontology classes have been populated except for gtfs:FareClass and gtfs:FareRule, because the Madrid GTFS data does not contain information on these two entities. The gtfs:RouteType class is not considered, because the data covers only the Metro system.  The mappings should be expressed using well known mapping languages Queries</p><p>The query set should be based on actual user queries Queries</p><p>The query set should be complex enough with relations among same but also different data sources</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metrics</head><p>The metrics should provide relevant general information but also specific measures for each defined phase  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Dataset generation</head><p>Dataset generation for a virtual knowledge graph access benchmark should be focused on the two main variables that allow testing the capabilities of the engines: (i) data size, and (ii) formats in which data can be expressed. In the context of data generation for OBDA, VIG <ref type="bibr" target="#b12">[13]</ref> proposes the use of R2RML mappings for an efficient scale-up of the size of an RDB dataset instance. In this case, only one data format (SQL) is involved in the process.</p><p>We use GTFS as the original data source for several reasons: First, GTFS has been the de-facto standard for publishing transport data on the web; it also comes with a clear specification, making it easy to understand. Second, the GTFS model comprises several entities that are related through a variety of relationships. In addition it includes different data types such as strings, integers, and booleans. Finally, many cities have adopted the GTFS data model and have published their GTFS data online. Although in our benchmark we propose the use of the GTFS Madrid subway data, GTFS data from a different city could be used as the original data source.</p><p>The GTFS-Madrid-Bench proposes an extended workflow which uses VIG as the data generator engine for the generation of the datasets, and takes into account multiple data formats (see an example in Fig. <ref type="figure" target="#fig_3">2</ref>). We describe the detailed steps of the proposed data generation workflow, together with some examples:</p><p>(1) Data preparation. The original data source, GTFS, is in CSV format. VIG requires an instance of an RDB and an R2RML mapping for scaling up the data source. We use Morph-CSV <ref type="bibr" target="#b15">[16]</ref>, which takes as inputs a set of spreadsheets in the form of CSV files, their corresponding annotations using CSVW <ref type="bibr" target="#b16">[17]</ref>, and an RML mapping <ref type="bibr" target="#b17">[18]</ref>. It automatically produces the corresponding schema of an RDB (identifying typical constraints such as datatypes, PK/FK, indexes and NULLs) and an R2RML mapping document, which are the inputs for VIG.</p><p>For the Madrid-GTFS-Bench, we use as input an open dataset GTFS csv mad = (GTFS mad , GTFS, CSV). GTFS mad is the set of data sources of the subway network of Madrid that has been provided by its transport authority according to the schema GTFS as described in its specification. 12  This dataset is composed of a set of CSV files containing data of Agency, Route, Shape, Frequency, Trip, StopTime, Stop, Calendar and CalendarRule. This input is not modified during process, which means that the generated datasets are defined by the same schema, and all of the generated data is obtained from this initial dataset. We manually create the corresponding RML mapping rules and CSVW metadata annotations and, using the Morph-CSV engine, we automatically generate the corresponding RDB instance GTFS-SQL-1=(GTFS sql mad , (1) dataset with the integrity and domain constraints of the source model, and the R2RML mapping rules.</p><p>(2) Data creation. VIG <ref type="bibr" target="#b12">[13]</ref> takes into account the ontology and the set of R2RML mappings to generate each dataset. This engine also receives as input a scale value s that indicates that the size of each table of the database increases s times. The output of VIG is a set of CSV files, one file for each table of the RDB. In this step the dataset GTFS-CSV-s=(GTFS csv mad , (s) is generated, where s is the selected scale value.</p><p>(3) Data distribution. Finally, each dataset generated using VIG is distributed in several formats. We use open source tools to perform this step such as csv2json, from Python CSVKit, 13 and di-csv2xml, 14 depending on the data formats (JSON and XML). We divide the distribution into two categories in order to cover both OBDA and OBDI approaches:</p><p>In the first category, focused on providing support to OBDA techniques, the sources of each dataset are transformed into a single format (e.g. CSV files are transformed into JSON files). The dataset is transformed to the corresponding one in JSON, XML, SQL and MongoDB, obtaining the following datasets: GTFS-F-s=(GTFS F mad , (s) where s is the scale value and F ∈ {JSON, XML, SQL, MongoDB}.</p><p>In the second category, focused on OBDI approaches, the sources of each dataset are transformed from the CSV files into multiple formats (e.g. CALENDAR is a JSON document, AGENCY is an XML file, etc.). The benchmark provides a configurable generator to obtain the desirable dataset. More in detail, the user may select the sources associated to each format, and then the tool generates the corresponding dataset and set of mapping rules. With this approach, the data distribution in the benchmark has the flexibility that allows the study of the impact of different parameters that affect the virtual knowledge graph access engines.  For example, a parameter that can be studied is the join selectivity. The value of this parameter between shapes and trips is different than between routes and agencies, and depending on the format of each source, the total query execution time of a processor may be impacted. Other parameters such as the number of joins among sources in same/different formats and the impact of the data size in different sources can also be studied.</p><p>We want to be able to compare the results obtained by processors, with the results obtained by the materialized graph in RDF. For this purpose, we take the output of VIG (e.g GTFS-CSV-5, GTFS-CSV-10) and we run a knowledge graph creation process using the SDM-RDFizer 15 engine, which generates the materialized KG in RDF using RML mapping rules. We selected this tool because it passed all the RML Test Cases <ref type="bibr" target="#b18">[19]</ref> for CSV files, 16 hence we assume that the generation is correct and that it provides a set of techniques to optimize the generation of RDF at scale.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Mappings</head><p>Mappings play one of the most important roles in the benchmark since they are the main element used for the query translation process. In the state of the art there are multiple engines and tools that use different mapping languages. We select a set of the most relevant declarative mapping languages in the state of the art and we generate the corresponding mapping rules. In more detail, the GTFS-Madrid-Bench provides:</p><p>• One R2RML mapping document for accessing SQL datasets.  • One xR2RML mapping document for accessing MongoDB datasets.</p><p>• Seven RML mapping documents 17 for accessing CSV, JSON, XML, SQL, MongoDB.</p><p>• One CSVW metadata file to provide annotations for the CSV datasets.</p><p>• An RML-Generator for obtaining the corresponding mappings of datasets with sources in several formats.</p><p>Conceptually, all the mappings represent the same relations among the concepts of the ontology and the concepts of the GTFS model, but each one has been developed according to a specification that handles the characteristics of each data format. The mappings are composed by a set of rules representing the relation of one element in the ontology with the corresponding schema element from a source. An overview of the rules within the mappings developed for this benchmark is shown in Table <ref type="table" target="#tab_6">4</ref>. These mapping rules are very relevant since they contain many parameters that impact on the performance of virtual knowledge graph access tools <ref type="bibr" target="#b9">[10]</ref>. More in detail, each source of the GTFS feed has one associated TriplesMap, with a rule to associate the generated entities to the class defined in the ontology, and a set of rules for the object and data properties. Additionally, there is a (virtual) entity, Service, in the data model, with no corresponding source, which implies the definition of a set of mapping rules to generate the instances of the corresponding class (gtfs:Service). Following the GTFS specification, the identifier of Service can be found either in calendar or calendar_dates sources. This means that to be aligned with standard declarative mapping specifications (e.g. RML and R2RML only allow one source per TriplesMap), the mapping document needs to define two TriplesMap, one for calendar (service1) and another for calendar_dates (service2). This also implies that the trips TriplesMap has one predicate (gtfs:service) with two associated refObjectMaps, where the parentTriplesMap are service1 and service2; this allows generating all gtfs:Service defined in the original data source. Because the instances of gtfs:WheelchairBoardingStatus class are only objects in gtfs:Trips and gtfs:Stops triples, they are generated using the template property in trips and stops TriplesMap. In summary, the mapping contains rules to generate instances of 12 classes, 71 PredicateObjectMaps and Predicates, 60 Objects and 11 RefOb-jectMaps, covering the main features defined in state-of-the-art mapping specifications for OBDA/OBDI. All of the GTFS mappings are detailed in Appendix C using YARRRML <ref type="bibr" target="#b19">[20]</ref>. 17 Provided in RML and YARRRML serializations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Queries</head><p>Table <ref type="table" target="#tab_7">5</ref> presents all the variables considered for the 18 queries in our benchmark. We have developed queries that are based on the Linked GTFS ontology, and are aligned with user stories in Madrid's transport domain, together with different combinations of values for the variables. It should be mentioned that the queries cover all of the data sources that were generated by the Madrid's transport authority as GTFS data from the metro system. These include agencies, routes, stops, trips, frequencies, shapes, calendar, and calendar dates. Although in the benchmark we have defined mappings to translate queries into the underlying query language of the source, these are independent from the queries. We have used these mappings to generate the materialized knowledge graph in the data generation step.</p><p>We have defined two sets of 18 queries with identical templates but with differences in the constants that appear in subjects or objects of bounded triple patterns: (1) Baseline queries with constants that belong to Madrid's GTFS Linked Data, and (2) VIG queries with constants that belong to the datasets generated by the tool; these queries are executed in the evaluation described in Section 4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Metrics</head><p>In this section we define the metrics that are used to evaluate the performance of Virtual Knowledge Graph access engines. The metrics consider the workflow followed by Virtual Knowledge Graph systems, and for each of the steps identified in the workflow we introduce a set of metrics to be measured and reported.</p><p>The workflow extends the OBDA phases identified by Mora and Corcho <ref type="bibr" target="#b10">[11]</ref>, and Lanti et al. <ref type="bibr" target="#b3">[4]</ref>. In addition, it includes some of the steps that are defined by proposals that federate queries <ref type="bibr" target="#b20">[21]</ref>. General metrics to be captured are overall execution time, completeness of answers and initial delay. Other metrics may be considered when the engine generates answers following a continuous behavior <ref type="bibr" target="#b21">[22]</ref>, such as dief@k or dief@t proposed in <ref type="bibr" target="#b22">[23]</ref>. Additionally, for each phase of a workflow, a virtual knowledge access engine may capture specific metrics that allow the identification of bottlenecks in the implementations. This relevant set of metrics for each phase are: (i) loading time All stops times and their related routes and stops ordered by their sequence, in a specific direction and service</p><formula xml:id="formula_0">8 3 ORDER BY 3 2TM, 5PSOM, 3PROM<label>q15</label></formula><p>For all properties, triples that contain a specific word in the object placeholder</p><formula xml:id="formula_1">3 1 0 1TM, 15PSOM, 1PROM<label>q16</label></formula><p>For all routes, all calendar changes in a specific month 8 3 2 6TM, 6PSOM, 5PROM q17</p><p>Trips with their start and end time of the frequencies and associated routes</p><formula xml:id="formula_2">9 3 3 3TM, 7PSOM, 2PROM<label>q18</label></formula><p>All routes that have trips on Sunday 8 5 UNION 4 6TM, 6PSOM, 5PROM</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 6</head><p>Relation between each relevant metric for the Madrid-GTFS-Bench and the dimensions that can impact over that metric. In the Dimension column, Q means query, M mappings and D data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metric Type or phase Dimension</head><p>General Metrics during the starting phase when the ontology, mappings and query are loaded; (ii) total number of requests and source selection time during the source selection phase (the engine identifies the sources that can be used to answer the query); (iii) query generation time, when the set of sub-queries to be evaluated over each data source is created, and the query plan is generated; (iv) mapping translation time, when the engine must translate a provided mapping into another one in a different language, maintaining a set of properties between them <ref type="bibr" target="#b1">[2]</ref>; (v) query rewriting time, when the generated sub-queries are rewritten to other queries, taking into account potential inferences from the ontology and information in the mapping <ref type="bibr" target="#b23">[24]</ref>; (vi) query translation time, when the engine, taking the mapping into account, translates each sub-query to another one in the query language, supported by the underlying data sources such as SPARQL-to-SQL <ref type="bibr" target="#b24">[25]</ref>; (vii) query execution time, when the translated queries are evaluated against the underlying data sources and the results are translated to RDF or as SPARQL bindings using the rules provided in the mappings; and (viii) query aggregation time, when the results obtained for each sub-query are aggregated, including the removal of duplicates and the linking of resources.</p><formula xml:id="formula_3">Total execution time General D, Q, M # answers General D, Q, M Initial delay General D, Q, M Dief@k C. Behavior D, Q, M Dief@t C. Behavior D, Q, M</formula><p>Variables that have an impact on the metrics have been grouped into three dimensions: Query, Data, and Mappings. The relation between each metric considered and the dimensions that can impact over that metric is shown in Table <ref type="table" target="#tab_30">6</ref>.</p><p>Query. The Query dimension variables refer to the structure of the queries, e.g. #triple patterns, #sources, and #star-shaped groups. A Star-shaped group is a group of triple patterns that are ''joined" over the same subject or object variable <ref type="bibr" target="#b25">[26]</ref>. The most common case in real-world scenarios are subject star-shaped groups that represent properties of one source. The benchmark considers an increasing number of triple patterns, from 3 to 15, also, the number of sources vary from 1 to 5. In particular we have several queries on 1 source with a varying number of triple patterns, and queries that have a large number of triple patterns combined with 4 and 5 sources. With respect to these two variables, our aim is to balance real-life use cases, where several properties in the specification need to be combined and retrieved, and query complexity. Furthermore, a large number of sources or triple patterns combined with a large number of non-instantiated star-shaped groups should impact overall execution time and also specifically impact query generation, query rewriting, query translation, and query execution times.</p><p>In general, queries in GTFS-Bench-Madrid combine those that contain single star-shaped groups (q1, q2, q3, q15) with those that contain chains of star-shaped groups, that is, where the object of a pattern in a group is the subject in the next group (with joins across different sources): q4, q5, q6, q7, q9, q10, q11, q12, q16, q17, q18. According to the ontology structure shown in Fig. <ref type="figure" target="#fig_1">1</ref>, gtfs:StopTime relates to stops and trips and may lead to hybrid shapes such as q8 and q14. There is also the case of query q13, which refers to one source, and contains a self-join that relates an access to a station to its ''parent'' station.</p><p>Besides, as mentioned in <ref type="bibr" target="#b6">[7]</ref>, query plans generated by query evaluation systems during the subquery generation phase may be affected by the structural properties of a query. If the sources in the dataset are all represented in the same format (OBDA), then query plans will be generated by the underlying engine (either an RDB engine or a NoSQL engine), and execution time will be affected by the number of joins within star-shaped groups and among these groups. When the sources of the dataset are not in the same format (OBDI), the engine has to create the query plan. The performance will be affected by the plan proposed by the OBDI engine. Different combinations of these variables are considered in GTFS-Madrid-Bench queries: on the one hand we have a large number of triple patterns, sources and star-shaped groups in q7 and q8, and on the other hand queries like q18 combine a large number of sources and star-shaped groups with a medium-sized query (8 triple patterns).</p><p>Complexity of SPARQL queries is presented in <ref type="bibr" target="#b26">[27]</ref>, considering the SPARQL fragment with only AND and FILTER operators. Complexity is linear on the product of the dataset size and the size of the query (# triple patterns), and evaluation is NP-complete for queries constructed with AND, FILTER and UNION operators. Several queries in GTFS-Madrid-Bench have FILTER clauses and, specifically, q18 contains a UNION of two triple patterns.</p><p>The evaluation problem becomes harder when the OPTIONAL operator is added <ref type="bibr" target="#b26">[27]</ref>. The work described in <ref type="bibr" target="#b27">[28]</ref> presents optimization techniques applied in an OBDA setting specifically for queries that have to deal with OPTIONAL triple patterns, claiming that the underlying database systems do not optimize adequately these class of queries. Similar problems may be expected for querying CSV, XML and JSON data sources. We have designed eight queries that use OPTIONAL graph patterns (according to the corresponding non-mandatory attributes in the specification).</p><p>Constants in triple patterns together with FILTER with equality operators increase the selectivity of queries and are likely to reduce the cost of evaluating the query. According to <ref type="bibr" target="#b6">[7]</ref>, instantiated triple patterns have an important impact on the potential number of join intermediate results that may be generated throughout query execution. However, using a FILTER relational operator specially in the case of open ranges, e.g. a FILTER with a &gt; operator, may generate a large number of answers. We have considered several combinations of number of star-shaped groups with and without constants; q8 has no constants, whereas in q4 both star-shaped groups in the query have bindings. An example of an intermediate case occurs in q12 with 1 out of 4 instantiated star-shaped groups.</p><p>Three queries contain the aggregated COUNT function, and one of these queries contains additionally the GROUP BY modifier. Other queries use language features like DISTINCT and ORDER, that will impact on the query execution time metric because all of them require an ordering of the tuples/entries of the underlying sources. We cover the impact of these variables in q7 and q10 with DISTINCT, and q12 and q14 with GROUP BY and ORDER BY respectively. Finally, having unbounded predicates in a query (q15) increases its complexity, because the search space during query evaluation may be large.</p><p>The work in <ref type="bibr" target="#b28">[29]</ref> studies the impact of negation in the computational complexity of SPARQL queries, it distinguishes four types of negation: negation of filter constraints, negation as failure, negation by MINUS, and negation by NOT EXISTS. The use of NOT EXISTS introduces similar issues to sub-query evaluation because of the presence of correlated variables and the use of a nested iteration method to evaluate queries that contain this type of negation. Hence, q11 contains negation with NOT EXISTS.</p><p>Mappings. Features of mappings are relevant because they may impact the performance of the engines. Previous work by <ref type="bibr" target="#b9">[10]</ref> evaluates different mapping variables that impact in the construction of a knowledge graph. Similarly, we consider that the following mapping variables influence overall query execution time and, specifically, query translation and query rewriting times. Regarding structure, we have considered the variables #Classes, #PredicateObjectMaps, #Predicates, #Objects, and #RefObjectMap that are presented in Table <ref type="table" target="#tab_6">4</ref>. Another variable is relation type; the mappings of the Madrid-GTFS-Bench include 1-1, 1-N, N-1 and N-M relation types. In general, mappings for sources that represent N-M relationships (e.g. stop_times) are more complex and thus time consuming for query execution.</p><p>Additionally, the variable rr:termtype of the rr:objectMap may also have an effect because the cost of generating a constant, a reference or a template is not the same.</p><p>Dataset. Variables in this dimension include dataset size and the formats of its sources. As already mentioned in Section 3.2, datasets with different scale factors are generated in GTFS-Madrid-Bench. Size has an impact on the overall execution time, on the initial delay and, specifically, on query execution time because of the larger number of intermediate results. It also influences query aggregation time because in the benchmark, queries against larger datasets generate a larger number of answers.</p><p>The format variable may take a single value for datasets in only one format (RDB, CSV, XML, MongoDB, JSON) or multiple formats (configurable by the user) This variable has an impact on the overall execution time, specifically on the query translation and query execution times, as well as on the number of answers because different formats have different access methods and different underlying query languages.</p><p>The work in <ref type="bibr" target="#b6">[7]</ref> presents partitioning and data distribution in this dimension. In GTFS-Bench-Madrid there are fixed values for these variables: the partitioning is vertical and datasets and databases are loaded in local machines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Evaluation</head><p>In this section we describe the evaluation performed using our benchmark. We first describe the selected OBDA and OBDI engines involved in the evaluation, we describe the evaluation methodology and infrastructure, based on the use of docker images to ensure the reproducibility of the experiments and, finally, we provide the obtained results. All the resources used in this evaluation, such as queries, data, mappings, running scripts, results and docker images for engines and databases are publicly available online. 18   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Tools</head><p>We selected the most relevant open source OBDA and OBDI engines in the state of the art: Ontario. Ontario <ref type="bibr" target="#b7">[8]</ref> 19 is an OBDI engine that is based on the concept of RDF molecule templates (RDF-MT) <ref type="bibr" target="#b29">[30]</ref>. Ontario exploits the information provided by the mapping rules for creating the corresponding RDF-MT over the data sources. After the source selection and sub-query generation processes, On-18 https://github.com/oeg-upm/gtfs-bench.</p><p>19 https://github.com/SDM-TIB/Ontario.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 7</head><p>Experiment configuration example set. List of experimental configurations and processors for q4. D is a dataset where s is the scaling factor (i.e., 1, 5, 10, 50, 100, 500), M is the set of mappings, q is the SPARQL query, φ is a processor. q is a SPARQL query defined in the Appendix B.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Query q</head><p>Dataset We also intended to include other OBDI engines such as Squerall <ref type="bibr" target="#b8">[9]</ref> or Polyweb <ref type="bibr" target="#b33">[34]</ref>. In both cases, either the code is not available as open source or it was not feasible to run the engine due to lack of documentation or mapping or SPARQL operators features coverage (e.g., Squerall does not support POM with join conditions or SPARQL queries with OPTIONAL). Issues have been reported in their corresponding repositories, with the intention of alerting the authors and maintainers about the current limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Setup</head><p>In this section we describe how we use our benchmark to evaluate several processors/engines that have been described in Section 4.1.</p><p>We have several experiment configurations for evaluating the selected processors. As an example, the experiment configurations for query q4 can be seen in   dataset distributes the formats over the data sources ensuring that at least there is one source per each format and the joins among different formats are maximized. extjoin means that there is a relation between sources in different formats. configurations have a fixed set of mappings with routes and agencies. The processor used to evaluate this query depends on the dataset, for example, Ontario in the case of the JSON dataset or Morph-RDB and Ontop for SQL.</p><p>All the experiment configurations are loaded into a machine with the following characteristics: 2 GHz CPU with 15 cores, 32 RAM, 200 GB HDD with Ubuntu 18.04 as its operating system. The machine contains a docker image for each of the processors: Morph-RDB v3.12.5, Ontop v3.0.0, Morph-CSV v0.1, Ontario v0.3, Morph-xR2RML-1.1-RC2. All the engines are configured with the recommended settings provided in the corresponding online repository.</p><p>In terms of data size, we decided to evaluate the engines over the scale values (5, 10, 50, 100 and 500). After some preliminary tests, we observed that these values provide a good overview of the current state of the engines in terms of query evaluation performance. For each SQL dataset size, we create two docker images where the data is loaded, one as an instance of the MySQL Database Server v5.5 and another as an instance of the MySQL Community Server v8.0. Similarly, for each MongoDB dataset size, we create a docker image of an instance of the MongoDB Community Server v3.4 where the dataset is loaded. The rest of the datasets, which correspond to raw data (CSV, XML and JSON), are loaded into the machine and are accessible to all the processors.</p><p>To test OBDI engines and to demonstrate the capabilities of the benchmark resources covering multiple scenarios, we chose to analyze the impact of the number of joins among different formats. The main reason to test this parameters is because Ontario is focused on improving the performance of these kind of queries. The dataset were created taking into account the selected formats (JSON, CSV, XML, SQL and MongoDB) and varying the number of relations (joins) among different formats. More specifically, the dataset distributions are the following:</p><p>• MINEXTJ dataset: The number of joins among sources in different formats is minimized but ensuring that all of the formats are covered. The aim of this configuration is to study the behavior of the engines when they have to deal with different data sources but where most of the joins are done between sources in the same format. Hence they may delegate their treatment to the underlying data source manager (e.g. MySQL in RDB) and apply common optimization techniques in query translation approaches <ref type="bibr" target="#b31">[32]</ref>. To meet this requirement and, having 5 possible formats for the data sources, the proposed groups for this dataset are: trips, shapes, calendar and calendar_dates sources in one group, routes and agency in another, frequencies in the third group, stop and stop_times in the fourth one and feed_info in the last one. This composition generates the GTFS MIN−EXTJ mad dataset. We show the used dataset in the evaluation in Fig. <ref type="figure" target="#fig_5">3</ref>.</p><p>• MAXEXTJ Dataset: The number of joins among sources in different formats is maximized and the five formats are covered. In this distribution, all the possible joins are among sources in different formats. This means that the OBDI engine may be enforced to perform the joins after the execution of the translated queries over the original data sources. In the same manner as the minimized dataset, the groups of sources are: shapes and stops in one group, trips and feed_info in another, calendar and agency in the third group, routes and stop_times in the fourth and calendar_dates and frequencies in the last one. This composition generates the GTFS MAX −EXTJ mad dataset. We show the used dataset in the evaluation in Fig. <ref type="figure" target="#fig_6">4</ref>.</p><p>In the case of Morph-RDB, we use it together with the docker images containing the instances of the MySQL Community Server v5.5, according to the corresponding documentation. As for Morph-xR2RML, we use it together with the docker images containing the instances of MongoDB server version v3.4. For these experimental configurations and processors, we evaluate all the 18 queries both in warm and in cold mode. Each query is run five times. In warm mode we want to analyze how the cache mechanism may affect the performance. In order to do so, we first evaluate the query, discard its result and then run the query again five times; we then compute the average query execution time. On the contrary, in cold mode, we want to study the performance of the processors without the effect of the cache. In order to do so, we run the query five times and we always restart the database server after each run, so as to clean all the caches.</p><p>Additionally, we use Ontario and Ontop with the docker images containing the instances of MySQL server v8.0, the latest version at the time of writing. Note that the use of the cache is not supported anymore in MySQL v8.0, so that we only evaluate our queries in cold mode. We perform the rest of the experiment configurations with Ontario against the CSV and JSON datasets, and Morph-CSV against CSV datasets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Results</head><p>In this section we report the results obtained through our experimental configurations. Table <ref type="table" target="#tab_31">8</ref> presents the results obtained Table <ref type="table" target="#tab_31">8</ref> Overall execution time (in seconds) of benchmark queries in experiment configurations with original size datasets. W means that the engine obtained a different number of results in comparison to the baseline. E means that the processor is not able to execute the query. TO means that the processor is not able to evaluate the query within the timeout duration (3600 s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head><p>Processor </p><formula xml:id="formula_4">E E E W E E E E E W E E E E GTFS-XML-1 Cold Ontario E E E E E E E E E E E E E E E E E E GTFS-JSON-1 Cold Ontario 18.04 E 17.14 E E E E W E E E E E W E E E E GTFS-MINEXTJ-1 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MAXEXTJ-1 Cold Ontario W E 17.34 E E E E W E E E E E W E E E E</formula><p>for all the datasets and all the processors with scale 1 and a timeout of 3600 s (1 h). The rest of the Tables 9-13 report the results for the other scale values (5, 10, 50, 100 and 500), with the same timeout. When an engine reports an error (e.g. a SPARQL query parsing error, memory overhead, etc.), we represent it with an E in the table. When the engine does not report any error, but the number of results obtained differs with respect to the baseline (RDF materialized graph), we represent the cell with a W. We do not report the total execution time of those queries because, in general, these cases report 0 results in the execution but without error, so the time is not relevant. The tables comparing the number of results obtained by the baseline and the evaluated engines is reported in Appendix A.</p><p>In terms of the comparison among different data formats, we can observe that CSV and SQL data formats are the ones best supported by the available engines. In these cases, most of the engines are able to answer a significant number of queries. As to the effect of cache, as expected, evaluation in the warm mode needed less time, yet, the difference is insignificant due to the relatively small size of the datasets.</p><p>We can also see that in general, it takes more time to evaluate queries over CSV datasets than over SQL datasets. This is expected because available engines need to first load the CSV dataset in a SQL database server in order to be able to query the dataset. This is not the case of other data formats such as JSON and MongoDB, where the engines are only able to answer one or two queries. This is even worse in the case of the XML format, where the only engine that supports it is not able to answer any query. Similarly, in the distributed format, the only query that can be answered by the OBDI engine is a query that is evaluated against a JSON dataset.</p><p>This trend holds in the other scale factors up to 100. In the scale factor 500, only those engines that use SQL datasets are able to answer queries.</p><p>Analyzing the results in general, the errors obtained in the execution of the queries (E in the tables) over the tested engines may be due to two main reasons: (i) the engine does not support a SPARQL operator in the original query (ii) the engine is not able to manage large (intermediate) results, for example, maintaining them in memory. Additionally, the differences obtained in terms of query completeness (W in the tables) may be because: (i) the engine supports the SPARQL operator, but it does not translate it correctly to an operator of the underlying database, hence, the query is executed but the number of results obtained are different; (ii) the interpretation of the mapping rules is not performing correctly, hence, the semantics of the original query is not preserved in the translated query.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>In this section, we provide a general analysis of the design, implementation and execution of Madrid-GTFS-Bench. It should be pointed out that our aim is to have a proposal that follows the benchmark requirements and gives a general overview of the results and problems we observed during the development of the GTFS-Madrid-Bench. We do not intend to rank the performance of the evaluated engines, but rather to identify current limitations in the state of the art in terms of the capabilities of the engines, so as to provide useful information to the developers of each engine as well as to general practitioners. We also describe the process of creating a benchmark for virtual knowledge graph access, and depict the problems and limitations of the tools employed for creating its resources. This analysis can be used to solve open issues, propose improvements and identify future work in the field.</p><p>In terms of the capabilities of OBDA/OBDI engines, the main issue we observe is that many of them do not support some of the commonly used SPARQL operators, such as UNION, ORDER BY and NOT EXISTS. The engines that cover a wider range of SPARQL operators are the ones that execute a SPARQL-to-SQL query translation, due to the fact that this technique has been widely studied in the state of the art <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b34">35]</ref>. The engines that perform query translation over raw data (e.g. CSV, JSON) or over a NoSQL database (MongoDB in this case), produce a lot of errors in the query translation and evaluation processes. For example, in the case of Ontario, the engine is more focused on the generation of an efficient query plan (i.e., distributing star-shaped groups (SSG) taking into account the molecule templates), than performing a correct translation and execution of each SSG over the raw data. The engine does not give support to most of the SPARQL operators, and that is the main reason why it is not able to answer most of the queries. The same happens in terms of query evaluation time; some SPARQL-to-SQL approaches include several optimization techniques <ref type="bibr" target="#b27">[28]</ref> so that they can evaluate the translated queries efficiently, while the other translation techniques that target non SQL query languages are not as efficient. These observations point out the need for a deeper analysis of the techniques that perform efficient query translation from SPARQL to non SQL query languages and raw data (CSV, JSON, XML). Our main conclusions regarding the obtained results are:</p><p>• Only the SPARQL-to-SQL engines provide an acceptable support for SPARQL operators, although there are still some operators that are not included (e.g., FILTER NOT EXIST in Morph-RDB).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 9</head><p>Overall execution time (in seconds) of benchmark queries in experiment configurations with size 5 datasets. W means that the engine obtained a different number of results in comparison to the baseline. E means that the processor is not able to execute the query. TO means that the processor is not able to evaluate the query within the timeout duration (3600 s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head><p>Processor    </p><formula xml:id="formula_5">W W W W W W W W W W W W TO W W TO W Cold Morph-xR2RML W W W W W W W W W W W W W TO W W TO W GTFS-CSV-</formula><formula xml:id="formula_6">E E E W E E E E E W E E E E GTFS-XML-5 Cold Ontario E E E E E E E E E E E E E E E E E E GTFS-JSON-5 Cold Ontario W E 15.66 E E E E W E E E E E W E E E E GTFS-MINEXTJ-5 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MAXEXTJ-5 Cold Ontario W E 18.34 E E E E W E E E E E W E E E E</formula><formula xml:id="formula_7">W W W W W W W W W W W W TO W W TO W Cold Morph-xR2RML W W W W W W W W W W W W W TO W W TO W GTFS-CSV-</formula><formula xml:id="formula_8">E E E W E E E E E W E E E E GTFS-XML-10 Cold Ontario E E E E E E E E E E E E E E E E E E GTFS-JSON-10 Cold Ontario W E 17.21 E E E E W E E E E E W E E E E GTFS-MINEXTJ-10 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MAXEXTJ-10 Cold Ontario W E 19.51 E E E E W E E E E E W E E E E</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 11</head><p>Overall execution time (in seconds) of benchmark queries in experiment configurations with size 50 datasets. W means that the engine obtained a different number of results in comparison to the baseline. E means that the processor is not able to execute the query. TO means that the processor is not able to evaluate the query within the timeout duration (3600 s).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head><formula xml:id="formula_9">W W W W W W W W W W W W TO W W TO W Cold Morph-xR2RML W W W W W W W W W W W W W TO W W TO W GTFS-CSV-</formula><formula xml:id="formula_10">E E E W E E E E E W E E E E GTFS-XML-50 Cold Ontario E E E E E E E E E E E E E E E E E E GTFS-JSON-50 Cold Ontario W E 23.74 E E E E W E E E E E W E E E E GTFS-MINEXTJ-50 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MAXEXTJ-50 Cold Ontario W E 35.16 E E E E W E E E E E W E E E E</formula><p>• OBDA/OBDI proposals beyond relational databases are not mature enough, and more research is needed in order to, for example, provide wider support of SPARQL operators or generate efficient query plans that take into account parameters such as data format or join selectivity.</p><p>• The problem of translating SPARQL queries for querying raw data (CSV, JSON, XML) should not be understood as a technical case of SPARQL-to-SQL where the management of the data is delegated to RDB wrappers such as Presto, Spark and Apache Drill. Techniques and optimizations, and the analysis of features uniquely associated to these data sources have to be proposed.</p><p>• The distribution of SPARQL queries over heterogeneous sources exploiting mapping rules, and their translation and execution over different query languages, are the two main points for developing robust OBDI engines. Although the adaptation of current techniques proposed by federated SPARQL engines to OBDI has been successfully proved in <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>, they do not support the majority of the SPARQL operators and they do not correctly execute the queries when the data source is beyond RDB instances. New investigation should be performed to address these issues.</p><p>Additionally, in our evaluation we only have the possibility of obtaining the total execution time of each engine. Other metrics are proposed in the benchmark, such as initial delay, loading time or query translation time. However, they are only available in some of the engines. We point out the importance of providing all these metrics to identify possible bottlenecks in the evaluation process.</p><p>We have also found possible improvements in terms of data and mapping generation in the process of creating the resources in this benchmark. In the data generation process, one of the main improvements may be the incorporation of semantics. For example, in our benchmark we have a file that represents the calendar of the trips, which has a start and an end date. The data generator should validate that the start date must be earlier than the end date, so that queries can be created to exploit this constraint. Another example that would improve with the inclusion of semantics is the scaling of dataset sources that are related and may be ''joined''. Currently, even if each dataset is scaled, the number of tuples per join-attribute value does not change. Ideally, this should be scaled only in certain cases. Additionally, the inclusion of a set of constraints or validation rules may improve this process (e.g. define a range of possible values for a column).</p><p>With respect to the mapping generation process, we find two main issues. First, as mappings need to relate the ontology with the data source, the raw data need some changes in a preprocessing step in order to be aligned with the features of the ontology (e.g classes or properties). There are some proposals to include these transformation functions in mappings, such as the Function Ontology <ref type="bibr" target="#b35">[36]</ref> or R2RML-F <ref type="bibr" target="#b36">[37]</ref>, but at the moment of writing only Squerall and Morph-CSV are able to parse RML mappings with functions(RML+FnO) Finally, we have to create manually the mapping documents required to test the engines. Following the proposal in <ref type="bibr" target="#b1">[2]</ref>, an improvement will be to be able to define the mappings conceptually, independently of the language, and then, have techniques to translate them to a specific language. With this approach we will ensure the correctness of the mappings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Sustainability and extensibility</head><p>The Madrid-GTFS-Bench is supported by a set of robust resources in order to ensure its sustainability. The benchmark can be adapted to any other virtual knowledge graph access engine that uses other mapping rules languages, or to other nondeclarative proposals. The developers or users only have to create the mapping documents according to that specification. Additionally, virtual knowledge graph access engines that work with other graph query languages (e.g., Morph-GraphQL <ref type="bibr" target="#b37">[38]</ref>) can take advantage of our benchmark.</p><p>A set of improvements for the data generation that we have identified are based on VIG, a robust and efficient engine for the generation of scalable datasets. Additionally, all the generated resources are available online, 24 and their deployment (engines and databases) is done using docker images to ensure the reproducibility of the obtained results. Finally, because we define the dimensions of mappings and datasets taking into account the relevant parameters in the process of constructing knowledge graphs <ref type="bibr" target="#b9">[10]</ref>, this benchmark can be also used to test the engines called rdfizers, such as RMLMapper, 25 RocketRML 26 or 24 https://github.com/oeg-upm/gtfs-bench/. 25 https://github.com/RMLio/rmlmapper-java.</p><p>26 https://github.com/semantifyit/RocketRML/. SDM-RDFizer, 27 since at this moment there is no proposal to evaluate the performance and completeness of these engines.</p><p>The possibility to extend this benchmark is also one of the main points that differentiates this proposal to previous ones. First, multiple benefits are obtained from relying on an open data model from the transport domain, such as linking this data with other data from the city, and also having other GTFS transport systems feeds (e.g., metro and train datasets). In addition to queries that take into account the specific characteristics of the selected datasets, it is also possible to incorporate more complex mapping rules with extended features such as specific transformation functions <ref type="bibr" target="#b35">[36]</ref>, something difficult to address by previous proposals, as their data models are usually relational database oriented <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. The incorporation of these features will ensure that we cover new characteristics of the new generation of virtual knowledge graph access engines without having to create a benchmark from scratch.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Related work</head><p>In this section we provide an overview of two groups of benchmark proposals: benchmarks for federated SPARQL engines, and benchmarks for SPARQL OBDA engines. Additionally we present a general description of existing OBDA and OBDI approaches, and the different proposals of mapping languages that are aimed at establishing transformation rules between an ontology and different data representations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Federated SPARQL benchmarks</head><p>In the context of federated SPARQL engines, many benchmarks have been proposed to evaluate engines that distribute a SPARQL query over several RDF-based endpoints, applying techniques of query distribution when all of the sources are RDF datasets. Benchmarks that have been proposed are the Fedbench suite <ref type="bibr" target="#b4">[5]</ref> and LSLOD <ref type="bibr" target="#b5">[6]</ref>.</p><p>Fedbench <ref type="bibr" target="#b4">[5]</ref> provides a framework to evaluate the efficiency and effectiveness of federated SPARQL query strategies over three different datasets: cross-domain, life science, and SP 2 Bench which is set in the DBLP context. Evaluation is carried out, and comparisons are done on various setups: centralized, local SPARQL endpoints, and federations of endpoints. Another evaluation setup is the linked data scenario, where sources are retrieved through URI lookup. For the cross domain and life-science queries, the metrics are total execution time and number of requests to endpoints. The metric for the evaluation of SP 2 Bench is total execution time, and the Linked Data setting considers execution time and number of dereferenced sources. The focus of Fedbench is on the evaluation of different scenarios of RDF data federation. The purpose of GTFS-Madrid-Bench is to evaluate scenarios where there may be an assortment of data in different formats, not only RDF, that is, a centralized heterogeneous setup (currently denoted as a Data Lake) where the highly dynamic nature of these data require virtualized access. While Fedbench considers both real-world and artificial data federations, GTFS-Madrid-Bench is based on the use of the Madrid subway Linked GTFS feed as a starting point for the generation of scaled instances in the different formats. Both Fedbench and GTFS-Madrid-Bench follow a query design approach in combining SPARQL language coverage and real-world user requirements, where one of the aspects considered is the number of sources that need to be accessed in order to answer the queries.</p><p>The work in <ref type="bibr" target="#b6">[7]</ref> remarks that there are two groups of variables (dependent and independent) in federated benchmark definitions</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 12</head><p>Overall execution time (in seconds) of benchmark queries in experiment configurations with size 100 datasets. W means that the engine obtained a different number of results in comparison to the baseline. E means that the processor is not able to execute the query. TO means that the processor is not able to evaluate the query within the timeout duration (3600 s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head><p>Processor  </p><formula xml:id="formula_11">W W W W W W W W W W W W TO W W TO W Cold Morph-xR2RML W W W W W W W W W W W W W TO W W TO W GTFS-CSV-</formula><formula xml:id="formula_12">E E E W E E E E E W E E E E GTFS-XML-100 Cold Ontario E E E E E E E E E E E E E E E E E E GTFS-JSON-100 Cold Ontario W E 33.56 E E E E W E E E E E W E E E E GTFS-MINEXTJ-100 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MAXEXTJ-100 Cold Ontario W E 85.59 E E E E W E E E E E W E E E E</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 13</head><p>Overall execution time (in seconds) of benchmark queries in experiment configurations with size 500 datasets. W means that the engine obtained a different number of results in comparison to the baseline. E means that the processor is not able to execute the query. TO means that the processor is not able to evaluate the query within the timeout duration (3600 s). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head><formula xml:id="formula_13">GTFS-MongoDB-500 Warm Morph-xR2RML W W W W W W W W W W TO W W TO W W TO W Cold Morph-xR2RML W W W W W W W W W W W W W TO W W TO W GTFS-CSV-500 Cold Morph-RDB E TO E TO E TO TO E TO TO E TO TO E E E TO E Morph-CSV TO TO E TO E TO TO E TO TO E TO TO E E E TO TO Ontario W E E E E E E W E E E E E W E E E E GTFS-XML-500 Cold Ontario E E E E E E E E E E E E E E E E E E GTFS-JSON-500 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MINEXTJ-500 Cold Ontario W E E E E E E W E E E E E W E E E E GTFS-MAXEXTJ-500 Cold Ontario W E E E E E E W E E E E E W E E E E</formula><p>that have not been considered, but which may have an impact on the measurement of engines performance. The independent variables are those that may be specified to ensure the reproducibility of the proposed scenarios; they are grouped into four dimensions: query, data, platform and endpoint. The dependent variables are those that will be measured during the evaluation: endpoint selection time, execution time (divided into (i) time for first answer, (ii) time for the distributed reception of query answers, and (iii) total execution time), and answer completeness. The impact of the dependent variables on the evaluation metrics is analyzed, and then different configurations of variables are applied to the evaluation of FedBench queries. The authors observe that the performance of the federated query engines is indeed affected by the group of independent variables. Similarly, GTFS-Madrid-Bench has also considered in its design and experimental setup some of these query, data and platform independent variables, taking into consideration their impact on the execution time. Some of these are query plan shape, # basic triple patterns, # of instantiations, usage of query language expressivity, dataset size and cache on/off. However, some of the variables are not relevant to GTFS-Madrid-Bench setup, such as those related to the Endpoint dimension and some of the Data dimension variables, such as data endpoint distribution. LSLOD <ref type="bibr" target="#b5">[6]</ref> provides queries and real-world data from the lifescience domain. It is very specific to the context of SPARQL endpoint federation. Several query characteristics are considered in LSLOD such as number of basic graph patterns, number of triple patterns, number of join vertices, and use of different SPARQL clauses. GTFS-Madrid-Bench does not aimed at evaluating federated SPARQL queries, therefore using LSLOD was not an option.</p><p>Unlike GTFS-Madrid-Bench, LSLOD does not include some SPARQL operators that may impact on the behavior of OBDA/I engines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">OBDA Benchmarks</head><p>Several benchmarks have been developed to measure the performance of SPARQL to SQL query translation of OBDA engine techniques. The main two proposals in this field are the Berlin SPARQL Benchmark (BSBM) <ref type="bibr" target="#b2">[3]</ref> and the Norwegian Petroleum Directorate Benchmark (NPD) <ref type="bibr" target="#b3">[4]</ref>. The BSBM benchmark sets its context in the e-commerce domain, and provides a configurable data generator and a set of SPARQL queries together with their equivalent SQL queries. This benchmark has been used to compare the query performance of native RDF stores with the performance of OBDA engines that execute virtualized SPARQL access against relational databases.</p><p>Similar to BSBM, GTFS-Madrid-Bench uses a data generator to scale up the size of the dataset used during experimentation. Unlike BSBM, GTFS-Madrid-Bench is based on real data, using Madrid subway network data to be more specific, and this data is aligned with an established data model. Furthermore, BSBM does not measure specific requirements of OBDA systems, as it has been developed with the aim of comparing OBDA engines with native RDF triple stores. Also, it considers only OBDA engines that access relational data sources. GTFS-Bench-Madrid considers data sources in multiple formats, thus it is tailored to evaluate and compare an assortment of OBDA engines and OBDI engines as well. Specific OBDA requirements have been analyzed by the authors of the NPD benchmark in the setting of a real-world scenario from the oil industry. The nine proposed requirements are related to the datasets, query sets, mappings and query languages. The benchmark includes a data generator, VIG <ref type="bibr" target="#b12">[13]</ref>, to generate scaled RDB instances that obtain a number of expected triples from a SPARQL query, using as inputs an ontology, an R2RML mapping document, and the schema of the RDB together with its corresponding instance. In our work we extend the workflow defined in NPD from OBDA to OBDI and hence define the requirements of an OBDI benchmark. Additionally, we extend VIG in order to transform the RDB scaled instances to the different data source representations handled by the engines.</p><p>Simple queries defined in LSLOD <ref type="bibr" target="#b5">[6]</ref> have been used in order to evaluate the performance of the Ontario <ref type="bibr" target="#b7">[8]</ref> engine. In this work, all of the original RDF datasets were translated into RDB tables. The idea was to evaluate an heterogeneous setup consisting of RDF and RDB sources, focused on the source selection problem, and the generation of the corresponding optimized query plan. GTFS-Madrid-Bench extends the ideas from this evaluation with the aim of involving a wider assortment of formats that are usually available nowadays in the Web. Also, our proposal differs from LSLOD in the sense that it is supported by an extensible open data model in a smart city context. Additionally, the simple queries from LSLOD are focused on the evaluation of the distribution of star-shaped groups that do not exploit some of the features of the SPARQL language, such as FILTER, ORDER BY, GROUP BY and NOT EXISTS, which are relevant in the context of real-life use cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Virtual OBDA and OBDI approaches</head><p>There are multiple proposals focused on the translation of SPARQL queries to query data in their original format. The concept of OBDA and OBDI is defined in <ref type="bibr" target="#b0">[1]</ref>, and the first proposal for translating SPARQL-to-SQL is defined in <ref type="bibr" target="#b24">[25]</ref>. Based on this idea and with the launch of R2RML <ref type="bibr" target="#b38">[39]</ref> as a W3C recommendation, multiple works are proposed in the optimization of this process that take into account this mapping specification, such as Morph-RDB <ref type="bibr" target="#b31">[32]</ref>, Ontop <ref type="bibr" target="#b34">[35]</ref> or Ultrawrap <ref type="bibr" target="#b39">[40]</ref>. Additionally, there are specific studies on how SPARQL operators affect the translation of the query to SQL <ref type="bibr" target="#b27">[28]</ref>. Beyond relational databases, Morph-xR2RML <ref type="bibr" target="#b32">[33]</ref> formally defines the translation from SPARQL to NoSQL databases. Finally, Morph-CSV <ref type="bibr" target="#b15">[16]</ref> is a proposal to enhance the SPARQL-to-SQL process when the data source is a set of tabular data (i.e. CSV files). It exploits information from tabular metadata and mapping rules to explicitly enforce implicit constraints of the original datasets.</p><p>There are two main proposals of OBDI engines: Ontario and Squerall. Ontario <ref type="bibr" target="#b7">[8]</ref> is based on the concept of RDF molecule templates <ref type="bibr" target="#b29">[30]</ref> which aims to perform efficient source selection in a data lake composed of heterogeneous data sources in their original format. It creates a set of star-shaped sub-queries that match the RDF Molecule Templates (RDF-MT), and applies optimization techniques to define the query plan that will be executed. Similarly, Squerall <ref type="bibr" target="#b8">[9]</ref> is a system that implements OBDI for heterogeneous data sources. It takes input data and mappings, and offers a middleware that is able to aggregate the intermediate results in a distributed manner. Although the aforementioned systems are able to evaluate queries against raw tabular data and exploit some information encoded in the query, they do not exploit the constraints declared in annotations or mapping rules to enhance this process. Polyweb <ref type="bibr" target="#b33">[34]</ref> is another proposal that is able to translate and distribute queries using RML mappings over relational databases and CSV files.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4.">Mapping languages</head><p>Different mapping languages have been proposed for defining transformation rules between ontology representation languages and data sources in different formats; these include SQL and NoSQL databases, as well as data in plain text such as CSV, XML and JSON. The RDB2RDF W3C Working Group published two recommendations for transforming the content of relational databases into RDF: Direct Mapping <ref type="bibr" target="#b40">[41]</ref> and R2RML <ref type="bibr" target="#b38">[39]</ref>. The Direct Mapping approach specifies a set of transformation rules that requires no intervention from users. R2RML allows specifying transformation rules, such as how URIs should be generated, in which columns of the database are used for the transformation to RDF triples that represent tuples in the original tables, and so on. After the recommendation was released, new needs and requirements arose in relation to supporting other formats beyond relational databases, and this resulted in the creation of new mapping languages such as RML <ref type="bibr" target="#b17">[18]</ref> which considers data sources in CSV, JSON and XML formats, xR2RML <ref type="bibr" target="#b32">[33]</ref> for MongoDB databases, KR2RML <ref type="bibr" target="#b41">[42]</ref> that considers nested data, CSVW <ref type="bibr" target="#b16">[17]</ref> to annotate CSV files on the Web, and D2RML <ref type="bibr" target="#b42">[43]</ref> for XML, JSON and REST/SPARQL endpoints, among others. These are declarative proposals that define mapping rules, which have some important features, such as the improving of the maintainability, readability or understandability of the data integration process. Non-declarative mapping languages have also been proposed, for example SPARQL-Generate <ref type="bibr" target="#b43">[44]</ref> extends the SPARQL 1.1 by taking as input an RDF dataset and a set of documents in multiple formats, and generating RDF through the SPARQL CONSTRUCT clause.</p><p>Current OBDA benchmarks use mappings defined in a single language according to the underlying format of the engines that are evaluated. The Ontario <ref type="bibr" target="#b7">[8]</ref> OBDI engine has conducted their evaluation with an extension of the LSLOD benchmark that defines RML mappings. The Squerall <ref type="bibr" target="#b8">[9]</ref> engine has picked the BSBM benchmark and has defined mappings in an extended version of the RML language that uses functions defined with entities from the Function Ontology (FnO). 28 The Polyweb tool <ref type="bibr" target="#b33">[34]</ref> uses mappings defined RML and R2RML mappings; however the system is not publicly available and thus cannot be reused or extended. GTFS-Madrid-Bench uses mappings defined mappings in all of the state of the art mapping languages: RML, R2RML, xR2RML, and CSVW annotations for tabular data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusions and future work</head><p>In this paper we propose a benchmark for virtual knowledge graph access using real data from the transport domain. The benchmark design considers variables that span all of its resources (queries, mappings and data) in order to test the capabilities and performance of the processors. GTFS-Madrid-Bench satisfies requirements that are an extension of those already identified in existing OBDA benchmarks. Besides, metrics have been established for each step of the workflow of virtualised knowledge graph access.</p><p>As already discussed, the main objective of this benchmark is not to provide a ranking of engines, but to provide a set of resources that can be useful for: (i) practitioners who choose the engine that best fits their use cases and (ii) developers of virtual knowledge graph access engines to improve their tools and compare their results with other proposals. As such, we expect this benchmark to be a stepping stone in this area where much research and development has been done for decades, but there is a need for more mature applications to be used in real-world environments. Indeed, our experimental study has shown that there are still relevant open issues, such as SPARQL conformance, semantic preservation in the translation from SPARQL queries to the query languages used to query raw data (CSV, JSON, XML), and the application of query evaluation optimization techniques. With the Madrid-GTFS-Bench we intend to contribute to the community by providing not only the baseline that can be used to improve the development of the current engines, but also the possibility to use it to test new approaches and techniques over the next years.</p><p>The design of this benchmark has been a complex task, since it had to cover all of the identified requirements and, at the same time, work on a very general scenario with a mix of OBDA and OBDI approaches. On the one hand, some of the current OBDA proposals work with SQL datasets and in general conform to most of the features of the SPARQL language. Throughout the experiments we realized that the OBDA proposals that are designed to work with other formats support fewer features of the query language, and in general they have issues in their query translation process. There is a lot of room for improvement in these proposals, such as generating more efficient queries, which has been done in the SQL-based OBDA proposals. On the other hand, we were only able to include in the benchmark the Ontario OBDI proposal, even though other OBDI proposals have been published in the literature since it was not feasible to execute them because of lack of documentation. In all cases, the evaluation of our benchmark queries with the different engines exposed the need for improvements in their current releases, in terms of efficiency and correctness of the results.</p><p>It is also worth mentioning that the benchmark is easily extensible to be used with other data formats and engines. That is, if in the future there is a requirement to evaluate an engine that supports a different data format, the only need is to create a script that translates the data sources from CSV to the corresponding format.</p><p>Future work includes the development of mapping translation techniques that involve the different mapping language specifications. In the context of virtualized knowledge graph access it would be very useful to help in the development and maintenance of mappings, so as to avoid inconsistencies among mappings and errors in the evaluation. Another line of work is to improve the data generation process to ensure that scaled data is well aligned with the domain data model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.       </p><formula xml:id="formula_14">0 - 734 - - - - 0 - - - - - 0 - - - - XML Ontario - - - - - - - - - - - - - - - - - - JSON Ontario 58540 - 734 - - - - 0 - - - - - 0 - - - - MINEXTJ Ontario 0 - - - - - - 0 - - - - - 0 - - - - MAXEXTJ Ontario 0 - 734 - - - - 0 - - - - - 0 - - - - RDF</formula><formula xml:id="formula_15">- - - 0 - - - - - 0 - - - - XML Ontario - - - - - - - - - - - - - - - - - - JSON Ontario 0 - 2104 - - - - 0 - - - - - 0 - - - - MINEXTJ Ontario 0 - - - - - - 0 - - - - - 0 - - - - MAXEXTJ Ontario 0 - 2104 - - - - 0 - - - - - 0 - - - - RDF</formula><formula xml:id="formula_16">- - - 1 - - 2650 - - - - Morph-CSV 353660 12620 - 130 - 1 0 - 0 1 - 130 2650 - - - 0 Ontario 0 - 4207 - - - - 0 - - - - - 0 - - - - XML Ontario - - - - - - - - - - - - - - - - - - JSON Ontario 0 - 4207 - - - - 0 - - - - - 0 - - - - MINEXTJ Ontario 0 - - - - - - 0 - - - - - 0 - - - - MAXEXTJ Ontario 0 - 4207 - - - - 0 - - - - - 0 - - - - RDF</formula><formula xml:id="formula_17">0 0 0 0 0 0 0 0 0 5058 0 0 - 0 0 - 0 CSV Morph-RDB 1768300 31550 - 650 - 1 - - - 1 - - 1325 - - - - - Morph-CSV 1768300 63100 - 650 - 1 0 - 0 1 - 650 13250 - - - 42750 0 Ontario 0 - 21034 - - - - 0 - - - - - 0 - - - - XML Ontario - - - - - - - - - - - - - - - - - - JSON Ontario 0 - 21034 - - - - 0 - - - - - 0 - - - - MINEXTJ Ontario 0 - - - - - - 0 - - - - -<label>0</label></formula><formula xml:id="formula_18">0 0 0 0 0 0 0 0 0 - 0 0 - 0 0 - 0 CSV Morph-RDB - - - - - - - - - 1 - - - - - - - - Morph-CSV - - - - - - - - - - - - - - - - - - Ontario 0 - - - - - - 0 - - - - - 0 - - - - XML Ontario - - - - - - - - - - - - - - - - - - JSON Ontario - - - - - - - 0 - - - - - 0 - - - - MINEXTJ Ontario 0 - - - - - - 0 - - - - - 0 - - - - MAXEXTJ Ontario 0 - - - - - - 0 - - - - -<label>0</label></formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>https://doi.org/10.1016/j.websem.2020.100596 1570-8268/© 2020 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>D 1 from</head><label>1</label><figDesc>Example 1 and a scale factor s of 2.5, a dataset generator may produce the following D ′ = {(Routes−2.5, Σ 1 , SQL), (Stops−2.5, Σ 2 , JSON)}. The schemata and the formats are the same, but the data of Routes2.5 and Stops2.5 has been scaled up from their versions in D 1 , containing 189 and 3536 instances respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. LinkedGTFS Ontology. Subset of the LinkedGTFS ontology used in the GTFS-Madrid-Bench for virtual knowledge graph access. There are eleven object property relations among the classes, and two subClassOf relations.</figDesc><graphic coords="4,64.69,330.54,456.32,253.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. GTFS-Madrid-Bench Generation Workflow with scale value 10. From the original 10 CSV files of Madrid Metro GTFS (1) we use Morph-CSV to generate the corresponding RDB instance and an R2RML mapping that are the required inputs for (2) scaling up the data using VIG and (3) distributing the generated dataset to different formats.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>15 https://github.com/SDM-TIB/SDM-RDFizer.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Example of MINEXTJ dataset. GTFS minextj maddataset distributes the formats over the data sources ensuring that at least there is one source per each format and the joins among different formats are minimized. extjoin means that there is a relation between sources in different formats and internjoin means that the joins are between sources in the same format.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Example of MAXEXTJ dataset. GTFS maxextj mad</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Most commonly used formats (and percentage over the total number of datasets) to publish data in mature EU open data portals.2   </figDesc><table><row><cell>Data portal</cell><cell>1st format</cell><cell>2nd format</cell><cell>3rd format</cell></row><row><cell>Spain</cell><cell>CSV (50%)</cell><cell>XLS (35%)</cell><cell>JSON (33%)</cell></row><row><cell>Norway</cell><cell>CSV (77%)</cell><cell>GEOJSON (17%)</cell><cell>JSON (14%)</cell></row><row><cell>Italy</cell><cell>CSV (76%)</cell><cell>JSON (35%)</cell><cell>XML (25%)</cell></row><row><cell>Croatia</cell><cell>XLS (63%)</cell><cell>CSV (40%)</cell><cell>HTML (33%)</cell></row><row><cell>Luxembourg</cell><cell>ZIP (25%)</cell><cell>CSV (24%)</cell><cell>PDF (18%)</cell></row><row><cell>Ireland</cell><cell>JSON (49%)</cell><cell>CSV (39%)</cell><cell>TXT (22%)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2</head><label>2</label><figDesc>Virtual Knowledge Graph Access Benchmark Requirements. include classes with data and object properties DatasetThe virtual instance should maintain the constraints defined in the original dataset DatasetThe virtual instance should be based on real world data DatasetThe virtual instance should be distributed in different data formats MappingsThe mappings should be able to indicate the format of the source Mappings</figDesc><table><row><cell>Variable</cell><cell>Requirement</cell></row><row><cell>Ontology</cell><cell>The ontology should</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3</head><label>3</label><figDesc>LinkedGTFS classes and their descriptions. a vehicle stops or leaves. Multiple routes may use the same stop.A stop may be wheelchair-accessible. Route Collection of one or more trips.Usually two trips in each direction. Trips A trip in a certain direction passes by several stops.A trip is associated with a shape. StopTimes An ordered sequence of stops.Includes their arrival and departure times. ServiceSet of dates when a service is available.A Service follows a rule that may have exceptions.</figDesc><table><row><cell>Class</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4</head><label>4</label><figDesc>Mapping features of GTFS. Each TriplesMap of the GTFS mapping file and its corresponding features: the related source, number of Classes, PredicateObjectMaps, Predicates, Objects and RefObjectMaps (joins).</figDesc><table><row><cell>TriplesMap</cell><cell>Source</cell><cell>Classes</cell><cell>#PredicateObjectMap</cell><cell>#Predicates</cell><cell>#Objects</cell><cell>#RefObjectMap</cell></row><row><cell>shapes</cell><cell>shapes</cell><cell>gtfs:Shape</cell><cell>4</cell><cell>4</cell><cell>4</cell><cell>0</cell></row><row><cell>trips</cell><cell>trips</cell><cell>gtfs:Trip</cell><cell>8</cell><cell>8</cell><cell>5</cell><cell>4</cell></row><row><cell>calendar_rules</cell><cell>calendar</cell><cell>gtfs:CalendarRule</cell><cell>9</cell><cell>9</cell><cell>9</cell><cell>0</cell></row><row><cell>calendar_date_rules</cell><cell>calendar_dates</cell><cell>gtfs:CalendarDateRule</cell><cell>2</cell><cell>2</cell><cell>2</cell><cell>0</cell></row><row><cell>stops</cell><cell>stops</cell><cell>gtfs:Stop</cell><cell>12</cell><cell>12</cell><cell>11</cell><cell>1</cell></row><row><cell>stoptimes</cell><cell>stop_times</cell><cell>gtfs:StopTime</cell><cell>9</cell><cell>9</cell><cell>7</cell><cell>2</cell></row><row><cell>routes</cell><cell>routes</cell><cell>gtfs:Route</cell><cell>8</cell><cell>8</cell><cell>7</cell><cell>1</cell></row><row><cell>agency</cell><cell>agency</cell><cell>gtfs:Agency</cell><cell>6</cell><cell>6</cell><cell>6</cell><cell>0</cell></row><row><cell>frequencies</cell><cell>frequencies</cell><cell>gtfs:Frequency</cell><cell>5</cell><cell>5</cell><cell>4</cell><cell>1</cell></row><row><cell>feed</cell><cell>feed_info</cell><cell>gtfs:Feed</cell><cell>6</cell><cell>6</cell><cell>6</cell><cell>0</cell></row><row><cell>service1</cell><cell>calendar</cell><cell>gtfs:Service</cell><cell>1</cell><cell>1</cell><cell>0</cell><cell>1</cell></row><row><cell>service2</cell><cell>calendar_dates</cell><cell>gtfs:Service</cell><cell>1</cell><cell>1</cell><cell>0</cell><cell>1</cell></row><row><cell>Total</cell><cell>10</cell><cell>11</cell><cell>71</cell><cell>71</cell><cell>60</cell><cell>11</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 5</head><label>5</label><figDesc>GTFS-Madrid-Bench Queries. Rows correspond to the query identifier, its text in natural language and properties. Columns correspond to the query variables that influence most of the benchmark metrics. Each cell contains the value of the variable in the query. Additionally, the column Mapping features describes the rules from the general mapping involved in the query where TM means TriplesMap, PSOM means Predicate Simple Object Map (reference, template or constant) and PROM means Predicate Reference Map (join conditions).</figDesc><table><row><cell>Query</cell><cell>Description</cell><cell cols="3">#Triple #Sources OPTIONAL Aggregation Otherfeatures FILTER</cell><cell>#Star-shaped groups</cell><cell>Mapping features</cell></row><row><cell></cell><cell></cell><cell>Patterns</cell><cell></cell><cell cols="2">equal to relational w/oconstants w/constants</cell><cell></cell></row><row><cell>q1</cell><cell>All shapes</cell><cell>4</cell><cell>1</cell><cell></cell><cell>1</cell><cell>1TM, 4PSOM</cell></row><row><cell>q2</cell><cell>All stops where the latitude is larger than a</cell><cell>5</cell><cell>1</cell><cell></cell><cell>0</cell><cell>1TM, 5PSOM</cell></row><row><cell></cell><cell>specific value</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>q3</cell><cell>Accessibility information of all stations</cell><cell>5</cell><cell>1</cell><cell></cell><cell>0</cell><cell>1TM, 6PSOM</cell></row><row><cell>q4</cell><cell>All agencies and their routes</cell><cell>9</cell><cell>2</cell><cell></cell><cell>2</cell><cell>2TM, 8PSOM, 1PROM</cell></row><row><cell>q5</cell><cell>Services that have been added after a specific date</cell><cell>5</cell><cell>2</cell><cell></cell><cell>1</cell><cell>3TM, 5PSOM, 2PROM</cell></row><row><cell>q6</cell><cell>Number of routes covered by a specific agency</cell><cell>3</cell><cell>2</cell><cell></cell><cell>0</cell><cell>2TM, 1PSOM, 1PROM</cell></row><row><cell>q7</cell><cell>All wheelchair-accessible stops in a specific route</cell><cell>15</cell><cell>4</cell><cell>DISTINCT</cell><cell>1</cell><cell>6TM, 11PSOM, 5PROM</cell></row><row><cell>q8</cell><cell>Routes and their related trips, services, stops and stop times</cell><cell>14</cell><cell>5</cell><cell></cell><cell>5</cell><cell>8TM, 10PSOM, 7PROM</cell></row><row><cell>q9</cell><cell>Trips and associated shapes where latitude is larger than a</cell><cell>7</cell><cell>2</cell><cell></cell><cell>1</cell><cell>5TM, 4PSOM, 4PROM</cell></row><row><cell></cell><cell>specific value</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>q10</cell><cell>Number of trips that have a duration over a number of</cell><cell>4</cell><cell>2</cell><cell>DISTINCT</cell><cell>1</cell><cell>2TM, 3PSOM, 1PROM</cell></row><row><cell></cell><cell>minutes</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>q11</cell><cell>Trips that are available on a certain date</cell><cell>12</cell><cell>3</cell><cell>NOT EXISTS</cell><cell>3</cell><cell>5TM, 5PSOM, 4PROM</cell></row><row><cell>q12</cell><cell>Number of stops that are wheelchair-accessible grouped by</cell><cell>10</cell><cell>4</cell><cell>GROUP BY</cell><cell>3</cell><cell>5TM, 7PSOM, 3PROM</cell></row><row><cell></cell><cell>route</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>q13</cell><cell>The accesses of all stations</cell><cell>6</cell><cell>1</cell><cell></cell><cell>0</cell><cell>1TM, 3PSOM, 1PROM</cell></row><row><cell>q14</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>Ontariotario translates the SPARQL query into the corresponding query language of the original data source. It supports the following formats: RDF, MySQL, CSV, TSV, JSON, XML, MongoDB and Neo4j. Ontop. Ontop<ref type="bibr" target="#b30">[31]</ref> 20 is an OBDA system that includes both materialization and virtualization techniques. Ontop translates R2RML mappings into its own mapping language, called ''OBDA mappings''. These mappings, and a SPARQL query if available, are transformed into datalog rules, allowing semantic optimization techniques to be applied, and generating efficient SQL queries (e.g., self-join elimination). It only supports the SQL format.</figDesc><table><row><cell></cell><cell>D</cell><cell>TriplesMap M</cell><cell>Processor φ</cell></row><row><cell></cell><cell></cell><cell>{routes,agency} RML</cell><cell>Morph-CSV</cell></row><row><cell></cell><cell>GTFS csv mad -s</cell><cell>{routes,agency} R2RML</cell><cell>Morph-RDB</cell></row><row><cell></cell><cell></cell><cell>{routes,agency} RML</cell><cell>Ontario</cell></row><row><cell>q4</cell><cell>GTFS sql mad -s</cell><cell>{routes,agency} R2RML {routes,agency} RML {routes,agency} OBDA</cell><cell>Morph-RDB Ontario Ontop</cell></row><row><cell></cell><cell>GTFS GTFS xml mongodb mad mad -s -s GTFS json mad -s GTFS minextj mad -s GTFS maxextj mad -s</cell><cell>{routes,agency} xR2RML {routes,agency} RML {routes,agency} RML {routes,agency} RML {routes,agency} RML</cell><cell>Morph-xR2RML Ontario Ontario Ontario</cell></row></table><note>Morph-RDB. Morph-RDB<ref type="bibr" target="#b31">[32]</ref> 21 is an R2RML engine that also includes materialization and virtualization techniques. The formalization of its query translation technique is based on the R2RML-based extension of SPARQL-to-SQL query translation algorithm proposed by Chebotko et al.<ref type="bibr" target="#b24">[25]</ref>, originally designed to work with RDB-backed triples store. Similar to Ontop, several optimization techniques are also incorporated in order to generate more efficient SQL queries. It supports SQL and CSV files. Morph-xR2RML. Morph-xR2RML<ref type="bibr" target="#b32">[33]</ref> 22 uses the xR2RML mappings to support the generation of RDF lists, and to query data stored in NoSQL databases such as MongoDB. Morph-CSV. Morph-CSV<ref type="bibr" target="#b15">[16]</ref> 23 exploits the information of CSVW annotations and RML mappings to enforce implicit constraints over tabular data. It can be integrated on top of any existing SPARQL-to-SQL engine in order to enhance query completeness and performance.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 7 .</head><label>7</label><figDesc>These experiment 20 https://github.com/ontop/ontop. 21 https://github.com/oeg-upm/morph-rdb.</figDesc><table /><note>22 https://github.com/frmichel/morph-xr2rml. 23 https://github.com/oeg-upm/morph-csv.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 10</head><label>10</label><figDesc>Overall execution time (in seconds) of benchmark queries in experiment configurations with size 10 datasets. W means that the engine obtained a different number of results in comparison to the baseline. E means that the processor is not able to execute the query. TO means that the processor is not able to evaluate the query within the timeout duration (3600 s).</figDesc><table><row><cell>Dataset</cell><cell>Processor</cell><cell></cell><cell>Query</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Cache</cell><cell>Name</cell><cell>q1</cell><cell>q2</cell><cell>q3</cell><cell>q4</cell><cell>q5</cell><cell>q6</cell><cell cols="6">q7 q8 q9 q10 q11 q12</cell><cell>q13</cell><cell cols="4">q14 q15 q16 q17 q18</cell></row><row><cell></cell><cell>Warm</cell><cell>Morph-RDB</cell><cell cols="2">23.78 2.88</cell><cell>E</cell><cell cols="5">1.93 W 1.75 1.97 E</cell><cell>E</cell><cell>1.85</cell><cell>E</cell><cell>1.94</cell><cell cols="3">2.46 6.61 3.46</cell><cell>E</cell><cell>3.07</cell><cell>E</cell></row><row><cell>GTFS-SQL-10</cell><cell></cell><cell>Ontario</cell><cell>415.60</cell><cell>E</cell><cell>TO</cell><cell>E</cell><cell>E</cell><cell>E</cell><cell>E</cell><cell cols="2">W E</cell><cell>E</cell><cell>E</cell><cell>E</cell><cell>E</cell><cell>W</cell><cell>E</cell><cell>E</cell><cell>E</cell><cell>E</cell></row><row><cell></cell><cell>Cold</cell><cell>Morph-RDB</cell><cell cols="2">27.25 3.72</cell><cell>E</cell><cell cols="5">2.54 W 2.36 2.55 E</cell><cell>E</cell><cell>2.38</cell><cell>E</cell><cell>2.50</cell><cell cols="3">3.22 8.16 4.48</cell><cell>E</cell><cell>3.77</cell><cell>E</cell></row><row><cell></cell><cell></cell><cell>Ontop</cell><cell cols="3">24.05 5.56 5.57</cell><cell>E</cell><cell>W</cell><cell>E</cell><cell>W</cell><cell cols="2">E W</cell><cell>E</cell><cell>E</cell><cell>E</cell><cell cols="2">5.29 7.58</cell><cell>W</cell><cell>W</cell><cell>5.62</cell><cell>E</cell></row><row><cell>GTFS-MongoDB-10</cell><cell cols="2">Warm Morph-xR2RML</cell><cell>W</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_22"><head>Table 15</head><label>15</label><figDesc>Completeness of benchmark queries in experiment configurations with GTFS-5 dataset. Minus means that the processor is not able to execute the query (i.e. generates an error) or it does not evaluate the query within the timeout duration.</figDesc><table><row><cell></cell><cell></cell><cell>Virtuoso</cell><cell cols="5">58540 765 734 13 28</cell><cell>1</cell><cell>2</cell><cell cols="2">4728 151439</cell><cell>1</cell><cell>130</cell><cell>6</cell><cell cols="2">734 2364</cell><cell>26</cell><cell>34</cell><cell>855</cell><cell>64</cell></row><row><cell>Dataset</cell><cell>Source</cell><cell>Tool</cell><cell>Queries</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>q1</cell><cell>q2</cell><cell>q3</cell><cell cols="4">q4 q5 q6 q7</cell><cell>q8</cell><cell>q9</cell><cell cols="4">q10 q11 q12 q13</cell><cell>q14</cell><cell>q15</cell><cell>q16</cell><cell>q17 q18</cell></row><row><cell></cell><cell></cell><cell>Ontario</cell><cell>176830</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell></cell><cell>SQL</cell><cell>Morph-RDB</cell><cell cols="2">176830 3161</cell><cell>-</cell><cell cols="4">65 350 1 62</cell><cell>-</cell><cell>-</cell><cell>1</cell><cell>-</cell><cell cols="4">65 1325 11170 4949</cell><cell>-</cell><cell>4275</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell>Ontop</cell><cell cols="4">176830 3161 2104 -</cell><cell>0</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell cols="3">1325 11170 4828</cell><cell>0</cell><cell>4275</cell><cell>-</cell></row><row><cell></cell><cell cols="2">MongoDB Morph-xR2RML</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>643</cell><cell>0</cell><cell>0</cell><cell>6593</cell><cell>0</cell><cell>0</cell><cell>3357</cell><cell>0</cell></row><row><cell></cell><cell></cell><cell>Morph-RDB</cell><cell cols="2">176830 3161</cell><cell>-</cell><cell>65</cell><cell>-</cell><cell>1</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>1</cell><cell>-</cell><cell>-</cell><cell>1325</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>4275</cell><cell>-</cell></row><row><cell>GTFS-5</cell><cell>CSV</cell><cell>Morph-CSV</cell><cell cols="2">176830 6310</cell><cell>-</cell><cell>65</cell><cell>-</cell><cell>1</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>1</cell><cell>-</cell><cell cols="2">65 1325</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>4275</cell><cell>0</cell></row><row><cell></cell><cell></cell><cell>Ontario</cell><cell>0</cell><cell>-</cell><cell cols="2">2104 -</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_24"><head>Table 16</head><label>16</label><figDesc>Completeness of benchmark queries in experiment configurations with GTFS-10 dataset. Minus means that the processor is not able to execute the query (i.e. generates an error) or it does not evaluate the query within the timeout duration.</figDesc><table><row><cell>Dataset</cell><cell>Source</cell><cell>Tool</cell><cell>Queries</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>q1</cell><cell>q2</cell><cell>q3</cell><cell>q4</cell><cell>q5</cell><cell>q6</cell><cell>q7</cell><cell>q8</cell><cell>q9</cell><cell>q10</cell><cell>q11</cell><cell>q12</cell><cell>q13</cell><cell>q14</cell><cell>q15</cell><cell>q16</cell><cell>q17</cell><cell>q18</cell></row><row><cell></cell><cell></cell><cell>Ontario</cell><cell>353660</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell></cell><cell>SQL</cell><cell>Morph-RDB</cell><cell>353660</cell><cell>6312</cell><cell>-</cell><cell>130</cell><cell>700</cell><cell>1</cell><cell>67</cell><cell>-</cell><cell>-</cell><cell>1</cell><cell>-</cell><cell>130</cell><cell>2650</cell><cell>22340</cell><cell>8641</cell><cell>-</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell>Ontop</cell><cell>353660</cell><cell>6312</cell><cell>4207</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>2650</cell><cell>22340</cell><cell>8521</cell><cell>0</cell><cell>-</cell></row><row><cell></cell><cell>MongoDB</cell><cell>Morph-xR2RML</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1292</cell><cell>0</cell><cell>0</cell><cell>11348</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell></cell><cell></cell><cell>Morph-RDB</cell><cell>353660</cell><cell>6312</cell><cell>-</cell><cell>130</cell><cell>-</cell><cell>1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>GTFS-10</cell><cell>CSV</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_25"><head>Table 17</head><label>17</label><figDesc>Completeness of benchmark queries in experiment configurations with GTFS-50 dataset. Minus means that the processor is not able to execute the query (i.e. generates an error) or it does not evaluate the query within the timeout duration.</figDesc><table><row><cell></cell><cell></cell><cell>Virtuoso</cell><cell>353660</cell><cell>6312</cell><cell>4207</cell><cell>130</cell><cell>350</cell><cell>1</cell><cell>67</cell><cell>47280</cell><cell>718317</cell><cell>1</cell><cell>1300</cell><cell>130</cell><cell>2650</cell><cell>22340</cell><cell>8641</cell><cell>1820</cell><cell></cell><cell>1300</cell></row><row><cell>Dataset</cell><cell>Source</cell><cell>Tool</cell><cell>Queries</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>q1</cell><cell>q2</cell><cell>q3</cell><cell>q4</cell><cell>q5</cell><cell>q6</cell><cell>q7</cell><cell>q8</cell><cell>q9</cell><cell>q10</cell><cell>q11</cell><cell>q12</cell><cell>q13</cell><cell>q14</cell><cell>q15</cell><cell>q16</cell><cell>q17</cell><cell>q18</cell></row><row><cell></cell><cell></cell><cell>Ontario</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell></cell><cell>SQL</cell><cell>Morph-RDB</cell><cell>1768300</cell><cell>31550</cell><cell>-</cell><cell>650</cell><cell>3500</cell><cell>1</cell><cell>59</cell><cell>-</cell><cell>-</cell><cell>1</cell><cell>-</cell><cell>650</cell><cell>13250</cell><cell>111700</cell><cell>21958</cell><cell>-</cell><cell>42750</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell>Ontop</cell><cell>1768300</cell><cell>31550</cell><cell>21034</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>0</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>13250</cell><cell>111700</cell><cell>17537</cell><cell>0</cell><cell>42750</cell><cell>-</cell></row><row><cell></cell><cell>MogoDB</cell><cell>Morph-xR2RML</cell><cell>0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>GTFS-50</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_26"><head>Table 19</head><label>19</label><figDesc>Fraga, F. Priyatna, A. Cimmino et al. / Web Semantics: Science, Services and Agents on the World Wide Web 65 (2020) 100596 Table18Completeness of benchmark queries in experiment configurations with GTFS-100 dataset. Minus means that the processor is not able to execute the query (i.e. generates an error) or it does not evaluate the query within the timeout duration. Completeness of benchmark queries in experiment configurations with GTFS-500 dataset. Minus means that the processor is not able to execute the query (i.e. generates an error) or it does not evaluate the query within the timeout duration.</figDesc><table><row><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_27"><head>Listing 3 :</head><label>3</label><figDesc>Prefixes PREFIX rdf: &lt;http :// www.w3.org /1999/02/22 -rdf -syntax -ns#&gt; PREFIX rdfs: &lt;http :// www.w3.org /2000/01/ rdf -schema #&gt; PREFIX foaf: &lt;http :// xmlns .com/foaf /0.1/ &gt; PREFIX gtfs: &lt;http :// vocab .gtfs.org/ terms #&gt; PREFIX geo: &lt;http :// www.w3.org /2003/01/ geo/ wgs84_pos #&gt; PREFIX dct: &lt;http :// purl.org/dc/ terms/&gt; PREFIX schema : &lt;http :// schema .org/&gt; PREFIX xsd: &lt;http :// www.w3.org /2001/ XMLSchema #&gt;Listing 2: Query 1 -List all shapes with some of their data. Query 2 -List all stops with some of their data including geographic coordinates, where the latitude is bigger than its mean</figDesc><table><row><cell cols="3">Appendix B. GTFS-Madrid-Bench queries</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Listing 1: SELECT * WHERE {</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">?shape a gtfs: Shape .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">?shape geo:lat ? shape_pt_lat .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">?shape geo:long ? shape_pt_lon .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">?shape gtfs: pointSequence ? shape_pt_sequence .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>}</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>SELECT * WHERE {</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">?stop a gtfs:Stop .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="9">OPTIONAL { ?stop dct: description ? stopDescription . }</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="11">OPTIONAL { ?stop gtfs: wheelchairAccessible ? wheelchairAccesible }</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">?stop geo:lat ? stopLat .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">?stop geo:long ? stopLong .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">FILTER (? stopLat &gt; %LAT %) .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>}</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>RDF</cell><cell>Virtuoso</cell><cell>17683000</cell><cell>315499</cell><cell>210334</cell><cell>6500</cell><cell>17500</cell><cell>1</cell><cell>53</cell><cell>2364000</cell><cell>35919991</cell><cell>1</cell><cell>65000</cell><cell>6500</cell><cell>132500</cell><cell>1117000</cell><cell>38749</cell><cell>2340</cell><cell>427500</cell><cell>65000</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_28"><head>Listing 4 :</head><label>4</label><figDesc>Query 3 -Find the accessibility information for the stations, if available</figDesc><table><row><cell>SELECT * WHERE {</cell></row><row><cell>?stop a gtfs:Stop .</cell></row><row><cell>?stop gtfs: locationType ? location .</cell></row><row><cell>OPTIONAL { ?stop dct: description ? stopDescription . }</cell></row><row><cell>OPTIONAL { ?stop geo:lat ? stopLat ; geo:long ? stopLong . }</cell></row><row><cell>OPTIONAL { ?stop gtfs: wheelchairAccessible ? wheelchairAccessible . }</cell></row><row><cell>FILTER (? location =&lt;http :// transport . linkeddata .es/ resource / LocationType /2&gt;)</cell></row><row><cell>}</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_29"><head>Listing 5 :</head><label>5</label><figDesc>Query 4 -List all agencies and their routes with some of their data</figDesc><table><row><cell>SELECT * WHERE {</cell></row><row><cell>?route a gtfs: Route .</cell></row><row><cell>OPTIONAL { ? route gtfs: shortName ? routeShortName . }</cell></row><row><cell>OPTIONAL { ? route gtfs: longName ? routeLongName . }</cell></row><row><cell>OPTIONAL { ? route dct: description ? routeDescription . }</cell></row><row><cell>?route gtfs: agency ? agency .</cell></row></table><note>? agency a gtfs: Agency . ? agency foaf:page ? agencyPage . ? agency foaf:name ? agencyName . OPTIONAL { ? agency foaf: phone ? agencyPhone . } }</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_30"><head>Listing 6 :</head><label>6</label><figDesc>Query 5 -Services that have been added on a specific day SELECT * WHERE { ? service a gtfs: Service . ? service gtfs: serviceRule ? serviceRule . ? serviceRule a gtfs: CalendarDateRule . ? serviceRule dct:date ?date . ? serviceRule gtfs: dateAddition " true " ^^xsd: boolean . FILTER (? date &gt; %DATE %) }</figDesc><table><row><cell>Listing 7: Query 6 -Check the number of routes of a particular agency</cell></row><row><cell>SELECT (count (? route ) as ? nRoutes ) WHERE {</cell></row><row><cell>?route a gtfs: Route .</cell></row><row><cell>?route gtfs: agency ? agency .</cell></row><row><cell>FILTER (? agency =% AGENCY %)</cell></row><row><cell>}</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_31"><head>Listing 8 :</head><label>8</label><figDesc>Query 7 -List all wheelchair accessible stops along a particular route, with some of their additional data</figDesc><table><row><cell>SELECT DISTINCT ? routeShortName ? routeDescription ? tripShortName</cell></row><row><cell>? stopDescription ? stopLat ? stopLong WHERE {</cell></row><row><cell>?route a gtfs: Route .</cell></row><row><cell>OPTIONAL { ? route gtfs: shortName ? routeShortName . }</cell></row><row><cell>OPTIONAL { ? route dct: description ? routeDescription . }</cell></row><row><cell>?trip a gtfs:Trip .</cell></row><row><cell>OPTIONAL { ?trip gtfs: shortName ? tripShortName . }</cell></row><row><cell>?trip gtfs: service ? service .</cell></row><row><cell>?trip gtfs: route ? route .</cell></row><row><cell>? stopTime a gtfs: StopTime .</cell></row><row><cell>? stopTime gtfs:trip ?trip .</cell></row><row><cell>? stopTime gtfs:stop ?stop .</cell></row><row><cell>?stop a gtfs:Stop .</cell></row><row><cell>OPTIONAL { ?stop dct: description ? stopDescription . }</cell></row><row><cell>OPTIONAL { ?stop geo:lat ? stopLat ; geo:long ? stopLong . }</cell></row><row><cell>?stop gtfs: wheelchairAccessible gtfsaccessible :1 .</cell></row><row><cell>FILTER (? route =% ROUTE %)</cell></row><row><cell>}</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_32"><head>Listing 9 :</head><label>9</label><figDesc>Query 8 -List the routes and their related trips, services, stops and stop times with some of their additional data, if available.</figDesc><table><row><cell>SELECT * WHERE {</cell></row><row><cell>?route a gtfs: Route .</cell></row><row><cell>OPTIONAL { ? route gtfs: shortName ? routeShortName . }</cell></row><row><cell>OPTIONAL { ? route dct: description ? routeDescription . }</cell></row><row><cell>?trip a gtfs:Trip .</cell></row><row><cell>OPTIONAL { ?trip gtfs: shortName ? tripShortName . }</cell></row><row><cell>?trip gtfs: service ? service .</cell></row><row><cell>?trip gtfs: route ? route .</cell></row><row><cell>? stopTime a gtfs: StopTime .</cell></row><row><cell>? stopTime gtfs:trip ?trip .</cell></row></table><note>? stopTime gtfs:stop ?stop . ?stop a gtfs:Stop . OPTIONAL {? stop dct: description ? stopDescription . } ? service a gtfs: Service . ? service gtfs: serviceRule ? serviceRule . }</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_33"><head>Listing 14 :</head><label>14</label><figDesc>Query 13 -All the accesses of the stations</figDesc><table><row><cell>SELECT * WHERE {</cell></row><row><cell>?stop a gtfs:Stop .</cell></row><row><cell>?stop gtfs: parentStation ? parStation .</cell></row><row><cell>OPTIONAL {? stop foaf:name ? accName } .</cell></row><row><cell>?stop gtfs: locationType gtfslocation :2 .</cell></row><row><cell>? parStation a gtfs:Stop .</cell></row><row><cell>? parStation foaf:name ?name</cell></row><row><cell>}</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_34"><head>Listing 15 :</head><label>15</label><figDesc>Query 14 -All stops times and their related routes and stops order by their sequence Query 15 -Everything that contains a specific string in the object placeholder (any property)</figDesc><table><row><cell>SELECT * WHERE {</cell></row><row><cell>? stopTime a gtfs: StopTime .</cell></row><row><cell>? stopTime gtfs:trip ?trip .</cell></row><row><cell>? stopTime gtfs:stop ?stop .</cell></row><row><cell>? stopTime gtfs: stopSequence ? sequence .</cell></row><row><cell>?stop a gtfs:Stop .</cell></row><row><cell>?trip a gtfs:Trip .</cell></row><row><cell>?trip gtfs:route ? route .</cell></row><row><cell>OPTIONAL {? stop foaf:name ? stopName }</cell></row><row><cell>} ORDER BY ? sequence</cell></row><row><cell>Listing 16: SELECT * WHERE {</cell></row><row><cell>?stop a gtfs:Stop .</cell></row><row><cell>?stop ?p ?str .</cell></row><row><cell>FILTER regex (?str , % STRING %)</cell></row><row><cell>}</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_35"><head>Listing 17 :</head><label>17</label><figDesc>Query 16  -For all the routes, all the calendar changes during a specific month Query 17 -Trips with their start and end time of the frequencies and associated routes</figDesc><table><row><cell>SELECT * WHERE {</cell></row><row><cell>?trip a gtfs:Trip .</cell></row><row><cell>?trip gtfs: service ? service .</cell></row><row><cell>?trip gtfs: route ? route .</cell></row><row><cell>? service a gtfs: Service .</cell></row><row><cell>? service gtfs: serviceRule ? serviceRule .</cell></row><row><cell>? serviceRule a gtfs: CalendarDateRule .</cell></row><row><cell>? serviceRule dct:date ? servDate .</cell></row><row><cell>? serviceRule gtfs: dateAddition " true " ^^xsd: boolean .</cell></row><row><cell>FILTER (? servDate &gt;= % DATE1 %) .</cell></row><row><cell>FILTER (? servDate &lt;= '% DATE2 %) .</cell></row><row><cell>}</cell></row><row><cell>Listing 18: SELECT ? routeName ? routeType ?trip ? startTime ? endTime WHERE {</cell></row><row><cell>?trip a gtfs:Trip .</cell></row><row><cell>?trip gtfs:route ? route .</cell></row><row><cell>? frequency a gtfs: Frequency .</cell></row><row><cell>? frequency gtfs: startTime ? startTime .</cell></row></table><note>? frequency gtfs: endTime ? endTime . ? frequency gtfs:trip ?trip . ?route a gtfs: Route . ?route gtfs: shortName ? routeName . ?route gtfs: routeType ? routeType . }</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">https://github.com/OpenTransport/linked-gtfs.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16">http://rml.io/implementation-report/.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27">https://github.com/SDM-TIB/SDM-RDFizer.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28">https://fno.io/.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The work presented in this paper is supported by the project Semantics for PerfoRmant and scalable INteroperability of multimodal Transport (SPRINT H2020-826172) and by the Spanish Ministerio de Economía, Industria y Competitividad and EU FEDER funds under the DATOS 4.0: RETOS Y SOLUCIONES -UPM Spanish national project (TIN2016-78011-C4-4-R) and by an FPI grant (BES-2017-082511).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Completeness of query evaluation</head><p>See Tables <ref type="table">14-19</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 14</head><p>Completeness of benchmark queries in experiment configurations with GTFS-1 dataset. Minus means that the processor is not able to execute the query (i.e. generates an error) or it does not evaluate the query within the timeout duration.</p><p>Listing 10: Query 9 -Trips and associated shapes where lat is bigger than its average and some of their additional data </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Linking data to ontologies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lembo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Giacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenzerini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Data Semant. X</title>
+		<imprint>
+			<biblScope unit="page" from="133" to="173" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Towards a new generation of ontology based data access</title>
+		<author>
+			<persName><forename type="first">Ó</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semant. Web</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="153" to="160" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Berlin SPARQL benchmark</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Semantic Web Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The NPD benchmark: Reality check for OBDA systems</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">OpenProceedings.org</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fedbench: A benchmark suite for federated semantic data query processing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Görlitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ladwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="585" to="600" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Biofed: federated query processing over life sciences linked open data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hasnain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Mehmood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Zainab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saleem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zehra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Decker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rebholz-Schuhmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Semant</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Montoya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buil-Aranda</surname></persName>
+		</author>
+		<title level="m">Benchmarking federated SPARQL query engines: Are existing testbeds enough? in: International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="313" to="324" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Federated query processing against a semantic data lake, in: Database and Expert Systems Applications</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Endris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Rohde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ontario</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Querying data lakes using spark and presto</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Mami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Graux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scerri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jabeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International World Wide Web Conference</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="3574" to="3578" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">What are the parameters that affect the construction of a knowledge graph</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Endris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ó</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vidal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">OTM Confederated International Conferences &apos;&apos;on the Move To Meaningful Internet Systems</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Towards a systematic benchmarking of ontologybased query rewriting systems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="376" to="391" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">ANAPSID: an adaptive query processing engine for SPARQL endpoints</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lampo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="18" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">VIG: Data scaling for OBDA benchmarks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semant. Web</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<ptr target="http://www.w3.org/TR/2013/REC-sparql11-overview-20130321/" />
+		<title level="m">The W3C SPARQL Working Group, SPARQL 1.1 Overview, W3C</title>
+				<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">OWL Web ontology language overview, W3C Recomm</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mcguinness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Harmelen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004. 2004</date>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Enhancing OBDA query translation over tabular data with morph-CSV</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2001.09052</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Model for Tabular Data and Metadata on the Web</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tennison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kellogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Herman</surname></persName>
+		</author>
+		<ptr target="http://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">RML: A generic language for integrated RDF mappings of heterogeneous data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vander Sande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Colpaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van De Walle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>LDOW</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heyvaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<title level="m">Conformance test cases for the RDF mapping language (RML), in: Iberoamerican Knowledge Graphs and Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="162" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Declarative rules for linked data generation at your fingertips!</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heyvaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Meester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="213" to="217" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Fedx: Optimization techniques for federated query processing on linked data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schenkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="601" to="616" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Algorithms and metrics for processing multiple heterogeneous continuous queries</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sharaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Chrysanthis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Labrinidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pruhs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Database Syst</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Diefficiency metrics: measuring the continuous efficiency of query processing approaches</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acosta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sure-Vetter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="3" to="19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Kyrie2: Query rewriting under extensional constraints in {ELHIO}</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="568" to="583" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Semantics preserving SPARQL-to-SQL translation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chebotko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fotouhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data Knowl. Eng</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="973" to="1000" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Efficiently joining group patterns in SPARQL queries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lampo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sierra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polleres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Extended Semantic Web Conference</title>
+				<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="228" to="242" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Semantics and complexity of SPARQL</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutiérrez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans. Database Syst</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Efficient handling of SPARQL OPTIONAL for OBDA (extended version)</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kontchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Botoeva</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1806.05918</idno>
+		<ptr target="CoRRabs/1806.05918" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Negation in SPARQL</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Angles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutiérrez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 10th Alberto Mendelzon International Workshop on Foundations of Data Management</title>
+				<meeting>the 10th Alberto Mendelzon International Workshop on Foundations of Data Management</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">MULDER: querying the linked data web by bridging RDF molecule templates</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Endris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lytra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Mami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-E</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Auer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Database and Expert Systems Applications</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="3" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Efficient SPARQL-to-SQL with R2RML mappings</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rodriguez-Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Web Semant</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="141" to="169" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Formalisation and experiences of -based SPARQL to SQL query translation using morph</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sequeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International World Wide Web Conference</title>
+				<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Translation of relational and non-relational databases into RDF with xR2RML</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Michel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Djimenou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Zucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Montagnat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">11th International Confenrence on Web Information Systems and Technologies, WEBIST&apos;15</title>
+				<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="443" to="454" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">One size does not fit all: Querying web polystores</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gadepally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>D'aquin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sahay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="9598" to="9617" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calvanese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cogrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Komla-Ebri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kontchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rezk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rodriguez-Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ontop: Answering SPARQL queries over relational databases</title>
+				<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="471" to="487" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">An ontology to semantically declare and describe functions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Meester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verborgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mannens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="46" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">R2RML-F: Towards sharing and executing domain logic in R2RML mappings</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Debruyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International World Wide Web Conference</title>
+				<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Linked Data on the Web Workshop</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Priyatna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaves-Fraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alobaid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<idno type="DOI">10.18293/seke2019-055</idno>
+		<ptr target="http://dx.doi.org/10.18293/seke2019-055" />
+		<title level="m">Proceedings of the 31st International Conference on Software Engineering and Knowledge Engineering</title>
+				<meeting>the 31st International Conference on Software Engineering and Knowledge Engineering</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>KSI Research Inc. and Knowledge Systems Institute Graduate School</orgName>
+		</respStmt>
+	</monogr>
+	<note>GraphQL Servers Generation from R2RML Mappings (S)</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sundara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cyganiak</surname></persName>
+		</author>
+		<ptr target="http://www.w3.org/TR/2012/REC-r2rml-20120927/" />
+		<title level="m">R2RML: RDB to RDF Mapping Language, W3C</title>
+				<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Ultrawrap: SPARQL execution on relational data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Sequeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Miranker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.websem.2013.08.002</idno>
+		<ptr target="http://www.sciencedirect.com/science/article/pii/S1570826813000383" />
+	</analytic>
+	<monogr>
+		<title level="j">Web Semant.: Sci. Serv. Agents</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">A direct mapping of relational data to RDF, W3C Recomm</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bertails</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Prud'hommeaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sequeda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">KR2RML: An Alternative interpretation of R2RML for heterogenous sources</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slepicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Szekely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Knoblock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Workshop on Consuming Linked Data</title>
+				<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Mapping diverse data to RDF in practice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chortaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stamou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Semantic Web Conference</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="441" to="457" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">A SPARQL extension for generating RDF from heterogeneous formats, in: The Semantic Web</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lefrançois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bakerally</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

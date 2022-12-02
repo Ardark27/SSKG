@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-label Text Classification for Public Procurement in Spanish Clasificación multi-etiqueta de textos de licitaciones públicas en español</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">María</forename><surname>Navas-Loro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution" key="instit1">AI.nnovation Space</orgName>
+								<orgName type="institution" key="instit2">Universidad Politécnica de Madrid</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Garijo</surname></persName>
+							<email>daniel.garijo@upm.es</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution" key="instit1">AI.nnovation Space</orgName>
+								<orgName type="institution" key="instit2">Universidad Politécnica de Madrid</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oscar</forename><surname>Corcho</surname></persName>
+							<email>ocorcho@fi.upm.es</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Ontology Engineering Group</orgName>
+								<orgName type="institution" key="instit1">AI.nnovation Space</orgName>
+								<orgName type="institution" key="instit2">Universidad Politécnica de Madrid</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-label Text Classification for Public Procurement in Spanish Clasificación multi-etiqueta de textos de licitaciones públicas en español</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1B159D2F7C0501218F7CEA3893A25E11</idno>
+					<idno type="DOI">10.26342/2022-69-6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-12-02T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>CPV</term>
+					<term>Multi-label Classification</term>
+					<term>Public Procurement</term>
+					<term>Hierarchical Classification CPV</term>
+					<term>Clasificación Multi-etiqueta</term>
+					<term>Licitaciones Públicas</term>
+					<term>Clasificación Jerárquica</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Public procurement accounts for a 14% of the annual budget of the different governments of the European Union. In Europe, contracting processes are classified using Common Procurement Vocabulary codes (CPVs), a taxonomy designed to facilitate statistical reporting, search and the creation of alerts that can be used by potential bidders. CPVs are commonly assigned manually by public employees in charge of contracting processes. However, CPV classification is not a trivial task, as there are more than 9,000 different CPV categories, which are often assigned following heterogeneous criteria. In this paper we have created a CPV classifier that uses as an input the textual description of the contracting process, and assigns CPVs from the 45 top-level CPV categories. We work only with texts in Spanish, although our approach may be easily extended to other languages. Our results improve the state of the art (10% F1-score improvement) and are available online.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Public authorities in the European Union spend around 14% of the yearly Gross Domestic Product (around 2 trillion euros) purchasing services, utilities and supplies. 1 Access to this data is crucial for enabling a single digital market in Europe, as well as for accountability and transparency. Hence many governments provide this data in their open 1 https://ec.europa.eu/growth/ single-market/public-procurement_en data portals as well as in data.europa.eu, and a number of platforms have been developed to improve both the efficiency and transparency in public procurement 2 <ref type="bibr" target="#b22">(Soylu et al., 2022)</ref>.</p><p>Common Procurement Vocabulary codes (CPVs) 3 help classify public procurement processes in the European Union across dif-ferent languages. Thanks to CPVs, decision makers can easily explore contracting processes across Europe, and companies from different countries may use them to detect procurement processes of interest, independently of the country of origin.</p><p>Each public procurement process must be classified with at least one CPV. However, manual CPV classification presents three main challenges. First, there are thousands of possible codes (more than 9000), some of them with similar purposes, making it difficult for those assigning or curating them to decide which codes better suit a specific process. Second, countries with different official languages and countries with more than one official language, such as Spain or Belgium, often have offers in different languages (e.g., <ref type="bibr">Catalan, Basque, Castilian, etc.)</ref>. Offices from different regions therefore follow different classification guidelines. Third, CPVs are organized in a hierarchy, and thus annotated at different levels of granularity according to the annotator's or department's criteria. For example, the CPV "Pharmaceutical products" (3360000) shown in Figure 1 is often overgeneralized, instead of using more specific codes that shed more light in the type of purchase. This issue is in fact reflected in the European Union Policy Handbook, where the need of suggesting users to select more specific CPV codes is stressed <ref type="bibr">(European Commission, 2020)</ref>.</p><p>In order to address these issues and ease the assignment of CPV codes to procurement processes, this paper presents an approach to automatically assign high-level CPV codes (i.e., the 45 most general categories) to a procurement process. In this paper, we assume that we have the textual description of the process and that the text is in Spanish. Different methods have been tested to this end, outperforming the previous available results for the Spanish language. We expect this research line will help public procurement practitioners in assigning CPV codes in a more homogeneous manner by providing suggestions that humans can use in their decision process.</p><p>The rest of the paper is organized as follows. Section 2 introduces the CPV classification problem in detail, explaining the rationale behind each part of the codes. Section 3 summarizes the related work done in the context of multi-label text classification, as well as existing approaches for CPV classification in Spanish. Section 4 describes how the corpus used to train our classifier was developed, while in Section 5 we outline our approach. Finally, Section 6 details the results obtained by the different classification techniques used, and Section 7 concludes our work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Background</head><p>The Common Procurement Vocabulary (CPV) allows classifying public procurement processes with a homogeneous code that represents the need and main object of the requested contract. Several CPV codes may be used to describe a single offer. The format of these CPV codes follows a five-level tree structure comprising the following digits:</p><p>• The first two digits identify the divisions (XX000000)</p><p>• The first three digits identify the groups (XXX00000)</p><p>• The first four digits identify the classes (XXXX0000)</p><p>• The first five digits identify the categories (XXXXX000)</p><p>• The following three digits give a greater degree of precision within each category (00000XXX)</p><p>A ninth check digit serves to verify the previous digits, and has no meaning by itself (00000000-Y).</p><p>Therefore, the task of automatically classifying CPVs increases in complexity the more digits we aim to predict. The current official list of CPVs has 9454 possible codes, grouped into 45 different divisions, 317 groups, 1321 classes and 3704 categories. In this paper we focus in classifying CPVs at the division level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Related Work</head><p>While text classification has been widely explored in the literature <ref type="bibr" target="#b0">(Aggarwal and Zhai, 2012;</ref><ref type="bibr" target="#b16">Minaee et al., 2021)</ref>, multi-label classification for the Spanish language has received less attention so far. The main difference between the multi-label text classification case presented in this paper and other popular problems like sentiment analysis is the amount of possible labels. Sentiment analysis labels correspond to certain degrees Figure <ref type="figure">1</ref>: Excerpt of the tree-structure of CPV code 33600000, "Pharmaceutical products", extracted from http://www.cpv.enem.pl/en/33600000-6.</p><p>of positive and negative emotions, or to a taxonomy of emotions, whilst CPV labels may contain up to thousands of possible options. In order to target this kind of problems, a new subtask has been defined inside multilabel text classification: extreme multi-label text classification (XMTC) <ref type="bibr" target="#b15">(Liu et al., 2017)</ref>.</p><p>XMTC addresses the problem of assigning to a document its most relevant subset of class labels from an extremely large label collection <ref type="bibr" target="#b15">(Liu et al., 2017)</ref>. The work by <ref type="bibr" target="#b9">Gargiulo et al. (2019)</ref> analyzes the impact of using different word embedding models in Deep Learning targeting extreme multi-label classification. Their approach uses Convolutional Neural Networks (CNN) to classify 27,775 hierarchical labels in the biomedical domain. Similarly, <ref type="bibr" target="#b15">Liu et al. (2017)</ref> compared CNN to other approaches in XMTC, such as KNN-based approaches like SLEEC <ref type="bibr" target="#b2">(Bhatia et al., 2015)</ref> or tree-based methods like FastXML <ref type="bibr" target="#b19">(Prabhu and Varma, 2014)</ref>. Finally, <ref type="bibr" target="#b5">Chang et al. (2020)</ref> proposed a scalable framework to fine-tune Deep Transformer models that performed well in different XMTC datasets.</p><p>Regarding specific previous work on CPV classification, one of the main results was the multilingual model built by Kaan Görgün. 4 This model categorizes public procurement descriptions in multiple languages among 45 different division labels, with an F1 Score of 0.68. Industrial approaches have also targeted the CPV code classification problem, such as the solution developed by the data science consultancy uData <ref type="bibr" target="#b6">(Deloitte, 2020)</ref>, using a hierarchical nested approach consisting of one model to predict the first two dig-its of the CPV code, 50 models to predict the third code (depending on the first model results) and 250 additional models to predict the fourth digit. Other approaches in the literature include a deep learning sequenceprocessing regression algorithm (also containing several classifiers, considering different aspects of CPVs) <ref type="bibr" target="#b23">(Suta, 2019)</ref>, or the approach by <ref type="bibr" target="#b1">Ahmia (2020)</ref>, who used Linear SVMs in order to predict the first two digits of the CPV codes. SVMs were also used in <ref type="bibr" target="#b14">Kayte and Schneider-Kamp (2019)</ref>. Since the only model available for reuse and evaluation for the Spanish language is the one from Kaan Görgün, we use it as a baseline for comparison against our approach, making both training data and model results available to the community.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Creating a Spanish CPV Corpus</head><p>We created our training corpus with open data from historical public procurement from the Spanish Treasury's website (Hacienda 5 ). We decided to use data from 2019, in order to avoid including later data that may have been influenced by public procurement related to COVID19 pandemics. Procurement processes' metadata were processed from their original format (Atom Syndication Format 6 ) using different scripts available in our paper repository <ref type="bibr" target="#b18">(Navas-Loro, Garijo, and Corcho, 2022)</ref>. 7 Document pre-processing included the following stages:</p><p>1. Information extraction from all the information contained in the Atom documents. We only retrieved the textual description of the offers and the different CPV codes assigned to them. This is represented as a CSV file in order to ease its further processing.</p><p>2. Duplicate deletion and trim of the descriptions. Additionally, we only keep texts in Spanish (to this aim we used fastText's language identification functionality 8 ).</p><p>3. Train/test dataset division, in order to make the dataset more manageable, we split it into train and test sets (70/30) before uploading it to our public code repository.</p><p>4. In-code preprocessing. An additional set of scripts were used to remove rows with no CPV code assigned and generalize CPV codes to the division level, which is the one we use in our experiments.</p><p>The result of the first two steps are two csv files, available in our repository. The code used for all processing scripts can also be found in the same location. Figure <ref type="figure" target="#fig_0">2</ref> shows the distribution for each of the 45 division labels, which are clearly unbalanced. The most frequent label ('45', that represents the division 'works') is present in 16128 instances of the the training set, while label '76' is only present in 13 instances.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Approach</head><p>We addressed CPV classification in a hierarchical manner: instead of creating a classifier for nine thousand labels, we took advantage of the hierarchical structure of the CPVs and created a classifier for the 45 available divisions (first two digits). We believe this to be a good first step due to the training data available for most categories.</p><p>The only model openly available to perform this task is the model from Kaan Görgün (from now, MKaan) mentioned in the Related Work section. This model also targeted just the first two digits of the CPV code, so we use it as a baseline to compare the different approaches we have tested.</p><p>In order to perform multi-label classification, several approaches can be used. We can use algorithms adapted to the task, such as decision trees or random forests, or we can also use binary classifiers like Naïve Bayes or SVM and then apply different strategies so that they serve for multi-label classification. Another option is to fine-tune existing transformers, as done in the approach by MKaan. We briefly present below the different approaches we tested.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Classical Techniques</head><p>We tried the following classifiers: Naïve Bayes <ref type="bibr" target="#b17">(Minsky, 1961)</ref> has been widely used for text classification ( İşgüder-S ¸ahin, Zafer, and Adah, 2014), specially for sentiment analysis and SPAM classification. Although this algorithm relies on probability independence, it works very well even when this assumption is not met. SVM Support Vector Machines (SVM) <ref type="bibr" target="#b3">(Boser, Guyon, and Vapnik, 1992)</ref> are linear classifiers that define an hyperplane in order to discriminate among classes. SVM have been frequently used for multiclass classification tasks. SVM with RBF kernel Besides testing the linear version of SVM, we also evaluated the performance of an SVM with the Radial Basis Function as kernel, that is:</p><formula xml:id="formula_0">rbf γ = e −γ∥x−x ′ ∥ 2 (1)</formula><p>with parameter γ ≥ 0. Decision Trees <ref type="bibr" target="#b20">(Quinlan, 1986)</ref> are an intuitive way to classify instances. In our implementation we used the sklearn optimized version of the CART algorithm. 9 Random Forests <ref type="bibr" target="#b4">(Breiman, 2001</ref>) are a tree-based ensemble approach to classification that overcomes most of the problems with decision trees, such as high variance.</p><p>Due to this robustness they have been frequently used for Extreme Multi-label Classification <ref type="bibr" target="#b21">(Siblini, Kuntz, and Meyer, 2018)</ref>. K-Nearest Neighbours (K-NN) <ref type="bibr" target="#b11">(Hand, 2007)</ref> is widely used for multi-label classification <ref type="bibr" target="#b24">(Zhang and Zhou, 2007)</ref>. The idea behind K-NN is to check the K labeled instances that are the closest to the new instance and classify it with the most common label from these neighbours.  AdaBoost <ref type="bibr" target="#b8">(Freund and Schapire, 1997</ref>) is a meta-estimator that fits different versions of models using boosting (i.e., different versions of the training dataset). We used the implementation defined in <ref type="bibr" target="#b12">Hastie et al. (2009)</ref>: AdaBoost-SAMME.</p><p>For all these approaches we used the Term Frequency -Inverse Document Frequency (TF-IDF) technique for vectorization, allowing n-grams with n = 3. For those algorithms that do not support multi-label classification, we decided to use the One-vs-therest (OvR) or One-vs-all strategy, frequently used for multiclass classification, where one binary classifier per label is built in order to decide if an instance should be classified with that label or not.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">RoBERTa fine-tuned approach</head><p>In addition to the aforementioned classical approaches, we also decided to finetune a transformed-based model for the Spanish language, namely RoBERTa-basebne <ref type="bibr" target="#b10">(Gutiérrez-Fandiño et al., 2021)</ref>, on a dataset derived from Spanish Public Procurement documents from 2019.</p><p>RoBERTa-base-bne is a transformer-based masked language model based on the RoBERTa model and pre-trained using the largest Spanish corpus known to date (570GB), compiled from the annual web crawlings performed by the National Library of Spain (Biblioteca Nacional de España) from 2009 to 2019. 10 Table <ref type="table">1</ref> summarizes the hyperparameters used in the fine-tuning process, performed using the HuggingFace transformers library. The whole training process can be reproduced using the notebook 'fine-tuned-roberta-for-spanish-cpvcodes.ipynb' in our code repository.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Evaluation</head><p>This section describes how we evaluated the results obtained with the different approaches, and discusses them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1">Metrics</head><p>We use two sets of metrics in our evaluation. First, we use general metrics such as the Area Under the ROC Curve (ROC AUC), F1-score and accuracy. Second, we use multilabel specific metrics, i.e., coverage error and Label Ranking Average Precision. We briefly describe all these metrics below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.1">General Metrics</head><p>The metrics used that are not specific to multi-label classification are the following:</p><p>Area Under the ROC Curve (AUC): measures the capability of a classifier to distinguish between classes. The higher the AUC, the better the model can make the distinction among classes.</p><p>F1-score: harmonic mean between precision and recall, widely adopted to monitor both metrics at the same time.</p><p>Accuracy: fraction of predictions that the model classified correctly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.2">Coverage Error</head><p>The coverage error computes the average number of labels that have to be included in the final prediction such that all true labels are predicted. That is, the average amount of ranked labels to take into account to miss no true label.</p><formula xml:id="formula_1">coverage(y, f ) = 1 n s ns−1 i=0 max j:y ij =1 rank ij (2)</formula><p>with n l being the amount of labels, n s being the amount of samples, f ∈ R ns×n l the score associated with each label, y ∈ {0, 1} ns×n l the ground truth labels, rank ij = k : fik ≥ fij .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.3">Label Ranking Average</head><p>Precision Label Ranking Average Precision (LRAP) averages over the ground truth labels assigned to each sample, ranking true labels higher. This metric shows which ratio of higher-ranked labels were true labels.</p><formula xml:id="formula_2">LRAP (y, f ) = 1 n s ns−1 i=0 1 ||y i || 0 j:y ij =1 |L ij | rank ij</formula><p>(3) with n l being the amount of labels, n s being the amount of samples, f ∈ R ns×n l the score associated with each label, y ∈ {0, 1} ns×n l the ground truth labels, </p><formula xml:id="formula_3">rank ij = k : fik ≥ fij , L ij = k : y ik = 1, fik ≥ fij ,</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">Results and Discussion</head><p>We compare our results against the model by MKaan, since it is the only available model that we have been able to find targeting the CPV code assignment problem in Spanish (besides other languages). Since no default threshold or function is provided, we tested different thresholds with the most common functions (softmax and sigmoid). Results are summarized in Table 2 (using only 10% of the dataset), and Table <ref type="table" target="#tab_3">3</ref> (using the whole dataset).</p><p>The results clearly show that the RoBERTa fine-tuned model outperforms the rest of the approaches both when training using just a fraction of the dataset and the full dataset. The model by MKann shows a good performance taking into account its multilingual nature (not specific for the Spanish language). However, MKaan is matched and even outperformed by some of the traditional algorithms in both experiments.</p><p>In particular, classical approaches such as SVM, random forests and decision trees, produce remarkably good results (0.69, 0.64 and 0.63 F1 scores respectively on the full dataset). Given that these algorithms are usually less expensive to train, test and use than transformer-based solutions, they are reasonable candidates for assisting in CPV classification at a low cost. One possible explanation for this good performance is that, despite the presence of polysemous words that can be problematic, both the hyperplanes of SVM and the decisions of treebased methods allow to effectively discriminate each label against all others (that is the strategy usually used to adapt the algorithms Figure Results of the RoBERTa fine-tuned model (t=0.5) per label. We preserve the order presented in Figure <ref type="figure" target="#fig_0">2</ref>, from more represented labels ('45') to less represented labels ('76').</p><p>to multiclass problems).</p><p>A limitation of our approach is the lack of measures for balancing input data. Typically, this would risk having our CPV classifier performing well only for the classes with more representation. However, as shown in Figure <ref type="figure">3</ref>, our CPV classifier shows an excellent performance for most categories, and has an acceptable performance for classes with less data available (except fpr extremely rare categories '41' and '76'). We suspect that in addition to the number of training instances, the generality of the divisions and the overlap between them also play a role in the differences in performance. For example, divisions '42' and '43' represent "Industrial machinery" and "Machinery for mining, quarrying, construction equipment", respectively. Words similar to "machinery" will therefore appear frequently in descriptions of both divisions, leading to false positives/negatives. In Figure <ref type="figure">3</ref>, we can in fact confirm that both divisions have worse performance than the immediate surrounding divisions having a similar amount of instances.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Conclusions and Future Work</head><p>This paper presents an approach to classify CPV code divisions for Spanish public procurement descriptions. Our work evaluated classical machine learning algorithms, showing that SVM had an excellent performance, surpassing the previous existing transformedbased approach for the task. Additionally, we fine-tuned the RoBERTa transformed-based model trained on a corpus of the BNE (Spanish National Library), that outperformed all the previous approaches. All data, data processing scripts and training notebooks have been made available through a public code repository, Zenodo (Navas-Loro, Garijo, and Corcho, 2022) 11 and a Research Object 12 for the sake of reproducibility. This material is also planned to be used in the AI4Gov international master. 13  Our approach covers only CPV division classification, and therefore it does not yet address the CPV over-generalization problem when assigning CPVs to text (i.e., some codes ...  are systematically not used in preference to more generic codes, even though the specific codes in disuse are much better suited to the topic of the description). Our future work includes designing a sequence of models that successively classify the digits of CPVs, as depicted in Figure <ref type="figure" target="#fig_3">4</ref>, to be able to predict more specific CPVs. Alternatively, we plan on assessing techniques based on sentence embeddings against CPV descriptions, in order to suggest more specific CPVs despite the lack of training Designing more specific classifiers will also require dealing with noise in data, e.g., when annotators assign different CPVs to the same contract description or incorrect CPVs. We also plan to increase the dataset, including contracting information from several years and also retrieving and making use of additional information from contracting processes. These include features such as the cost, that could help in the disambiguation of general words such as "service" or "work", that can be used in very different situations. Additionally, we will also enhance the preprocessing of the data in order to improve the quality in the dataset, a well-known problem in this kind of classification problem. Overall, our positive results are a step forward towards the creation of a decision support system to help in CPV classification, allowing a more transparent and efficient public procurement in Spain and Europe.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Bars (y axis) represent the amount of instances per division label (x axis). Blue bars represents the amount of labels in the training set, while red bars represent the number of instances in the evaluation set.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>|| • || 0 being the ℓ 0 norm (which computes the amount of nonzero elements in a vector), and | • | representing the cardinality of the set.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure4: Hierarchical approach to the CPV classification problem. The first classifier would be responsible for categorizing the first two digits of the code, i.e., its division. The next level would attempt to predict the next digit based on the previous digits. For example, if the first classifier determined that a description corresponds to the labels '45' and '48', that description would be passed to the classifiers that determine the next digit trained with examples of those two codes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,72.18,84.66,452.92,129.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 :</head><label>2</label><figDesc>Results of the different approaches trained and tested on the 10% of the dataset (7243 training samples, 3104 test samples).</figDesc><table><row><cell>Approach</cell><cell cols="5">ROC-AUC F1 Accuracy LRAP Cov. Error</cell></row><row><cell>Multinomial NB</cell><cell>0.53</cell><cell>0.11</cell><cell>0.06</cell><cell>0.09</cell><cell>42.32</cell></row><row><cell>SVM</cell><cell>0.66</cell><cell>0.47</cell><cell>0.33</cell><cell>0.36</cell><cell>30.19</cell></row><row><cell>SVM (rbf)</cell><cell>0.66</cell><cell>0.47</cell><cell>0.33</cell><cell>0.36</cell><cell>30.19</cell></row><row><cell>KNN</cell><cell>0.70</cell><cell>0.54</cell><cell>0.41</cell><cell>0.45</cell><cell>26.54</cell></row><row><cell>Decision Tree</cell><cell>0.74</cell><cell>0.51</cell><cell>0.49</cell><cell>0.53</cell><cell>22.74</cell></row><row><cell>Random Forest</cell><cell>0.68</cell><cell>0.52</cell><cell>0.39</cell><cell>0.41</cell><cell>27.96</cell></row><row><cell>AdaBoost</cell><cell>0.75</cell><cell>0.56</cell><cell>0.41</cell><cell>0.49</cell><cell>22.10</cell></row><row><cell>RoBERTa fine-tuned (t=0.5)</cell><cell>0.84</cell><cell>0.74</cell><cell>0.68</cell><cell>0.73</cell><cell>14.13</cell></row><row><cell>RoBERTa fine-tuned (t=0.6)</cell><cell>0.83</cell><cell>0.73</cell><cell>0.67</cell><cell>0.71</cell><cell>14.86</cell></row><row><cell>RoBERTa fine-tuned (t=0.65)</cell><cell>0.82</cell><cell>0.73</cell><cell>0.67</cell><cell>0.70</cell><cell>15.41</cell></row><row><cell>RoBERTa fine-tuned (t=0.7)</cell><cell>0.81</cell><cell>0.72</cell><cell>0.64</cell><cell>0.68</cell><cell>16.54</cell></row><row><cell>MKaan (sigmoid, t=0.5)</cell><cell>0.80</cell><cell>0.13</cell><cell>0.0</cell><cell>0.07</cell><cell>17.38</cell></row><row><cell>MKaan (sigmoid, t=0.7)</cell><cell>0.85</cell><cell>0.19</cell><cell>0.0</cell><cell>0.11</cell><cell>13.31</cell></row><row><cell>MKaan (sigmoid, t=0.8)</cell><cell>0.86</cell><cell>0.24</cell><cell>0.0</cell><cell>0.15</cell><cell>12.21</cell></row><row><cell>MKaan (sigmoid, t=0.9)</cell><cell>0.87</cell><cell>0.32</cell><cell>0.01</cell><cell>0.23</cell><cell>11.49</cell></row><row><cell>MKaan (sigmoid, t=0.95)</cell><cell>0.87</cell><cell>0.42</cell><cell>0.06</cell><cell>0.34</cell><cell>11.64</cell></row><row><cell>MKaan (softmax, t=0.01)</cell><cell>0.88</cell><cell>0.37</cell><cell>0.25</cell><cell>0.44</cell><cell>11.05</cell></row><row><cell>MKaan (softmax, t=0.05)</cell><cell>0.86</cell><cell>0.55</cell><cell>0.43</cell><cell>0.59</cell><cell>12.48</cell></row><row><cell>MKaan (softmax, t=0.1)</cell><cell>0.85</cell><cell>0.61</cell><cell>0.51</cell><cell>0.64</cell><cell>13.64</cell></row><row><cell>MKaan (softmax, t=0.3)</cell><cell>0.81</cell><cell>0.65</cell><cell>0.61</cell><cell>0.66</cell><cell>16.63</cell></row><row><cell>MKaan (softmax, t=0.5)</cell><cell>0.79</cell><cell>0.65</cell><cell>0.60</cell><cell>0.63</cell><cell>18.71</cell></row><row><cell>Approach</cell><cell cols="5">ROC-AUC F1 Accuracy LRAP Cov. Error</cell></row><row><cell>Multinomial NB</cell><cell>0.56</cell><cell>0.22</cell><cell>0.14</cell><cell>0.16</cell><cell>39.07</cell></row><row><cell>SVM</cell><cell>0.78</cell><cell>0.69</cell><cell>0.58</cell><cell>0.62</cell><cell>18.89</cell></row><row><cell>SVM (rbf)</cell><cell>0.78</cell><cell>0.69</cell><cell>0.58</cell><cell>0.62</cell><cell>18.89</cell></row><row><cell>KNN</cell><cell>0.75</cell><cell>0.62</cell><cell>0.52</cell><cell>0.56</cell><cell>21.68</cell></row><row><cell>Decision Tree</cell><cell>0.80</cell><cell>0.63</cell><cell>0.60</cell><cell>0.64</cell><cell>17.68</cell></row><row><cell>Random Forest</cell><cell>0.74</cell><cell>0.64</cell><cell>0.51</cell><cell>0.54</cell><cell>22.32</cell></row><row><cell>AdaBoost</cell><cell>0.75</cell><cell>0.60</cell><cell>0.45</cell><cell>0.51</cell><cell>22.47</cell></row><row><cell>RoBERTa fine-tuned (t=0.5)</cell><cell>0.89</cell><cell>0.79</cell><cell>0.74</cell><cell>0.80</cell><cell>10.32</cell></row><row><cell>RoBERTa fine-tuned (t=0.6)</cell><cell>0.88</cell><cell>0.80</cell><cell>0.74</cell><cell>0.80</cell><cell>10.66</cell></row><row><cell>RoBERTa fine-tuned (t=0.65)</cell><cell>0.88</cell><cell>0.79</cell><cell>0.74</cell><cell>0.79</cell><cell>10.95</cell></row><row><cell>RoBERTa fine-tuned (t=0.7)</cell><cell>0.88</cell><cell>0.79</cell><cell>0.74</cell><cell>0.79</cell><cell>10.94</cell></row><row><cell>MKaan (sigmoid, t=0.5)</cell><cell>0.81</cell><cell>0.13</cell><cell>0.0</cell><cell>0.07</cell><cell>17.19</cell></row><row><cell>MKaan (sigmoid, t=0.7)</cell><cell>0.86</cell><cell>0.19</cell><cell>0.0</cell><cell>0.11</cell><cell>13.01</cell></row><row><cell>MKaan (sigmoid, t=0.8)</cell><cell>0.87</cell><cell>0.24</cell><cell>0.0</cell><cell>0.15</cell><cell>11.91</cell></row><row><cell>MKaan (sigmoid, t=0.9)</cell><cell>0.87</cell><cell>0.33</cell><cell>0.01</cell><cell>0.23</cell><cell>11.32</cell></row><row><cell>MKaan (sigmoid, t=0.95)</cell><cell>0.87</cell><cell>0.42</cell><cell>0.06</cell><cell>0.34</cell><cell>11.50</cell></row><row><cell>MKaan (softmax, t=0.01)</cell><cell>0.88</cell><cell>0.38</cell><cell>0.24</cell><cell>0.44</cell><cell>10.74</cell></row><row><cell>MKaan (softmax, t=0.05)</cell><cell>0.86</cell><cell>0.55</cell><cell>0.43</cell><cell>0.59</cell><cell>12.25</cell></row><row><cell>MKaan (softmax, t=0.1)</cell><cell>0.85</cell><cell>0.61</cell><cell>0.50</cell><cell>0.63</cell><cell>13.54</cell></row><row><cell>MKaan (softmax, t=0.3)</cell><cell>0.81</cell><cell>0.66</cell><cell>0.61</cell><cell>0.66</cell><cell>16.46</cell></row><row><cell>MKaan (softmax, t=0.5)</cell><cell>0.79</cell><cell>0.66</cell><cell>0.60</cell><cell>0.63</cell><cell>18.62</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 :</head><label>3</label><figDesc>Results of the different approaches trained and tested on the whole dataset (72429 training samples, 31042 test samples).</figDesc><table><row><cell>0.8 1.0</cell><cell>precision recall f1-score</cell></row><row><cell>0.6</cell><cell></cell></row><row><cell>0.4</cell><cell></cell></row><row><cell>0.2</cell><cell></cell></row><row><cell>0.0</cell><cell>45 79 50 71 72 34 85 90 92 44 33 55 30 39 48 60 31 09 80 66 42 98 35 38 77 32 64 15 18 63 03 70 22 24 37 51 14 73 75 65 43 16 19 41 76</cell></row><row><cell></cell><cell>Division labels (first two digits)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">https://huggingface.co/MKaan/ multilingual-cpv-sector-classifier</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">https://www.hacienda.gob.es/es-ES/ GobiernoAbierto/Datos%20Abiertos/Paginas/ LicitacionesContratante.aspx 6 https://www.w3.org/2005/Atom 7 https://github.com/oeg-upm/cpv-classifier</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">https://fasttext.cc/docs/en/ language-identification.html</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">https://scikit-learn.org/ stable/modules/tree.html# tree-algorithms-id3-c4-5-c5-0-and-cart</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">https://huggingface.co/PlanTL-GOB-ES/ roberta-base-bne</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">https://zenodo.org/record/6554843 12 https://w3id.org/dgarijo/ro/sepln2022 13 https://ai4gov-master.eu/</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Multi-label Text Classification for Public Procurement in Spanish</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aknowledgments</head><p>This work has been supported by NextProcurement European Action (grant agreement INEA/CEF/ICT/A2020/2373713-Action 2020-ES-IA-0255) and the Madrid Government (Comunidad de Madrid-Spain) under the Multiannual Agreement with Universidad Politécnica de Madrid in the line Support for R&amp;D projects for Beatriz Galindo researchers, in the context of the V PRICIT (Regional Programme of Research and Technological Innovation).</p><p>We also acknowledge the participation of Jennifer Tabita for the preparation of the initial set of notebooks, and the AI4Gov master students from the first cohort for their validation of the approach. Source of the data: Ministerio de Hacienda.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A survey of text classification algorithms</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mining text data</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="163" to="222" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Assisted strategic monitoring on call for tender databases using natural language processing, text mining and deep learning</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ahmia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Université de Bretagne Sud</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Sparse local embeddings for extreme multi-label classification</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<editor>
+			<persName><forename type="first">C</forename><surname>Cortes</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Lawrence</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Sugiyama</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Garnett</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">28</biblScope>
+		</imprint>
+	</monogr>
+	<note>Inc</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A training algorithm for optimal margin classifiers</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Boser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Vapnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the fifth annual workshop on Computational learning theory</title>
+				<meeting>the fifth annual workshop on Computational learning theory</meeting>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="page" from="144" to="152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Random forests</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine learning</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="32" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Taming pretrained transformers for extreme multilabel text classification</title>
+		<author>
+			<persName><forename type="first">W.-C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-F</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Dhillon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining</title>
+				<meeting>the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="3163" to="3171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Study on up-take of emerging technologies in public procurement</title>
+		<author>
+			<persName><surname>Deloitte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Deloitte</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">European Commission. 2020. eForms : policy implementation handbook. Publications Office</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A decision-theoretic generalization of on-line learning and an application to boosting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Freund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of computer and system sciences</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="139" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Deep neural network for hierarchical extreme multi-label text classification</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gargiulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Silvestri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ciampi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Pietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Soft Computing</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="125" to="138" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gutiérrez-Fandiño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Armengol-Estapé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pàmies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Llop-Palao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Silveira-Ocampo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Carrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzalez-Agirre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Armentano-Oller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Penagos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Villegas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Spanish language models. CoRR, abs/2107.07253</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Principles of data mining</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drug safety</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="621" to="622" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Multi-class adaboost</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rosset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistics and its Interface</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="349" to="360" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Polarity detection of turkish comments on technology companies</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>İşgüder-S ¸ahin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Zafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Adah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2014 International Conference on Asian Language Processing (IALP)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="136" to="139" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A mixed neural network and support vector machine model for tender creation in the european union ted database</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kayte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schneider-Kamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11th International Joint Conference on Knowledge Discovery</title>
+				<meeting>the 11th International Joint Conference on Knowledge Discovery</meeting>
+		<imprint>
+			<publisher>SciTePress</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="139" to="145" />
+		</imprint>
+		<respStmt>
+			<orgName>Knowledge Engineering and Knowledge Management</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Deep learning for extreme multilabel text classification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 40th international ACM SIGIR conference on research and development in information retrieval</title>
+				<meeting>the 40th international ACM SIGIR conference on research and development in information retrieval</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="115" to="124" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Deep learning-based text classification: A comprehensive review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Minaee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kalchbrenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cambria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Comput. Surv</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2021-04">2021. apr</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Steps toward artificial intelligence</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Minsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IRE</title>
+				<meeting>the IRE</meeting>
+		<imprint>
+			<date type="published" when="1961">1961</date>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="8" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Code repository for multi-label text classification for public procurement in spanish</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Navas-Loro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garijo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Corcho</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022-05">2022. May</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Fastxml: A fast, accurate and stable tree-classifier for extreme multi-label learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Prabhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Varma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining</title>
+				<meeting>the 20th ACM SIGKDD international conference on Knowledge discovery and data mining</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="263" to="272" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Induction of decision trees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="81" to="106" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">CRAFTML, an efficient clustering-based random forest for extreme multi-label learning</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Siblini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kuntz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th International Conference on Machine Learning</title>
+				<editor>
+			<persName><forename type="first">J</forename><surname>Dy</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Krause</surname></persName>
+		</editor>
+		<meeting>the 35th International Conference on Machine Learning</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="4664" to="4673" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Data quality barriers for transparency in public procurement</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soylu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Corcho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Elvesaeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Badenes-Olmedo</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yedro-Martínez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Multilabel text classification of public procurements using deep learning intent detection</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Master&apos;s thesis, KTH, Mathematical Statistics</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ml-knn: A lazy learning approach to multi-label learning</title>
+		<author>
+			<persName><forename type="first">M.-L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-H</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern recognition</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2038" to="2048" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

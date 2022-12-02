@@ -21,6 +21,7 @@ def recursive_dict_iterator(data):
             yield key, value
 
 def get_github_urls(text):
+    # problem with line break
     urls = re.findall(r'(https?://github.com/\S+)', text)
     return urls
 
@@ -28,11 +29,12 @@ def look_for_github_urls(data):
     github_urls = []
     for key, value in recursive_dict_iterator(data):
         if type(value) == str:
+            print(value)
             results = get_github_urls(value)
             if results:
                 github_urls.extend(results)
-    # remove duplicates
-    github_urls = list(set(github_urls))
+    # we dont remove duplicates due to the fact that we will use it
+    # github_urls = list(set(github_urls))
     # remove . at the end of the url
     github_urls = [url[:-1] if url[-1] == '.' else url for url in github_urls]
     # remove https://github.com/kermitt2/grobid from the list
