@@ -21,7 +21,12 @@ def recursive_dict_iterator(data):
             yield key, value
 
 def get_github_urls(text):
-    urls = re.findall(r'(https?://github.com/\S+)', text)
+    urls_github = re.findall(r'(https?://github.com/\S+)', text)
+    urls_gitlab = re.findall(r'(https?://gitlab.com/\S+)', text)
+    # create a list with all the urls found
+    urls = urls_github + urls_gitlab
+    # remove https://github.com/kermitt2/grobid from the list
+    urls = [url for url in urls_github if 'github.com/kermitt2/grobid' not in url]
     return urls
 
 def look_for_github_urls(data):
@@ -31,13 +36,12 @@ def look_for_github_urls(data):
             results = get_github_urls(value)
             if results:
                 github_urls.extend(results)
-    # remove duplicates
-    github_urls = list(set(github_urls))
+    # remove duplicates, not necessary
+    # github_urls = list(set(github_urls))
     # remove . at the end of the url
     github_urls = [url[:-1] if url[-1] == '.' else url for url in github_urls]
-    # remove https://github.com/kermitt2/grobid from the list
-    github_urls = [url for url in github_urls if url != 'https://github.com/kermitt2/grobid']
     
+
     return github_urls
 
 def extract_github_urls(xml_path):
