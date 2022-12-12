@@ -130,3 +130,7 @@ dmypy.json
  
 # data from apis
 apis/**/*.json
+
+# pdfs
+*.pdf
+*.PDF

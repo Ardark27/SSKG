@@ -27,6 +27,8 @@ def get_github_urls(text):
     urls = urls_github + urls_gitlab
     # remove https://github.com/kermitt2/grobid from the list
     urls = [url for url in urls_github if 'github.com/kermitt2/grobid' not in url]
+    # problem with line break
+    urls = re.findall(r'(https?://github.com/\S+)', text)
     return urls
 
 def look_for_github_urls(data):
@@ -36,6 +38,8 @@ def look_for_github_urls(data):
             results = get_github_urls(value)
             if results:
                 github_urls.extend(results)
+    # we dont remove duplicates due to the fact that we will use it
+    # github_urls = list(set(github_urls))
     # remove duplicates, not necessary
     # github_urls = list(set(github_urls))
     # remove . at the end of the url
