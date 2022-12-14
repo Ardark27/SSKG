@@ -27,8 +27,6 @@ def get_github_urls(text):
     urls = urls_github + urls_gitlab
     # remove https://github.com/kermitt2/grobid from the list
     urls = [url for url in urls_github if 'github.com/kermitt2/grobid' not in url]
-    # problem with line break
-    urls = re.findall(r'(https?://github.com/\S+)', text)
     return urls
 
 def look_for_github_urls(data):
@@ -40,12 +38,8 @@ def look_for_github_urls(data):
                 github_urls.extend(results)
     # we dont remove duplicates due to the fact that we will use it
     # github_urls = list(set(github_urls))
-    # remove duplicates, not necessary
-    # github_urls = list(set(github_urls))
-    # remove . at the end of the url
     github_urls = [url[:-1] if url[-1] == '.' else url for url in github_urls]
     
-
     return github_urls
 
 def extract_github_urls(xml_path):
@@ -68,6 +62,8 @@ def xml_to_github_url(folder_path = 'pdf_info_extractor/data_xml', output_folder
 # Problema encontrado:
 # Grobid no lee algunas urls de github, por ejemplo:
 # - https://github.com/blue-yonder/di-csv2xml. en el pdf 1-s2.....
+# - https://github.com/dgarijo/Widoco/ en el pdf widoco.....
+# Parece que tiene problemas con las footnotes
 
 if __name__ == "__main__":
     xml_to_github_url()
