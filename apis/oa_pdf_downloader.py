@@ -47,7 +47,6 @@ def download_pdf(url,name_of_pdf):
 
 def download_oa():
     oa_url,doi_id = get_pdf_url_and_doi('dois_not_arxiv_with_pdf_url.csv')
-    count=0
     for url,doi in zip(oa_url,doi_id):
         #check if url is not empty
         if url is not np.nan:

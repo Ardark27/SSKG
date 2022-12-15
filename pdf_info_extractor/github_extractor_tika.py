@@ -30,14 +30,38 @@ def save_github_urls(github_urls, output_path):
         f.write('\n'.join(github_urls))
     return 200
 
-def pdf_to_git_url(folder_path = 'pdf_info_extractor/data_pdf', 
-                      output_folder_path = 'pdf_info_extractor/data_github_urls'):
-    for file_name in os.listdir(folder_path):
+def filter_done(pdf_folder_path='data_pdf',
+                git_urls_folder_path='data_github_urls'):
+    # get the files in the folders
+    pdf_files = os.listdir(pdf_folder_path)
+    git_urls_files = os.listdir(git_urls_folder_path)
+    # remove the extension
+    pdf_files = [x.replace('.pdf', '') for x in pdf_files]
+    git_urls_files = [x.replace('.txt', '') for x in git_urls_files]
+    # convert to set
+    pdf_files = set(pdf_files)
+    git_urls_files = set(git_urls_files)
+    # get the difference
+    not_done = pdf_files.difference(git_urls_files)
+    # add the extension
+    not_done = [x + '.pdf' for x in not_done]
+    return not_done
+
+def pdf_to_git_url(folder_path = 'data_pdf', 
+                      output_folder_path = 'data_github_urls'):
+    pdf_list = filter_done()
+    for file_name in pdf_list:
+        print(file_name)
         pdf_path = os.path.join(folder_path, file_name)
-        pdf_data = read_pdf(pdf_path)
-        github_urls = look_for_github_urls(pdf_data)
-        output_path = os.path.join(output_folder_path, file_name.replace('.pdf', '.txt'))
-        save_github_urls(github_urls, output_path)
+        try:
+            pdf_data = read_pdf(pdf_path)
+            github_urls = look_for_github_urls(pdf_data)
+            output_path = os.path.join(output_folder_path, file_name.replace('.pdf', '.txt'))
+            save_github_urls(github_urls, output_path)
+        except:
+            print('error')
+            with open('error.txt', 'a') as f:
+                f.write(file_name + '\n')
     return 200
 
 if __name__ == '__main__':
