@@ -25,6 +25,8 @@ def extract_dois(json_data):
             pass
     return dois
 
+
+
 def main():
     folder_path = 'apis/openaire/publications/'
     list_files = extract_paths(folder_path)
@@ -36,6 +38,7 @@ def main():
         dois_total.extend(dois)
     print('Total DOIs: {}'.format(len(dois_total)))
     save_json_file('apis/openaire/openaire_dois.json', dois_total)
+
 
 if __name__ == '__main__':
     main()
