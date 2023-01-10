@@ -1,6 +1,8 @@
 from tika import parser
 import re
 import os
+import datetime
+import json
 
 def read_pdf(pdf_path):
     raw = parser.from_file(pdf_path)
@@ -52,6 +54,48 @@ def filter_done(pdf_folder_path='data_pdf',
     not_done = [x + '.pdf' for x in not_done]
 
     return not_done
+
+def output_formatter(git_urls_folder_path='data_github_urls',
+                no_urls_file='no_urls.txt',
+                parser=None,
+                parser_version=None):
+    # read no_urls.txt
+    with open(no_urls_file, 'r') as f:
+        no_urls = f.read().split('\n')
+    # get the files in the folders
+    git_urls_files = os.listdir(git_urls_folder_path)
+    # save results in a list
+    git_urls_results = []
+    for file_name in git_urls_files:
+        with open(os.path.join(git_urls_folder_path, file_name), 'r') as f:
+            urls = f.read().split('\n')
+        git_urls_results.append(urls)
+    
+    # remove the extension
+    no_urls = [x.replace('.pdf', '') for x in no_urls]
+    git_urls_files = [x.replace('.txt', '') for x in git_urls_files]
+    # create an output file
+    results = []
+    for i in range(len(git_urls_files)):
+        file_name = git_urls_files[i]
+        result ={}
+        result['doi'] = file_name.replace('_','/')
+        result['path'] = os.path.join("./data_pdf", file_name + '.pdf')
+        result['git_urls'] = git_urls_results[i]
+        results.append(result)
+    provenance = {'version_sskg_fetch': '0.0',
+                'parser': parser,
+                'parser_version':parser_version,
+                'date': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    output = {'results': results,
+              'no_urls': no_urls,
+              'provenance': provenance}
+    # save the output
+    with open('output.json', 'w') as f:
+        json.dump(output, f, indent=4)
+    return 200
+
 
 
 def pdf_to_git_url(folder_path = 'data_pdf', 
