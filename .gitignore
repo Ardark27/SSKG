@@ -136,3 +136,6 @@ apis/**/*.json
 *.PDF
 # modelado
 /modelado/corpus/*
+
+# somef_data
+pdf_info_extractor/data_somef/*
