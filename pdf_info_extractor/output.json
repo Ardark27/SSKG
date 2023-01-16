@@ -1,8 +1,16 @@
 {
     "results": [
         {
-            "doi": "1-s2.0-S1570826820300354-main",
-            "path": "./data_pdf\\1-s2.0-S1570826820300354-main.pdf",
+            "doi": "10.1007/978-3-319-68204-4/9",
+            "path": "./data_pdf\\10.1007_978-3-319-68204-4_9.pdf",
+            "git_urls": [
+                "https://github.com/dgarijo/Widoco/",
+                "https://github.com/dgarijo/Widoco/"
+            ]
+        },
+        {
+            "doi": "10.1016/j.websem.2020.100596",
+            "path": "./data_pdf\\10.1016_j.websem.2020.100596.pdf",
             "git_urls": [
                 "https://github.com/OpenTransport/linked-gtfs",
                 "https://github.com/oeg-upm/morph-rdb",
@@ -47,6 +55,16 @@
             ]
         },
         {
+            "doi": "10.3233/SW-223135",
+            "path": "./data_pdf\\10.3233_SW-223135.pdf",
+            "git_urls": [
+                "https://github.com/kg-construct/use-cases",
+                "https://github.com/kg-construct/use-cases",
+                "https://github.com/oeg-upm/morph-kgc",
+                "https://github.com/oeg-upm/morph-kgc"
+            ]
+        },
+        {
             "doi": "6429-5912-1-PB",
             "path": "./data_pdf\\6429-5912-1-PB.pdf",
             "git_urls": [
@@ -79,24 +97,18 @@
             "git_urls": [
                 "https://github.com/fair-software/howfairis/"
             ]
-        },
-        {
-            "doi": "widoco-iswc2017",
-            "path": "./data_pdf\\widoco-iswc2017.pdf",
-            "git_urls": [
-                "https://github.com/dgarijo/Widoco/"
-            ]
         }
     ],
     "no_urls": [
         "10.3389_fpls.2018.01030",
         "1504.08354",
+        "10.1016_j.inffus.2022.10.011",
         ""
     ],
     "provenance": {
         "version_sskg_fetch": "0.0",
         "parser": "tika",
-        "parser_version": "2.6.0",
-        "date": "2023-01-16 10:26:00"
+        "parser_version": "1.24",
+        "date": "2023-01-16 11:10:10"
     }
 }
