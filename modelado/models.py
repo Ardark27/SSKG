@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-def load_data(directory = 'corpus/papers_with_code_automated'):
+def load_data(directory = 'corpus/papers_with_code_github'):
     # charge the data
     files_list = os.listdir(directory)
     # filter the files with .txt extension
@@ -18,13 +18,13 @@ def load_data(directory = 'corpus/papers_with_code_automated'):
             data_dict[file.replace('.txt', '')] = data
     return data_dict
 
-def load_test(path = 'corpus/papers_with_code.xlsx'):
-    # load the data
-    data = pd.read_excel(path)
-    data_train = data.loc[:,['title','github_url']]
+def load_test(path ='corpus/papers_with_code.csv'):
+    # load the columns paper_url_pdf and repo_url as strings
+    data = pd.read_csv(path, usecols=['paper_url_pdf','repo_url'], dtype=str)
+    data = data.dropna()
     # apply title.replace('/', '_').replace(':', ' ').replace('?','')
-    data_train['title'] = data_train['title'].apply(lambda x: x.replace('/', '_').replace(':', ' ').replace('?',''))
-    return data_train
+    data['paper_url_pdf'] = data['paper_url_pdf'].apply(lambda x: x.split('/')[-1].replace('.pdf','').replace('/', '_').replace(':', ' ').replace('?',''))
+    return data
 
 def model_frequent(data:dict):
     # create a dictionary to store the data
@@ -48,3 +48,8 @@ def model_frequent(data:dict):
         data_dict[key] = most_frecuent
     # return the data
     return data_dict
+
+    # nombre del repo aparece en el titulo del paper, asumimos tener el titulo del paper
+    # nombre del repo aparece en el abstract del apaper, asumimos tener el abstract del paper
+    # contributors del repo, con los autores del paper, asumimos tener los autores del paper
+        # query graphql para los contributres del repo

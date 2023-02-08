@@ -12,9 +12,16 @@ def accuracy_score(data:dict, data_train:pd.DataFrame):
     # loop through the data
     for title, result in data.items():
         result = result.replace('https://github.com/', '').lower()
+        result = result.replace('http://github.com/', '')
+        # we take only the repo 2 first positions by /
+        result = '/'.join(result.split('/')[:2])
         # get the github_url from data_train
-        github_url = data_train.loc[data_train['title'] == title, 'github_url'].values[0]
-        github_url = github_url.replace('https://github.com/', '').lower()
+        print(title)
+        try:
+            github_url = data_train.loc[data_train['paper_url_pdf'] == title, 'repo_url'].values[0]
+            github_url = github_url.replace('http://github.com/', '').replace('https://github.com/', '').lower()
+        except:
+            continue
         print(result, github_url)
         # check if the result is equal to the github_url
         if result == github_url:

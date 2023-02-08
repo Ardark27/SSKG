@@ -14,7 +14,7 @@ def read_file(file):
 
     return text
 
-def execute_somef_extractor(name, folder_path = 'data_github_urls', somef_output_folder_path = 'data_somef'):
+def execute_somef_extractor(name, folder_path = 'corpus/papers_with_code_github', somef_output_folder_path = 'corpus/papers_with_code_somef'):
     # create a folder to store the output of the extractor
     output_folder_path = os.path.join(somef_output_folder_path, name.replace('.txt',''))
     print(output_folder_path)
@@ -33,11 +33,12 @@ def execute_somef_extractor(name, folder_path = 'data_github_urls', somef_output
     
     return 200
 
-def somef_pipeline(folder_path = 'data_github_urls', somef_output_folder_path = 'data_somef'):
+def somef_pipeline(folder_path = 'corpus/papers_with_code_github', somef_output_folder_path = 'corpus/papers_with_code_somef'):
     files = os.listdir(folder_path)
     for file in files:
+        print(file)
         execute_somef_extractor(file, folder_path, somef_output_folder_path)
     return 200
 
 if __name__ == "__main__":
-    print(execute_somef_extractor('1-s2.0-S1570826820300354-main.tei.txt'))
+    print(somef_pipeline())
