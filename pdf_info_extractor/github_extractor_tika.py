@@ -14,9 +14,14 @@ def read_pdf(pdf_path):
 def get_git_urls(text):
     urls_github = re.findall(r'(https?://github.com/\S+)', text)
     urls_gitlab = re.findall(r'(https?://gitlab.com/\S+)', text)
+    # urls_zenodo = re.findall(r'(https?://zenodo.org/\S+)', text)
+    # urls_bitbucket = re.findall(r'(https?://bitbucket.org/\S+)', text)
+    # urls_sourceforge = re.findall(r'(https?://sourceforge.net/\S+)', text)    
     # create a list with all the urls found
     urls = urls_github + urls_gitlab
     return urls
+
+
 
 def look_for_github_urls(list_pdf_data):
     github_urls = []
