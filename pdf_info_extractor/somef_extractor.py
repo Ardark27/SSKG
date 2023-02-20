@@ -27,9 +27,14 @@ def execute_somef_extractor(name, folder_path = 'data_github_urls', somef_output
     # execute the extractor
     for url in urls:
         output_file_path = os.path.join(output_folder_path, url.replace('http://gitlab.com/','').replace('https://gitlab.com/','').replace('http://github.com/','').replace('https://github.com/','').replace('/','_')+'.json')
-        command = f"somef describe -r {url} -o {output_file_path} -t 0.8"
-        print(command)
-        os.system((command))
+        #check if the file already exists
+        if os.path.exists(output_file_path):
+            print('Already done :', output_file_path)
+            continue
+        else:
+            command = f"somef describe -r {url} -o {output_file_path} -t 0.8"
+            print(command)
+            os.system((command))
     
     return 200
 
