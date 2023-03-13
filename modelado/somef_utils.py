@@ -1,6 +1,6 @@
 import os
 import json
-
+import bibtexparser
 
 def cff_parser(cite_list: list):
     '''
@@ -98,7 +98,11 @@ def find_doi(somef_data: dict):
                 doi_find = cff['doi'].replace('https://doi.org/','').replace('10.48550/arxiv.','').replace('10.48550/ARXIV.','').replace('/','_')
                 return doi_find
             elif cite['result']['format'] == 'bibtex':
-                bibtex = bibtex_parser(cite['result']['value'].split('\n'))
+                try:
+                    bibtex = bibtexparser.loads(cite["result"]["value"]).entries[0]
+                except:
+                    print('Error parsing bibtex')
+                    bibtex = bibtex_parser(cite['result']['value'].split('\n'))
                 doi_find = bibtex['doi'].replace('https://doi.org/','').replace('10.48550/arxiv.','').replace('10.48550/ARXIV.','').replace('/','_')
                 return doi_find
             elif cite['result']['type'] == 'Text_excerpt':

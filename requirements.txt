@@ -68,3 +68,4 @@ wincertstore==0.2
 xgboost==1.5.0
 xmltodict==0.13.0
 zipp==3.11.0
+bibtexparser==1.4.0

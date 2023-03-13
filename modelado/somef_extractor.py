@@ -14,7 +14,7 @@ def read_file(file):
 
     return text
 
-def execute_somef_extractor(name, folder_path = 'corpus/papers_with_code_github', somef_output_folder_path = 'corpus/papers_with_code_somef'):
+def execute_somef_extractor(name, folder_path = 'data_github_urls', somef_output_folder_path = 'data_somef'):
     # create a folder to store the output of the extractor
     output_folder_path = os.path.join(somef_output_folder_path, name.replace('.txt',''))
     print(output_folder_path)
@@ -27,18 +27,22 @@ def execute_somef_extractor(name, folder_path = 'corpus/papers_with_code_github'
     # execute the extractor
     for url in urls:
         output_file_path = os.path.join(output_folder_path, url.replace('http://gitlab.com/','').replace('https://gitlab.com/','').replace('http://github.com/','').replace('https://github.com/','').replace('/','_')+'.json')
-        command = f"somef describe -r {url} -o {output_file_path} -t 0.8"
-        print(command)
-        os.system((command))
+        #check if the file already exists
+        if os.path.exists(output_file_path):
+            print('Already done :', output_file_path)
+            continue
+        else:
+            command = f"somef describe -r {url} -o {output_file_path} -t 0.8"
+            print(command)
+            os.system((command))
     
     return 200
 
-def somef_pipeline(folder_path = 'corpus/papers_with_code_github', somef_output_folder_path = 'corpus/papers_with_code_somef'):
+def somef_pipeline(folder_path = 'data_github_urls', somef_output_folder_path = 'data_somef'):
     files = os.listdir(folder_path)
     for file in files:
-        print(file)
         execute_somef_extractor(file, folder_path, somef_output_folder_path)
     return 200
 
 if __name__ == "__main__":
-    print(somef_pipeline())
+    somef_pipeline(folder_path = 'corpus/OEG_doi_github', somef_output_folder_path = 'corpus/OEG_doi_somef')

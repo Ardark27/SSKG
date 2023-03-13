@@ -49,4 +49,5 @@ def execute_bidirectional(folder_path: str):
 
 if __name__=="__main__":
     print(execute_bidirectional('corpus/papers_with_code_somef'))
+    print(execute_bidirectional('corpus/OEG_doi_somef'))
     print(execute_bidirectional('../pdf_info_extractor/data_somef'))
