@@ -2,6 +2,10 @@ import os
 import json
 import bibtexparser
 
+def load_json(path):
+    with open(path, 'r') as f:
+        return json.load(f)
+
 def cff_parser(cite_list: list):
     '''
     Parse the citation list of a cff file given by somef

@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from models import load_data, load_test, model_frequent
+from frequent_model import load_data, load_test, model_frequent
 
 def accuracy_score(data:dict, data_train:pd.DataFrame):
     '''
