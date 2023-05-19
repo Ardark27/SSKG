@@ -140,3 +140,6 @@ apis/**/*.json
 
 # somef_data
 pdf_info_extractor/data_somef/*
+
+#Idea file
+.idea
